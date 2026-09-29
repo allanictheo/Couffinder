@@ -111,7 +111,11 @@ export function VotePanel({ subject, onVoted }: { subject: KnownResult | Unknown
     }
   }
 
-  const title = adopting ? "Alors, c'est chouffin ou pas ?" : "Et toi, t'en dis quoi ?";
+  const title = disabledReason
+    ? "Pas de vote pour celui-là"
+    : adopting
+      ? "Alors, c'est chouffin ou pas ?"
+      : "Et toi, t'en dis quoi ?";
   const lead = adopting
     ? subject.votesNeeded > 0
       ? `Ce mot n'est pas encore dans la base. Encore ${subject.votesNeeded} vote${subject.votesNeeded > 1 ? "s" : ""} et il y entre, avec le verdict de la majorité.`
@@ -131,9 +135,11 @@ export function VotePanel({ subject, onVoted }: { subject: KnownResult | Unknown
         </div>
       ) : null}
 
-      <div className="mt-4">
-        <VoteBar votes={subject.votes} />
-      </div>
+      {!disabledReason ? (
+        <div className="mt-4">
+          <VoteBar votes={subject.votes} />
+        </div>
+      ) : null}
 
       {disabledReason ? (
         <p className="mt-5 rounded-xl border border-hydromel/40 bg-hydromel/10 p-4 font-medium text-hydromel">

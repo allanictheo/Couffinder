@@ -369,7 +369,10 @@ export function ChouffinderApp() {
           case "unknown":
             return (
               <Reveal key={key}>
-                <CestPasFaux result={result} onVoted={handleVoted} />
+                {/* Suspense au plus près du composant paresseux : jamais au-dessus d'AnimatePresence. */}
+                <Suspense fallback={<LoadingCard query={view.query} tip="Déroulage du parchemin..." />}>
+                  <CestPasFaux result={result} onVoted={handleVoted} />
+                </Suspense>
               </Reveal>
             );
           case "blocked":
@@ -431,33 +434,27 @@ export function ChouffinderApp() {
             </section>
 
             <div ref={resultRef} className="mt-8 scroll-mt-4">
-              <Suspense fallback={view.kind === "result" ? <LoadingCard query={view.query} tip="Déroulage du parchemin..." /> : null}>
-                <AnimatePresence mode="wait" initial={false}>
-                  {renderView()}
-                </AnimatePresence>
-              </Suspense>
+              <AnimatePresence mode="wait" initial={false}>
+                {renderView()}
+              </AnimatePresence>
             </div>
           </main>
 
           <StatsFooter refreshKey={statsKey} />
         </div>
 
-        <Suspense fallback={null}>
-          <AnimatePresence>
-            {overlay?.kind === "mlg" ? (
-              <MlgCombo
-                key={overlay.id}
-                seed={overlay.seed}
-                word={overlay.word}
-                legendary={overlay.legendary}
-                onDone={closeOverlay}
-              />
-            ) : null}
-            {overlay?.kind === "sad" ? (
-              <SadReaction key={overlay.id} word={overlay.word} variant={overlay.variant} onDone={closeOverlay} />
-            ) : null}
-          </AnimatePresence>
-        </Suspense>
+        <AnimatePresence>
+          {overlay?.kind === "mlg" ? (
+            <Suspense key={overlay.id} fallback={null}>
+              <MlgCombo seed={overlay.seed} word={overlay.word} legendary={overlay.legendary} onDone={closeOverlay} />
+            </Suspense>
+          ) : null}
+          {overlay?.kind === "sad" ? (
+            <Suspense key={overlay.id} fallback={null}>
+              <SadReaction word={overlay.word} variant={overlay.variant} onDone={closeOverlay} />
+            </Suspense>
+          ) : null}
+        </AnimatePresence>
 
         <AchievementToast toast={toast} onDismiss={dismissToast} />
 

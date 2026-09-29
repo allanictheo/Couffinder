@@ -30,7 +30,7 @@ export function SiteHeader({ onHome }: { onHome: () => void }) {
   return (
     <header className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 pt-4 sm:px-6">
       <Link href="/" onClick={onHome} className="group flex items-center gap-2.5 rounded-lg" aria-label="Chouffinder, retour à l'accueil">
-        <TankardLogo className="size-9 transition-transform duration-200 ease-punch group-hover:-rotate-12 group-hover:scale-110" />
+        <TankardLogo className="size-9 transition-transform duration-200 ease-punch motion-safe:group-hover:-rotate-12 motion-safe:group-hover:scale-110" />
         <span className="font-display text-xl uppercase tracking-wide">Chouffinder</span>
       </Link>
       <SoundToggle />

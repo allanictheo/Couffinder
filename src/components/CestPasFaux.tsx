@@ -65,7 +65,6 @@ export default function CestPasFaux({ result, onVoted }: { result: UnknownResult
   const focusIndex = useRef<number | null>(null);
 
   const done = revealed >= total;
-  console.log("DEBUG render CestPasFaux", revealed);
   // Le total « apparent » gonfle plus vite que la lecture : la barre recule.
   const apparentTotal = done ? total : revealed * revealed + 1;
   const progress = done ? 1 : revealed / apparentTotal;
@@ -81,7 +80,6 @@ export default function CestPasFaux({ result, onVoted }: { result: UnknownResult
   }, [revealed]);
 
   function revealNext() {
-    console.log("DEBUG revealNext", revealed);
     focusIndex.current = revealed;
     setRevealed((current) => Math.min(total, current + 1));
   }

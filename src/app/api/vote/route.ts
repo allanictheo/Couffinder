@@ -5,7 +5,7 @@ import type { VoteResponse } from "@/lib/types";
 
 export async function POST(request: Request) {
   if (!(await getStore().allow("vote", clientIp(request), 20, 60))) {
-    const body: VoteResponse = { ok: false, error: "Tu votes plus vite que ton ombre. Pause chope, puis reviens dans une minute." };
+    const body: VoteResponse = { ok: false, error: "Tu votes plus vite que ton ombre. Pause chope, puis reviens dans un instant." };
     return Response.json(body, { status: 429, headers: NO_STORE });
   }
 

@@ -7,7 +7,7 @@ export async function GET(request: Request) {
   if (!(await getStore().allow("judge", clientIp(request), 60, 60))) {
     const body: JudgeResponse = {
       status: "invalid",
-      message: "Doucement, jeune écuyer ! Trop de mots d'un coup. Reprends ton souffle et réessaie dans une minute.",
+      message: "Doucement, jeune écuyer ! Trop de mots d'un coup. Reprends ton souffle et réessaie dans un instant.",
     };
     return Response.json(body, { status: 429, headers: NO_STORE });
   }
