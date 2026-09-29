@@ -300,7 +300,9 @@ export function playRecipe(recipe: Recipe): SfxHandle | null {
   bus.connect(master);
   try {
     recipe(ctx, bus, ctx.currentTime + 0.01);
-  } catch {
+  } catch (error) {
+    // Un son raté ne doit jamais casser une animation, mais on veut le savoir en dev.
+    if (process.env.NODE_ENV !== "production") console.warn("[sound] recette en échec", error);
     bus.disconnect();
     return null;
   }

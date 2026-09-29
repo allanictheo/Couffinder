@@ -9,7 +9,7 @@ L'analyse culturelle qui justifie chaque référence est dans [`culture-geek-201
 ## 1. Principes
 
 1. **Le calme avant le combo.** L'état de repos est net et lisible : un grand meme (texte du haut, champ au milieu, texte du bas) sur fond de nuit étoilée. Le chaos est réservé aux moments qui le méritent.
-2. **Le « parfois » compte.** Le combo MLG ne sort qu'une fois sur trois pour un mot chouffin (toujours pour un mot légendaire), la réaction triste une fois sur quatre pour un mot pas chouffin. La rareté fait la surprise.
+2. **Le « parfois » compte.** Une animation ne sort qu'une fois sur trois pour un mot chouffin (toujours pour un mot légendaire), une réaction d'échec une fois sur quatre pour un mot pas chouffin. La rareté fait la surprise. Quand elle sort, elle parle la langue de la **tribu** du mot (gamer, geek, métalleux, taverne, weeb, rôliste) et sa démesure suit le score (voir 4.9).
 3. **Le verdict choisit son époque.** CHOUFFIN est rendu en skeuomorphisme glossy de 2011 (tampon Impact incliné, halo néon, reliefs). PAS CHOUFFIN est rendu en flat design de 2013 (tuile bleue, minuscules légères, angles droits). Même composant, deux époques.
 4. **L'humour est dans le détail, jamais dans le chemin.** Chaque blague est posée à côté de l'information, pas à sa place : le verdict, le score et les boutons de vote sont toujours lisibles en premier.
 5. **Tout est original.** Illustrations en SVG maison, sons synthétisés, textes écrits pour le site. Aucune marque, aucun asset protégé, aucune photo de personne réelle.
@@ -104,7 +104,7 @@ Texte meme : `text-transform: uppercase`, `-webkit-text-stroke: 0.09em #000` ave
 | ressort « tampon » | `stiffness 520, damping 19, mass 0.9` | Tampon CHOUFFIN |
 | ressort « badge » | `stiffness 420, damping 16` | Badges de verdict |
 
-Durées de référence : 80 ms (appui), 180 à 350 ms (apparitions), 450 à 500 ms (tampons, tuiles), 700 ms (barres), 2,6 à 2,7 s (réactions plein écran), 4,2 s (succès).
+Durées de référence : 80 ms (appui), 180 à 350 ms (apparitions), 450 à 500 ms (tampons, tuiles), 700 ms (barres), 1,5 à 1,9 s (petites réactions de tribu), 2,6 à 3 s (réactions plein écran et gros combos), 3,4 à 3,7 s (apothéoses légendaires), 4,2 s (succès).
 
 ### 2.6 Profondeur (z-index)
 
@@ -170,11 +170,14 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 
 ### 4.4 Réactions surprises
 
+Le tirage est fait par `planSurprise()` (`src/components/easter-eggs/catalog.ts`), une fonction pure partagée par le site et la page de prévisualisation. Les fréquences n'ont pas bougé : 1 fois sur 3 pour un verdict chouffin (toujours si légendaire), 1 fois sur 4 pour un verdict pas chouffin (mesuré sur 10 000 tirages : 32,6 % et 25,1 %).
+
 | Interaction | Déclencheur | Feedback | Durée | Mouvement réduit |
 | --- | --- | --- | --- | --- |
-| **Combo MLG** | Verdict chouffin, 1 fois sur 3 (toujours si légendaire) | Voir la chronologie ci-dessous, succès déverrouillé en parallèle, léger tremblement de la page (480 ms) | 2,7 s, zappable au clic ou Échap | Pas de combo : seulement le toast de succès (fondu) et un carillon si le son est activé |
-| **Écran bleu** | Verdict pas chouffin, 1 fois sur 4, une chance sur deux | Panneau bleu « :( », « a rencontré un problème de chouffinitude », pourcentage qui défile, code d'arrêt, trombone triste | 2,6 s, zappable | Rien : le verdict suffit |
-| **NOPE** | Verdict pas chouffin, 1 fois sur 4, une chance sur deux | « NOPE. » en Impact qui secoue la tête, virevoltant qui traverse l'écran, trombone triste | 2,6 s, zappable | Rien |
+| **Easter egg de tribu** | Mot avec une `tribe`, aux fréquences ci-dessus | Animation choisie selon la tribu et le niveau de score (échec, petite réaction, gros combo, légendaire), au moins deux variantes tirées au hasard pour les gros combos et les légendaires. Catalogue complet en 4.9 | 1,5 à 3,7 s, zappable au clic ou Échap | Pas d'animation : toast de succès aux couleurs de la tribu (ou d'échec, liseré rouge) et signature sonore courte si le son est activé |
+| **Combo MLG** | Mot sans tribu (neutre ou adopté par la communauté), verdict chouffin, 1 fois sur 3 (toujours si légendaire) | Voir la chronologie ci-dessous, succès déverrouillé en parallèle, léger tremblement de la page (480 ms) | 2,7 s, zappable au clic ou Échap | Pas de combo : seulement le toast de succès (fondu) et un carillon si le son est activé |
+| **Écran bleu** | Mot sans tribu, verdict pas chouffin, 1 fois sur 4, une chance sur deux | Panneau bleu « :( », « a rencontré un problème de chouffinitude », pourcentage qui défile, code d'arrêt, trombone triste | 2,6 s, zappable | Rien : le verdict suffit |
+| **NOPE** | Mot sans tribu, verdict pas chouffin, 1 fois sur 4, une chance sur deux | « NOPE. » en Impact qui secoue la tête, virevoltant qui traverse l'écran, trombone triste | 2,6 s, zappable | Rien |
 
 **Chronologie du combo MLG** (t = 0 à l'arrivée du verdict) :
 
@@ -242,6 +245,123 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 | Compteurs | Chargement de `/api/stats`, puis après chaque vote | Les chiffres défilent jusqu'à leur valeur (format français) | 900 ms | Valeurs directes |
 | Mode démo | `persistent: false` | « Mode démo : les votes s'envolent au redémarrage du serveur. » | | Identique |
 
+### 4.9 Easter eggs par tribu
+
+Chaque mot de la base peut appartenir à une **tribu de chouffin** (`KnownResult.tribe`). Quand le tirage de 4.4 tombe, l'animation parle la langue de cette tribu, et sa démesure suit le score.
+
+#### 4.9.1 Règles de choix
+
+| Verdict | Niveau | Ce qui sort | Toast de succès en parallèle |
+| --- | --- | --- | --- |
+| Pas chouffin (0 à 50), 1 fois sur 4 | **Échec thématique** | Une des variantes d'échec de la tribu, plein écran | Non (l'échec se suffit) |
+| Chouffin, score 51 à 69, 1 fois sur 3 | **Petite réaction** | Réaction légère sans voile, au-dessus du verdict, qui ne bloque pas les clics (le moindre clic la range et passe au travers) | Non |
+| Chouffin, score 70 à 94, 1 fois sur 3 | **Gros combo** | Une variante tirée au hasard (2 ou 3 par tribu), plein écran | Oui, titre propre à la variante |
+| Chouffin légendaire (95 à 100), toujours | **Apothéose légendaire** | Une variante tirée au hasard (2 par tribu), plein écran, la plus folle | Oui, 100 G |
+| Mot sans tribu | | Réactions d'origine (combo MLG, écran bleu, NOPE) | Comme avant |
+
+Le niveau se lit d'abord sur le drapeau `chouffin` (un vote peut l'avoir renversé), puis sur le score. En **mouvement réduit**, aucune animation n'est montée : le toast de succès prend les couleurs de la tribu (orbe teintée et icône : manette pixel, chapeau pointu, cornes, chope, fleur de cerisier, d20), les échecs ont un liseré rouge et un sur-titre propre (« Échec critique », « Larsen »...), et une signature sonore de moins d'une seconde est jouée si le son est activé. L'échec thématique a donc lui aussi sa version statique (1 fois sur 4, comme en mouvement normal).
+
+Toutes les animations plein écran se zappent au clic et à Échap, coupent leur son en 80 ms, sont `aria-hidden` (le verdict est déjà annoncé par la région `aria-live`) et respectent le budget photosensible de 4.9.8.
+
+#### 4.9.2 Gamers (`gamer`) : montage MLG, arcade, FPS, baston
+
+| Niveau | Variante | Animation | Durée | Son (si activé) | Mouvement réduit |
+| --- | --- | --- | --- | --- | --- |
+| Échec | Vous êtes mort | Voile noir, bandeau sombre, « VOUS ÊTES MORT » en capitales rouges à empattements qui zooment lentement, « « mot » n'était pas chouffin. », « Chouffinitude perdue : 100 moins le score » | 2,8 s | Coup sourd très grave puis nappe dissonante filtrée | Toast « Game over · Vous êtes mort », descente chiptune |
+| Échec | Game over arcade | Lignes de balayage, « GAME OVER » pixel dont les lettres tombent une à une, « Continuer ? » de 9 à 0, « Insère une pièce » qui palpite (1,7 Hz) | 2,8 s | Descente chiptune, bips du décompte | Toast « Game over · Insère une pièce » |
+| Petite | Level up | Trois hitmarkers, « +score XP » qui monte, barre d'expérience qui se remplit, « Level up ! » | 1,6 s | Trois hitmarkers, arpège carré montant | Toast « 10 G · Level up », pièce 8 bits |
+| Gros combo | Série d'éliminations | Killfeed en haut à droite (le mot élimine le brunch, le padel, les Crocs...), « First blood » puis « Double kill » jusqu'à « Pentakill ! » qui s'écrasent, hitmarkers, tremblements, gerbe de chips et de canettes | 2,8 s | Hitmarkers doublés et coups sourds, airhorn et basse « wub » au pentakill | Toast « 50 G · Pentakill de chouffinitude » |
+| Gros combo | Combo de baston | Barres de vie de jeu de baston (le mot contre un toast à l'avocat), « Round 1 », « Fight ! », 12 coups avec étoiles d'impact (« PAF », « BIM »...), compteur « 12 HITS », « K.O. » géant, « Perfect » | 2,9 s | Rafale de coups de poing, gros impact au K.O., petite victoire chiptune | Toast « 50 G · K.O. parfait » |
+| Gros combo | Nyan-chope | La chope pixel du logo traverse le ciel avec sa traînée arc-en-ciel en escalier, étoiles pixel, le mot en lettres pixel multicolores qui ondulent, « nyan nyan nyan, very mot » | 2,8 s | Mélodie chiptune originale, basse en triangle | Toast « 30 G · Arc-en-ciel pixelisé » |
+| Légendaire | Illuminati confirmé | Montage MLG complet (hitmarkers, chips, lunettes pixel sur « LÉGENDAIRE ! », doge-speak, « Wombo combo »), puis triangle doré à l'œil vert qui tourne sous des rayons, « Illuminati confirmé », « 360 no scope » | 3,4 s | Airhorn, 7 hitmarkers, thérémine inquiétant, basse wub | Toast « 100 G · Illuminati confirmé », double airhorn court |
+| Légendaire | Code triche | Écran cathodique, les dix touches ↑ ↑ ↓ ↓ ← → ← → B A s'enfoncent une à une, « Code triche activé ! », « +30 vies », « Chouffinitude infinie », le mot saisi lettre à lettre comme un nom de high score, record qui défile jusqu'à 999999, feux d'artifice pixel | 3,5 s | Un bip par touche, montée de puissance, fanfare chiptune, pétards | Toast « 100 G · Code triche activé » |
+
+#### 4.9.3 Geeks (`geek`) : sorciers, sabres laser, super-héros, science-fiction
+
+| Niveau | Variante | Animation | Durée | Son (si activé) | Mouvement réduit |
+| --- | --- | --- | --- | --- | --- |
+| Échec | Claquement de doigts | « *snap* », puis le mot part en poussière lettre après lettre (7 grains par lettre qui s'envolent), « « Je ne me sens pas très chouffin... » » | 2,9 s | Claquement de doigts, vent qui retombe | Toast « Snap · Réduit en poussière » |
+| Échec | Moldu ! | Le chapeau pointu rapiécé réfléchit (« Hmm... difficile. Très difficile... »), puis crie « MOLDU ! » et s'affaisse, « « mot » n'a jamais reçu sa lettre. » | 2,6 s | « Hmm » nasal, deux cuivres qui descendent | Toast « Choixpeau · Moldu confirmé » |
+| Petite | Choixpeau | Le chapeau surgit au-dessus du verdict, hésite, puis répartit le mot dans une maison inventée (« Chouffondor », « Serpentaverne », « Serdaigrog », « Poufsoufflé ») avec quelques étincelles | 1,9 s | « Hmm », accord de cuivres, scintillement | Toast « 10 G · Réparti chez les chouffins » |
+| Gros combo | Sabre laser | Ciel étoilé, deux sabres (vert et bleu) s'allument l'un après l'autre et se croisent en X derrière le mot, gerbe d'étincelles au contact, « Que la Chouffe soit avec toi » | 2,8 s | Deux allumages (souffle et bourdonnement), choc, nappe | Toast « 50 G · Que la Chouffe soit avec toi » |
+| Gros combo | Pluie de code | Colonnes de katakana et de chiffres verts qui tombent, le mot se déchiffre caractère par caractère, « Tu as pris la pilule chouffin. », pilule « brunch » bleue qui s'éteint, pilule « chouffin » verte qui pulse | 2,9 s | Bips numériques, drone grave, impact | Toast « 50 G · Pilule chouffin avalée » |
+| Gros combo | Patronus | « EXPECTO CHOUFFINUM ! », un sanglier argenté lumineux galope depuis la gauche en semant des étincelles, « Ton patronus est un sanglier. Évidemment. » | 2,9 s | Souffle, arpège cristallin, nappe majeure | Toast « 50 G · Expecto chouffinum » |
+| Légendaire | Saut en hyperespace | 72 étoiles s'étirent en traînées, saut (un flash bleuté), « Il y a bien longtemps, dans une taverne lointaine, très lointaine... », le mot en contour jaune qui s'éloigne, texte déroulant en perspective (« Épisode » + score en chiffres romains, « Le réveil du chouffin ») | 3,7 s | Montée et souffle, impact, fanfare de cuivres originale | Toast « 100 G · Élu de la prophétie », accord de cuivres |
+| Légendaire | Gantelet | Un gantelet doré monte, ses six gemmes s'allument une à une, « *SNAP* », onde de choc et vague dorée, le mot s'écrase en orange, « Parfaitement chouffin, comme toute chose devrait l'être. » | 3,5 s | Six clochettes, claquement, impact, nappe | Toast « 100 G · Parfaitement équilibré » |
+
+#### 4.9.4 Métalleux (`metal`) : festival, pogo, pyrotechnie, solos
+
+| Niveau | Variante | Animation | Durée | Son (si activé) | Mouvement réduit |
+| --- | --- | --- | --- | --- | --- |
+| Échec | Corde cassée | Six cordes de guitare vibrent, la corde de mi aigu casse en deux et se replie, « LARSEN » rouge qui vibre, « « mot » ? Même l'ampli a démissionné. », la main aux cornes se retourne | 2,8 s | Cordes grattées, « twang » de corde qui casse, larsen, chute grave | Toast « Larsen · Corde cassée » |
+| Petite | Cornes du diable | Deux mains aux manchettes cloutées font les cornes et headbanguent de part et d'autre de « \m/ MÉTAL \m/ » | 1,6 s | Accord saturé avec vibrato, petite foule | Toast « 10 G · Cornes levées » |
+| Gros combo | Pyrotechnie | Colonnes de flammes en décalé puis toutes ensemble, affiche « Ce soir, en tête d'affiche », le mot en **logo de groupe** (lettres chromées étirées, épines, lame et gouttes rouges), « Tournée mondiale de la chouffinitude » | 2,8 s | Trois accords saturés avec palm mute, souffles de flammes, accord final | Toast « 50 G · Pyrotechnie approuvée » |
+| Gros combo | Pogo | Poursuites de scène, foule en silhouettes qui saute, une chope qui slamme, « POGO ! », puis « MUR DE LA MORT ! » : la foule s'écarte et se rentre dedans, logo du mot « dans la fosse » | 3 s | Riff original en croches, grosse caisse, foule, impact | Toast « 50 G · Survivant du pogo » |
+| Légendaire | Solo légendaire | Guitare en V qui arrive en tournoyant, notes qui s'envolent, deux éclairs, rayons rouges, « Solo de » + logo du mot qui headbangue, flammes, « \m/ Légendaire \m/ » | 3,4 s | Accord, solo rapide (16 notes saturées), note tenue avec bend, accord final, larsen | Toast « 100 G · Dieu du riff » |
+| Légendaire | Ampli à 11 | Tête d'ampli et baffles, potard « Volume » qui monte de 1 à 10 puis passe à 11, les haut-parleurs pompent, ondes de choc, « Ce mot monte jusqu'à 11 », logo du mot, « Légendaire » | 3,5 s | Ronflement d'ampli, crans du potard, accord monstrueux, larsen, foule | Toast « 100 G · Monté jusqu'à 11 » |
+
+#### 4.9.5 Taverne (`taverne`) : bière, hydromel, banquet, le gras
+
+| Niveau | Variante | Animation | Durée | Son (si activé) | Mouvement réduit |
+| --- | --- | --- | --- | --- | --- |
+| Échec | Dernière tournée | Panneau de bois « FERMÉ · Dernière tournée servie » qui tombe et se balance au bout de ses chaînes, chope vide qui bascule et laisse tomber une dernière goutte, « Dernière tournée... et « mot » n'est pas sur la liste. » | 2,8 s | Cloche de comptoir, grincements, « plic », deux cuivres tristes | Toast « Dernière tournée · Le tavernier a dit non » |
+| Petite | Santé ! | Deux chopes arrivent de chaque côté, trinquent, éclaboussure de mousse, « SANTÉ ! » | 1,5 s | Double tintement de verre, petite foule | Toast « 10 G · Santé ! » |
+| Gros combo | Tournée générale | Comptoir en bois, six chopes glissent jusqu'à leur place, se remplissent, leur mousse gonfle, puis elles se lèvent ensemble, « TOURNÉE GÉNÉRALE ! », « C'est « mot » qui régale. » | 2,9 s | Glissements, bière qui coule, pétillement, trois tintements, acclamations | Toast « 50 G · Tournée générale » |
+| Gros combo | Le gras, c'est la vie | Jambon à la broche qui tourne sur lui-même au-dessus des flammes, gouttes de gras, reflets, « LE GRAS, C'EST LA VIE. », « « mot » : validé par le cuisinier. » | 2,9 s | Friture qui crépite, gigue de taverne, clochette | Toast « 50 G · Le gras, c'est la vie » |
+| Gros combo | La mousse déborde | Chope géante qui se remplit, bulles, la mousse déborde et coule le long du verre, « Santé ! » dans dix langues (« Prost ! », « Skål ! », « Sláinte ! », « Kanpai ! »...) | 2,8 s | Bière qui coule, pétillement, tintement, foule | Toast « 50 G · Mousse parfaite » |
+| Légendaire | Banquet des dieux | Rayons dorés, lustre à bougies qui se balance, le mot « est convié au banquet des dieux », table du banquet (chopes et jambon), deux « SKÅL ! » où toutes les chopes se lèvent, pluie de pièces | 3,5 s | Gigue originale avec bourdon de cornemuse, deux trinquées et acclamations | Toast « 100 G · Convié au banquet des dieux », cloche et tintements |
+| Légendaire | Tournée du patron | Cloche de comptoir qui sonne, « TOURNÉE DU PATRON ! », « Hydromel à volonté pour » + le mot, « Légendaire · offert par la maison », pluie de pièces et de chopes | 3,4 s | Trois coups de cloche, pluie de pièces, foule, gigue | Toast « 100 G · Tournée du patron » |
+
+#### 4.9.6 Weebs (`weeb`) : mangas, animés, Japon, kawaii
+
+| Niveau | Variante | Animation | Durée | Son (si activé) | Mouvement réduit |
+| --- | --- | --- | --- | --- | --- |
+| Échec | Goutte de sueur | Lignes de déprime qui tombent sur le haut de l'écran, goutte de sueur géante qui glisse à côté du mot, « ... » un point après l'autre, « (´・ω・`) », « Sérieusement ? Pas chouffin. Même pas un peu, baka. » | 2,6 s | « Bloop », sifflet qui descend, trois notes gênées | Toast « Goutte de sueur · Baka... » |
+| Échec | Table retournée | « (╯°□°)╯ » et la table « ︵ ┻━┻ » qui s'envole en tournoyant, « PAS CHOUFFIN !! » en lettres de manga, puis « ┬─┬ノ( º _ ºノ) » : on range la table | 2,6 s | Souffle, fracas, clochettes du rangement | Toast « (╯°□°)╯︵ ┻━┻ · Table retournée » |
+| Petite | Kawaii | Étincelles, cœurs qui montent, « (◕‿◕✿) » et « kawaii~ ♡ » en Comic rose | 1,6 s | « Pyon » montant, scintillement, clochette | Toast « 10 G · Kawaii certifié » |
+| Gros combo | NANI ?! | Sous-titre tapé « « Omae wa mou... chouffin. » » sur fond noir, puis case de manga (crème, trame, lignes de vitesse), « NANI ?! » géant qui secoue, le mot dessous, « ゴ » violets menaçants autour | 2,8 s | Frappe du sous-titre, stinger de cuivres graves, grondement en trémolo | Toast « 50 G · Nani ?! » |
+| Gros combo | Transformation | Fond rose et violet, trois rubans qui se dessinent en tourbillon, le mot tourne sur lui-même puis devient « mot-chan ✦ » devant un cœur, « Par le pouvoir de la chouffinitude ! », « Transformation ! » | 2,9 s | Arpèges cristallins, nappes majeures, clochette | Toast « 50 G · Transformation réussie » |
+| Légendaire | Plus de 9000 | Aura dorée qui enfle autour du mot, particules de ki qui montent, jauge de ki qui se remplit, détecteur vert « Niveau de chouffinitude » qui grimpe jusqu'à 9001 puis se fissure, ondes de choc, « C'EST PLUS DE 9000 !!! » | 3,5 s | Charge qui monte, explosion, accord de cuivres | Toast « 100 G · Plus de 9000 ! » |
+| Légendaire | Senpai a remarqué | Tempête de pétales de cerisier, grand cœur qui bat (doki doki), « Senpai a remarqué » + le mot en orange légendaire, « !!! », « (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄) », « doki doki, légendaire » | 3,4 s | Progression pop IV-V-iii-vi à la clochette (mélodie originale), battements de cœur, scintillement | Toast « 100 G · Senpai t'a remarqué » |
+
+#### 4.9.7 Rôlistes (`roliste`) : JdR, d20, médiéval, Table Ronde
+
+Le d20 est un **vrai icosaèdre en 3D CSS** (`src/components/easter-eggs/D20.tsx`) : 12 sommets calculés, 20 faces triangulaires placées en `matrix3d`, éclairage figé par face, faces opposées qui totalisent 21 comme sur un vrai dé. La face du résultat regarde l'écran au repos : le dé tombe, rebondit et roule depuis une rotation quelconque jusqu'à s'arrêter pile dessus. Le chiffre du résultat est plus gros et teinté.
+
+| Niveau | Variante | Animation | Durée | Son (si activé) | Mouvement réduit |
+| --- | --- | --- | --- | --- | --- |
+| Échec | Échec critique | Table de jeu (feutrine et quadrillage), le d20 gris roule et s'arrête sur **1** (chiffre rouge), « ÉCHEC CRITIQUE », « 1 naturel », une phrase tirée au hasard (« Tu glisses sur « mot » et tu perds ton tour. »...) | 2,9 s | Dé qui roule et s'arrête, deux cuivres qui descendent | Toast « Échec critique · 1 naturel » |
+| Petite | Parchemin | Un parchemin se déroule au-dessus du verdict (les deux rouleaux s'écartent), « Le Maître du Jeu approuve », « +score points d'expérience », le sceau de cire rouge s'écrase dessus | 1,9 s | Froissements de papier, coup de tampon, clochette | Toast « 10 G · Approuvé par le MJ » |
+| Gros combo | Jet de d20 | Le d20 bleu roule et s'arrête entre 15 et 19, halo, « RÉUSSITE ! », « Jet de chouffinitude : jet + bonus = total », « +score XP · Niveau supérieur » | 2,9 s | Dé qui roule, arpège de clochettes, accord de cuivres | Toast « 50 G · Jet réussi » |
+| Gros combo | Adoubement | Salle de château, deux bannières à la chope tombent, deux trompettes de héraut entrent avec leurs flammes à damier, notes qui s'envolent, « Relève-toi, Sire » + le mot, l'épée descend et touche deux fois l'épaule, « Chevalier de l'Ordre de la Chouffe », « « C'est pas faux. » » | 3 s | Fanfare de héraut originale, deux « ting » d'épée, accord | Toast « 50 G · Chevalier de la Chouffe » |
+| Légendaire | 20 naturel | Le d20 doré roule plus longtemps et s'arrête sur **20**, halo et rayons dorés, pluie de petits d20, « COUP CRITIQUE ! », « 20 naturel · « mot » », « Le MJ en lâche ses dés. Légendaire. » | 3,6 s | Dé qui roule, impact, grande fanfare en accords, nappe, scintillement | Toast « 100 G · Coup critique ! », fanfare de héraut |
+| Légendaire | Blason | « Oyez, oyez ! », un écu tombe, ses quartiers se colorent un à un (gueules, or, azur, sinople) avec leurs meubles (chope, couronne, d20, cône de houblon), la couronne tombe dessus, la devise « Chouffinus maximus » se déroule, le mot s'écrase, « Suzerain de la taverne · On en a gros ! » | 3,5 s | Fanfare de héraut, quatre coups sourds, clochette de la couronne, froissement, accord final | Toast « 100 G · Suzerain de la taverne » |
+
+#### 4.9.8 Budget photosensible
+
+Règle maison : **au plus deux flashs par animation, espacés d'au moins 0,5 s**, opacité plafonnée à 0,6 et jamais de flash rouge saturé. Les flammes, cœurs et auras pulsent en échelle, pas en luminosité. Les petits clignotements (curseur, « Insère une pièce ») restent sous 2 Hz et sur une petite surface.
+
+| Animation | Événements lumineux |
+| --- | --- |
+| Série d'éliminations, Combo de baston, Code triche, Sabre laser, Gantelet, Ampli à 11, Plus de 9000, 20 naturel | 1 flash doux (opacité 0,22 à 0,4) |
+| Illuminati confirmé | Lens flare à 0,1 s, flash à 1,2 s, lens flare à 2,4 s (plus d'une seconde entre chaque) |
+| Saut en hyperespace | 1 flash bleuté (0,45) au moment du saut |
+| Solo légendaire | 1 flash (0,28) et deux éclairs fins à 0,3 s d'écart (2 événements par seconde au maximum) |
+| NANI ?! | Une transition vers la case de manga claire (fondu de 140 ms), puis retour au sombre à la sortie |
+| Toutes les autres | Aucun |
+
+#### 4.9.9 Architecture et performance
+
+- `catalog.ts` (bundle principal, données pures) : niveaux, variantes, durées, toasts, mots d'exemple et `planSurprise()`.
+- `EggLayer.tsx` : une seule couche d'overlay, `React.lazy` pour chaque tribu. Le module d'une tribu n'est téléchargé que lorsqu'un verdict la désigne (`preloadTribe` au moment du tirage) : **9 à 13 Ko gzip par tribu**, jamais dans le bundle initial de `/`.
+- `kit.tsx` : la scène commune (`Stage` : minuteur, Échap et clic, son coupé au zapping, pastille « Clic ou Échap pour passer » lisible sur tous les fonds), textes qui claquent, particules à graine (rendu pur), tremblements, flashs comptés, rayons, flammes.
+- Sons : `src/lib/client/synth.ts` (briques : accords saturés, cuivres, cloches, dés, foule, larsen...) et un module de recettes par tribu dans `src/lib/client/tribe-sounds/`, chargé avec l'animation (ou seul pour la signature du mode réduit, et seulement si le son est activé).
+- Tout est animé en `transform` et `opacity` (plus `clip-path` pour les dévoilements et `pathLength` pour les traits SVG). Les positions aléatoires sont tirées d'une graine (`usePlan`), jamais pendant le rendu.
+
+#### 4.9.10 Page de prévisualisation
+
+`/dev/easter-eggs` (404 en production, `noindex`) : une grille tribu × niveau × variante avec de vrais mots de la base par niveau, un bouton « Au hasard » par niveau, les réactions sans tribu, un champ pour afficher n'importe quel mot, une case « Simuler le mouvement réduit », un simulateur de verdict aux vraies fréquences et un bouton qui vérifie les fréquences sur 10 000 tirages. Les captures automatiques passent par `?play=tribu.niveau.variante&word=...&reduced=1`.
+
 ---
 
 ## 5. Son
@@ -249,7 +369,8 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 - **Coupé par défaut.** Le bouton « Son » est dans l'en-tête, sa valeur est mémorisée en `localStorage`. Le contexte audio n'est créé qu'au premier geste (clic sur « Son ») pour respecter les politiques d'autoplay, iOS compris.
 - **100 % synthétisé** (`src/lib/sound.ts`) : oscillateurs, bruit blanc, filtres, saturation, compresseur de sortie. Aucun fichier audio.
 - **Palette** : airhorn (accord fa-la-do en dents de scie désaccordées), hitmarker (bruit filtré + bip carré de 35 ms), basse dubstep (LFO sur filtre passe-bas), coup de tampon (sinus 160 vers 42 Hz), « tic-toc » plat, trombone triste (4 notes, filtre wah, vibrato), carillon de succès, bip de vote, bascule (souffle + ding).
-- **Zapper coupe le son** : chaque réaction garde une poignée `stop()` qui ferme son bus en 80 ms.
+- **Palettes des tribus** (`src/lib/client/tribe-sounds/*`, briques dans `src/lib/client/synth.ts`, chargées avec l'animation) : chiptune et coups de baston (gamer) ; allumage de sabre, claquement de doigts, « hmm » du chapeau, fanfare spatiale originale (geek) ; accords saturés, palm mute, solo, larsen, corde qui casse (métal) ; verres qui trinquent, bière qui coule, friture, cloche de comptoir, gigue avec bourdon (taverne) ; stinger dramatique, grondement « ゴゴゴ », charge de ki, progression pop à la clochette (weeb) ; d20 qui roule, parchemin, sceau, fanfares de héraut (rôliste). Toutes les mélodies sont originales : on cite le genre (fanfare, chiptune, riff), jamais un thème existant.
+- **Zapper coupe le son** : chaque réaction garde une poignée `stop()` qui ferme son bus en 80 ms (`playRecipe` donne un bus par recette).
 
 ---
 
@@ -259,7 +380,9 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 - Une seule région `aria-live="polite"` annonce chaque verdict, adoption, renversement ou erreur en phrase complète. Les toasts et les réactions plein écran sont `aria-hidden` (redondants).
 - Jauge en `role="meter"` avec `aria-valuetext` (« 88 sur 100, rareté épique »), progression de lecture en `role="progressbar"`.
 - Focus visibles partout (contour vert de 3 px), navigation clavier complète, Échap ferme les réactions, le focus suit les nouveaux chapitres.
-- `prefers-reduced-motion` respecté à trois niveaux : `MotionConfig reducedMotion="user"`, règles CSS dédiées (rotations, tremblement, View Transitions, rotor), et logique applicative (pas de combo ni de réaction plein écran).
+- `prefers-reduced-motion` respecté à trois niveaux : `MotionConfig reducedMotion="user"`, règles CSS dédiées (rotations, tremblement, View Transitions, rotor), et logique applicative (pas de combo ni de réaction plein écran ; pour les tribus, un toast statique thématique à la place, voir 4.9.1).
+- Budget photosensible : au plus deux flashs par animation, espacés d'au moins 0,5 s (détail en 4.9.8).
+- Les réactions légères (petites réactions de tribu) ne bloquent jamais un clic : elles sont en `pointer-events: none` et se rangent au premier appui.
 - Contraste AA minimum partout (voir 2.1).
 - Cibles tactiles de 44 px minimum, champ à 16 px minimum.
 
@@ -268,6 +391,7 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 ## 7. Performance
 
 - Les réactions (`MlgCombo`, `SadReaction`) et le « C'est pas faux » sont des modules chargés à la demande (`React.lazy`), préchargés dès le focus du champ.
+- Chaque tribu est un module séparé (9 à 13 Ko gzip, sons compris), téléchargé seulement quand un verdict la désigne. Aucun n'est dans le bundle initial de `/`.
 - Motion est chargé en mode `LazyMotion` + `domAnimation` + composants `m` (bundle réduit).
 - Animations sur `transform`, `opacity` et `clip-path` ; les compteurs écrivent via des MotionValues sans re-rendu React.
 - Fond étoilé sur un calque fixe, aucune image bitmap dans l'interface (tout est SVG ou CSS).
@@ -279,7 +403,7 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 
 | Fichier | Rôle |
 | --- | --- |
-| `src/app/globals.css` | Tokens `@theme`, classes de matière (glossy, meme, tampon, tuile, info-bulle, flare, succès), keyframes, règles de mouvement réduit |
+| `src/app/globals.css` | Tokens `@theme`, classes de matière (glossy, meme, tampon, tuile, info-bulle, flare, succès, orbes de tribu, rayons, lignes de vitesse, trame de manga, parchemin, bois, logo de métal), keyframes, règles de mouvement réduit |
 | `src/app/layout.tsx` | Polices, métadonnées, Open Graph, `lang="fr"` |
 | `src/app/page.tsx` | Point d'entrée |
 | `src/app/opengraph-image.tsx`, `apple-icon.tsx`, `icon.svg`, `favicon.ico` | Image de partage et icônes générées |
@@ -288,10 +412,18 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 | `src/components/SearchForm.tsx`, `RotatingPlaceholder.tsx` | Le champ et ses exemples |
 | `src/components/VerdictCard.tsx`, `ChouffinGauge.tsx`, `VotePanel.tsx` | Verdict, jauge, vote |
 | `src/components/CestPasFaux.tsx` | L'écran des mots inconnus |
-| `src/components/MlgCombo.tsx`, `SadReaction.tsx`, `AchievementToast.tsx` | Réactions et succès |
+| `src/components/MlgCombo.tsx`, `SadReaction.tsx`, `AchievementToast.tsx` | Réactions sans tribu et succès (orbe aux couleurs de la tribu) |
+| `src/components/easter-eggs/catalog.ts` | Catalogue tribu × niveau × variante, durées, toasts, tirage `planSurprise()` |
+| `src/components/easter-eggs/EggLayer.tsx`, `useSurprises.ts` | Couche d'overlay (chargement paresseux par tribu) et application d'un plan de surprise |
+| `src/components/easter-eggs/kit.tsx` | Scène commune, textes, particules, tremblements, flashs comptés, flammes |
+| `src/components/easter-eggs/tribes/*.tsx` | Les animations de chaque tribu (un module chacune) |
+| `src/components/easter-eggs/D20.tsx` | Le d20 en 3D CSS |
+| `src/components/easter-eggs/icons.tsx` | Icônes de tribu (toast, prévisualisation) |
+| `src/components/dev/EasterEggLab.tsx`, `src/app/dev/easter-eggs/page.tsx` | Page de prévisualisation (404 en production) |
 | `src/components/Notices.tsx`, `LoadingCard.tsx` | Bloqué, invalide, erreurs, chargement |
 | `src/components/art.tsx` | Illustrations SVG (chope, lunettes, hitmarker, chips, canette, trophée, carton rouge, virevoltant, icônes) |
 | `src/hooks/usePreferences.ts` | Son et votes mémorisés (`useSyncExternalStore`) |
 | `src/lib/client/*` | Client API, stockage local, textes d'interface |
-| `src/lib/sound.ts` | Synthèse sonore WebAudio |
+| `src/lib/sound.ts` | Synthèse sonore WebAudio, primitives et `playRecipe` |
+| `src/lib/client/synth.ts`, `src/lib/client/tribe-sounds/*` | Briques de synthèse et recettes sonores par tribu (chargées à la demande) |
 | `public/og/` | Polices OFL (et leurs licences) pour l'image Open Graph |

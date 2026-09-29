@@ -160,6 +160,40 @@ Le verdict se lit donc deux fois : par le texte, et par l'époque graphique qu'i
 - Le rétroéclairage arc-en-ciel des périphériques « gamer » (qui explose vers 2014 et 2015) devient la **bordure du champ de saisie** : un `conic-gradient` animé via `@property`, lent au focus, qui s'emballe pendant le chargement.
 - Le « wub wub » du dubstep (drop de 2011 et 2012) est synthétisé en fin de combo MLG : dents de scie graves à travers un filtre passe-bas modulé par un LFO.
 
+### 2.16 Les tribus de chouffin
+
+Le chouffin n'est pas un bloc : il y a le gamer, le geek, le métalleux, le pilier de taverne, le weeb et le rôliste. Chacun a ses codes, et chacun se reconnaît en une seconde dans les siens. D'où les easter eggs par tribu : la même rareté, mais une blague qui vise juste. Le catalogue complet (animation, durée, son, version en mouvement réduit) est en 4.9 de la direction artistique.
+
+**Gamers.**
+- *Les codes* : le montage MLG (2.1), le « Game Over » d'arcade et son « Continuer ? » qui décompte, le « Vous êtes mort » des jeux d'action exigeants (lettres rouges à empattements sur bandeau noir, zoom lent : devenu un meme pour tout échec), le killfeed des FPS et les annonces « Double kill... Pentakill » des MOBA, les barres de vie et le « K.O. » des jeux de baston, la traînée arc-en-ciel pixel (Nyan Cat, 2011), le code ↑↑↓↓←→←→BA caché dans des sites entiers vers 2010, le triangle « Illuminati confirmé » des montages.
+- *Pourquoi c'est drôle* : l'emphase épique appliquée à un mot, et pour l'échec, la mise en scène tragique d'un simple « pas chouffin ».
+- *Comment on cite* : aucun personnage ni logo. La traînée arc-en-ciel est portée par notre propre chope pixel (pas de chat-biscuit), le boss du combo de baston est un toast à l'avocat, les annonces sont des phrases génériques, le code triche est une suite de touches. Sons 100 % chiptune synthétisés, mélodies originales.
+
+**Geeks.**
+- *Les codes* : l'école de sorcellerie et son chapeau qui répartit les élèves, le patronus, les sabres laser et le texte d'intro qui défile dans l'espace, la pluie de code vert et le choix des pilules, le claquement de doigts du gantelet et la poussière (« Je ne me sens pas très bien »).
+- *Pourquoi c'est drôle* : le chouffin geek connaît ces scènes par cœur ; les détourner (« Que la Chouffe soit avec toi », « Expecto chouffinum », un patronus sanglier) est un clin d'œil de fan à fan.
+- *Comment on cite* : dessins génériques (un chapeau pointu rapiécé, un gantelet doré à six gemmes, deux sabres lumineux), maisons inventées (« Chouffondor », « Serpentaverne », « Serdaigrog », « Poufsoufflé »), phrases parodiques courtes, aucun extrait de texte ni de musique : la fanfare spatiale et les allumages de sabre sont synthétisés et originaux, le texte déroulant raconte « Le réveil du chouffin ».
+
+**Métalleux.**
+- *Les codes* : les cornes du diable, le headbang, le pogo et le « wall of death », la pyrotechnie des grands festivals, le logo de groupe illisible (épines, gouttes, symétrie), la guitare en V, l'ampli qui « monte jusqu'à 11 » (réplique de film culte des années 80, devenue proverbe chez les musiciens), le larsen et la corde qui casse en plein concert.
+- *Pourquoi c'est drôle* : le sérieux absolu du métal, poussé jusqu'au grotesque pour un mot.
+- *Comment on cite* : aucun logo de groupe ni de festival. Le « logo illisible » est généré à partir du mot (lettres chromées étirées, épines et gouttes à graine), les riffs et le solo sont joués par des scies saturées en WebAudio, la foule est en silhouettes.
+
+**Taverne.**
+- *Les codes* : les chopes qui trinquent, la tournée générale, la tournée du patron et sa cloche, le banquet (le Valhalla des vikings), le jambon qui tourne à la broche, « Le gras, c'est la vie » (Kaamelott), le panneau « Fermé » et la dernière tournée.
+- *Pourquoi c'est drôle* : c'est la tribu originelle du chouffin (le mot vient de la bière), et la générosité démesurée (« Hydromel à volonté ») est le rêve de tout pilier de comptoir.
+- *Comment on cite* : chopes, jambon, cloche et lustre dessinés en SVG, aucune marque de bière. Une seule réplique de Kaamelott ici, courte et devenue expression. La gigue de taverne est originale (mode dorien et bourdon de cornemuse synthétisé).
+
+**Weebs.**
+- *Les codes* : les lignes de vitesse et la trame des mangas, le « NANI ?! » en réponse au célèbre « Omae wa mou shindeiru » (meme de 2017, mais héritier direct des animés des années 80 que regardait la génération Club Dorothée), les « ゴゴゴ » menaçants, le « It's over 9000 » (2006, pilier des forums 2010), la transformation de magical girl, « I hope senpai will notice me » (vers 2012), la goutte de sueur, la table retournée (╯°□°)╯︵ ┻━┻ des forums et de Twitter.
+- *Pourquoi c'est drôle* : la grammaire visuelle du manga (tout est un drame) appliquée à un verdict de mot.
+- *Comment on cite* : aucun personnage, aucune case de manga existante. Le détecteur de puissance est un simple écran vert générique, la case de manga est une trame et des lignes de vitesse en CSS, les kaomoji sont du texte Unicode, la progression musicale est un enchaînement d'accords classique (IV-V-iii-vi) joué sur une mélodie originale.
+
+**Rôlistes.**
+- *Les codes* : le d20, le 20 naturel (coup critique) et le 1 naturel (échec critique), le Maître du Jeu qui approuve, le parchemin et son sceau, l'adoubement, les hérauts et leurs trompettes, le blason, Kaamelott (« C'est pas faux », « On en a gros ! »).
+- *Pourquoi c'est drôle* : le dé tranche, et tout le monde autour de la table sait ce que « 1 » ou « 20 » veut dire.
+- *Comment on le modernise* : le d20 est un vrai icosaèdre en 3D CSS (20 faces en `matrix3d`, faces opposées qui totalisent 21), qui roule et s'arrête sur la bonne face. Blason, bannières, épée, trompettes et couronne sont dessinés en SVG ; la devise est en latin de cuisine (« Chouffinus maximus »). Deux répliques de Kaamelott seulement, courtes et devenues expressions.
+
 ---
 
 ## 3. Ce qu'on s'interdit
@@ -174,6 +208,11 @@ Le verdict se lit donc deux fois : par le texte, et par l'époque graphique qu'i
 | Logos de console ou de plateforme | Marques déposées | Orbe argentée et trophée génériques |
 | Captures ou extraits de Kaamelott | Œuvre protégée | La réplique « C'est pas faux », devenue expression |
 | Clignotements rapides | Risque photosensible | Au plus deux flashs espacés de plus d'une seconde |
+| Personnages de films, de séries ou d'animés (sorcier, seigneur au gantelet, héros de manga, chat arc-en-ciel) | Œuvres et personnages protégés | Objets génériques dessinés en SVG (chapeau, gantelet, sabres, chope volante), jamais un personnage |
+| Thèmes musicaux célèbres (fanfare spatiale, générique d'animé, jingles de console) | Œuvres protégées | Fanfares, chiptunes et progressions originales synthétisées |
+| Logos de groupes, de festivals, de marques de bière | Marques déposées | Logo « illisible » généré à partir du mot, chopes sans étiquette |
+| Noms de maisons de l'école de sorcellerie | Univers protégé | Maisons inventées (« Chouffondor », « Serpentaverne »...) |
+| Longues citations de Kaamelott | Œuvre protégée | Trois répliques courtes devenues expressions (« C'est pas faux », « Le gras, c'est la vie », « On en a gros ! ») |
 
 ---
 
@@ -192,3 +231,6 @@ Le verdict se lit donc deux fois : par le texte, et par l'époque graphique qu'i
 | Skeuo contre flat | Deux styles de carte selon le verdict, même composant |
 | Tuile « tourniquet » | `rotateY` avec `transformPerspective`, courbe « quintique » |
 | Écran de chargement à astuce | Apparition retardée de 0,6 s en CSS pur, zéro flash |
+| Easter eggs de forum et de sites (code triche, pages cachées) | Une animation par tribu et par niveau de score, chargée à la demande, 1 fois sur 3 comme avant |
+| Dé de JdR en plastique | Icosaèdre en 3D CSS calculé, qui s'arrête sur la face voulue |
+| Logo de groupe de métal dessiné au feutre | Épines et gouttes générées à partir d'une graine, lettres chromées en `background-clip: text` |

@@ -4,10 +4,13 @@ import { AnimatePresence, LazyMotion, MotionConfig, domAnimation, m } from "moti
 import { Suspense, lazy, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { flushSync } from "react-dom";
 import { fetchJudge, toApiError, type ApiError } from "@/lib/client/api";
-import { ACHIEVEMENTS, LOADING_TIPS, pick } from "@/lib/client/copy";
+import { LOADING_TIPS, pick } from "@/lib/client/copy";
 import { sfx } from "@/lib/client/preferences";
 import type { JudgeResult, KnownResult, UnknownResult } from "@/lib/types";
-import { AchievementToast, type ToastData } from "./AchievementToast";
+import { AchievementToast } from "./AchievementToast";
+import { planSurprise } from "./easter-eggs/catalog";
+import { EggLayer, warmupEggs } from "./easter-eggs/EggLayer";
+import { useSurprises } from "./easter-eggs/useSurprises";
 import { LoadingCard } from "./LoadingCard";
 import { BlockedNotice, ErrorNotice, InvalidNotice } from "./Notices";
 import { QuerySync } from "./QuerySync";
@@ -15,37 +18,17 @@ import { SearchForm } from "./SearchForm";
 import { SiteHeader } from "./SiteHeader";
 import { StatsFooter } from "./StatsFooter";
 import { VerdictCard } from "./VerdictCard";
-import type { SadVariant } from "./SadReaction";
 
-// Chargés à la demande : ils ne pèsent rien tant qu'on n'en a pas besoin.
-const loadMlgCombo = () => import("./MlgCombo");
-const loadSadReaction = () => import("./SadReaction");
+// Chargé à la demande : il ne pèse rien tant qu'on n'en a pas besoin.
+// Les réactions (combo MLG, tribus, réaction triste) sont gérées par EggLayer.
 const loadCestPasFaux = () => import("./CestPasFaux");
-const MlgCombo = lazy(loadMlgCombo);
-const SadReaction = lazy(loadSadReaction);
 const CestPasFaux = lazy(loadCestPasFaux);
-
-/** Le combo MLG surprend parce qu'il est rare : 1 chance sur 3 (toujours si légendaire). */
-const MLG_CHANCE = 1 / 3;
-/** La réaction triste est encore plus rare. */
-const SAD_CHANCE = 1 / 4;
 
 type View =
   | { kind: "idle" }
   | { kind: "loading"; query: string; tip: string }
   | { kind: "result"; query: string; result: JudgeResult; nonce: number }
   | { kind: "error"; query: string; error: ApiError; nonce: number };
-
-type Overlay =
-  | { kind: "mlg"; id: number; seed: number; word: string; legendary: boolean }
-  | { kind: "sad"; id: number; word: string; variant: SadVariant };
-
-let sequence = 0;
-/** Identifiant unique pour les toasts et overlays (sans horloge : rendu pur). */
-function nextId(): number {
-  sequence += 1;
-  return sequence;
-}
 
 function prefersReducedMotion(): boolean {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -92,8 +75,6 @@ export function ChouffinderApp() {
   const [input, setInput] = useState("");
   const [view, setView] = useState<View>({ kind: "idle" });
   const [compact, setCompact] = useState(false);
-  const [overlay, setOverlay] = useState<Overlay | null>(null);
-  const [toast, setToast] = useState<ToastData | null>(null);
   const [shaking, setShaking] = useState(false);
   const [announcement, setAnnouncement] = useState("");
   const [statsKey, setStatsKey] = useState(0);
@@ -108,8 +89,7 @@ export function ChouffinderApp() {
   const shakeTimer = useRef<number | undefined>(undefined);
 
   const warmup = useCallback(() => {
-    void loadMlgCombo();
-    void loadSadReaction();
+    warmupEggs();
     void loadCestPasFaux();
   }, []);
 
@@ -132,44 +112,19 @@ export function ChouffinderApp() {
     shakeTimer.current = window.setTimeout(() => setShaking(false), 520);
   }, []);
 
-  /** Décide, au hasard, de la petite (ou grosse) surprise qui accompagne un verdict. */
+  const { overlay, toast, play, showToast, clearOverlay, dismissToast } = useSurprises(shake);
+
+  /**
+   * Décide, au hasard, de la petite (ou grosse) surprise qui accompagne un verdict :
+   * combo 1 fois sur 3 (toujours si légendaire), échec 1 fois sur 4, aux couleurs
+   * de la tribu du mot quand il en a une. Voir easter-eggs/catalog.ts.
+   */
   const celebrate = useCallback(
     (result: JudgeResult) => {
       if (result.status !== "known") return;
-      const reduced = prefersReducedMotion();
-
-      if (result.chouffin) {
-        if (result.legendary || Math.random() < MLG_CHANCE) {
-          setToast({
-            id: nextId(),
-            points: result.legendary ? 100 : pick([10, 20, 30, 50]),
-            title: result.legendary ? "Légende vivante" : pick(ACHIEVEMENTS),
-          });
-          if (reduced) {
-            sfx("achievement");
-            return;
-          }
-          setOverlay({
-            kind: "mlg",
-            id: nextId(),
-            seed: Math.floor(Math.random() * 2 ** 31),
-            word: result.word,
-            legendary: result.legendary,
-          });
-          shake();
-          return;
-        }
-        sfx("stamp");
-        return;
-      }
-
-      if (!reduced && Math.random() < SAD_CHANCE) {
-        setOverlay({ kind: "sad", id: nextId(), word: result.word, variant: Math.random() < 0.5 ? "bsod" : "nope" });
-        return;
-      }
-      sfx("flat");
+      play(planSurprise(result, { reduced: prefersReducedMotion() }));
     },
-    [shake],
+    [play],
   );
 
   const search = useCallback(
@@ -180,7 +135,7 @@ export function ChouffinderApp() {
       const controller = new AbortController();
       const id = request.current.id + 1;
       request.current = { id, controller };
-      setOverlay(null);
+      clearOverlay();
 
       // La View Transition applique sa mise à jour de façon asynchrone : si la réponse
       // arrive avant, il ne faut surtout pas repasser en « chargement ».
@@ -226,14 +181,14 @@ export function ChouffinderApp() {
         announce(error.serverMessage ?? "Le Chouffinder n'a pas pu répondre. Réessaie.");
       }
     },
-    [announce, celebrate, writeUrl],
+    [announce, celebrate, clearOverlay, writeUrl],
   );
 
   const resetView = useCallback(() => {
     request.current.controller?.abort();
     const id = request.current.id + 1;
     request.current = { id, controller: null };
-    setOverlay(null);
+    clearOverlay();
     const apply = () => {
       // Une nouvelle recherche a pu démarrer entre-temps : on ne l'écrase pas.
       if (request.current.id !== id) return;
@@ -246,7 +201,7 @@ export function ChouffinderApp() {
     } else {
       apply();
     }
-  }, []);
+  }, [clearOverlay]);
 
   /** Source de vérité pour les liens partagés et le bouton précédent. */
   const handleUrlQuery = useCallback(
@@ -306,14 +261,14 @@ export function ChouffinderApp() {
         return;
       }
       if (previous.status === "unknown" && next.status === "known") {
-        setToast({ id: nextId(), points: 50, title: "Parrain d'un mot" });
+        showToast({ points: 50, title: "Parrain d'un mot" });
         sfx("achievement");
         announce(`Mot adopté par la communauté : « ${next.word} » est ${next.chouffin ? "chouffin" : "pas chouffin"}.`);
         resultRef.current?.scrollIntoView({ block: "start", behavior: prefersReducedMotion() ? "auto" : "smooth" });
         return;
       }
       if (previous.status === "known" && next.status === "known" && previous.chouffin !== next.chouffin) {
-        setToast({ id: nextId(), points: 30, title: "Le peuple a parlé" });
+        showToast({ points: 30, title: "Le peuple a parlé" });
         sfx("flip");
         shake();
         announce(`Verdict renversé ! « ${next.word} » est maintenant ${next.chouffin ? "chouffin" : "pas chouffin"}.`);
@@ -321,11 +276,8 @@ export function ChouffinderApp() {
       }
       announce("Vote enregistré. Merci !");
     },
-    [announce, shake],
+    [announce, shake, showToast],
   );
-
-  const closeOverlay = useCallback(() => setOverlay(null), []);
-  const dismissToast = useCallback(() => setToast(null), []);
 
   const resultNonce = view.kind === "result" || view.kind === "error" ? view.nonce : 0;
   useEffect(() => {
@@ -443,18 +395,7 @@ export function ChouffinderApp() {
           <StatsFooter refreshKey={statsKey} />
         </div>
 
-        <AnimatePresence>
-          {overlay?.kind === "mlg" ? (
-            <Suspense key={overlay.id} fallback={null}>
-              <MlgCombo seed={overlay.seed} word={overlay.word} legendary={overlay.legendary} onDone={closeOverlay} />
-            </Suspense>
-          ) : null}
-          {overlay?.kind === "sad" ? (
-            <Suspense key={overlay.id} fallback={null}>
-              <SadReaction word={overlay.word} variant={overlay.variant} onDone={closeOverlay} />
-            </Suspense>
-          ) : null}
-        </AnimatePresence>
+        <EggLayer overlay={overlay} onDone={clearOverlay} />
 
         <AchievementToast toast={toast} onDismiss={dismissToast} />
 
