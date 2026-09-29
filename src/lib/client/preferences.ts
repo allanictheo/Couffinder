@@ -3,7 +3,7 @@
  */
 
 import type { VoteChoice } from "@/lib/types";
-import { playSfx, type SfxHandle, type SfxName } from "@/lib/sound";
+import { playRecipe, playSfx, type Recipe, type SfxHandle, type SfxName } from "@/lib/sound";
 import { createLocalStore } from "./local-store";
 
 /** Son coupé par défaut : on ne klaxonne pas sans prévenir. */
@@ -43,4 +43,15 @@ export function rememberVote(key: string, choice: VoteChoice) {
 export function sfx(name: SfxName): SfxHandle | null {
   if (!soundStore.getSnapshot()) return null;
   return playSfx(name);
+}
+
+/** Joue une recette sonore (celles des tribus) seulement si le visiteur a activé le son. */
+export function sfxRecipe(recipe: Recipe): SfxHandle | null {
+  if (!soundStore.getSnapshot()) return null;
+  return playRecipe(recipe);
+}
+
+/** Le son est-il activé ? (Évite de charger un module de sons pour rien.) */
+export function soundEnabled(): boolean {
+  return soundStore.getSnapshot();
 }

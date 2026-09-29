@@ -18,6 +18,9 @@ export type SfxName =
   | "flip"
   | "toggle";
 
+/** Une recette sonore : planifie ses nœuds sur `out` à partir de l'instant `t`. */
+export type Recipe = (ctx: AudioContext, out: AudioNode, t: number) => void;
+
 export interface SfxHandle {
   /** Coupe le son en douceur (utile quand on zappe une animation). */
   stop: () => void;
@@ -53,7 +56,7 @@ export function unlockAudio() {
   getContext();
 }
 
-function noiseBuffer(ctx: AudioContext): AudioBuffer {
+export function noiseBuffer(ctx: AudioContext): AudioBuffer {
   if (!noise) {
     noise = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
     const data = noise.getChannelData(0);
@@ -62,7 +65,7 @@ function noiseBuffer(ctx: AudioContext): AudioBuffer {
   return noise;
 }
 
-function distortionCurve(amount: number): Float32Array<ArrayBuffer> {
+export function distortionCurve(amount: number): Float32Array<ArrayBuffer> {
   const samples = 1024;
   const curve = new Float32Array(samples);
   for (let i = 0; i < samples; i++) {
@@ -73,7 +76,7 @@ function distortionCurve(amount: number): Float32Array<ArrayBuffer> {
 }
 
 /** Enveloppe d'amplitude : attaque, maintien, relâchement (exponentiels). */
-function envelope(ctx: AudioContext, t: number, peak: number, attack: number, hold: number, release: number) {
+export function envelope(ctx: AudioContext, t: number, peak: number, attack: number, hold: number, release: number) {
   const gain = ctx.createGain();
   gain.gain.setValueAtTime(0.0001, t);
   gain.gain.exponentialRampToValueAtTime(peak, t + attack);
@@ -82,7 +85,7 @@ function envelope(ctx: AudioContext, t: number, peak: number, attack: number, ho
   return gain;
 }
 
-function tone(
+export function tone(
   ctx: AudioContext,
   out: AudioNode,
   t: number,
@@ -105,7 +108,7 @@ function tone(
   osc.stop(t + attack + hold + release + 0.05);
 }
 
-function noiseBurst(
+export function noiseBurst(
   ctx: AudioContext,
   out: AudioNode,
   t: number,
@@ -128,7 +131,7 @@ function noiseBurst(
 }
 
 /** Une note de corne de brume : accord de dents de scie désaccordées, saturé. */
-function airhornBlast(ctx: AudioContext, out: AudioNode, t: number, duration: number) {
+export function airhornBlast(ctx: AudioContext, out: AudioNode, t: number, duration: number) {
   const shaper = ctx.createWaveShaper();
   shaper.curve = distortionCurve(14);
   const lowpass = ctx.createBiquadFilter();
@@ -152,19 +155,19 @@ function airhornBlast(ctx: AudioContext, out: AudioNode, t: number, duration: nu
   }
 }
 
-function airhorn(ctx: AudioContext, out: AudioNode, t: number) {
+export function airhorn(ctx: AudioContext, out: AudioNode, t: number) {
   airhornBlast(ctx, out, t, 0.17);
   airhornBlast(ctx, out, t + 0.23, 0.13);
   airhornBlast(ctx, out, t + 0.42, 0.62);
 }
 
-function hitmarker(ctx: AudioContext, out: AudioNode, t: number) {
+export function hitmarker(ctx: AudioContext, out: AudioNode, t: number) {
   noiseBurst(ctx, out, t, "bandpass", 3400, 1.4, 0.55, 0.045);
   tone(ctx, out, t, "square", 1700, 1500, 0.03, 0.08, 0.001, 0, 0.035);
 }
 
 /** Basse « wub wub » façon drop dubstep 2012 : scie grave + filtre modulé. */
-function wobble(ctx: AudioContext, out: AudioNode, t: number, duration: number) {
+export function wobble(ctx: AudioContext, out: AudioNode, t: number, duration: number) {
   const filter = ctx.createBiquadFilter();
   filter.type = "lowpass";
   filter.frequency.value = 420;
@@ -194,7 +197,7 @@ function mlgCombo(ctx: AudioContext, out: AudioNode, t: number) {
   wobble(ctx, out, t + 1.05, 1.3);
 }
 
-function stamp(ctx: AudioContext, out: AudioNode, t: number) {
+export function stamp(ctx: AudioContext, out: AudioNode, t: number) {
   tone(ctx, out, t, "sine", 160, 42, 0.14, 0.7, 0.004, 0.02, 0.22);
   noiseBurst(ctx, out, t, "lowpass", 1400, 0.5, 0.35, 0.06);
 }
@@ -205,7 +208,7 @@ function flat(ctx: AudioContext, out: AudioNode, t: number) {
   tone(ctx, out, t + 0.09, "sine", 495, 495, 0, 0.12, 0.004, 0.02, 0.18);
 }
 
-function sadTrombone(ctx: AudioContext, out: AudioNode, t: number) {
+export function sadTrombone(ctx: AudioContext, out: AudioNode, t: number) {
   const notes: Array<[number, number]> = [
     [293.66, 0.3],
     [277.18, 0.3],
@@ -242,7 +245,7 @@ function sadTrombone(ctx: AudioContext, out: AudioNode, t: number) {
 }
 
 /** Carillon de succès générique (deux notes cristallines + souffle). */
-function achievement(ctx: AudioContext, out: AudioNode, t: number) {
+export function achievement(ctx: AudioContext, out: AudioNode, t: number) {
   noiseBurst(ctx, out, t, "bandpass", 2400, 0.8, 0.06, 0.35);
   tone(ctx, out, t, "triangle", 784, 784, 0, 0.2, 0.005, 0.03, 0.4);
   tone(ctx, out, t, "sine", 392, 392, 0, 0.12, 0.005, 0.03, 0.4);
@@ -269,7 +272,7 @@ function flip(ctx: AudioContext, out: AudioNode, t: number) {
   tone(ctx, out, t + 0.3, "triangle", 1318.51, 1318.51, 0, 0.22, 0.004, 0.04, 0.6);
 }
 
-const RECIPES: Record<SfxName, (ctx: AudioContext, out: AudioNode, t: number) => void> = {
+const RECIPES: Record<SfxName, Recipe> = {
   airhorn,
   hitmarker,
   mlgCombo,
@@ -283,12 +286,20 @@ const RECIPES: Record<SfxName, (ctx: AudioContext, out: AudioNode, t: number) =>
 };
 
 export function playSfx(name: SfxName): SfxHandle | null {
+  return playRecipe(RECIPES[name]);
+}
+
+/**
+ * Joue une recette sur son propre bus : `stop()` coupe tout ce qu'elle a planifié.
+ * Les recettes des tribus vivent dans des modules chargés à la demande.
+ */
+export function playRecipe(recipe: Recipe): SfxHandle | null {
   const ctx = getContext();
   if (!ctx || !master) return null;
   const bus = ctx.createGain();
   bus.connect(master);
   try {
-    RECIPES[name](ctx, bus, ctx.currentTime + 0.01);
+    recipe(ctx, bus, ctx.currentTime + 0.01);
   } catch {
     bus.disconnect();
     return null;
