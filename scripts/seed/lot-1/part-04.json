@@ -1,43 +1,425 @@
 [
-{"word":"Batman","chouffin":true,"score":88,"reason":"Pas de pouvoirs, juste du fric et de la rancune. Le chouffin le considère comme le plus grand détective du monde.","category":"series-films","aliases":["bruce wayne","le chevalier noir"]},
-{"word":"Deadpool","chouffin":true,"score":86,"reason":"Un mercenaire qui brise le quatrième mur. Le chouffin adore son humour lourd, il y voit un grand frère.","category":"series-films"},
-{"word":"Joker","chouffin":true,"score":64,"reason":"Le méchant iconique, mais aussi le poster préféré des ados en crise. Le chouffin le défend, avec nuances.","category":"series-films"},
-{"word":"Iron Man","chouffin":true,"score":72,"reason":"« Je suis Iron Man. » Le chouffin a le casque, et il le met pour faire ses tableaux Excel.","category":"series-films","aliases":["tony stark"]},
-{"word":"Wolverine","chouffin":true,"score":78,"reason":"Des griffes en adamantium, des favoris et un sale caractère. Le chouffin a tenté les rouflaquettes.","category":"series-films","aliases":["logan"]},
-{"word":"Thanos","chouffin":true,"score":76,"reason":"Il a claqué des doigts, le chouffin a claqué des dents. Il a le gant de l'infini en plastique.","category":"series-films","aliases":["gant de l infini"]},
-{"word":"Spider-Man","chouffin":true,"score":64,"reason":"Un grand pouvoir implique de grandes responsabilités. Le chouffin le cite en refusant de faire la vaisselle.","category":"series-films","aliases":["spiderman","peter parker","l homme araignee"]},
-{"word":"Hulk","chouffin":true,"score":60,"reason":"« Hulk écraser ! » Le chouffin l'imite quand le Wi-Fi coupe en pleine partie.","category":"series-films","aliases":["bruce banner"]},
-{"word":"Captain America","chouffin":true,"score":55,"reason":"Un bouclier, il valide. Le reste est un peu trop propre sur lui pour la taverne.","category":"series-films","aliases":["steve rogers"]},
-{"word":"Superman","chouffin":true,"score":54,"reason":"Trop parfait pour être vraiment aimé. Le chouffin le respecte, mais il lui préfère Batman, toujours.","category":"series-films","aliases":["clark kent"]},
-{"word":"Wonder Woman","chouffin":true,"score":53,"reason":"Une amazone de la mythologie grecque avec un lasso. Le chouffin valide pour le lore mythologique.","category":"series-films"},
-{"word":"Aquaman","chouffin":false,"score":36,"reason":"Il parle aux poissons. Le chouffin a du mal à le prendre au sérieux, même avec le trident.","category":"series-films"},
-{"word":"Green Lantern","chouffin":false,"score":40,"reason":"Un anneau de pouvoir, ça pourrait. Mais le film l'a trop traumatisé pour qu'il en parle en public.","category":"series-films"},
-{"word":"Black Widow","chouffin":false,"score":42,"reason":"Une espionne classe, mais sans grand lore à décortiquer. Le chouffin préfère les dieux et les monstres.","category":"series-films","aliases":["natasha romanoff"]},
-{"word":"Groot","chouffin":true,"score":72,"reason":"« Je s'appelle Groot. » Le chouffin a une plante verte qui porte ce nom. Elle dépérit, mais il y croit.","category":"series-films","aliases":["je s appelle groot","i am groot"]},
-{"word":"Dumbledore","chouffin":true,"score":82,"reason":"Un vieux mage à barbe qui parle par énigmes. Le chouffin y voit un cousin de Gandalf, en plus flou.","category":"series-films","aliases":["albus dumbledore"]},
-{"word":"Hagrid","chouffin":true,"score":76,"reason":"Un demi-géant qui adore les dragons et boit dans une chope. Le chouffin l'aurait embauché comme tavernier.","category":"series-films"},
-{"word":"Hermione Granger","chouffin":true,"score":62,"reason":"La seule qui lit les livres en entier. Le chouffin la respecte, lui qui connaît les règles de D&D par cœur.","category":"series-films","aliases":["hermione"]},
-{"word":"Severus Rogue","chouffin":true,"score":78,"reason":"« Toujours. » Le chouffin a pleuré à la révélation et porte une cape noire les jours de pluie.","category":"series-films","aliases":["rogue","severus snape","snape"]},
-{"word":"Voldemort","chouffin":true,"score":72,"reason":"Celui-dont-on-ne-doit-pas-prononcer-le-nom. Le chouffin le prononce quand même, par pure provocation.","category":"series-films","aliases":["vous savez qui","tom jedusor"]},
-{"word":"Poudlard","chouffin":true,"score":85,"reason":"Le château de ses rêves. Il a fait le test de la maison sur quinze sites différents pour être sûr.","category":"series-films","aliases":["hogwarts"]},
-{"word":"Quidditch","chouffin":true,"score":68,"reason":"Un sport sur balai que des gens pratiquent vraiment. Le chouffin a essayé une fois, entre deux Chouffes.","category":"series-films","aliases":["quiddich"]},
-{"word":"Drago Malefoy","chouffin":false,"score":46,"reason":"Il a sa fanbase, mais surtout sur TikTok. Le chouffin trouve ça trop brillant et pas assez velu.","category":"series-films","aliases":["draco malfoy","drago"]},
-{"word":"Jon Snow","chouffin":true,"score":78,"reason":"Tu ne sais rien, Jon Snow. Le chouffin, lui, sait tout de sa généalogie, et il vous l'explique.","category":"series-films","aliases":["tu ne sais rien jon snow"]},
-{"word":"Tyrion Lannister","chouffin":true,"score":86,"reason":"« Je bois et je sais des choses. » Le chouffin l'a imprimée sur un t-shirt, c'est sa devise.","category":"series-films","aliases":["tyrion"]},
-{"word":"Hodor","chouffin":true,"score":80,"reason":"Un seul mot et un traumatisme collectif. Le chouffin ne peut plus tenir une porte sans y penser.","category":"series-films","aliases":["hold the door"]},
-{"word":"Daenerys Targaryen","chouffin":true,"score":64,"reason":"La mère des dragons, ça compte. Mais la saison 8 a laissé le chouffin dans un état de deuil profond.","category":"series-films","aliases":["daenerys","khaleesi"]},
-{"word":"Winter is coming","chouffin":true,"score":86,"reason":"Il le dit chaque premier jour de novembre en sortant la couette. Et à chaque fois, il y croit.","category":"series-films","aliases":["l hiver vient"]},
-{"word":"Geralt de Riv","chouffin":true,"score":90,"reason":"Un sorceleur aux cheveux blancs qui grogne « mouais ». Le chouffin a trouvé son modèle de communication.","category":"series-films","aliases":["geralt","geralt of rivia"]},
-{"word":"Donnez une pièce à votre sorceleur","chouffin":true,"score":84,"reason":"La chanson qui reste dans la tête pendant trois semaines. Le chouffin la chante faux, en boucle.","category":"series-films","aliases":["toss a coin to your witcher"]},
-{"word":"Son Goku","chouffin":true,"score":85,"reason":"Un Saiyan qui pense surtout à manger et se battre. Le chouffin le trouve étrangement proche de Karadoc.","category":"series-films","aliases":["goku","sangoku","san goku"]},
-{"word":"Kaméhaméha","chouffin":true,"score":88,"reason":"Il l'a tenté à 8 ans, puis à 34 ans, sous la douche. Toujours pas de résultat. Il persévère.","category":"series-films"},
-{"word":"Luffy","chouffin":true,"score":76,"reason":"Un pirate élastique au chapeau de paille. Le chouffin rêve d'être roi des pirates, ou au moins de la taverne.","category":"series-films","aliases":["monkey d luffy"]},
-{"word":"TARDIS","chouffin":true,"score":82,"reason":"Plus grand à l'intérieur. Le chouffin a une tirelire TARDIS et une housse de couette assortie.","category":"series-films"},
-{"word":"Doc Brown","chouffin":true,"score":80,"reason":"« Nom de Zeus ! » Le savant fou préféré des chouffins, qui ont tous tenté la coiffure un jour.","category":"series-films","aliases":["emmett brown"]},
-{"word":"Obélix","chouffin":true,"score":70,"reason":"Un amateur de sangliers tombé dans la potion. Le chouffin se sent proche de lui, pour le sanglier.","category":"series-films"},
-{"word":"Ils sont fous ces Romains","chouffin":true,"score":76,"reason":"La réplique qu'il ressort dès qu'un collègue fait un truc bizarre. Un classique qui ne s'use pas.","category":"series-films"},
-{"word":"Zangdar","chouffin":true,"score":80,"reason":"Le sorcier maléfique du Donjon de Naheulbeuk. Le chouffin lui a écrit une fanfic, puis l'a effacée.","category":"series-films"},
-{"word":"Edward Cullen","chouffin":false,"score":10,"reason":"Un vampire qui brille comme une boule à facettes. Le chouffin préfère Dracula, qui avait de la tenue.","category":"series-films"},
-{"word":"Bella Swan","chouffin":false,"score":12,"reason":"Elle hésite entre un vampire et un loup-garou. Le chouffin, lui, aurait choisi le nain.","category":"series-films"},
-{"word":"La Reine des neiges","chouffin":false,"score":12,"reason":"Il a entendu « Libérée, délivrée » quatre mille fois. Il préfère la version métal, qui existe, heureusement.","category":"series-films","aliases":["frozen"]}
+  {
+    "word": "Batman",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Pas de pouvoirs, juste du fric et de la rancune. Le chouffin le considère comme le plus grand détective du monde.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "bruce wayne",
+      "le chevalier noir"
+    ]
+  },
+  {
+    "word": "Deadpool",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Un mercenaire qui brise le quatrième mur. Le chouffin adore son humour lourd, il y voit un grand frère.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Joker",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le méchant iconique, mais aussi le poster préféré des ados en crise. Le chouffin le défend, avec nuances.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Iron Man",
+    "chouffin": true,
+    "score": 72,
+    "reason": "« Je suis Iron Man. » Le chouffin a le casque, et il le met pour faire ses tableaux Excel.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "tony stark"
+    ]
+  },
+  {
+    "word": "Wolverine",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Des griffes en adamantium, des favoris et un sale caractère. Le chouffin a tenté les rouflaquettes.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "logan"
+    ]
+  },
+  {
+    "word": "Thanos",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Il a claqué des doigts, le chouffin a claqué des dents. Il a le gant de l'infini en plastique.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "gant de l infini"
+    ]
+  },
+  {
+    "word": "Spider-Man",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un grand pouvoir implique de grandes responsabilités. Le chouffin le cite en refusant de faire la vaisselle.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "spiderman",
+      "peter parker",
+      "l homme araignee"
+    ]
+  },
+  {
+    "word": "Hulk",
+    "chouffin": true,
+    "score": 60,
+    "reason": "« Hulk écraser ! » Le chouffin l'imite quand le Wi-Fi coupe en pleine partie.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "bruce banner"
+    ]
+  },
+  {
+    "word": "Captain America",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Un bouclier, il valide. Le reste est un peu trop propre sur lui pour la taverne.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "steve rogers"
+    ]
+  },
+  {
+    "word": "Superman",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Trop parfait pour être vraiment aimé. Le chouffin le respecte, mais il lui préfère Batman, toujours.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "clark kent"
+    ]
+  },
+  {
+    "word": "Wonder Woman",
+    "chouffin": true,
+    "score": 53,
+    "reason": "Une amazone de la mythologie grecque avec un lasso. Le chouffin valide pour le lore mythologique.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Aquaman",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Il parle aux poissons. Le chouffin a du mal à le prendre au sérieux, même avec le trident.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Green Lantern",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un anneau de pouvoir, ça pourrait. Mais le film l'a trop traumatisé pour qu'il en parle en public.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Black Widow",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Une espionne classe, mais sans grand lore à décortiquer. Le chouffin préfère les dieux et les monstres.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "natasha romanoff"
+    ]
+  },
+  {
+    "word": "Groot",
+    "chouffin": true,
+    "score": 72,
+    "reason": "« Je s'appelle Groot. » Le chouffin a une plante verte qui porte ce nom. Elle dépérit, mais il y croit.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "je s appelle groot",
+      "i am groot"
+    ]
+  },
+  {
+    "word": "Dumbledore",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Un vieux mage à barbe qui parle par énigmes. Le chouffin y voit un cousin de Gandalf, en plus flou.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "albus dumbledore"
+    ]
+  },
+  {
+    "word": "Hagrid",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Un demi-géant qui adore les dragons et boit dans une chope. Le chouffin l'aurait embauché comme tavernier.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Hermione Granger",
+    "chouffin": true,
+    "score": 62,
+    "reason": "La seule qui lit les livres en entier. Le chouffin la respecte, lui qui connaît les règles de D&D par cœur.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "hermione"
+    ]
+  },
+  {
+    "word": "Severus Rogue",
+    "chouffin": true,
+    "score": 78,
+    "reason": "« Toujours. » Le chouffin a pleuré à la révélation et porte une cape noire les jours de pluie.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "rogue",
+      "severus snape",
+      "snape"
+    ]
+  },
+  {
+    "word": "Voldemort",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Celui-dont-on-ne-doit-pas-prononcer-le-nom. Le chouffin le prononce quand même, par pure provocation.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "vous savez qui",
+      "tom jedusor"
+    ]
+  },
+  {
+    "word": "Poudlard",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Le château de ses rêves. Il a fait le test de la maison sur quinze sites différents pour être sûr.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "hogwarts"
+    ]
+  },
+  {
+    "word": "Quidditch",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Un sport sur balai que des gens pratiquent vraiment. Le chouffin a essayé une fois, entre deux Chouffes.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "quiddich"
+    ]
+  },
+  {
+    "word": "Drago Malefoy",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Il a sa fanbase, mais surtout sur TikTok. Le chouffin trouve ça trop brillant et pas assez velu.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "draco malfoy",
+      "drago"
+    ]
+  },
+  {
+    "word": "Jon Snow",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Tu ne sais rien, Jon Snow. Le chouffin, lui, sait tout de sa généalogie, et il vous l'explique.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "tu ne sais rien jon snow"
+    ]
+  },
+  {
+    "word": "Tyrion Lannister",
+    "chouffin": true,
+    "score": 86,
+    "reason": "« Je bois et je sais des choses. » Le chouffin l'a imprimée sur un t-shirt, c'est sa devise.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "tyrion"
+    ]
+  },
+  {
+    "word": "Hodor",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Un seul mot et un traumatisme collectif. Le chouffin ne peut plus tenir une porte sans y penser.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "hold the door"
+    ]
+  },
+  {
+    "word": "Daenerys Targaryen",
+    "chouffin": true,
+    "score": 64,
+    "reason": "La mère des dragons, ça compte. Mais la saison 8 a laissé le chouffin dans un état de deuil profond.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "daenerys",
+      "khaleesi"
+    ]
+  },
+  {
+    "word": "Winter is coming",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Il le dit chaque premier jour de novembre en sortant la couette. Et à chaque fois, il y croit.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "l hiver vient"
+    ]
+  },
+  {
+    "word": "Geralt de Riv",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Un sorceleur aux cheveux blancs qui grogne « mouais ». Le chouffin a trouvé son modèle de communication.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "geralt",
+      "geralt of rivia"
+    ]
+  },
+  {
+    "word": "Donnez une pièce à votre sorceleur",
+    "chouffin": true,
+    "score": 84,
+    "reason": "La chanson qui reste dans la tête pendant trois semaines. Le chouffin la chante faux, en boucle.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "toss a coin to your witcher"
+    ]
+  },
+  {
+    "word": "Son Goku",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Un Saiyan qui pense surtout à manger et se battre. Le chouffin le trouve étrangement proche de Karadoc.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "goku",
+      "sangoku",
+      "san goku"
+    ]
+  },
+  {
+    "word": "Kaméhaméha",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Il l'a tenté à 8 ans, puis à 34 ans, sous la douche. Toujours pas de résultat. Il persévère.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Luffy",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Un pirate élastique au chapeau de paille. Le chouffin rêve d'être roi des pirates, ou au moins de la taverne.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "monkey d luffy"
+    ]
+  },
+  {
+    "word": "TARDIS",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Plus grand à l'intérieur. Le chouffin a une tirelire TARDIS et une housse de couette assortie.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Doc Brown",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« Nom de Zeus ! » Le savant fou préféré des chouffins, qui ont tous tenté la coiffure un jour.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "emmett brown"
+    ]
+  },
+  {
+    "word": "Obélix",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un amateur de sangliers tombé dans la potion. Le chouffin se sent proche de lui, pour le sanglier.",
+    "category": "series-films",
+    "tribe": "taverne"
+  },
+  {
+    "word": "Ils sont fous ces Romains",
+    "chouffin": true,
+    "score": 76,
+    "reason": "La réplique qu'il ressort dès qu'un collègue fait un truc bizarre. Un classique qui ne s'use pas.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Zangdar",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le sorcier maléfique du Donjon de Naheulbeuk. Le chouffin lui a écrit une fanfic, puis l'a effacée.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Edward Cullen",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Un vampire qui brille comme une boule à facettes. Le chouffin préfère Dracula, qui avait de la tenue.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Bella Swan",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Elle hésite entre un vampire et un loup-garou. Le chouffin, lui, aurait choisi le nain.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "La Reine des neiges",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il a entendu « Libérée, délivrée » quatre mille fois. Il préfère la version métal, qui existe, heureusement.",
+    "category": "series-films",
+    "aliases": [
+      "frozen"
+    ]
+  }
 ]

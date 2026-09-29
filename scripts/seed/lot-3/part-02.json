@@ -11,7 +11,8 @@
     "chouffin": false,
     "score": 34,
     "reason": "Des guitares, oui, mais des mèches et des vinyles à 40 € : ça se discute, trop de hipsters au concert.",
-    "category": "musique"
+    "category": "musique",
+    "tribe": "metal"
   },
   {
     "word": "Disco",
@@ -53,14 +54,16 @@
     "chouffin": true,
     "score": 100,
     "reason": "Le nom sacré. Le lutin au bonnet rouge est son totem, et chaque gorgée est un hommage.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Mc Chouffe",
     "chouffin": true,
     "score": 93,
     "reason": "La cousine brune de la Chouffe : pour les soirées où il se sent l'âme d'un nain de la Moria.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Hydromel",
@@ -68,6 +71,7 @@
     "score": 98,
     "reason": "La boisson des dieux nordiques et des fêtes médiévales : il la boit dans une corne, évidemment.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "mead"
     ]
@@ -77,21 +81,24 @@
     "chouffin": true,
     "score": 95,
     "reason": "La bière des Gaulois et des tavernes : rien que le mot lui donne envie de taper sur une table.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Chouchen",
     "chouffin": true,
     "score": 88,
     "reason": "L'hydromel breton : un détour par Brocéliande dans un verre, fées comprises.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Hypocras",
     "chouffin": true,
     "score": 86,
     "reason": "Vin épicé médiéval : il en boit à Provins en racontant l'histoire de son épée.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Bièraubeurre",
@@ -99,6 +106,7 @@
     "score": 90,
     "reason": "La boisson de Poudlard : il en a bu une vraie au studio Harry Potter et en parle encore.",
     "category": "boissons",
+    "tribe": "geek",
     "aliases": [
       "butterbeer",
       "biere au beurre"
@@ -110,6 +118,7 @@
     "score": 93,
     "reason": "Servie dans un verre à étrier en bois : il la commande surtout pour le spectacle.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "pauwel kwak"
     ]
@@ -119,21 +128,24 @@
     "chouffin": true,
     "score": 88,
     "reason": "La bleue : une trappiste qui se boit comme on lit un grimoire, avec respect et lenteur.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Leffe",
     "chouffin": true,
     "score": 66,
     "reason": "La belge de supermarché : chouffin débutant, première marche avant la Chouffe.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Duvel",
     "chouffin": true,
     "score": 88,
     "reason": "« Diable » en flamand : il la boit en rappelant qu'elle cogne fort, comme un orc.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Delirium Tremens",
@@ -141,6 +153,7 @@
     "score": 92,
     "reason": "L'éléphant rose sur la bouteille : le totem de ses fins de soirée à la taverne.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "delirium"
     ]
@@ -151,6 +164,7 @@
     "score": 88,
     "reason": "Trois céréales, un verre élégant et un chouffin qui se prend soudain pour un sommelier.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "tripel karmeliet"
     ]
@@ -160,42 +174,48 @@
     "chouffin": true,
     "score": 85,
     "reason": "Une trappiste avec une truite et un anneau sur l'étiquette : il y voit une référence à Tolkien.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Grimbergen",
     "chouffin": true,
     "score": 60,
     "reason": "Un phénix sur l'étiquette : une bière d'abbaye avec une créature mythique, il valide.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Cuvée des Trolls",
     "chouffin": true,
     "score": 94,
     "reason": "Une bière belge avec un troll sur l'étiquette : on dirait qu'elle a été brassée pour lui.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Gulden Draak",
     "chouffin": true,
     "score": 90,
     "reason": "« Dragon d'or » en flamand : une bière avec un dragon, il n'y a rien à ajouter.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Kriek",
     "chouffin": true,
     "score": 68,
     "reason": "Bière belge à la cerise : il jure « qu'elle n'est pas si sucrée », avec une mauvaise foi totale.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Bière belge",
     "chouffin": true,
     "score": 92,
     "reason": "Son eau de source. Il connaît plus de brasseries belges que de départements français.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Bière trappiste",
@@ -203,6 +223,7 @@
     "score": 88,
     "reason": "Brassée par des moines depuis des siècles : il la sirote avec le respect d'un novice.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "trappiste"
     ]
@@ -212,7 +233,8 @@
     "chouffin": true,
     "score": 78,
     "reason": "La boisson de base. Il n'aime pas toutes les bières, mais toutes les bières l'aiment.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Bière artisanale",
@@ -220,6 +242,7 @@
     "score": 68,
     "reason": "Chouffin, sauf quand elle coûte 9 € dans un bar en palettes avec un barman en tablier.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "craft beer"
     ]
@@ -229,28 +252,32 @@
     "chouffin": false,
     "score": 46,
     "reason": "Ça se discute : trop houblonnée, trop hipster, trop de noms en jeux de mots.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Bière de Noël",
     "chouffin": false,
     "score": 49,
     "reason": "Ça se discute : l'étiquette à gnomes le tente, mais une bière saisonnière ne remplacera jamais sa Chouffe.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Bière sans alcool",
     "chouffin": false,
     "score": 14,
     "reason": "Un chouffin qui commande une sans alcool, c'est un orc qui fait du yoga.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Panaché",
     "chouffin": false,
     "score": 20,
     "reason": "De la bière coupée à la limonade : pour un chouffin, c'est un sacrilège.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Kronenbourg",
@@ -258,6 +285,7 @@
     "score": 38,
     "reason": "La « Kro » : beauf, oui, geek, non. Il la boit quand il n'y a vraiment plus rien.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "kro"
     ]
@@ -267,49 +295,56 @@
     "chouffin": false,
     "score": 24,
     "reason": "La bière des stades et des pubs télé : trop lisse, trop verte, pas assez de lutins.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "1664",
     "chouffin": false,
     "score": 28,
     "reason": "« La française premium » : il hausse un sourcil et commande une Chouffe.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Desperados",
     "chouffin": false,
     "score": 30,
     "reason": "Bière à la tequila de soirée étudiante : pas chouffin, sauf à 3 h du matin en fin de LAN.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Corona",
     "chouffin": false,
     "score": 18,
     "reason": "Une bière avec un citron dans le goulot : ambiance plage d'influenceur, pas taverne.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Guinness",
     "chouffin": true,
     "score": 66,
     "reason": "La brune du pub irlandais : il en boit une par Saint-Patrick en parlant de leprechauns.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Cidre",
     "chouffin": true,
     "score": 62,
     "reason": "Chouffin de justesse, grâce aux fêtes médiévales et aux crêpes bretonnes.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Vin chaud",
     "chouffin": false,
     "score": 48,
     "reason": "Ça se discute : le verre de la fête médiévale de décembre, mais aussi celui du marché de Noël chic.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Jägermeister",
@@ -317,6 +352,7 @@
     "score": 64,
     "reason": "Un cerf sur la bouteille et des herbes mystérieuses : la potion du métalleux en festival.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "jager",
       "jaeger"
@@ -327,14 +363,16 @@
     "chouffin": true,
     "score": 66,
     "reason": "La boisson des pirates : il en boit en chantant Alestorm, un bandeau sur l'œil.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Rhum arrangé",
     "chouffin": false,
     "score": 47,
     "reason": "Ça se discute : il en fait maison et l'appelle « potion de soin », mais c'est surtout l'apéro de tonton.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Whisky",
@@ -342,6 +380,7 @@
     "score": 60,
     "reason": "Chouffin de justesse : il a vu Highlander, porte un kilt une fois par an et dit « single malt ».",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "whiskey"
     ]
@@ -352,6 +391,7 @@
     "score": 32,
     "reason": "L'apéro de la pétanque : beauf, oui, mais sans dés ni dragon. Pas chouffin.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "ricard",
       "pastaga"
@@ -363,6 +403,7 @@
     "score": 82,
     "reason": "Le carburant officiel des LAN : à la quatrième canette, il voit la Matrice.",
     "category": "boissons",
+    "tribe": "gamer",
     "aliases": [
       "monster energy"
     ]
@@ -372,7 +413,8 @@
     "chouffin": false,
     "score": 42,
     "reason": "Sports extrêmes et parachutistes : il en boit, mais préfère la Monster en LAN.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "gamer"
   },
   {
     "word": "Mountain Dew",
@@ -380,6 +422,7 @@
     "score": 86,
     "reason": "Le mythe gamer MLG avec des Doritos : il en a importé une fois, rien que pour le mème.",
     "category": "boissons",
+    "tribe": "gamer",
     "aliases": [
       "mtn dew"
     ]
@@ -413,7 +456,8 @@
     "chouffin": true,
     "score": 80,
     "reason": "Soda japonais avec une bille dans le goulot : vu dans cent animés, acheté à Japan Expo.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "weeb"
   },
   {
     "word": "Bubble tea",
@@ -427,7 +471,8 @@
     "chouffin": false,
     "score": 46,
     "reason": "Ça se discute : découvert grâce aux animés, commandé surtout au restau japonais pour faire classe.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "weeb"
   },
   {
     "word": "Café",
@@ -449,6 +494,7 @@
     "score": 6,
     "reason": "Orange fluo en terrasse pour la story Instagram : l'antithèse absolue de la taverne.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "aperol spritz",
       "aperol"
@@ -459,35 +505,40 @@
     "chouffin": false,
     "score": 16,
     "reason": "Menthe fraîche et paille en bambou : cocktail de rooftop, pas de taverne.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Moscow mule",
     "chouffin": false,
     "score": 10,
     "reason": "Servi dans une tasse en cuivre pour la photo : il préfère sa chope en étain.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Gin tonic",
     "chouffin": false,
     "score": 14,
     "reason": "La boisson de l'afterwork en open space : trop chic pour la taverne.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Vodka",
     "chouffin": false,
     "score": 26,
     "reason": "Trop neutre pour un chouffin, sauf quand Korpiklaani en chante les louanges.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Tequila",
     "chouffin": false,
     "score": 20,
     "reason": "Sel, citron, grimace : pas chouffin, mais ça finit souvent en karaoké d'opening.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Matcha latte",
@@ -529,28 +580,32 @@
     "chouffin": false,
     "score": 18,
     "reason": "Bulles, flûtes et soirées chics : il préfère une corne d'hydromel.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Rosé piscine",
     "chouffin": false,
     "score": 4,
     "reason": "Des glaçons dans du rosé au bord d'une piscine à Saint-Tropez : l'enfer du chouffin.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Prosecco",
     "chouffin": false,
     "score": 10,
     "reason": "Le champagne du brunch Instagram : aucune chance d'entrer à la taverne.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Hard seltzer",
     "chouffin": false,
     "score": 5,
     "reason": "De l'eau pétillante alcoolisée au goût de rien : même un gobelin refuserait.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Frappuccino",
@@ -579,6 +634,7 @@
     "score": 92,
     "reason": "Son verre à lui : grande, lourde, idéalement en étain ou en céramique avec un dragon dessus.",
     "category": "boissons",
+    "tribe": "taverne",
     "aliases": [
       "choppe"
     ]
@@ -588,14 +644,16 @@
     "chouffin": true,
     "score": 94,
     "reason": "Boire de l'hydromel dans une corne comme un viking : il en a une accrochée au mur du salon.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Pinte",
     "chouffin": true,
     "score": 65,
     "reason": "L'unité de mesure légale du chouffin : « on se prend une pinte ? » veut dire « on refait le monde ».",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Jus d'orange",
@@ -637,21 +695,24 @@
     "chouffin": false,
     "score": 8,
     "reason": "L'apéro chic des repas de famille : il demande discrètement s'il reste de la Chouffe.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Sangria",
     "chouffin": false,
     "score": 20,
     "reason": "La boisson des vacances en Espagne et des soirées piscine : pas vraiment l'esprit taverne.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Piña colada",
     "chouffin": false,
     "score": 12,
     "reason": "Ananas, coco et petit parasol : un cocktail de croisière, pas de guilde.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Espresso tonic",
@@ -672,14 +733,16 @@
     "chouffin": false,
     "score": 38,
     "reason": "Ça se discute : les nains préfèrent la bière, mais un banquet médiéval sans vin serait triste.",
-    "category": "boissons"
+    "category": "boissons",
+    "tribe": "taverne"
   },
   {
     "word": "Pizza",
     "chouffin": true,
     "score": 68,
     "reason": "Le repas officiel des soirées JDR : il y a toujours une part collée sur une fiche de perso.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Pizza hawaïenne",
@@ -687,6 +750,7 @@
     "score": 44,
     "reason": "L'ananas sur la pizza : trois heures de débat sur le forum, aucun consensus. Ça se discute, littéralement.",
     "category": "nourriture",
+    "tribe": "taverne",
     "aliases": [
       "pizza ananas"
     ]
@@ -696,42 +760,48 @@
     "chouffin": true,
     "score": 78,
     "reason": "La pizza du lendemain de LAN, mangée froide au petit-déjeuner : un rituel sacré.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "gamer"
   },
   {
     "word": "Chips",
     "chouffin": true,
     "score": 66,
     "reason": "Le carburant des LAN : il en a toujours sur les doigts pendant les parties.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "gamer"
   },
   {
     "word": "Doritos",
     "chouffin": true,
     "score": 85,
     "reason": "Le combo MLG avec Mountain Dew : il en mange en rêvant de 360 no scope.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "gamer"
   },
   {
     "word": "Chips au paprika",
     "chouffin": true,
     "score": 76,
     "reason": "La chips des soirées jeux : le coin de la table en garde la trace orange à vie.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Pringles",
     "chouffin": true,
     "score": 64,
     "reason": "Le tube parfait pour les LAN : une fois vide, il devient sa tour à dés.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "gamer"
   },
   {
     "word": "Kebab",
     "chouffin": false,
     "score": 46,
     "reason": "Ça se discute : le repas de 2 h du matin en sortant du concert, mais tout le monde en mange.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Tacos",
@@ -739,6 +809,7 @@
     "score": 40,
     "reason": "Ça se discute : repas de fin de soirée, mais ce n'est pas de la cuisine de taverne.",
     "category": "nourriture",
+    "tribe": "taverne",
     "aliases": [
       "french tacos"
     ]
@@ -748,28 +819,32 @@
     "chouffin": false,
     "score": 42,
     "reason": "Le triple cheddar après la LAN, oui. Le burger truffé du rooftop à 24 €, non. Au final, ça se discute.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Raclette",
     "chouffin": true,
     "score": 82,
     "reason": "Fromage fondu en soirée JDR l'hiver : trois heures à table, six kilos de patates, zéro regret.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Tartiflette",
     "chouffin": true,
     "score": 69,
     "reason": "Reblochon, lardons, patates : un plat de taverne, parfait avant une partie de 6 heures.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Fondue",
     "chouffin": true,
     "score": 68,
     "reason": "Plat collectif des soirées d'hiver : celui qui perd son pain paie la tournée de Chouffe.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Nouilles instantanées",
@@ -777,6 +852,7 @@
     "score": 80,
     "reason": "Le repas de base de l'étudiant chouffin : trois minutes chrono, entre deux parties.",
     "category": "nourriture",
+    "tribe": "gamer",
     "aliases": [
       "cup noodles"
     ]
@@ -786,13 +862,15 @@
     "chouffin": true,
     "score": 63,
     "reason": "Le bol de Naruto chez Ichiraku : il en commande en tenant ses baguettes comme un ninja.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "weeb"
   },
   {
     "word": "Cuisse de dinde",
     "chouffin": true,
     "score": 94,
     "reason": "Tenue à pleine main en fête médiévale : il mord dedans comme un roi barbare.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   }
 ]

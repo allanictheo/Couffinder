@@ -18,7 +18,8 @@
     "chouffin": true,
     "score": 66,
     "reason": "Il annonce ses stratégies comme un commandant de Warhammer 40K : chouffin de justesse.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "gamer"
   },
   {
     "word": "Bowling",
@@ -33,6 +34,7 @@
     "score": 68,
     "reason": "Des figurines à grosse tête alignées sur l'étagère : il en a 147, toutes dans leur boîte.",
     "category": "loisirs",
+    "tribe": "geek",
     "aliases": [
       "funko"
     ]
@@ -42,7 +44,8 @@
     "chouffin": true,
     "score": 62,
     "reason": "Il a construit le Faucon Millenium et l'a mis sous vitrine : défense de toucher.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "geek"
   },
   {
     "word": "Fanfiction",
@@ -50,6 +53,7 @@
     "score": 76,
     "reason": "Il a écrit 400 pages sur une quête secondaire de Legolas et Gimli : l'œuvre de sa vie.",
     "category": "loisirs",
+    "tribe": "geek",
     "aliases": [
       "fanfic"
     ]
@@ -59,14 +63,16 @@
     "chouffin": true,
     "score": 66,
     "reason": "Il vient toujours en Jedi ou en elfe, même quand le thème était « années 80 ».",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "geek"
   },
   {
     "word": "Apéro",
     "chouffin": false,
     "score": 40,
     "reason": "Ça se discute : tant qu'il y a des Chouffe et des chips au paprika, il ne dit pas non.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "taverne"
   },
   {
     "word": "Calligraphie",
@@ -81,6 +87,7 @@
     "score": 14,
     "reason": "Faire tourner le vin en parlant de tanins : il préfère commenter la mousse de sa triple.",
     "category": "loisirs",
+    "tribe": "taverne",
     "aliases": [
       "oenologie"
     ]
@@ -252,7 +259,8 @@
     "chouffin": false,
     "score": 45,
     "reason": "Ça se discute : un sanglier à la broche, oui, des chipolatas sur un barbecue électrique, non.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "taverne"
   },
   {
     "word": "Dîner mondain",
@@ -266,21 +274,24 @@
     "chouffin": false,
     "score": 42,
     "reason": "Ça se discute : un jeu de cartes, oui, mais celui du café du village, pas de la guilde.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Poker",
     "chouffin": false,
     "score": 44,
     "reason": "Ça se discute : des cartes, oui, mais plus casino que tournoi de cartes à collectionner.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Hellfest",
     "chouffin": true,
     "score": 99,
     "reason": "Le Graal du métal à Clisson : il y va chaque année et compte les jours depuis la fin de l'édition précédente.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "metal"
   },
   {
     "word": "Wacken",
@@ -288,6 +299,7 @@
     "score": 92,
     "reason": "Le Hellfest allemand, dans la boue : il y est allé une fois et raconte encore la gadoue.",
     "category": "lieux-events",
+    "tribe": "metal",
     "aliases": [
       "wacken open air"
     ]
@@ -295,9 +307,10 @@
   {
     "word": "Japan Expo",
     "chouffin": true,
-    "score": 94,
+    "score": 96,
     "reason": "Quatre jours en cosplay à Villepinte : il y rachète chaque année le même sabre en mousse.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "weeb"
   },
   {
     "word": "Paris Games Week",
@@ -305,6 +318,7 @@
     "score": 88,
     "reason": "Deux heures de queue pour 10 minutes de démo : il en ressort en extase.",
     "category": "lieux-events",
+    "tribe": "gamer",
     "aliases": [
       "pgw"
     ]
@@ -315,6 +329,7 @@
     "score": 90,
     "reason": "Des stars de séries, des cosplays et des files d'attente : son pèlerinage annuel.",
     "category": "lieux-events",
+    "tribe": "geek",
     "aliases": [
       "comicon"
     ]
@@ -325,6 +340,7 @@
     "score": 86,
     "reason": "Des milliers de jeux de société à tester : le seul Cannes qui vaille, selon lui.",
     "category": "lieux-events",
+    "tribe": "roliste",
     "aliases": [
       "fij"
     ]
@@ -335,6 +351,7 @@
     "score": 90,
     "reason": "Stands, cosplay, dédicaces et goodies : son lieu de vie trois week-ends par an.",
     "category": "lieux-events",
+    "tribe": "geek",
     "aliases": [
       "convention geek"
     ]
@@ -344,7 +361,8 @@
     "chouffin": true,
     "score": 88,
     "reason": "Chevaliers, Vikings et grands spectacles : il y est allé 7 fois et il en a encore les larmes aux yeux.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Fête médiévale",
@@ -352,6 +370,7 @@
     "score": 96,
     "reason": "Cuisse de dinde, hydromel, joutes et bourse en cuir : le chouffin retrouve sa véritable époque.",
     "category": "lieux-events",
+    "tribe": "roliste",
     "aliases": [
       "marche medieval"
     ]
@@ -361,14 +380,16 @@
     "chouffin": true,
     "score": 88,
     "reason": "La cité médiévale et ses spectacles de rapaces : il s'y sent comme à la maison.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Carcassonne",
     "chouffin": true,
     "score": 86,
     "reason": "Une vraie cité médiévale et un jeu de société : double dose de chouffinitude.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Château de Guédelon",
@@ -376,6 +397,7 @@
     "score": 90,
     "reason": "Un château fort construit avec les techniques du XIIIe siècle : il y ferait un stage à vie.",
     "category": "lieux-events",
+    "tribe": "roliste",
     "aliases": [
       "guedelon"
     ]
@@ -385,7 +407,8 @@
     "chouffin": true,
     "score": 68,
     "reason": "Une abbaye sur un rocher : il y voit Minas Tirith, et il n'a pas tout à fait tort.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Brocéliande",
@@ -393,6 +416,7 @@
     "score": 92,
     "reason": "La forêt de Merlin et de la fée Viviane : il y cherche encore Excalibur.",
     "category": "lieux-events",
+    "tribe": "roliste",
     "aliases": [
       "foret de broceliande"
     ]
@@ -402,14 +426,16 @@
     "chouffin": true,
     "score": 64,
     "reason": "Chouchen, légendes arthuriennes et Motocultor : une terre chouffine, crêpes comprises.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Belgique",
     "chouffin": true,
     "score": 90,
     "reason": "Le pays de la Chouffe, de Kwak et de Delirium : sa Terre promise, sa Comté à lui.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "taverne"
   },
   {
     "word": "Achouffe",
@@ -417,6 +443,7 @@
     "score": 96,
     "reason": "Le village où naît La Chouffe : son lieu de pèlerinage, lutins inclus.",
     "category": "lieux-events",
+    "tribe": "taverne",
     "aliases": [
       "brasserie d'achouffe"
     ]
@@ -426,7 +453,8 @@
     "chouffin": true,
     "score": 62,
     "reason": "Chouffin de justesse, grâce au Delirium Café et aux fresques de BD sur les murs.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "taverne"
   },
   {
     "word": "Delirium Café",
@@ -434,6 +462,7 @@
     "score": 92,
     "reason": "Un bar bruxellois avec plus de 2 000 bières à la carte : il en a fait son QG spirituel.",
     "category": "lieux-events",
+    "tribe": "taverne",
     "aliases": [
       "delirium cafe bruxelles"
     ]
@@ -443,21 +472,24 @@
     "chouffin": true,
     "score": 80,
     "reason": "Kilts, whisky, Highlander et châteaux hantés : il y va pour les brumes et les cornemuses.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Norvège",
     "chouffin": true,
     "score": 80,
     "reason": "Fjords, Vikings et drakkars : il en revient avec un pendentif Mjöllnir et une barbe plus longue.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Nouvelle-Zélande",
     "chouffin": true,
     "score": 90,
     "reason": "Le pays de la Terre du Milieu : il a déjà réservé une nuit à Hobbitebourg, dans ses rêves.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "roliste"
   },
   {
     "word": "Japon",
@@ -465,6 +497,7 @@
     "score": 67,
     "reason": "Le pays des animés et des jeux vidéo : il y a passé 10 jours à Akihabara et n'a rien vu d'autre.",
     "category": "lieux-events",
+    "tribe": "weeb",
     "aliases": [
       "japan"
     ]
@@ -475,6 +508,7 @@
     "score": 90,
     "reason": "Le quartier geek de Tokyo : il y a dépensé l'équivalent d'un loyer en figurines.",
     "category": "lieux-events",
+    "tribe": "weeb",
     "aliases": [
       "akiba"
     ]
@@ -485,6 +519,7 @@
     "score": 88,
     "reason": "Les studios près de Londres : il a bu une bièraubeurre et pleuré devant la maquette du château.",
     "category": "lieux-events",
+    "tribe": "geek",
     "aliases": [
       "warner bros studio tour"
     ]
@@ -494,7 +529,8 @@
     "chouffin": true,
     "score": 96,
     "reason": "Son habitat naturel : chope en main, table en bois, barde enroué. Le reste du monde est optionnel.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "taverne"
   },
   {
     "word": "Pub irlandais",
@@ -502,6 +538,7 @@
     "score": 82,
     "reason": "Guinness, fléchettes et chansons à boire : la taverne moderne du chouffin.",
     "category": "lieux-events",
+    "tribe": "taverne",
     "aliases": [
       "irish pub"
     ]
@@ -512,6 +549,7 @@
     "score": 90,
     "reason": "Des étagères de jeux de société et des bières belges : il y a sa chaise attitrée.",
     "category": "lieux-events",
+    "tribe": "roliste",
     "aliases": [
       "bar a jeux de societe"
     ]
@@ -522,6 +560,7 @@
     "score": 88,
     "reason": "La boutique de figurines et de jeux de plateau : il y passe plus de temps que chez lui.",
     "category": "lieux-events",
+    "tribe": "roliste",
     "aliases": [
       "boutique de figurines",
       "boutique de jeux"
@@ -533,6 +572,7 @@
     "score": 86,
     "reason": "Bornes, jetons et néons : il y a battu son record à Street Fighter en 1998, et en parle encore.",
     "category": "lieux-events",
+    "tribe": "gamer",
     "aliases": [
       "arcade"
     ]
@@ -543,6 +583,7 @@
     "score": 61,
     "reason": "La fête de la bière de Munich en culotte de cuir : chouffin, même sans Chouffe au programme.",
     "category": "lieux-events",
+    "tribe": "taverne",
     "aliases": [
       "fete de la biere"
     ]
@@ -553,6 +594,7 @@
     "score": 69,
     "reason": "Cornemuses, kilts et chouchen : un grand rassemblement de druides modernes.",
     "category": "lieux-events",
+    "tribe": "roliste",
     "aliases": [
       "interceltique"
     ]
@@ -562,7 +604,8 @@
     "chouffin": false,
     "score": 45,
     "reason": "De la bière et de la Bretagne, mais trop de variété à l'affiche : ça se discute.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "metal"
   },
   {
     "word": "Disneyland",
@@ -570,6 +613,7 @@
     "score": 45,
     "reason": "Les coins Star Wars et Marvel le tentent, mais le reste, c'est la parade des princesses. Ça se discute.",
     "category": "lieux-events",
+    "tribe": "geek",
     "aliases": [
       "disneyland paris"
     ]
@@ -694,7 +738,8 @@
     "chouffin": false,
     "score": 14,
     "reason": "Mixologue et moustache cirée : il demande une Chouffe, le barman soupire.",
-    "category": "lieux-events"
+    "category": "lieux-events",
+    "tribe": "taverne"
   },
   {
     "word": "Beach club",

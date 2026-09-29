@@ -1,76 +1,764 @@
 [
-{"word":"Perceval","chouffin":true,"score":97,"reason":"Provençal le Gaulois, chevalier de Galles et génie incompris. Le chouffin le cite plus que ses propres parents.","category":"series-films","aliases":["perceval de galles"]},
-{"word":"Karadoc","chouffin":true,"score":96,"reason":"Le gras, c'est la vie, et la tartine, une religion. Le saint patron des chouffins à table.","category":"series-films","aliases":["karadoc de vannes"]},
-{"word":"Léodagan","chouffin":true,"score":93,"reason":"Roi de Carmélide, fan de catapultes et de mauvaise humeur. Le chouffin imite sa voix pour râler au bureau.","category":"series-films","aliases":["leodagan de carmelide"]},
-{"word":"Kadoc","chouffin":true,"score":90,"reason":"Le petit frère de Karadoc, avec ses propres règles pour tout. Le chouffin l'imite dès qu'il gagne au Uno.","category":"series-films"},
-{"word":"Bohort","chouffin":true,"score":86,"reason":"Le chevalier le plus peureux de Bretagne, et le plus raffiné. Le chouffin l'imite en voyant une araignée.","category":"series-films","aliases":["bohort de gaunes"]},
-{"word":"Lancelot","chouffin":true,"score":84,"reason":"Le chevalier parfait, tourmenté et un brin pénible. Le chouffin le respecte, mais il préfère Perceval.","category":"series-films","aliases":["lancelot du lac"]},
-{"word":"Guenièvre","chouffin":true,"score":78,"reason":"La reine naïve et attachante de Kaamelott. Le chouffin la trouve touchante, il l'avoue du bout des lèvres.","category":"series-films","aliases":["genievre"]},
-{"word":"Séli","chouffin":true,"score":85,"reason":"Reine de Carmélide et reine de la vanne sèche. Le chouffin cite ses piques contre Léodagan avec émotion.","category":"series-films"},
-{"word":"Yvain","chouffin":true,"score":82,"reason":"Le Chevalier au Lion, surtout au lion en peluche. Avec Gauvain, le duo que le chouffin imite en soirée.","category":"series-films","aliases":["yvain chevalier au lion"]},
-{"word":"Gauvain","chouffin":true,"score":80,"reason":"Neveu d'Arthur et moitié du duo le plus attachant de Kaamelott. Le chouffin a eu la même coupe au collège.","category":"series-films"},
-{"word":"Père Blaise","chouffin":true,"score":80,"reason":"Le scribe qui consigne la légende. Le chouffin tient lui aussi la chronique de sa campagne, avec moins de talent.","category":"series-films"},
-{"word":"Venec","chouffin":true,"score":82,"reason":"Le marchand louche de Kaamelott. Le chouffin pense à lui chaque fois qu'il achète des dés d'occasion.","category":"series-films"},
-{"word":"Roi Burgonde","chouffin":true,"score":86,"reason":"Il ne parle pas un mot de la langue, mais il a tout compris à la gastronomie. Le chouffin l'imite après trois Chouffes.","category":"series-films","aliases":["burgonde"]},
-{"word":"Dame du Lac","chouffin":true,"score":80,"reason":"Une apparition divine que seul Arthur voit. Le chouffin, lui, voit la Dame du Lac après la cinquième bière.","category":"series-films"},
-{"word":"Élias de Kelliwic'h","chouffin":true,"score":84,"reason":"L'enchanteur qui humilie Merlin à chaque apparition. Le chouffin adore les rivalités de magiciens.","category":"series-films","aliases":["elias de kelliwich","elias"]},
-{"word":"Goustan","chouffin":true,"score":80,"reason":"Le grand-père le plus teigneux de Bretagne. Le chouffin cite ses méthodes d'éducation, sans jamais les appliquer.","category":"series-films","aliases":["goustan le cruel"]},
-{"word":"Loth d'Orcanie","chouffin":true,"score":78,"reason":"Le roi traître qui adore les citations latines. Le chouffin en place une approximative à chaque réunion.","category":"series-films","aliases":["roi loth","loth"]},
-{"word":"Méléagant","chouffin":true,"score":72,"reason":"L'être mystérieux qui pousse Lancelot vers le côté obscur. Le chouffin a des théories sur lui depuis 2009.","category":"series-films"},
-{"word":"Mevanwi","chouffin":true,"score":62,"reason":"La femme de Karadoc, qui mérite bien mieux. Le chouffin la connaît, mais la cite peu.","category":"series-films"},
-{"word":"Guethenoc","chouffin":true,"score":80,"reason":"Le paysan qui se dispute avec Roparzh pour des histoires de clôture. Le chouffin a les mêmes débats sur les règles de D&D.","category":"series-films"},
-{"word":"Roparzh","chouffin":true,"score":76,"reason":"L'éternel rival de Guethenoc. Le chouffin rejoue leurs disputes avec son voisin, pour la haie.","category":"series-films"},
-{"word":"Calogrenant","chouffin":true,"score":74,"reason":"Le chevalier calédonien au franc-parler. Le chouffin imite son accent et le rate systématiquement.","category":"series-films"},
-{"word":"Dagonet","chouffin":true,"score":68,"reason":"Un chevalier qu'on oublie, mais que le chouffin n'oublie jamais, parce qu'il connaît tous les chevaliers.","category":"series-films"},
-{"word":"Grüdü","chouffin":true,"score":80,"reason":"Le garde du corps viking d'Arthur. Le chouffin rêve d'en avoir un pour aller à la boulangerie.","category":"series-films"},
-{"word":"Le Tavernier","chouffin":true,"score":84,"reason":"L'homme qui sert la piquette et les répliques cultes. Le chouffin l'imite en servant des Chouffes à ses potes.","category":"series-films","aliases":["tavernier de kaamelott"]},
-{"word":"Provençal le Gaulois","chouffin":true,"score":90,"reason":"Le nom que Perceval donne quand il se présente. Le chouffin l'utilise comme pseudo sur tous ses comptes.","category":"series-films"},
-{"word":"C'est pas faux","chouffin":true,"score":98,"reason":"La réplique ultime pour quand on n'a rien compris. Le chouffin la place au moins une fois par conversation.","category":"series-films","aliases":["cest pas faux"]},
-{"word":"Le gras, c'est la vie","chouffin":true,"score":96,"reason":"La philosophie de Karadoc, gravée sur le tablier de barbecue du chouffin. Le reste n'est que salade.","category":"series-films","aliases":["gras cest la vie"]},
-{"word":"On en a gros","chouffin":true,"score":95,"reason":"« On en a gros ! » Le cri de guerre du chouffin quand la partie de JDR tourne mal. Ou le lundi matin.","category":"series-films","aliases":["on en a gros sur la patate"]},
-{"word":"Sloubi","chouffin":true,"score":90,"reason":"Un jeu dont personne ne connaît les règles, sauf Perceval. Le chouffin prétend jouer, mais il compte faux aussi.","category":"series-films","aliases":["sloubi 324"]},
-{"word":"Cul de chouette","chouffin":true,"score":93,"reason":"Le jeu de dés de Karadoc et Perceval. Des chouffins y jouent vraiment en taverne, règles imprimées à l'appui.","category":"series-films","aliases":["cul de chouette kaamelott"]},
-{"word":"Faut pas respirer la compote, ça fait tousser","chouffin":true,"score":88,"reason":"La sagesse médiévale à l'état pur. Le chouffin la ressort à chaque goûter, avec le plus grand sérieux.","category":"series-films","aliases":["faut pas respirer la compote"]},
-{"word":"C'est une bonne situation, ça, scribe ?","chouffin":true,"score":92,"reason":"Le monologue d'Otis, que le chouffin récite en entier à chaque mariage. Personne ne l'a jamais arrêté à temps.","category":"series-films","aliases":["bonne situation scribe"]},
-{"word":"Otis","chouffin":true,"score":84,"reason":"Le scribe philosophe de Mission Cléopâtre. Le chouffin le cite pour expliquer son métier à ses parents.","category":"series-films","aliases":["otis le scribe"]},
-{"word":"Numérobis","chouffin":true,"score":84,"reason":"L'architecte débordé qui doit bâtir un palais en trois mois. Le chouffin le cite à chaque deadline impossible.","category":"series-films"},
-{"word":"Gandalf","chouffin":true,"score":95,"reason":"Le mage ultime, gris puis blanc. Le chouffin a le bâton, le chapeau et la barbe, surtout la barbe.","category":"series-films","aliases":["gandalf le gris","gandalf le blanc","mithrandir"]},
-{"word":"Vous ne passerez pas !","chouffin":true,"score":94,"reason":"Le chouffin le hurle en bloquant la porte de la salle de bain. C'est son droit le plus sacré.","category":"series-films","aliases":["you shall not pass","tu ne passeras pas"]},
-{"word":"Mon précieux","chouffin":true,"score":92,"reason":"Il le murmure à sa collection de figurines Warhammer. Et à la dernière Chouffe du frigo.","category":"series-films","aliases":["my precious"]},
-{"word":"Aragorn","chouffin":true,"score":90,"reason":"Le rôdeur devenu roi. Le chouffin a la même barbe de trois jours et la même épée, en mousse certes.","category":"series-films","aliases":["grands pas","strider","elessar"]},
-{"word":"Legolas","chouffin":true,"score":86,"reason":"L'elfe qui surfe sur des boucliers. Le chouffin trouve ça réaliste, puisque c'est un elfe, justement.","category":"series-films"},
-{"word":"Gimli","chouffin":true,"score":90,"reason":"Un nain, une hache, une barbe et un concours de bières. Le chouffin s'y reconnaît trait pour trait.","category":"series-films"},
-{"word":"Frodon","chouffin":true,"score":84,"reason":"Le hobbit qui porte l'Anneau et le poids du monde. Le chouffin, lui, porte la glacière au festival.","category":"series-films","aliases":["frodo","frodon sacquet"]},
-{"word":"Sam Gamegie","chouffin":true,"score":86,"reason":"Le vrai héros de l'histoire, dit le chouffin. Il le défendra jusqu'à 3 h du matin, larmes comprises.","category":"series-films","aliases":["samsagace gamegie","samwise","sam gamgee"]},
-{"word":"Gollum","chouffin":true,"score":88,"reason":"Il fait l'imitation à chaque soirée. Tout le monde l'a déjà vue. Il la refait quand même.","category":"series-films","aliases":["smeagol"]},
-{"word":"Bilbon Sacquet","chouffin":true,"score":82,"reason":"Le hobbit qui a tout commencé. Le chouffin fête son anniversaire le 22 septembre, sans rire.","category":"series-films","aliases":["bilbon","bilbo","bilbo baggins"]},
-{"word":"Boromir","chouffin":true,"score":84,"reason":"« On ne va pas simplement dans le Mordor. » Mème éternel, mort héroïque. Le chouffin pleure à chaque fois.","category":"series-films"},
-{"word":"Sauron","chouffin":true,"score":86,"reason":"Un œil enflammé au sommet d'une tour. Le chouffin a sa silhouette sur une lampe de chevet.","category":"series-films","aliases":["oeil de sauron"]},
-{"word":"Saruman","chouffin":true,"score":76,"reason":"Le mage traître, joué par Christopher Lee, idole metal. Le chouffin cite les deux avec la même ferveur.","category":"series-films","aliases":["saroumane"]},
-{"word":"Galadriel","chouffin":true,"score":70,"reason":"La dame de la Lórien, lumineuse et flippante. Le chouffin aime surtout répéter son monologue d'introduction.","category":"series-films"},
-{"word":"Nazgûl","chouffin":true,"score":82,"reason":"Neuf cavaliers noirs qui hurlent. Le chouffin trouve leur tenue très inspirante pour le Hellfest.","category":"series-films","aliases":["cavaliers noirs"]},
-{"word":"Balrog","chouffin":true,"score":82,"reason":"Un démon de feu et d'ombre au fond de la Moria. Le chouffin débattra des heures sur ses ailes.","category":"series-films"},
-{"word":"Terre du Milieu","chouffin":true,"score":92,"reason":"Le monde de Tolkien, dont il a la carte encadrée dans le salon. Il y connaît mieux les chemins qu'à Lyon.","category":"series-films","aliases":["middle earth"]},
-{"word":"Mordor","chouffin":true,"score":88,"reason":"On n'y entre pas simplement. Le chouffin l'utilise pour parler du périph' à l'heure de pointe.","category":"series-films"},
-{"word":"L'Anneau unique","chouffin":true,"score":88,"reason":"Un anneau pour les gouverner tous. Le chouffin en a une réplique autour du cou, bien sûr.","category":"series-films","aliases":["un anneau pour les gouverner tous","the one ring"]},
-{"word":"Dark Vador","chouffin":true,"score":92,"reason":"Le méchant le plus classe de l'histoire. Le chouffin fait la respiration dans son masque de plongée.","category":"series-films","aliases":["darth vader","vador","anakin skywalker"]},
-{"word":"Je suis ton père","chouffin":true,"score":90,"reason":"La révélation qui a tout changé. Le chouffin la ressort à chaque fête de famille, avec la respiration.","category":"series-films","aliases":["i am your father"]},
-{"word":"Yoda","chouffin":true,"score":88,"reason":"Maître Jedi, parle ainsi il fait. Imiter sa syntaxe, le chouffin adore. Supporter ça, ses amis doivent.","category":"series-films","aliases":["maitre yoda"]},
-{"word":"Que la Force soit avec toi","chouffin":true,"score":88,"reason":"La formule qu'il glisse à la fin de chaque mail pro. Sa hiérarchie a fini par répondre pareil.","category":"series-films","aliases":["may the force be with you"]},
-{"word":"Jedi","chouffin":true,"score":90,"reason":"Il a coché « Jedi » comme religion dans un sondage. Il a un avis sur le Code Jedi et le célibat.","category":"series-films","aliases":["chevalier jedi"]},
-{"word":"Sith","chouffin":true,"score":84,"reason":"Le côté obscur a des cookies et des éclairs. Le chouffin trouve les Sith plus classes, il le murmure.","category":"series-films","aliases":["seigneur sith"]},
-{"word":"Sabre laser","chouffin":true,"score":90,"reason":"Il en a trois, dont un à 300 euros avec son. Et il fait « vvvooom » en sortant la baguette de pain.","category":"series-films","aliases":["lightsaber"]},
-{"word":"Luke Skywalker","chouffin":true,"score":82,"reason":"Le fermier devenu Jedi. Le chouffin se reconnaît dans son parcours, surtout la partie fermier qui s'ennuie.","category":"series-films","aliases":["luke"]},
-{"word":"Han Solo","chouffin":true,"score":84,"reason":"Il a tiré le premier, et le chouffin a écrit trois posts de forum pour le prouver.","category":"series-films"},
-{"word":"Chewbacca","chouffin":true,"score":85,"reason":"Un Wookiee poilu et fidèle. Le chouffin fait son cri en soirée, et son chien répond parfois.","category":"series-films","aliases":["chewie"]},
-{"word":"Obi-Wan Kenobi","chouffin":true,"score":85,"reason":"« Hello there. » Le chouffin salue ainsi tout le monde, y compris sa boulangère, qui ne comprend pas.","category":"series-films","aliases":["obi wan","obiwan","ben kenobi"]},
-{"word":"R2-D2","chouffin":true,"score":78,"reason":"Le droïde le plus courageux de la galaxie. Le chouffin en a une enceinte Bluetooth qui bipe.","category":"series-films","aliases":["r2d2"]},
-{"word":"C-3PO","chouffin":true,"score":66,"reason":"Il parle six millions de langues et se plaint tout le temps. Le chouffin s'y reconnaît un peu, en fin de soirée.","category":"series-films","aliases":["c3po","z6po"]},
-{"word":"Dark Maul","chouffin":true,"score":76,"reason":"Un double sabre et zéro réplique. Le chouffin l'a choisi en cosplay pour ne pas avoir à parler.","category":"series-films","aliases":["darth maul"]},
-{"word":"Stormtrooper","chouffin":true,"score":76,"reason":"Il rate toutes ses cibles, comme le chouffin au jet de dés critique. Solidarité totale.","category":"series-films","aliases":["clone trooper"]},
-{"word":"Boba Fett","chouffin":true,"score":80,"reason":"Un chasseur de primes culte avec trois répliques. Le chouffin a la figurine d'époque, jamais déballée.","category":"series-films"},
-{"word":"Faucon Millenium","chouffin":true,"score":86,"reason":"Le tas de ferraille le plus rapide de la galaxie. Le chouffin a la maquette Lego à 800 pièces, montée en une nuit.","category":"series-films","aliases":["millennium falcon","faucon millenaire"]},
-{"word":"Étoile de la Mort","chouffin":true,"score":82,"reason":"Une station spatiale avec un point faible grand comme une porte. Le chouffin a calculé son coût, sérieusement.","category":"series-films","aliases":["death star","etoile noire"]},
-{"word":"Jar Jar Binks","chouffin":true,"score":52,"reason":"Le chouffin le déteste de tout son cœur. Mais il en parle tellement que ça compte comme de la passion.","category":"series-films","aliases":["jar jar"]},
-{"word":"Ewok","chouffin":true,"score":58,"reason":"Des nounours qui battent un Empire. Le chouffin trouve ça ridicule, puis pleure à la fête de fin.","category":"series-films"}
+  {
+    "word": "Perceval",
+    "chouffin": true,
+    "score": 97,
+    "reason": "Provençal le Gaulois, chevalier de Galles et génie incompris. Le chouffin le cite plus que ses propres parents.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "perceval de galles"
+    ]
+  },
+  {
+    "word": "Karadoc",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Le gras, c'est la vie, et la tartine, une religion. Le saint patron des chouffins à table.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "karadoc de vannes"
+    ]
+  },
+  {
+    "word": "Léodagan",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Roi de Carmélide, fan de catapultes et de mauvaise humeur. Le chouffin imite sa voix pour râler au bureau.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "leodagan de carmelide"
+    ]
+  },
+  {
+    "word": "Kadoc",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le petit frère de Karadoc, avec ses propres règles pour tout. Le chouffin l'imite dès qu'il gagne au Uno.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Bohort",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le chevalier le plus peureux de Bretagne, et le plus raffiné. Le chouffin l'imite en voyant une araignée.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "bohort de gaunes"
+    ]
+  },
+  {
+    "word": "Lancelot",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le chevalier parfait, tourmenté et un brin pénible. Le chouffin le respecte, mais il préfère Perceval.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "lancelot du lac"
+    ]
+  },
+  {
+    "word": "Guenièvre",
+    "chouffin": true,
+    "score": 78,
+    "reason": "La reine naïve et attachante de Kaamelott. Le chouffin la trouve touchante, il l'avoue du bout des lèvres.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "genievre"
+    ]
+  },
+  {
+    "word": "Séli",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Reine de Carmélide et reine de la vanne sèche. Le chouffin cite ses piques contre Léodagan avec émotion.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Yvain",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le Chevalier au Lion, surtout au lion en peluche. Avec Gauvain, le duo que le chouffin imite en soirée.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "yvain chevalier au lion"
+    ]
+  },
+  {
+    "word": "Gauvain",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Neveu d'Arthur et moitié du duo le plus attachant de Kaamelott. Le chouffin a eu la même coupe au collège.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Père Blaise",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le scribe qui consigne la légende. Le chouffin tient lui aussi la chronique de sa campagne, avec moins de talent.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Venec",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le marchand louche de Kaamelott. Le chouffin pense à lui chaque fois qu'il achète des dés d'occasion.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Roi Burgonde",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Il ne parle pas un mot de la langue, mais il a tout compris à la gastronomie. Le chouffin l'imite après trois Chouffes.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "burgonde"
+    ]
+  },
+  {
+    "word": "Dame du Lac",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Une apparition divine que seul Arthur voit. Le chouffin, lui, voit la Dame du Lac après la cinquième bière.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Élias de Kelliwic'h",
+    "chouffin": true,
+    "score": 84,
+    "reason": "L'enchanteur qui humilie Merlin à chaque apparition. Le chouffin adore les rivalités de magiciens.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "elias de kelliwich",
+      "elias"
+    ]
+  },
+  {
+    "word": "Goustan",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le grand-père le plus teigneux de Bretagne. Le chouffin cite ses méthodes d'éducation, sans jamais les appliquer.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "goustan le cruel"
+    ]
+  },
+  {
+    "word": "Loth d'Orcanie",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Le roi traître qui adore les citations latines. Le chouffin en place une approximative à chaque réunion.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "roi loth",
+      "loth"
+    ]
+  },
+  {
+    "word": "Méléagant",
+    "chouffin": true,
+    "score": 72,
+    "reason": "L'être mystérieux qui pousse Lancelot vers le côté obscur. Le chouffin a des théories sur lui depuis 2009.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Mevanwi",
+    "chouffin": true,
+    "score": 62,
+    "reason": "La femme de Karadoc, qui mérite bien mieux. Le chouffin la connaît, mais la cite peu.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Guethenoc",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le paysan qui se dispute avec Roparzh pour des histoires de clôture. Le chouffin a les mêmes débats sur les règles de D&D.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Roparzh",
+    "chouffin": true,
+    "score": 76,
+    "reason": "L'éternel rival de Guethenoc. Le chouffin rejoue leurs disputes avec son voisin, pour la haie.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Calogrenant",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le chevalier calédonien au franc-parler. Le chouffin imite son accent et le rate systématiquement.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Dagonet",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Un chevalier qu'on oublie, mais que le chouffin n'oublie jamais, parce qu'il connaît tous les chevaliers.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Grüdü",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le garde du corps viking d'Arthur. Le chouffin rêve d'en avoir un pour aller à la boulangerie.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Le Tavernier",
+    "chouffin": true,
+    "score": 84,
+    "reason": "L'homme qui sert la piquette et les répliques cultes. Le chouffin l'imite en servant des Chouffes à ses potes.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "tavernier de kaamelott"
+    ]
+  },
+  {
+    "word": "Provençal le Gaulois",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le nom que Perceval donne quand il se présente. Le chouffin l'utilise comme pseudo sur tous ses comptes.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "C'est pas faux",
+    "chouffin": true,
+    "score": 98,
+    "reason": "La réplique ultime pour quand on n'a rien compris. Le chouffin la place au moins une fois par conversation.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "cest pas faux"
+    ]
+  },
+  {
+    "word": "Le gras, c'est la vie",
+    "chouffin": true,
+    "score": 96,
+    "reason": "La philosophie de Karadoc, gravée sur le tablier de barbecue du chouffin. Le reste n'est que salade.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "gras cest la vie"
+    ]
+  },
+  {
+    "word": "On en a gros",
+    "chouffin": true,
+    "score": 95,
+    "reason": "« On en a gros ! » Le cri de guerre du chouffin quand la partie de JDR tourne mal. Ou le lundi matin.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "on en a gros sur la patate"
+    ]
+  },
+  {
+    "word": "Sloubi",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Un jeu dont personne ne connaît les règles, sauf Perceval. Le chouffin prétend jouer, mais il compte faux aussi.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "sloubi 324"
+    ]
+  },
+  {
+    "word": "Cul de chouette",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Le jeu de dés de Karadoc et Perceval. Des chouffins y jouent vraiment en taverne, règles imprimées à l'appui.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "cul de chouette kaamelott"
+    ]
+  },
+  {
+    "word": "Faut pas respirer la compote, ça fait tousser",
+    "chouffin": true,
+    "score": 88,
+    "reason": "La sagesse médiévale à l'état pur. Le chouffin la ressort à chaque goûter, avec le plus grand sérieux.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "faut pas respirer la compote"
+    ]
+  },
+  {
+    "word": "C'est une bonne situation, ça, scribe ?",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Le monologue d'Otis, que le chouffin récite en entier à chaque mariage. Personne ne l'a jamais arrêté à temps.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "bonne situation scribe"
+    ]
+  },
+  {
+    "word": "Otis",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le scribe philosophe de Mission Cléopâtre. Le chouffin le cite pour expliquer son métier à ses parents.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "otis le scribe"
+    ]
+  },
+  {
+    "word": "Numérobis",
+    "chouffin": true,
+    "score": 84,
+    "reason": "L'architecte débordé qui doit bâtir un palais en trois mois. Le chouffin le cite à chaque deadline impossible.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Gandalf",
+    "chouffin": true,
+    "score": 95,
+    "reason": "Le mage ultime, gris puis blanc. Le chouffin a le bâton, le chapeau et la barbe, surtout la barbe.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "gandalf le gris",
+      "gandalf le blanc",
+      "mithrandir"
+    ]
+  },
+  {
+    "word": "Vous ne passerez pas !",
+    "chouffin": true,
+    "score": 94,
+    "reason": "Le chouffin le hurle en bloquant la porte de la salle de bain. C'est son droit le plus sacré.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "you shall not pass",
+      "tu ne passeras pas"
+    ]
+  },
+  {
+    "word": "Mon précieux",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Il le murmure à sa collection de figurines Warhammer. Et à la dernière Chouffe du frigo.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "my precious"
+    ]
+  },
+  {
+    "word": "Aragorn",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le rôdeur devenu roi. Le chouffin a la même barbe de trois jours et la même épée, en mousse certes.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "grands pas",
+      "strider",
+      "elessar"
+    ]
+  },
+  {
+    "word": "Legolas",
+    "chouffin": true,
+    "score": 86,
+    "reason": "L'elfe qui surfe sur des boucliers. Le chouffin trouve ça réaliste, puisque c'est un elfe, justement.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Gimli",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Un nain, une hache, une barbe et un concours de bières. Le chouffin s'y reconnaît trait pour trait.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Frodon",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le hobbit qui porte l'Anneau et le poids du monde. Le chouffin, lui, porte la glacière au festival.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "frodo",
+      "frodon sacquet"
+    ]
+  },
+  {
+    "word": "Sam Gamegie",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le vrai héros de l'histoire, dit le chouffin. Il le défendra jusqu'à 3 h du matin, larmes comprises.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "samsagace gamegie",
+      "samwise",
+      "sam gamgee"
+    ]
+  },
+  {
+    "word": "Gollum",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Il fait l'imitation à chaque soirée. Tout le monde l'a déjà vue. Il la refait quand même.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "smeagol"
+    ]
+  },
+  {
+    "word": "Bilbon Sacquet",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le hobbit qui a tout commencé. Le chouffin fête son anniversaire le 22 septembre, sans rire.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "bilbon",
+      "bilbo",
+      "bilbo baggins"
+    ]
+  },
+  {
+    "word": "Boromir",
+    "chouffin": true,
+    "score": 84,
+    "reason": "« On ne va pas simplement dans le Mordor. » Mème éternel, mort héroïque. Le chouffin pleure à chaque fois.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Sauron",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Un œil enflammé au sommet d'une tour. Le chouffin a sa silhouette sur une lampe de chevet.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "oeil de sauron"
+    ]
+  },
+  {
+    "word": "Saruman",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le mage traître, joué par Christopher Lee, idole metal. Le chouffin cite les deux avec la même ferveur.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "saroumane"
+    ]
+  },
+  {
+    "word": "Galadriel",
+    "chouffin": true,
+    "score": 70,
+    "reason": "La dame de la Lórien, lumineuse et flippante. Le chouffin aime surtout répéter son monologue d'introduction.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Nazgûl",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Neuf cavaliers noirs qui hurlent. Le chouffin trouve leur tenue très inspirante pour le Hellfest.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "cavaliers noirs"
+    ]
+  },
+  {
+    "word": "Balrog",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Un démon de feu et d'ombre au fond de la Moria. Le chouffin débattra des heures sur ses ailes.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Terre du Milieu",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Le monde de Tolkien, dont il a la carte encadrée dans le salon. Il y connaît mieux les chemins qu'à Lyon.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "middle earth"
+    ]
+  },
+  {
+    "word": "Mordor",
+    "chouffin": true,
+    "score": 88,
+    "reason": "On n'y entre pas simplement. Le chouffin l'utilise pour parler du périph' à l'heure de pointe.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "L'Anneau unique",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Un anneau pour les gouverner tous. Le chouffin en a une réplique autour du cou, bien sûr.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "un anneau pour les gouverner tous",
+      "the one ring"
+    ]
+  },
+  {
+    "word": "Dark Vador",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Le méchant le plus classe de l'histoire. Le chouffin fait la respiration dans son masque de plongée.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "darth vader",
+      "vador",
+      "anakin skywalker"
+    ]
+  },
+  {
+    "word": "Je suis ton père",
+    "chouffin": true,
+    "score": 90,
+    "reason": "La révélation qui a tout changé. Le chouffin la ressort à chaque fête de famille, avec la respiration.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "i am your father"
+    ]
+  },
+  {
+    "word": "Yoda",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Maître Jedi, parle ainsi il fait. Imiter sa syntaxe, le chouffin adore. Supporter ça, ses amis doivent.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "maitre yoda"
+    ]
+  },
+  {
+    "word": "Que la Force soit avec toi",
+    "chouffin": true,
+    "score": 88,
+    "reason": "La formule qu'il glisse à la fin de chaque mail pro. Sa hiérarchie a fini par répondre pareil.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "may the force be with you"
+    ]
+  },
+  {
+    "word": "Jedi",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Il a coché « Jedi » comme religion dans un sondage. Il a un avis sur le Code Jedi et le célibat.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "chevalier jedi"
+    ]
+  },
+  {
+    "word": "Sith",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le côté obscur a des cookies et des éclairs. Le chouffin trouve les Sith plus classes, il le murmure.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "seigneur sith"
+    ]
+  },
+  {
+    "word": "Sabre laser",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Il en a trois, dont un à 300 euros avec son. Et il fait « vvvooom » en sortant la baguette de pain.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "lightsaber"
+    ]
+  },
+  {
+    "word": "Luke Skywalker",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le fermier devenu Jedi. Le chouffin se reconnaît dans son parcours, surtout la partie fermier qui s'ennuie.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "luke"
+    ]
+  },
+  {
+    "word": "Han Solo",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Il a tiré le premier, et le chouffin a écrit trois posts de forum pour le prouver.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Chewbacca",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Un Wookiee poilu et fidèle. Le chouffin fait son cri en soirée, et son chien répond parfois.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "chewie"
+    ]
+  },
+  {
+    "word": "Obi-Wan Kenobi",
+    "chouffin": true,
+    "score": 85,
+    "reason": "« Hello there. » Le chouffin salue ainsi tout le monde, y compris sa boulangère, qui ne comprend pas.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "obi wan",
+      "obiwan",
+      "ben kenobi"
+    ]
+  },
+  {
+    "word": "R2-D2",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Le droïde le plus courageux de la galaxie. Le chouffin en a une enceinte Bluetooth qui bipe.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "r2d2"
+    ]
+  },
+  {
+    "word": "C-3PO",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Il parle six millions de langues et se plaint tout le temps. Le chouffin s'y reconnaît un peu, en fin de soirée.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "c3po",
+      "z6po"
+    ]
+  },
+  {
+    "word": "Dark Maul",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Un double sabre et zéro réplique. Le chouffin l'a choisi en cosplay pour ne pas avoir à parler.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "darth maul"
+    ]
+  },
+  {
+    "word": "Stormtrooper",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Il rate toutes ses cibles, comme le chouffin au jet de dés critique. Solidarité totale.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "clone trooper"
+    ]
+  },
+  {
+    "word": "Boba Fett",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Un chasseur de primes culte avec trois répliques. Le chouffin a la figurine d'époque, jamais déballée.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Faucon Millenium",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le tas de ferraille le plus rapide de la galaxie. Le chouffin a la maquette Lego à 800 pièces, montée en une nuit.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "millennium falcon",
+      "faucon millenaire"
+    ]
+  },
+  {
+    "word": "Étoile de la Mort",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Une station spatiale avec un point faible grand comme une porte. Le chouffin a calculé son coût, sérieusement.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "death star",
+      "etoile noire"
+    ]
+  },
+  {
+    "word": "Jar Jar Binks",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Le chouffin le déteste de tout son cœur. Mais il en parle tellement que ça compte comme de la passion.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "jar jar"
+    ]
+  },
+  {
+    "word": "Ewok",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Des nounours qui battent un Empire. Le chouffin trouve ça ridicule, puis pleure à la fête de fin.",
+    "category": "series-films",
+    "tribe": "geek"
+  }
 ]

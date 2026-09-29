@@ -4,49 +4,56 @@
     "chouffin": true,
     "score": 92,
     "reason": "Le festin des Gaulois et des banquets vikings : il le réclame à chaque anniversaire.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Banquet",
     "chouffin": true,
     "score": 90,
     "reason": "Le grand repas de fin de fête médiévale : il y mange pour trois et chante pour quatre.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Gras",
     "chouffin": true,
     "score": 90,
     "reason": "« Le gras, c'est la vie. » Karadoc l'a dit, le chouffin l'a gravé sur sa chope.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Saucisson",
     "chouffin": true,
     "score": 62,
     "reason": "L'apéro de la partie de JDR : le MJ en coupe des rondelles en narrant le combat.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Tourte",
     "chouffin": true,
     "score": 72,
     "reason": "Un plat de taverne médiévale : il commande « une tourte, aubergiste ! » dans la vraie vie.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Ragoût",
     "chouffin": true,
     "score": 70,
     "reason": "Le plat de chaque taverne de RPG : il en cuisine un en affirmant qu'il rend 50 PV.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Frites",
     "chouffin": false,
     "score": 46,
     "reason": "Ça se discute : derrière chaque frite il y a la Belgique, mais aussi la cantine du collège.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Carbonade flamande",
@@ -54,6 +61,7 @@
     "score": 66,
     "reason": "Du bœuf mijoté à la bière belge : son plat préféré, et il sait enfin pourquoi.",
     "category": "nourriture",
+    "tribe": "taverne",
     "aliases": [
       "carbonnade flamande"
     ]
@@ -70,14 +78,16 @@
     "chouffin": false,
     "score": 40,
     "reason": "Choucroute et bière, l'Alsace lui parle un peu : ça se discute, surtout pour la chope qui va avec.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Kouign-amann",
     "chouffin": true,
     "score": 66,
     "reason": "Beurre, sucre et Bretagne : il en mange un après une balade à Brocéliande.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Crêpe",
@@ -91,14 +101,16 @@
     "chouffin": true,
     "score": 64,
     "reason": "Soirée film Marvel avec un bol de nachos : chouffin de justesse, fromage fondu partout.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Pop-corn",
     "chouffin": true,
     "score": 64,
     "reason": "Le seau géant de l'avant-première du dernier Marvel : fini avant la fin des pubs.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "geek"
   },
   {
     "word": "Cacahuètes",
@@ -106,6 +118,7 @@
     "score": 38,
     "reason": "Le bol de l'apéro qui disparaît pendant la création des persos : utile, mais pas une passion.",
     "category": "nourriture",
+    "tribe": "taverne",
     "aliases": [
       "cacahouete"
     ]
@@ -129,28 +142,32 @@
     "chouffin": true,
     "score": 61,
     "reason": "Les bâtonnets vus dans chaque animé : il les mange un par un devant One Piece.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "weeb"
   },
   {
     "word": "Onigiri",
     "chouffin": true,
     "score": 60,
     "reason": "La boule de riz des animés : il essaie d'en faire un triangle, ça finit en patate.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "weeb"
   },
   {
     "word": "Mochi",
     "chouffin": false,
     "score": 36,
     "reason": "Pâte de riz vue dans les animés : ça se discute, c'est surtout devenu un dessert d'Instagram.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "weeb"
   },
   {
     "word": "Sushi",
     "chouffin": false,
     "score": 32,
     "reason": "Ça se discute : plat de rendez-vous chic, sauf au buffet à volonté après Japan Expo.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "weeb"
   },
   {
     "word": "Poke bowl",
@@ -402,7 +419,8 @@
     "chouffin": false,
     "score": 46,
     "reason": "Ça se discute : le snack des stands de festival, mais plus fête foraine que taverne.",
-    "category": "nourriture"
+    "category": "nourriture",
+    "tribe": "taverne"
   },
   {
     "word": "Tiramisu",
@@ -448,6 +466,7 @@
     "score": 97,
     "reason": "Noir, délavé, acheté au Hellfest en 2012 : son uniforme, du mariage au rendez-vous chez le dentiste.",
     "category": "mode-style",
+    "tribe": "metal",
     "aliases": [
       "t-shirt de metal",
       "tee-shirt de groupe de metal",
@@ -460,6 +479,7 @@
     "score": 90,
     "reason": "Un t-shirt avec une blague sur Pikachu ou une Triforce : sa tenue de soirée comme de mariage.",
     "category": "mode-style",
+    "tribe": "geek",
     "aliases": [
       "tee-shirt geek"
     ]
@@ -470,6 +490,7 @@
     "score": 80,
     "reason": "Le noir n'est pas une couleur, c'est une identité. Il en a 42, tous différents, dit-il.",
     "category": "mode-style",
+    "tribe": "metal",
     "aliases": [
       "tee-shirt noir"
     ]
@@ -480,6 +501,7 @@
     "score": 88,
     "reason": "Trois loups qui hurlent à la lune sur un t-shirt : il le trouve majestueux, sans aucune ironie.",
     "category": "mode-style",
+    "tribe": "metal",
     "aliases": [
       "three wolf moon"
     ]
@@ -489,21 +511,24 @@
     "chouffin": true,
     "score": 86,
     "reason": "Le chapeau de l'originalité : « M'lady », dit-il en soulevant le bord.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "geek"
   },
   {
     "word": "Chapeau",
     "chouffin": true,
     "score": 63,
     "reason": "Porté « pour l'originalité » : il pense ressembler à Gandalf, il ressemble à un chouffin.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "roliste"
   },
   {
     "word": "Tricorne",
     "chouffin": true,
     "score": 84,
     "reason": "Le chapeau de pirate des concerts d'Alestorm : il le porte même pour aller chercher le pain.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "metal"
   },
   {
     "word": "Casque viking",
@@ -511,6 +536,7 @@
     "score": 90,
     "reason": "À cornes, historiquement faux, il le sait et te le dira : il le porte quand même au Hellfest.",
     "category": "mode-style",
+    "tribe": "roliste",
     "aliases": [
       "casque a cornes"
     ]
@@ -520,14 +546,16 @@
     "chouffin": true,
     "score": 92,
     "reason": "Longue, fournie, entretenue à l'huile : sa fierté, son identité, sa cape de dignité.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "metal"
   },
   {
     "word": "Barbe tressée",
     "chouffin": true,
     "score": 93,
     "reason": "Tressée comme celle d'un nain de la Moria : il y glisse des perles runiques les grands soirs.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "roliste"
   },
   {
     "word": "Barbe de hipster",
@@ -541,14 +569,16 @@
     "chouffin": true,
     "score": 90,
     "reason": "Pour le headbang, évidemment. Il les attache en catogan pour aller au boulot.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "metal"
   },
   {
     "word": "Catogan",
     "chouffin": true,
     "score": 80,
     "reason": "La queue de cheval du chouffin : pratique pour le headbang et pour avoir l'air d'un rôdeur.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "metal"
   },
   {
     "word": "Man bun",
@@ -572,14 +602,16 @@
     "chouffin": true,
     "score": 78,
     "reason": "Les doigts libres pour jouer, les mains au chaud pour la LAN : il y voit du génie.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "gamer"
   },
   {
     "word": "Cape",
     "chouffin": true,
     "score": 88,
     "reason": "Une cape avec fermoir runique : il la porte en convention, en GN, et parfois au supermarché.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "roliste"
   },
   {
     "word": "Tenue médiévale",
@@ -587,6 +619,7 @@
     "score": 90,
     "reason": "Tunique, ceinture en cuir et bourse : sa tenue pour chaque fête médiévale, et quelques mariages.",
     "category": "mode-style",
+    "tribe": "roliste",
     "aliases": [
       "costume medieval",
       "tunique medievale"
@@ -597,14 +630,16 @@
     "chouffin": true,
     "score": 88,
     "reason": "Achetée pour une avant-première d'Harry Potter : il la ressort chaque Halloween depuis 2007.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "geek"
   },
   {
     "word": "Cosplay",
     "chouffin": true,
     "score": 92,
     "reason": "Trois mois à coudre une armure en mousse : sa plus grande fierté, et des doigts couverts de colle chaude.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "weeb"
   },
   {
     "word": "Sweat à capuche",
@@ -612,6 +647,7 @@
     "score": 64,
     "reason": "Noir, avec un logo de jeu ou de groupe : il ne l'enlève que l'été, et encore.",
     "category": "mode-style",
+    "tribe": "gamer",
     "aliases": [
       "hoodie",
       "sweat"
@@ -623,6 +659,7 @@
     "score": 66,
     "reason": "Avec un Stormtrooper ou un Pikachu en bonnet rouge : il le porte fièrement tout décembre.",
     "category": "mode-style",
+    "tribe": "geek",
     "aliases": [
       "pull moche de noel"
     ]
@@ -633,6 +670,7 @@
     "score": 62,
     "reason": "À carreaux et en flanelle : grunge et bûcheron de Skyrim à la fois.",
     "category": "mode-style",
+    "tribe": "metal",
     "aliases": [
       "chemise a carreaux"
     ]
@@ -642,7 +680,8 @@
     "chouffin": true,
     "score": 84,
     "reason": "Il en porte un en festival, par respect pour Highlander et pour les Écossais d'Alestorm.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "metal"
   },
   {
     "word": "Veste à patchs",
@@ -650,6 +689,7 @@
     "score": 94,
     "reason": "La battle jacket couverte de patchs : chaque patch raconte un concert, c'est sa cotte de mailles.",
     "category": "mode-style",
+    "tribe": "metal",
     "aliases": [
       "battle jacket",
       "veste a patches"
@@ -661,6 +701,7 @@
     "score": 68,
     "reason": "Les bottes du métalleux : il les porte depuis 12 ans, indestructibles comme lui.",
     "category": "mode-style",
+    "tribe": "metal",
     "aliases": [
       "dr martens"
     ]
@@ -671,6 +712,7 @@
     "score": 84,
     "reason": "Porté au Hellfest avec des clous de 3 cm : il ne peut plus se gratter le nez sans danger.",
     "category": "mode-style",
+    "tribe": "metal",
     "aliases": [
       "bracelet a clous"
     ]
@@ -681,6 +723,7 @@
     "score": 93,
     "reason": "Le marteau de Thor autour du cou : il jure être digne de le soulever, contrairement à toi.",
     "category": "mode-style",
+    "tribe": "roliste",
     "aliases": [
       "pendentif marteau de thor"
     ]
@@ -690,14 +733,16 @@
     "chouffin": true,
     "score": 86,
     "reason": "Feuilles d'argent et pierres de lune : il les achète en foire médiévale « pour offrir », jure-t-il.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "roliste"
   },
   {
     "word": "Bague unique",
     "chouffin": true,
     "score": 88,
     "reason": "Une réplique de l'Anneau unique au bout d'une chaîne : il la regarde en murmurant « mon précieux ».",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "roliste"
   },
   {
     "word": "Chevalière",
@@ -711,7 +756,8 @@
     "chouffin": true,
     "score": 86,
     "reason": "Des runes nordiques sur l'avant-bras : il te les traduit, que tu le demandes ou non.",
-    "category": "mode-style"
+    "category": "mode-style",
+    "tribe": "roliste"
   },
   {
     "word": "Lunettes rondes",
@@ -744,6 +790,7 @@
     "score": 60,
     "reason": "Un choix de confort qu'il défend avec la mauvaise foi d'un paladin.",
     "category": "mode-style",
+    "tribe": "geek",
     "aliases": [
       "chaussettes sandales"
     ]

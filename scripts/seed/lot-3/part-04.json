@@ -144,6 +144,7 @@
     "score": 94,
     "reason": "Catch américain, chaises pliantes et prises spectaculaires : il connaît toutes les prises de finition et les mime.",
     "category": "sport",
+    "tribe": "geek",
     "aliases": [
       "catch americain",
       "wrestling"
@@ -154,21 +155,24 @@
     "chouffin": true,
     "score": 92,
     "reason": "Ses soirées d'ado devant la télé : il connaît encore par cœur toutes les musiques d'entrée.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "geek"
   },
   {
     "word": "WrestleMania",
     "chouffin": true,
     "score": 90,
     "reason": "La grande nuit du catch : il la regarde en direct à 3 h du matin, Chouffe en main.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "geek"
   },
   {
     "word": "John Cena",
     "chouffin": true,
     "score": 88,
     "reason": "« You can't see me » : il fait le geste chaque fois qu'on lui demande où il est.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "gamer"
   },
   {
     "word": "The Undertaker",
@@ -176,6 +180,7 @@
     "score": 90,
     "reason": "Le Deadman, ses entrées dans le noir et son coup de gong : son idole d'enfance.",
     "category": "sport",
+    "tribe": "geek",
     "aliases": [
       "undertaker"
     ]
@@ -186,6 +191,7 @@
     "score": 48,
     "reason": "Légende du catch devenue star de blockbusters : ça se discute, son sourcil levé reste un mème éternel.",
     "category": "sport",
+    "tribe": "geek",
     "aliases": [
       "dwayne johnson"
     ]
@@ -195,14 +201,16 @@
     "chouffin": true,
     "score": 84,
     "reason": "Le masque, le 619 et les sauts dans tous les sens : il a essayé à la récré, sans succès.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "geek"
   },
   {
     "word": "Escrime",
     "chouffin": true,
     "score": 69,
     "reason": "Il pratique pour se sentir mousquetaire ou Jedi, selon l'humeur du jour.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "roliste"
   },
   {
     "word": "AMHE",
@@ -210,6 +218,7 @@
     "score": 92,
     "reason": "Arts martiaux historiques européens : il se bat à l'épée longue d'après des manuels du XVe siècle.",
     "category": "sport",
+    "tribe": "roliste",
     "aliases": [
       "arts martiaux historiques europeens",
       "escrime medievale"
@@ -221,6 +230,7 @@
     "score": 96,
     "reason": "Du combat médiéval en armure complète, pour de vrai : le rêve du chouffin, bosses comprises.",
     "category": "sport",
+    "tribe": "roliste",
     "aliases": [
       "combat medieval"
     ]
@@ -230,21 +240,24 @@
     "chouffin": true,
     "score": 88,
     "reason": "Il tire comme Legolas ou Hawkeye, dans sa tête. En vrai, dans le mur.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "roliste"
   },
   {
     "word": "Lancer de hache",
     "chouffin": true,
     "score": 90,
     "reason": "Lancer des haches sur une cible avec une bière à portée de main : le sport qu'il attendait.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "roliste"
   },
   {
     "word": "Joute équestre",
     "chouffin": true,
     "score": 84,
     "reason": "Chevaliers, lances et destriers : le sport favori du Puy du Fou et de son cœur.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "roliste"
   },
   {
     "word": "Combat au sabre laser",
@@ -252,6 +265,7 @@
     "score": 93,
     "reason": "Un vrai sport avec une vraie fédération : il fait enfin du sport, et c'est grâce à Star Wars.",
     "category": "sport",
+    "tribe": "geek",
     "aliases": [
       "sabre laser sportif"
     ]
@@ -262,6 +276,7 @@
     "score": 84,
     "reason": "Un balai entre les jambes et des ballons partout : il vit Harry Potter, le vol en moins.",
     "category": "sport",
+    "tribe": "geek",
     "aliases": [
       "quadball"
     ]
@@ -271,21 +286,24 @@
     "chouffin": true,
     "score": 67,
     "reason": "Le sabre japonais en armure : il se prend pour le samouraï de son animé préféré.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "weeb"
   },
   {
     "word": "Kubb",
     "chouffin": true,
     "score": 85,
     "reason": "Le jeu de quilles viking : il y joue au parc en expliquant le lore à ses potes.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "roliste"
   },
   {
     "word": "Soule",
     "chouffin": true,
     "score": 82,
     "reason": "L'ancêtre médiéval du rugby, sans vraies règles : parfait pour un chouffin en quête d'authenticité.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "roliste"
   },
   {
     "word": "Highland games",
@@ -293,6 +311,7 @@
     "score": 85,
     "reason": "Lancer de tronc, kilt et cornemuse : le sport olympique du Valhalla, selon lui.",
     "category": "sport",
+    "tribe": "roliste",
     "aliases": [
       "jeux des highlands",
       "lancer de tronc"
@@ -303,21 +322,24 @@
     "chouffin": true,
     "score": 65,
     "reason": "Le sport officiel de la taverne : il y défie tout le monde après la deuxième Chouffe.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "taverne"
   },
   {
     "word": "Fléchettes",
     "chouffin": true,
     "score": 64,
     "reason": "Le jeu du pub irlandais : il vise le 20, touche le mur, et jure que c'était voulu.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "taverne"
   },
   {
     "word": "Billard",
     "chouffin": false,
     "score": 44,
     "reason": "La table du fond du bar, les bières sur le rebord : ça se discute, c'est plus bar-tabac que taverne.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "taverne"
   },
   {
     "word": "Baby-foot",
@@ -345,7 +367,8 @@
     "chouffin": true,
     "score": 66,
     "reason": "Chouffin de justesse : il y joue en citant la partie d'échecs géante d'Harry Potter.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "roliste"
   },
   {
     "word": "Karaté",
@@ -387,7 +410,8 @@
     "chouffin": true,
     "score": 80,
     "reason": "Il ne joue plus en compétition, mais regarde toutes les finales de League of Legends.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "gamer"
   },
   {
     "word": "CrossFit",
@@ -572,14 +596,16 @@
     "chouffin": false,
     "score": 48,
     "reason": "Il se croit dans un jeu de tir jusqu'au premier impact : ça se discute, beaucoup de bleus.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "gamer"
   },
   {
     "word": "Airsoft",
     "chouffin": true,
     "score": 63,
     "reason": "Répliques et tenues tactiques : il vit ses jeux de guerre, avec du lore inventé en prime.",
-    "category": "sport"
+    "category": "sport",
+    "tribe": "gamer"
   },
   {
     "word": "Ping-pong",
@@ -673,6 +699,7 @@
     "score": 96,
     "reason": "Du jeu de rôle grandeur nature en armure de mousse : il y a vaincu un dragon, un vrai, en latex.",
     "category": "loisirs",
+    "tribe": "roliste",
     "aliases": [
       "grandeur nature",
       "jeu de role grandeur nature"
@@ -684,6 +711,7 @@
     "score": 94,
     "reason": "Fiches de perso, dés et chips : toute sa vie sociale tient sur une table le samedi soir.",
     "category": "loisirs",
+    "tribe": "roliste",
     "aliases": [
       "jdr papier",
       "jeu de role sur table",
@@ -696,6 +724,7 @@
     "score": 84,
     "reason": "Des heures sur un serveur RP à incarner un nain forgeron : il connaît mieux son perso que lui-même.",
     "category": "loisirs",
+    "tribe": "roliste",
     "aliases": [
       "jdr en ligne"
     ]
@@ -706,6 +735,7 @@
     "score": 95,
     "reason": "Trois heures pour peindre l'œil d'un orc au pinceau 000 : sa forme de méditation.",
     "category": "loisirs",
+    "tribe": "roliste",
     "aliases": [
       "peinture de figs"
     ]
@@ -716,6 +746,7 @@
     "score": 94,
     "reason": "Des tours, des câbles, de la pizza froide et 48 h sans dormir : le temple du chouffin.",
     "category": "loisirs",
+    "tribe": "gamer",
     "aliases": [
       "lan"
     ]
@@ -726,6 +757,7 @@
     "score": 90,
     "reason": "Plateau, dés, chips et bière belge : la soirée idéale, dont 4 heures d'explication des règles.",
     "category": "loisirs",
+    "tribe": "roliste",
     "aliases": [
       "soiree jeux de societe"
     ]
@@ -735,14 +767,16 @@
     "chouffin": true,
     "score": 82,
     "reason": "Un meurtre, des costumes et des alibis : il joue le détective en citant Sherlock.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Tournoi de cartes",
     "chouffin": true,
     "score": 86,
     "reason": "Decks optimisés et classeurs de cartes : il y va comme on part en croisade.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Brassage de bière",
@@ -750,6 +784,7 @@
     "score": 88,
     "reason": "Il brasse sa bière dans sa cuisine et l'a baptisée « la Nainfernale ». Son rêve : Achouffe.",
     "category": "loisirs",
+    "tribe": "taverne",
     "aliases": [
       "brassage amateur"
     ]
@@ -759,35 +794,40 @@
     "chouffin": true,
     "score": 84,
     "reason": "« Notes de caramel et de noisette » : il le dit très sérieusement à la troisième triple.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "taverne"
   },
   {
     "word": "Arme en mousse",
     "chouffin": true,
     "score": 90,
     "reason": "Épées, haches et boucliers en latex : l'arsenal du GN, rangé dans son salon.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Reconstitution historique",
     "chouffin": true,
     "score": 90,
     "reason": "Camps médiévaux, tentes en toile et vraies cottes de mailles : il vit en 1350 chaque week-end.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Visite de château fort",
     "chouffin": true,
     "score": 85,
     "reason": "Il explique les mâchicoulis à tout le groupe sans qu'on le lui demande. Avec passion.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Marathon de films",
     "chouffin": true,
     "score": 82,
     "reason": "Le Seigneur des Anneaux en version longue, 11 h 30 d'affilée : c'est son dimanche idéal.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "geek"
   },
   {
     "word": "Binge-watching",
@@ -801,20 +841,23 @@
     "chouffin": true,
     "score": 69,
     "reason": "En cosplay, 3 h avant l'ouverture : il a vu le dernier Star Wars avant tout le monde.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "geek"
   },
   {
     "word": "Blind test",
     "chouffin": true,
     "score": 66,
     "reason": "Il reconnaît n'importe quelle OST de jeu vidéo en 2 secondes : imbattable, insupportable.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "gamer"
   },
   {
     "word": "Pub quiz",
     "chouffin": true,
     "score": 68,
     "reason": "Imbattable sur Tolkien, perdu sur la mode : chouffin, surtout avec une pinte.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "taverne"
   }
 ]
