@@ -13,6 +13,8 @@ concurrency:
 
 env:
   VERCEL_PROJECT: chouffinder
+  # Optionnel : slug de l'équipe Vercel (variable de repo VERCEL_SCOPE), sinon l'équipe par défaut du token.
+  VERCEL_SCOPE: ${{ vars.VERCEL_SCOPE }}
 
 jobs:
   deploy:
@@ -46,9 +48,14 @@ jobs:
       # Projet Vercel dédié : on ne se lie jamais à un autre projet (Traix...) par défaut.
       - name: Link Vercel project
         run: |
-          vercel project inspect "$VERCEL_PROJECT" --token=${{ secrets.VERCEL_TOKEN }} > /dev/null 2>&1 \
-            || vercel project add "$VERCEL_PROJECT" --token=${{ secrets.VERCEL_TOKEN }}
-          vercel link --yes --project "$VERCEL_PROJECT" --token=${{ secrets.VERCEL_TOKEN }}
+          scope=${VERCEL_SCOPE:+--scope=$VERCEL_SCOPE}
+          if ! vercel project inspect "$VERCEL_PROJECT" $scope --token=${{ secrets.VERCEL_TOKEN }} > /dev/null 2>&1; then
+            vercel project add "$VERCEL_PROJECT" $scope --token=${{ secrets.VERCEL_TOKEN }} || {
+              echo "::error::Impossible de créer le projet Vercel « $VERCEL_PROJECT ». Vérifie que le token VERCEL_TOKEN a le scope du compte ou de l'équipe où tu déploies (ou crée le projet à la main sur vercel.com)."
+              exit 1
+            }
+          fi
+          vercel link --yes --project "$VERCEL_PROJECT" $scope --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Pull Vercel environment
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
