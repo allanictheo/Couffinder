@@ -173,7 +173,7 @@ export function ChouffinderApp() {
   );
 
   const search = useCallback(
-    async (raw: string) => {
+    async (raw: string, { morph = true }: { morph?: boolean } = {}) => {
       const query = raw.trim();
       if (!query) return;
       request.current.controller?.abort();
@@ -182,30 +182,46 @@ export function ChouffinderApp() {
       request.current = { id, controller };
       setOverlay(null);
 
-      const showLoading = () => setView({ kind: "loading", query, tip: pick(LOADING_TIPS) });
+      // La View Transition applique sa mise à jour de façon asynchrone : si la réponse
+      // arrive avant, il ne faut surtout pas repasser en « chargement ».
+      let settled = false;
+      const showLoading = () => {
+        if (settled || request.current.id !== id) return;
+        setView({ kind: "loading", query, tip: pick(LOADING_TIPS) });
+      };
       if (!compactRef.current) {
         compactRef.current = true;
-        withViewTransition(() => {
+        if (morph) {
+          withViewTransition(() => {
+            setCompact(true);
+            showLoading();
+          });
+        } else {
           setCompact(true);
           showLoading();
-        });
+        }
       } else {
         showLoading();
       }
 
       try {
         const result = await fetchJudge(query, controller.signal);
+        settled = true;
         if (request.current.id !== id) return;
         // On ne garde pas d'insulte (ni de saisie invalide) dans une URL partageable.
         if (result.status === "blocked" || result.status === "invalid") writeUrl("", "replace");
         nonce.current += 1;
+        // Même batch que le résultat : la mise en page compacte est déjà là quand on mesure.
+        setCompact(true);
         setView({ kind: "result", query, result, nonce: nonce.current });
         announce(describe(result));
         celebrate(result);
       } catch (caught) {
+        settled = true;
         const error = toApiError(caught);
         if (error.kind === "aborted" || request.current.id !== id) return;
         nonce.current += 1;
+        setCompact(true);
         setView({ kind: "error", query, error, nonce: nonce.current });
         announce(error.serverMessage ?? "Le Chouffinder n'a pas pu répondre. Réessaie.");
       }
@@ -215,9 +231,12 @@ export function ChouffinderApp() {
 
   const resetView = useCallback(() => {
     request.current.controller?.abort();
-    request.current = { id: request.current.id + 1, controller: null };
+    const id = request.current.id + 1;
+    request.current = { id, controller: null };
     setOverlay(null);
     const apply = () => {
+      // Une nouvelle recherche a pu démarrer entre-temps : on ne l'écrase pas.
+      if (request.current.id !== id) return;
       setView({ kind: "idle" });
       setCompact(false);
     };
@@ -234,6 +253,8 @@ export function ChouffinderApp() {
     (raw: string | null) => {
       const query = (raw ?? "").trim();
       if (query === urlQuery.current) return;
+      // Premier chargement via un lien partagé : pas de morphing, rien à animer.
+      const firstLoad = urlQuery.current === undefined;
       urlQuery.current = query;
       if (!query) {
         setInput("");
@@ -241,7 +262,7 @@ export function ChouffinderApp() {
         return;
       }
       setInput(query);
-      void search(query);
+      void search(query, { morph: !firstLoad });
     },
     [resetView, search],
   );
