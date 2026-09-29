@@ -58,7 +58,7 @@ export function checkInput(raw: unknown): InputCheck {
       message: `C'est un mot qu'on te demande, pas un parchemin. ${MAX_INPUT_LENGTH} caractères maximum.`,
     };
   }
-  if (/https?:|www\.|:\/\/|\.(?:com|fr|net|org|io|gg|xyz)\b/i.test(label)) {
+  if (/https?:|www\.|:\/\//i.test(label)) {
     return { ok: false, message: "Pas de liens ici, on n'est pas sur un forum de spam. Juste un mot." };
   }
   if (!/^[\p{L}\p{M}\p{N} '’.,&!?:+#-]+$/u.test(label)) {
