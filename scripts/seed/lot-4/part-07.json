@@ -1,0 +1,891 @@
+[
+  {
+    "word": "Idée",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il a une idée de campagne de JdR par jour. Il en a mené deux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Question",
+    "chouffin": false,
+    "score": 35,
+    "reason": "« La grande question sur la vie, l'univers et le reste. » Il connaît déjà la réponse.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Problème",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Tout problème se résout avec un jet de dés. Ou pas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Solution",
+    "chouffin": false,
+    "score": 15,
+    "reason": "La solution d'une énigme de Zelda, trouvée à 3 h du matin : satisfaction absolue.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Victoire",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Il la célèbre chope levée, en fredonnant la fanfare de victoire de Final Fantasy.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Défaite",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Une défaite au jeu de plateau se discute pendant quarante minutes. Les règles étaient floues.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Fin",
+    "chouffin": false,
+    "score": 18,
+    "reason": "La fin d'une série culte : une épreuve. Surtout quand elle est ratée.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Début",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Toute histoire commence dans une taverne ou un petit village. Le début a du potentiel.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Suite",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Il attend la suite de sa saga préférée depuis dix ans. Le mot lui fait battre le cœur.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Gloire",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Gloire éternelle au héros qui a vaincu le boss final sans potion. Il la réclame à chaque fois.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Enfance",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Il ne l'a jamais vraiment quittée : la preuve, elle est rangée sur son étagère, en boîte d'origine.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tradition",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Marathon du SdA chaque fin d'année et partie du vendredi : ses traditions sont sacrées.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Fête",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Fête médiévale, fête de la bière, fête de fin de campagne : tout dépend de la fête.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Soirée",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Soirée jeux, soirée film, soirée débat sur le lore : la soirée est son terrain de jeu favori.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Soirée jeux",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Pizza, dés, Catane et débats animés jusqu'à 2 h du matin : le sommet de la semaine du chouffin.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Mariage",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il rêve d'un mariage sur le thème du SdA, avec la BO d'Howard Shore. Négociations en cours.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Main",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Main de sept cartes ou main du MJ derrière son écran : tout dépend de la main.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pied",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Les pieds nus des hobbits ont traversé la Terre du Milieu. Respect pour cette partie du corps.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tête",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il y range des milliers de répliques de Kaamelott. Il reste peu de place pour le reste.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bras",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Bras de fer à la taverne ou bras mécanique de Fullmetal : ça dépend du bras.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Jambe",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il se dégourdit les jambes entre deux sessions de six heures. C'est tout.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Dos",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Il lui sert surtout à porter le sac de dés et les livres de règles.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Œil",
+    "chouffin": false,
+    "score": 45,
+    "reason": "L'Œil de Sauron voit tout. Il ne peut plus dire « je t'ai à l'œil » sans frissonner.",
+    "category": "quotidien",
+    "aliases": [
+      "oeil",
+      "yeux"
+    ]
+  },
+  {
+    "word": "Nez",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Voldemort n'en a pas, Pinocchio en a trop : le nez a une vie fictive très riche.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Oreille",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Pointues, elles font un elfe. Il en a une paire en latex pour les conventions.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bouche",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Elle sert à citer Kaamelott et à boire de la Chouffe. Polyvalente.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Dent",
+    "chouffin": false,
+    "score": 8,
+    "reason": "La petite souris l'a déjà payée. C'est tout le lore de la dent.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Genou",
+    "chouffin": true,
+    "score": 78,
+    "reason": "« Et puis j'ai pris une flèche dans le genou. » Skyrim a rendu cette articulation culte à jamais.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cœur",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Zelda en a fait une barre de vie, et il en a un pour chacune de ses franchises. Généreux.",
+    "category": "quotidien",
+    "aliases": [
+      "coeur"
+    ]
+  },
+  {
+    "word": "Cerveau",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Minus et Cortex : un cerveau et une souris qui veulent conquérir le monde. Plan chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Épaule",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Pour y poser un perroquet ou une cape. Autrement, sans lore.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Doigt",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Il en a dix pour tenir ses dés, sa manette et sa chope. Parfaitement équipé.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cheveux",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Longs et détachés pour le headbang du Hellfest : chez lui, les cheveux ont une fonction musicale.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Voix",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Il imite la voix de Gollum, d'Arthur et de Dark Vador. Pas toujours sur demande.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Muscle",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Trop salle de sport, trop Instagram. Sauf chez un barbare de JdR.",
+    "category": "quotidien"
+  },
+  {
+    "word": "42",
+    "chouffin": true,
+    "score": 85,
+    "reason": "La réponse à la grande question sur la vie, l'univers et le reste. Tout chouffin le sait.",
+    "category": "quotidien",
+    "aliases": [
+      "quarante-deux"
+    ]
+  },
+  {
+    "word": "Vingt",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le 20 naturel au d20 : le nombre qui fait hurler la table de joie. Sa note préférée.",
+    "category": "quotidien",
+    "aliases": [
+      "20"
+    ]
+  },
+  {
+    "word": "Treize",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Treize nains dans le Hobbit, plus un cambrioleur. Il les nomme tous, dans l'ordre.",
+    "category": "quotidien",
+    "aliases": [
+      "13"
+    ]
+  },
+  {
+    "word": "Sept",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Sept Royaumes, sept nains, sept boules de cristal : un nombre qui a du lore.",
+    "category": "quotidien",
+    "aliases": [
+      "7"
+    ]
+  },
+  {
+    "word": "Neuf",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Neuf compagnons pour la Communauté, neuf mondes sur Yggdrasil : le neuf est sacré chez lui.",
+    "category": "quotidien",
+    "aliases": [
+      "9"
+    ]
+  },
+  {
+    "word": "Trois",
+    "chouffin": false,
+    "score": 45,
+    "reason": "« Trois sera le nombre que tu compteras. » Les Monty Python ont fait du trois un chiffre culte.",
+    "category": "quotidien",
+    "aliases": [
+      "3"
+    ]
+  },
+  {
+    "word": "Deux",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Les Deux Tours et les Sith qui vont « toujours par deux » : un nombre qui se défend.",
+    "category": "quotidien",
+    "aliases": [
+      "2"
+    ]
+  },
+  {
+    "word": "Six",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Le dé à six faces, le plus banal des dés. Il lui préfère le d20, mais le respecte.",
+    "category": "quotidien",
+    "aliases": [
+      "6"
+    ]
+  },
+  {
+    "word": "Quatre",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Les Quatre Fantastiques et les Tortues Ninja : quatre, c'est un nombre d'équipe.",
+    "category": "quotidien",
+    "aliases": [
+      "4"
+    ]
+  },
+  {
+    "word": "Dix",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Sur dix, il met onze à Kaamelott. Le reste, c'est de la notation classique.",
+    "category": "quotidien",
+    "aliases": [
+      "10"
+    ]
+  },
+  {
+    "word": "Douze",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Les Douze Travaux d'Astérix et les douze coups de minuit : un nombre de conte.",
+    "category": "quotidien",
+    "aliases": [
+      "12"
+    ]
+  },
+  {
+    "word": "Cent",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Cent pour cent de complétion : son seul objectif dans un jeu.",
+    "category": "quotidien",
+    "aliases": [
+      "100"
+    ]
+  },
+  {
+    "word": "Mille",
+    "chouffin": false,
+    "score": 15,
+    "reason": "« Mille sabords ! » Le capitaine Haddock a donné au mille un parfum d'aventure.",
+    "category": "quotidien",
+    "aliases": [
+      "1000"
+    ]
+  },
+  {
+    "word": "Zéro",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Zéro partie ratée, zéro réplique oubliée. Sinon, un chiffre sans intérêt.",
+    "category": "quotidien",
+    "aliases": [
+      "0"
+    ]
+  },
+  {
+    "word": "Jeu",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Jeu de rôle, jeu vidéo, jeu de plateau : peu importe, du moment qu'il y a des règles à débattre.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Jeu de société",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Catane, Munchkin, Les Loups-garous : sa ludothèque déborde et il connaît toutes les règles.",
+    "category": "loisirs",
+    "aliases": [
+      "jeux de société",
+      "jeu de plateau",
+      "jeux de plateau"
+    ]
+  },
+  {
+    "word": "Lecture",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Tolkien, Pratchett, Sapkowski : la lecture est son deuxième foyer, après la table de jeu.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Puzzle",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Mille pièces avec la carte de la Terre du Milieu : acceptable. Un paysage de Bretagne : non.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Échecs",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Harry et Ron y ont joué en vrai, avec des pièces géantes. Stratégie noble, mais un peu calme.",
+    "category": "loisirs",
+    "aliases": [
+      "jeu d'échecs"
+    ]
+  },
+  {
+    "word": "Bricolage",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Décors de JdR en carton, étagère à figurines faite maison : le bricolage chouffin existe.",
+    "category": "loisirs",
+    "aliases": [
+      "bricoler"
+    ]
+  },
+  {
+    "word": "Jardinage",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Son seul potager est dans Stardew Valley. Mais c'est un très bon potager.",
+    "category": "loisirs",
+    "aliases": [
+      "jardiner"
+    ]
+  },
+  {
+    "word": "Camping",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Camping de festival, tente sous la pluie : la version rock et bière du camping.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Tricot",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Écharpe Poufsouffle, pull Weasley avec initiale : le tricot geek a ses adeptes.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Collection",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Figurines, cartes, dés : sa collection est son trésor, et il en connaît chaque pièce par cœur.",
+    "category": "loisirs",
+    "aliases": [
+      "collectionner"
+    ]
+  },
+  {
+    "word": "Loisir",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il n'a pas de loisirs, il a des passions. Nuance importante.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Brocante",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Chasser les cartouches Super Nintendo entre deux services à café : un sport de chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vide-grenier",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Des vieux jeux à deux euros et des BD introuvables : le paradis de la chine, et un grenier en prime.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Musée",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Armures, épées et parchemins : le musée d'histoire est son terrain favori. L'art contemporain, moins.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Zoo",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Il cherche l'enclos des dragons à chaque visite. Toujours rien.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Parc",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Un parc d'attractions, ça se discute. Un square, non.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Fête foraine",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Autos tamponneuses et pommes d'amour : de la fête, mais sans le moindre lore.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Balade",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Une balade en forêt, à condition d'y croiser un Ent. Sinon, bof.",
+    "category": "quotidien",
+    "aliases": [
+      "promenade",
+      "se promener"
+    ]
+  },
+  {
+    "word": "Librairie",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Rayon fantasy, rayon mangas, rayon BD : il y passe des heures et ressort ruiné.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Famille",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Sa famille et sa guilde : deux clans qui ne se comprennent pas toujours.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ami",
+    "chouffin": false,
+    "score": 45,
+    "reason": "« Parlez, ami, et entrez. » Le mot de passe de la Moria, et le plus beau mot de Tolkien.",
+    "category": "quotidien",
+    "aliases": [
+      "amie",
+      "pote"
+    ]
+  },
+  {
+    "word": "Copain",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Copain de guilde, de table, de convention : il en a plein, rarement dans la même ville.",
+    "category": "quotidien",
+    "aliases": [
+      "copine"
+    ]
+  },
+  {
+    "word": "Couple",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Un couple chouffin, c'est deux collections de dés qui fusionnent. Très romantique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Enfant",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il lui fera découvrir Kaamelott dès sept ans. La relève est assurée.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bébé",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Premier body « Futur Padawan » offert par tonton. Aucun libre arbitre.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Parents",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Ils ont acheté sa première console. Ils sont donc responsables de tout.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Père",
+    "chouffin": true,
+    "score": 60,
+    "reason": "« Je suis ton père. » Il ne peut plus entendre ce mot sans prendre une voix grave et un souffle rauque.",
+    "category": "quotidien",
+    "aliases": [
+      "papa"
+    ]
+  },
+  {
+    "word": "Mère",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Elle a gardé ses cartes Pokémon au grenier pendant vingt ans. Une héroïne de l'ombre.",
+    "category": "quotidien",
+    "aliases": [
+      "maman"
+    ]
+  },
+  {
+    "word": "Frère",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Celui avec qui il se disputait la manette. Un rival pour la vie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Sœur",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Elle lui a piqué sa Game Boy en 1998 et il ne l'a jamais oublié.",
+    "category": "quotidien",
+    "aliases": [
+      "soeur"
+    ]
+  },
+  {
+    "word": "Grand-mère",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Elle croit qu'il joue encore à la Nintendo. Il joue encore à la Nintendo. Elle a raison.",
+    "category": "quotidien",
+    "aliases": [
+      "mamie",
+      "mémé"
+    ]
+  },
+  {
+    "word": "Grand-père",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Celui qui lui racontait des légendes au coin du feu. Son tout premier maître du jeu.",
+    "category": "quotidien",
+    "aliases": [
+      "papi",
+      "pépé"
+    ]
+  },
+  {
+    "word": "Tonton",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Celui qui a offert la première console et qui cite Kaamelott au repas de famille : un mentor.",
+    "category": "quotidien",
+    "aliases": [
+      "oncle"
+    ]
+  },
+  {
+    "word": "Tante",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Elle offre des chaussettes à chaque anniversaire. Tonton offre des jeux. Le camp est choisi.",
+    "category": "quotidien",
+    "aliases": [
+      "tata"
+    ]
+  },
+  {
+    "word": "Cousin",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Le cousin qui avait la Nintendo 64 et le laissait jouer. Un souvenir précieux.",
+    "category": "quotidien",
+    "aliases": [
+      "cousine"
+    ]
+  },
+  {
+    "word": "Ado",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Période d'éclosion du chouffin : premier t-shirt de métal et premières parties de JdR.",
+    "category": "quotidien",
+    "aliases": [
+      "adolescent",
+      "adolescente"
+    ]
+  },
+  {
+    "word": "Voyageur",
+    "chouffin": false,
+    "score": 48,
+    "reason": "« Salutations, voyageur ! » Le PNJ de chaque village a fait de lui un voyageur éternel.",
+    "category": "quotidien",
+    "aliases": [
+      "voyageuse"
+    ]
+  },
+  {
+    "word": "Inconnu",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un inconnu encapuchonné au fond de la taverne : forcément Aragorn. Dans la vraie vie, rarement.",
+    "category": "quotidien",
+    "aliases": [
+      "inconnue"
+    ]
+  },
+  {
+    "word": "Groupe",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Groupe de JdR, groupe de raid, groupe de métal : il fait partie de trois, au minimum.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Équipe",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Chaque équipe a besoin d'un tank, d'un soigneur et de celui qui fait les blagues. C'est lui.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Princesse",
+    "chouffin": false,
+    "score": 45,
+    "reason": "« Merci Mario, mais notre princesse est dans un autre château ! » Un classique indémodable.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Rue",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Aucun lore. Sauf l'Allée des Embrumes, bien sûr.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Route",
+    "chouffin": false,
+    "score": 30,
+    "reason": "« La route se poursuit sans fin... » Bilbon la chantait. Lui la prend pour aller au Hellfest.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chemin",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Chemin de Traverse, Chemin des Rois : un chemin n'est jamais qu'un chemin dans ses livres.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pont",
+    "chouffin": true,
+    "score": 55,
+    "reason": "« Vous ne passerez pas ! » Depuis Khazad-dûm, aucun pont n'est anodin pour lui.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tour",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Les Deux Tours, la tour de Saroumane et « encore un tour » de Civilization : un mot très chargé.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Carrefour",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Dans les contes, on y croise des inconnus mystérieux. Dans la vraie vie, on attend au feu.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Quartier",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il connaît surtout le quartier de sa boutique de jeux. Le reste est brumeux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Magasin",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Une seule exception : la boutique de jeux de plateau, où on le connaît par son prénom.",
+    "category": "quotidien",
+    "aliases": [
+      "boutique"
+    ]
+  },
+  {
+    "word": "Supermarché",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il y va pour les chips et la Chouffe. Mission accomplie en sept minutes chrono.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Marché",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Le marché médiéval, oui. Le marché du dimanche matin, on verra.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Banque",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il préfère Gringotts : au moins, il y a des wagonnets et un dragon.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Poste",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Il y récupère ses colis de précommande, avec l'impatience d'un enfant.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Boulangerie",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Aucune baguette magique en vente. Il a vérifié.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Hôtel",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Pas de chambre au Poney Fringant ? Alors ça ne l'intéresse pas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pays",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il a un faible pour le pays de la Chouffe et celui des Vikings. Géographie sélective.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bonjour",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Chez lui, ça se dit « Bien le bonjour, messire ». Mais bonjour, c'est déjà poli.",
+    "category": "quotidien",
+    "aliases": [
+      "salut"
+    ]
+  },
+  {
+    "word": "Merci",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Il dit « Grand merci, noble ami ». En vrai, merci suffit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Au revoir",
+    "chouffin": false,
+    "score": 20,
+    "reason": "« Namárië », en elfique. Il le dit parfois à la boulangère, qui ne comprend pas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Oui",
+    "chouffin": false,
+    "score": 20,
+    "reason": "« C'est pas faux » est sa manière de dire oui sans avoir compris.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Non",
+    "chouffin": false,
+    "score": 25,
+    "reason": "« Noooon ! » Il le crie comme Dark Vador à la fin de l'épisode III. À chaque fois.",
+    "category": "quotidien"
+  }
+]

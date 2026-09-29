@@ -1,0 +1,909 @@
+[
+  {
+    "word": "Riche",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Riche en figurines, en dés et en cartes Magic. Le compte en banque, c'est une autre histoire.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cher",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Édition collector, figurine en résine : c'est cher, mais « c'est un investissement ».",
+    "category": "quotidien",
+    "aliases": [
+      "chère"
+    ]
+  },
+  {
+    "word": "Gratuit",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Gratuit, il télécharge. En free-to-play, il finit toujours par payer. Le paradoxe du joueur.",
+    "category": "quotidien",
+    "aliases": [
+      "gratuite"
+    ]
+  },
+  {
+    "word": "Célèbre",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Aucun intérêt en soi. Sauf si c'est le Joueur du Grenier : alors, tout change.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Normal",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Il n'a jamais été normal, et il en est fier. Le mot lui est étranger.",
+    "category": "quotidien",
+    "aliases": [
+      "normale"
+    ]
+  },
+  {
+    "word": "Chelou",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Tout ce qu'il aime paraît chelou aux autres. Et c'est réciproque.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Stylé",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Un cosplay réussi, une figurine peinte, une chope gravée : c'est stylé, et il le crie.",
+    "category": "quotidien",
+    "aliases": [
+      "stylée"
+    ]
+  },
+  {
+    "word": "Fantastique",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Littérature fantastique, bêtes fantastiques et Quatre Fantastiques : c'est exactement son rayon.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Héroïque",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Mode héroïque en raid, fantasy héroïque en lecture : il vit dans l'héroïque.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Interdit",
+    "chouffin": false,
+    "score": 45,
+    "reason": "La Forêt interdite, la Réserve de la bibliothèque : ce qui est interdit a toujours du lore.",
+    "category": "quotidien",
+    "aliases": [
+      "interdite"
+    ]
+  },
+  {
+    "word": "Seul",
+    "chouffin": false,
+    "score": 50,
+    "reason": "« C'est dangereux d'y aller seul ! Prends ça. » Zelda l'a marqué : il ne part jamais sans équipement.",
+    "category": "quotidien",
+    "aliases": [
+      "seule"
+    ]
+  },
+  {
+    "word": "Dernier",
+    "chouffin": false,
+    "score": 30,
+    "reason": "« Allez, une dernière partie. » Ce n'est jamais la dernière.",
+    "category": "quotidien",
+    "aliases": [
+      "dernière"
+    ]
+  },
+  {
+    "word": "Final",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Final Fantasy, boss final, combat final : le mot résonne fort chez lui.",
+    "category": "quotidien",
+    "aliases": [
+      "finale"
+    ]
+  },
+  {
+    "word": "Puissant",
+    "chouffin": false,
+    "score": 35,
+    "reason": "« Puissant tu es devenu. » Venant de Yoda, il le prend comme un compliment.",
+    "category": "quotidien",
+    "aliases": [
+      "puissante"
+    ]
+  },
+  {
+    "word": "Brillant",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Carte brillante, Pokémon chromatique : ce qui brille est rare, et ce qui est rare, il le veut.",
+    "category": "quotidien",
+    "aliases": [
+      "brillante"
+    ]
+  },
+  {
+    "word": "Faux",
+    "chouffin": true,
+    "score": 75,
+    "reason": "« C'est pas faux. » Le mot le plus cité de sa vie, surtout quand il n'a rien compris.",
+    "category": "quotidien",
+    "aliases": [
+      "fausse"
+    ]
+  },
+  {
+    "word": "Couleur",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il en connaît trois : noir, noir délavé et gris Gandalf.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Noir",
+    "chouffin": true,
+    "score": 65,
+    "reason": "La couleur officielle de ses t-shirts, de ses chopes et de sa garde-robe entière. Aucun autre choix.",
+    "category": "quotidien",
+    "aliases": [
+      "noire"
+    ]
+  },
+  {
+    "word": "Blanc",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Gandalf le Blanc et les Stormtroopers en armure : le blanc a ses moments de gloire.",
+    "category": "quotidien",
+    "aliases": [
+      "blanche"
+    ]
+  },
+  {
+    "word": "Gris",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Gandalf le Gris, avant le relooking. Beaucoup le préfèrent à la version blanche.",
+    "category": "quotidien",
+    "aliases": [
+      "grise"
+    ]
+  },
+  {
+    "word": "Rouge",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Potion de vie, carapace rouge de Mario Kart et sabre Sith : le rouge a sa place dans son monde.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bleu",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Sabre laser bleu, Schtroumpfs et potion de mana : un bleu très honorable.",
+    "category": "quotidien",
+    "aliases": [
+      "bleue"
+    ]
+  },
+  {
+    "word": "Vert",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Link, Yoda et Hulk : le vert est la couleur des héros discrets. Et des elfes.",
+    "category": "quotidien",
+    "aliases": [
+      "verte"
+    ]
+  },
+  {
+    "word": "Jaune",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Pikachu, la Triforce et le Chocobo : pas mal, mais pas encore chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Violet",
+    "chouffin": false,
+    "score": 38,
+    "reason": "La couleur des objets épiques dans WoW. Il la regarde avec un profond respect.",
+    "category": "quotidien",
+    "aliases": [
+      "violette"
+    ]
+  },
+  {
+    "word": "Marron",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Couleur honnête et sans lore. Même les hobbits s'habillent plus gai.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Beige",
+    "chouffin": false,
+    "score": 2,
+    "reason": "Couleur du salon minimaliste et de la déco Instagram. Aucune chance.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Doré",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Cartes brillantes et trophées : le doré attire irrésistiblement son œil de collectionneur.",
+    "category": "quotidien",
+    "aliases": [
+      "dorée"
+    ]
+  },
+  {
+    "word": "Argenté",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Couleur des armures elfiques et du mithril. Un sacré potentiel.",
+    "category": "quotidien",
+    "aliases": [
+      "argentée"
+    ]
+  },
+  {
+    "word": "Fluo",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Trop festival électro. Il préfère le noir.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pastel",
+    "chouffin": false,
+    "score": 2,
+    "reason": "Trop doux, trop Instagram. Aucune chance.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Manger",
+    "chouffin": false,
+    "score": 30,
+    "reason": "« Le gras, c'est la vie. » Manger est une activité noble, surtout en bonne compagnie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Dormir",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Il dort peu les semaines de sortie de jeu. Le reste du temps, il rattrape.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Jouer",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Jeux de rôle, de plateau, de cartes ou vidéo : pour lui, jouer n'est pas un loisir, c'est un mode de vie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lire",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Il a lu le Silmarillion en entier. Deux fois. Et il te le dira plusieurs fois.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Écrire",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des fiches de perso, des scénarios de JdR et un roman de fantasy commencé il y a dix ans.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chanter",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Il chante les openings d'animés et les chansons des nains du Hobbit. Faux, mais avec cœur.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Danser",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il ne danse pas. Sauf le headbang, qui compte comme une chorégraphie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Courir",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il ne court que dans les jeux, en maintenant la touche Maj. Dans la vraie vie, c'est non.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Marcher",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Marcher jusqu'au Mordor : trois films, neuf heures, et des pieds de hobbit. Il respecte.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Nager",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il nage comme dans les vieux jeux : en ligne droite et en paniquant. Pas chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cuisiner",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il cuisine les recettes de Zelda et du livre de cuisine officiel de Game of Thrones.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Boire",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Boire une Chouffe en débattant de lore à 2 h du matin : ça, c'est boire en chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Travailler",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Travailler pour financer ses figurines : le cycle de vie du chouffin adulte.",
+    "category": "quotidien",
+    "aliases": [
+      "bosser"
+    ]
+  },
+  {
+    "word": "Parler",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il parle beaucoup, surtout de lore. Personne ne l'arrête une fois lancé.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Écouter",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il écoute du Sabaton, du Rammstein et les OST de Final Fantasy. Il dit écouter de tout.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Regarder",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Il regarde tout en version longue. Les versions courtes sont une offense.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Penser",
+    "chouffin": false,
+    "score": 8,
+    "reason": "« Je pense, donc je suis. » Il pense surtout à la prochaine partie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Aimer",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il aime tout ce qui a des dragons, des nains ou des répliques cultes.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Détester",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il déteste les adaptations ratées. Il en tient une liste, et il l'enrichit chaque année.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Attendre",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il attend le prochain tome de sa saga préférée depuis 2011. Il a de la pratique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Partir",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Partir à l'aventure, oui. Partir en séminaire, non.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Voyager",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Il a voyagé en Terre du Milieu, à Hyrule et en Azeroth. Et une fois en Belgique, pour la Chouffe.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Conduire",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Il conduit comme dans Mario Kart, mais sans les carapaces. Heureusement.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Acheter",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il achète toujours l'édition collector. Toujours.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vendre",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Vendre sa collection ? Jamais. Le mot même le blesse.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Payer",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Loyer, factures et précommande collector : dans cet ordre, en théorie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ranger",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il range ses dés par couleur et ses figurines par faction. Le reste, beaucoup moins.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Nettoyer",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il nettoie la table avant la partie, pour protéger les fiches de perso. Rien de plus.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Dessiner",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Des dragons dans les marges, des elfes sur les cahiers : il dessine depuis l'école primaire.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Peindre",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Peindre des figurines Warhammer au pinceau fin pendant tout un samedi : un art de vivre.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Construire",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un château dans Minecraft, une armée en Lego, une maquette : il bâtit des mondes entiers.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Apprendre",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il a appris l'anglais sur WoW et l'histoire avec Nota Bene. Pédagogie alternative.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chercher",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il cherche les easter eggs, les coffres cachés et les fins alternatives. Toujours.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Trouver",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Trouver le dernier objet caché d'un jeu : la plus grande joie de sa semaine.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Gagner",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Gagner au jeu de société, c'est bien. Expliquer pendant vingt minutes pourquoi, c'est mieux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Perdre",
+    "chouffin": false,
+    "score": 25,
+    "reason": "« On ne perd pas, on apprend. » Il le dit surtout quand il perd au Blood Bowl.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Crier",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Il crie « Pour la Horde ! » en soirée. Personne ne sait pourquoi, mais tout le monde suit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Explorer",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Il explore chaque recoin des mondes ouverts avant de toucher à la quête principale. Toujours.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lancer",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Lancer les dés est un art, avec souffle porte-bonheur et gestuelle secrète.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tricher",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il ne triche jamais aux dés. Le MJ, par contre, triche en douce pour sauver les joueurs.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Débattre",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Star Wars contre Star Trek, livre contre film, Han a-t-il tiré le premier : débattre, c'est vivre.",
+    "category": "quotidien",
+    "aliases": [
+      "débat"
+    ]
+  },
+  {
+    "word": "Râler",
+    "chouffin": false,
+    "score": 50,
+    "reason": "« Le livre était mieux. » Râler sur les adaptations est son sport favori. Le seul, en fait.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Veiller",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Veiller tard pour finir la quête, le chapitre ou le raid : sa spécialité nocturne.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Raconter",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Raconter la partie de la veille, jet par jet, pendant une heure : sa grande spécialité.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Imaginer",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Il imagine des mondes, des campagnes et des personnages. Le maître du jeu sommeille en lui.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Grimper",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il grimpe partout dans Assassin's Creed. En vrai, l'escalier lui suffit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Sauter",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Mario saute depuis 1985. Tout saut est donc un hommage.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Compter",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Points de vie, pièces d'or, dés : il compte beaucoup, mais jamais ses heures de jeu.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Oublier",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il oublie tout, sauf les répliques de Kaamelott et les stats de son perso.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Finir",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Finir un jeu à 100 % : le seul objectif de vie qui compte vraiment.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Rêver",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Rêver d'un trou de hobbit en Nouvelle-Zélande, c'est son activité favorite en réunion.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Liberté",
+    "chouffin": false,
+    "score": 35,
+    "reason": "« Freedom ! » Braveheart l'a hurlé, et lui le hurle en quittant le bureau le vendredi.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Temps",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Retour vers le futur, Doctor Who et Chrono Trigger : le temps est son sujet de SF préféré.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pièce",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Pièces d'or de Mario, pièce de donjon, pièce de collection : un mot à forte valeur.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chance",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Le 20 naturel au bon moment : la chance n'existe pas, sauf aux dés. Et il y croit dur comme fer.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Hasard",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le hasard des dés décide de tout en JdR. Il le respecte autant qu'il le maudit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Destin",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Élu, prophétie, destin tracé : ses sagas préférées reposent toutes dessus.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Aventure",
+    "chouffin": true,
+    "score": 62,
+    "reason": "« L'aventure, c'est l'aventure. » Pour lui, toute sortie de chez soi est une quête.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mystère",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Il adore les mystères de lore et les théories de fans. Il en a une pour chaque saga.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Secret",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Passage secret, niveau secret, fin secrète : il ne quitte jamais un jeu sans tout trouver.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Énigme",
+    "chouffin": true,
+    "score": 58,
+    "reason": "« Qu'ai-je dans ma poche ? » Bilbon et Gollum ont fait de l'énigme un art chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pouvoir",
+    "chouffin": false,
+    "score": 50,
+    "reason": "« Un grand pouvoir implique de grandes responsabilités. » Il le sait par cœur.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Force",
+    "chouffin": true,
+    "score": 72,
+    "reason": "« Que la Force soit avec toi. » Impossible de dire ce mot sans prendre la voix d'Obi-Wan.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lumière",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Côté lumineux de la Force, sort de lumière, louange au Soleil : un grand classique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ombre",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le Royaume des ombres, les ombres du Mordor : un mot qui sent la dark fantasy.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Silence",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Il ne connaît pas le silence : il y a toujours une OST en fond.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bruit",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Bruits de dés et cris de victoire : le seul bruit qu'il apprécie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vitesse",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Sonic et le Faucon Millenium ont la vitesse dans le sang. Lui, beaucoup moins.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Énergie",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Il la tire principalement de la pizza et du café. Pas très épique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Sommeil",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Sacrifié sur l'autel des nuits blanches de raid. Il n'en parle plus.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Souvenir",
+    "chouffin": false,
+    "score": 38,
+    "reason": "La Pensine de Dumbledore lui a appris qu'un souvenir, ça se range dans une fiole.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Futur",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Retour vers le futur est son film de chevet. Il attend toujours l'hoverboard.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Passé",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Il vit dans le passé, entre Moyen Âge et années 90. Et il le vit très bien.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Avenir",
+    "chouffin": false,
+    "score": 10,
+    "reason": "L'avenir, c'est la prochaine sortie de jeu et la prochaine convention. Pas plus loin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chaos",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Warhammer en a fait une faction entière, les MJ en font un art. Le chaos est un ami fidèle.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ordre",
+    "chouffin": false,
+    "score": 35,
+    "reason": "L'Ordre du Phénix et l'Ordre Jedi : l'ordre a du lore. Dans sa chambre, c'est une autre histoire.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Équilibre",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Ramener l'équilibre dans la Force : la mission de l'Élu. Il y travaille, à son rythme.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Savoir",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Il sait tout du lore de Tolkien. Le reste, c'est de la culture générale secondaire.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Science",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Vulgarisation sur YouTube, zététique et SF : pour lui, la science est une aventure.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Culture",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Culture geek, culture G et culture de la bière belge : il est cultivé, à sa manière.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Humour",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Humour lourd, second degré et références obscures : sa marque de fabrique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Blague",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Il a une blague pour chaque situation, souvent un jeu de mots. L'auditoire est partagé.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Jeu de mots",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Plus c'est lourd, plus il est fier. Le calembour est son arme secrète.",
+    "category": "quotidien",
+    "aliases": [
+      "jeux de mots",
+      "calembour"
+    ]
+  },
+  {
+    "word": "Référence",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il en place trois par phrase et vérifie que tu les as toutes captées. Sinon, il explique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Citation",
+    "chouffin": true,
+    "score": 65,
+    "reason": "Il en a une pour chaque situation de la vie, souvent signée Arthur ou Perceval.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Réplique",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Les répliques cultes de Kaamelott sont sa deuxième langue. Il les case même en réunion.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vérité",
+    "chouffin": false,
+    "score": 20,
+    "reason": "« La vérité est ailleurs. » X-Files a laissé des traces. Sinon, concept neutre.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mensonge",
+    "chouffin": false,
+    "score": 30,
+    "reason": "« Le gâteau est un mensonge. » Portal lui a appris à se méfier des promesses de gâteau.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Paix",
+    "chouffin": false,
+    "score": 12,
+    "reason": "La paix de la Comté avant l'aventure. Agréable, mais il attend que ça bouge.",
+    "category": "quotidien"
+  }
+]

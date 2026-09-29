@@ -1,213 +1,5 @@
 [
   {
-    "word": "Lait d'avoine",
-    "chouffin": false,
-    "score": 8,
-    "reason": "Pour le latte du brunch : le chouffin ne sait même pas comment on trait une avoine.",
-    "category": "boissons"
-  },
-  {
-    "word": "Champagne",
-    "chouffin": false,
-    "score": 18,
-    "reason": "Bulles, flûtes et soirées chics : il préfère une corne d'hydromel.",
-    "category": "boissons"
-  },
-  {
-    "word": "Rosé piscine",
-    "chouffin": false,
-    "score": 4,
-    "reason": "Des glaçons dans du rosé au bord d'une piscine à Saint-Tropez : l'enfer du chouffin.",
-    "category": "boissons"
-  },
-  {
-    "word": "Prosecco",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Le champagne du brunch Instagram : aucune chance d'entrer à la taverne.",
-    "category": "boissons"
-  },
-  {
-    "word": "Hard seltzer",
-    "chouffin": false,
-    "score": 5,
-    "reason": "De l'eau pétillante alcoolisée au goût de rien : même un gobelin refuserait.",
-    "category": "boissons"
-  },
-  {
-    "word": "Frappuccino",
-    "chouffin": false,
-    "score": 10,
-    "reason": "De la chantilly avec du café caché dedans : le carburant des influenceurs.",
-    "category": "boissons"
-  },
-  {
-    "word": "Pumpkin spice latte",
-    "chouffin": false,
-    "score": 6,
-    "reason": "L'automne Instagram en une tasse : le chouffin, lui, fête Halloween en cosplay.",
-    "category": "boissons"
-  },
-  {
-    "word": "Eau de coco",
-    "chouffin": false,
-    "score": 5,
-    "reason": "La boisson des yogis sur la plage de Bali : zéro rapport avec son univers.",
-    "category": "boissons"
-  },
-  {
-    "word": "Chope",
-    "chouffin": true,
-    "score": 92,
-    "reason": "Son verre à lui : grande, lourde, idéalement en étain ou en céramique avec un dragon dessus.",
-    "category": "boissons",
-    "aliases": [
-      "choppe"
-    ]
-  },
-  {
-    "word": "Corne à boire",
-    "chouffin": true,
-    "score": 94,
-    "reason": "Boire de l'hydromel dans une corne comme un viking : il en a une accrochée au mur du salon.",
-    "category": "boissons"
-  },
-  {
-    "word": "Pinte",
-    "chouffin": true,
-    "score": 72,
-    "reason": "L'unité de mesure légale du chouffin : « on se prend une pinte ? » veut dire « on refait le monde ».",
-    "category": "boissons"
-  },
-  {
-    "word": "Mètre de bière",
-    "chouffin": true,
-    "score": 74,
-    "reason": "Dix verres alignés sur une planche : le défi de fin de soirée à la taverne.",
-    "category": "boissons"
-  },
-  {
-    "word": "Pizza",
-    "chouffin": true,
-    "score": 74,
-    "reason": "Le repas officiel des soirées JDR : il y a toujours une part collée sur une fiche de perso.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Pizza hawaïenne",
-    "chouffin": true,
-    "score": 55,
-    "reason": "L'ananas sur la pizza : trois heures de débat sur le forum, aucun consensus, beaucoup de passion.",
-    "category": "nourriture",
-    "aliases": [
-      "pizza ananas"
-    ]
-  },
-  {
-    "word": "Pizza froide",
-    "chouffin": true,
-    "score": 78,
-    "reason": "La pizza du lendemain de LAN, mangée froide au petit-déjeuner : un rituel sacré.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Chips",
-    "chouffin": true,
-    "score": 72,
-    "reason": "Le carburant des LAN : il en a toujours sur les doigts pendant les parties.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Doritos",
-    "chouffin": true,
-    "score": 85,
-    "reason": "Le combo MLG avec Mountain Dew : il en mange en rêvant de 360 no scope.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Chips au paprika",
-    "chouffin": true,
-    "score": 76,
-    "reason": "La chips des soirées jeux : le coin de la table en garde la trace orange à vie.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Pringles",
-    "chouffin": true,
-    "score": 64,
-    "reason": "Le tube parfait pour les LAN : une fois vide, il devient sa tour à dés.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Kebab",
-    "chouffin": true,
-    "score": 58,
-    "reason": "Chouffin de justesse : le repas de 2 h du matin en sortant du concert.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Tacos",
-    "chouffin": false,
-    "score": 40,
-    "reason": "Ça se discute : repas de fin de soirée, mais ce n'est pas de la cuisine de taverne.",
-    "category": "nourriture",
-    "aliases": [
-      "french tacos"
-    ]
-  },
-  {
-    "word": "Burger",
-    "chouffin": true,
-    "score": 55,
-    "reason": "Le burger triple cheddar après la LAN, oui. Le burger truffé du rooftop à 24 €, non.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Raclette",
-    "chouffin": true,
-    "score": 82,
-    "reason": "Fromage fondu en soirée JDR l'hiver : « le gras, c'est la vie », dirait Karadoc.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Tartiflette",
-    "chouffin": true,
-    "score": 76,
-    "reason": "Reblochon, lardons, patates : un plat de taverne, parfait avant une partie de 6 heures.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Fondue",
-    "chouffin": true,
-    "score": 68,
-    "reason": "Plat collectif des soirées d'hiver : celui qui perd son pain paie la tournée de Chouffe.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Nouilles instantanées",
-    "chouffin": true,
-    "score": 80,
-    "reason": "Le repas de base de l'étudiant chouffin : trois minutes chrono, entre deux parties.",
-    "category": "nourriture",
-    "aliases": [
-      "cup noodles"
-    ]
-  },
-  {
-    "word": "Ramen",
-    "chouffin": true,
-    "score": 72,
-    "reason": "Le bol de Naruto chez Ichiraku : il en commande en tenant ses baguettes comme un ninja.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Cuisse de dinde",
-    "chouffin": true,
-    "score": 94,
-    "reason": "Tenue à pleine main en fête médiévale : il mord dedans comme un roi barbare.",
-    "category": "nourriture"
-  },
-  {
     "word": "Sanglier rôti",
     "chouffin": true,
     "score": 92,
@@ -231,7 +23,7 @@
   {
     "word": "Saucisson",
     "chouffin": true,
-    "score": 70,
+    "score": 62,
     "reason": "L'apéro de la partie de JDR : le MJ en coupe des rondelles en narrant le combat.",
     "category": "nourriture"
   },
@@ -251,22 +43,15 @@
   },
   {
     "word": "Frites",
-    "chouffin": true,
-    "score": 60,
-    "reason": "Chouffin de justesse : derrière chaque frite, il y a la Belgique, et donc la Chouffe.",
-    "category": "nourriture"
-  },
-  {
-    "word": "Fricadelle",
-    "chouffin": true,
-    "score": 70,
-    "reason": "Snack de friterie belge : parfait avec une bière à Bruxelles, il en connaît la meilleure adresse.",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Ça se discute : derrière chaque frite il y a la Belgique, mais aussi la cantine du collège.",
     "category": "nourriture"
   },
   {
     "word": "Carbonade flamande",
     "chouffin": true,
-    "score": 74,
+    "score": 66,
     "reason": "Du bœuf mijoté à la bière belge : son plat préféré, et il sait enfin pourquoi.",
     "category": "nourriture",
     "aliases": [
@@ -275,16 +60,16 @@
   },
   {
     "word": "Gaufre",
-    "chouffin": true,
-    "score": 58,
-    "reason": "Chouffin de justesse : belge, donc cousine de la Chouffe. Un argument imparable.",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Belge, donc cousine lointaine de la Chouffe : un argument tiré par les cheveux. Ça se discute.",
     "category": "nourriture"
   },
   {
     "word": "Choucroute",
-    "chouffin": true,
-    "score": 56,
-    "reason": "Choucroute et bière : l'Alsace lui parle, surtout pour la chope qui va avec.",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Choucroute et bière, l'Alsace lui parle un peu : ça se discute, surtout pour la chope qui va avec.",
     "category": "nourriture"
   },
   {
@@ -313,16 +98,13 @@
     "chouffin": true,
     "score": 64,
     "reason": "Le seau géant de l'avant-première du dernier Marvel : fini avant la fin des pubs.",
-    "category": "nourriture",
-    "aliases": [
-      "popcorn"
-    ]
+    "category": "nourriture"
   },
   {
     "word": "Cacahuètes",
-    "chouffin": true,
-    "score": 54,
-    "reason": "Chouffin de justesse : le bol de l'apéro qui disparaît pendant la création des persos.",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le bol de l'apéro qui disparaît pendant la création des persos : utile, mais pas une passion.",
     "category": "nourriture",
     "aliases": [
       "cacahouete"
@@ -330,47 +112,37 @@
   },
   {
     "word": "Pâtes au beurre",
-    "chouffin": true,
-    "score": 60,
-    "reason": "Chouffin de justesse : le plat de l'étudiant qui a mis tout son budget dans les figurines.",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Le plat de l'étudiant qui a mis tout son budget dans les figurines : ça se discute, c'est surtout triste.",
     "category": "nourriture"
   },
   {
     "word": "Lasagnes",
-    "chouffin": true,
-    "score": 56,
-    "reason": "Chouffin de justesse, par solidarité avec Garfield, qui n'aime pas les lundis non plus.",
-    "category": "nourriture",
-    "aliases": [
-      "lasagne"
-    ]
+    "chouffin": false,
+    "score": 42,
+    "reason": "Par solidarité avec Garfield, qui n'aime pas les lundis non plus. Ça se discute.",
+    "category": "nourriture"
   },
   {
     "word": "Pocky",
     "chouffin": true,
-    "score": 70,
+    "score": 61,
     "reason": "Les bâtonnets vus dans chaque animé : il les mange un par un devant One Piece.",
     "category": "nourriture"
   },
   {
     "word": "Onigiri",
     "chouffin": true,
-    "score": 72,
+    "score": 60,
     "reason": "La boule de riz des animés : il essaie d'en faire un triangle, ça finit en patate.",
     "category": "nourriture"
   },
   {
-    "word": "Bento",
-    "chouffin": true,
-    "score": 64,
-    "reason": "La boîte-repas des animés : il en prépare un pour la convention, la photo est ratée.",
-    "category": "nourriture"
-  },
-  {
     "word": "Mochi",
-    "chouffin": true,
-    "score": 54,
-    "reason": "Pâte de riz japonaise : chouffin de justesse, grâce à ses racines d'animé.",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Pâte de riz vue dans les animés : ça se discute, c'est surtout devenu un dessert d'Instagram.",
     "category": "nourriture"
   },
   {
@@ -495,10 +267,7 @@
     "chouffin": false,
     "score": 24,
     "reason": "Sirop d'érable et fruits rouges au brunch : pas chouffin, sauf dans un jeu vidéo.",
-    "category": "nourriture",
-    "aliases": [
-      "pancake"
-    ]
+    "category": "nourriture"
   },
   {
     "word": "Œufs bénédicte",
@@ -507,8 +276,7 @@
     "reason": "Le plat signature du brunch : il ne sait même pas prononcer « sauce hollandaise ».",
     "category": "nourriture",
     "aliases": [
-      "oeufs benedicte",
-      "oeuf benedicte"
+      "oeufs benedicte"
     ]
   },
   {
@@ -560,7 +328,6 @@
     "reason": "Le goûter des accros à la salle : il tient une nuit entière avec des Doritos.",
     "category": "nourriture",
     "aliases": [
-      "barre proteinee",
       "barre de proteines"
     ]
   },
@@ -576,10 +343,7 @@
     "chouffin": false,
     "score": 4,
     "reason": "Ne pas manger pendant 16 heures, volontairement : impensable pour un chouffin.",
-    "category": "nourriture",
-    "aliases": [
-      "jeune intermittent"
-    ]
+    "category": "nourriture"
   },
   {
     "word": "Menu dégustation",
@@ -587,6 +351,96 @@
     "score": 6,
     "reason": "Sept assiettes minuscules et une addition géante : il cherche désespérément le sanglier.",
     "category": "nourriture"
+  },
+  {
+    "word": "Tartare de saumon",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Poisson cru à l'aneth sur une ardoise : il cherche désespérément la cuisse de dinde.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Ceviche",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Poisson mariné au citron vert en bol de brunch : aucun rapport avec une taverne.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Gaspacho",
+    "chouffin": false,
+    "score": 12,
+    "reason": "De la soupe froide, volontairement : une hérésie pour un amateur de ragoût.",
+    "category": "nourriture",
+    "aliases": [
+      "gazpacho"
+    ]
+  },
+  {
+    "word": "Wrap",
+    "chouffin": false,
+    "score": 22,
+    "reason": "La galette roulée de la pause déj en open space : pratique, mais sans aucune âme.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Jambon-beurre",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Ça se discute : le sandwich de la route du Hellfest, mais aussi celui de tout le monde.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Croque-monsieur",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Ça se discute : un classique de brasserie, mais aucune quête n'a jamais eu un croque pour enjeu.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Hot-dog",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Ça se discute : le snack des stands de festival, mais plus fête foraine que taverne.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Tiramisu",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Le dessert du restau italien du dimanche : bon, mais sans épée ni dragon.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Foie gras",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Le luxe des repas de fêtes : il préfère la cuisse de dinde tenue à pleine main.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Huîtres",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Des coquillages crus avec du citron : l'antithèse du ragoût de taverne.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Légumes vapeur",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Le plat préféré des coachs sportifs : aucun aventurier n'a jamais repris des forces avec ça.",
+    "category": "nourriture"
+  },
+  {
+    "word": "Donut",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Ça se discute : Homer Simpson en a fait un totem, mais c'est surtout le goûter de tout le monde.",
+    "category": "nourriture",
+    "aliases": [
+      "doughnut"
+    ]
   },
   {
     "word": "T-shirt de groupe de métal",
@@ -607,8 +461,7 @@
     "reason": "Un t-shirt avec une blague sur Pikachu ou une Triforce : sa tenue de soirée comme de mariage.",
     "category": "mode-style",
     "aliases": [
-      "tee-shirt geek",
-      "tshirt geek"
+      "tee-shirt geek"
     ]
   },
   {
@@ -641,15 +494,8 @@
   {
     "word": "Chapeau",
     "chouffin": true,
-    "score": 70,
+    "score": 63,
     "reason": "Porté « pour l'originalité » : il pense ressembler à Gandalf, il ressemble à un chouffin.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Chapeau de paille",
-    "chouffin": true,
-    "score": 76,
-    "reason": "Acheté à Japan Expo, il se prend pour Luffy : « Je serai le roi des pirates ! »",
     "category": "mode-style"
   },
   {
@@ -715,17 +561,10 @@
     ]
   },
   {
-    "word": "Coupe viking",
-    "chouffin": true,
-    "score": 82,
-    "reason": "Côtés rasés, tresse au sommet : il a montré une photo de Ragnar Lothbrok à son coiffeur.",
-    "category": "mode-style"
-  },
-  {
     "word": "Rouflaquettes",
-    "chouffin": true,
-    "score": 58,
-    "reason": "Chouffin de justesse : un hommage à Wolverine que personne autour de lui n'a compris.",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un hommage à Wolverine que personne autour de lui n'a compris : ça se discute.",
     "category": "mode-style"
   },
   {
@@ -733,10 +572,7 @@
     "chouffin": true,
     "score": 78,
     "reason": "Les doigts libres pour jouer, les mains au chaud pour la LAN : il y voit du génie.",
-    "category": "mode-style",
-    "aliases": [
-      "mitaine"
-    ]
+    "category": "mode-style"
   },
   {
     "word": "Cape",
@@ -764,16 +600,6 @@
     "category": "mode-style"
   },
   {
-    "word": "Écharpe Gryffondor",
-    "chouffin": true,
-    "score": 86,
-    "reason": "Rouge et or : il se dit Gryffondor, mais le Choixpeau aurait dit Poufsouffle.",
-    "category": "mode-style",
-    "aliases": [
-      "echarpe harry potter"
-    ]
-  },
-  {
     "word": "Cosplay",
     "chouffin": true,
     "score": 92,
@@ -781,19 +607,9 @@
     "category": "mode-style"
   },
   {
-    "word": "Kigurumi",
-    "chouffin": true,
-    "score": 78,
-    "reason": "Un pyjama Pikachu une pièce : il le porte en convention et, secrètement, à la maison.",
-    "category": "mode-style",
-    "aliases": [
-      "pyjama pikachu"
-    ]
-  },
-  {
     "word": "Sweat à capuche",
     "chouffin": true,
-    "score": 72,
+    "score": 64,
     "reason": "Noir, avec un logo de jeu ou de groupe : il ne l'enlève que l'été, et encore.",
     "category": "mode-style",
     "aliases": [
@@ -814,7 +630,7 @@
   {
     "word": "Chemise de bûcheron",
     "chouffin": true,
-    "score": 70,
+    "score": 62,
     "reason": "À carreaux et en flanelle : grunge et bûcheron de Skyrim à la fois.",
     "category": "mode-style",
     "aliases": [
@@ -840,10 +656,177 @@
     ]
   },
   {
-    "word": "Perfecto",
+    "word": "Doc Martens",
     "chouffin": true,
     "score": 68,
-    "reason": "La veste en cuir du rockeur : chouffin de justesse, surtout avec un patch Motörhead dans le dos.",
+    "reason": "Les bottes du métalleux : il les porte depuis 12 ans, indestructibles comme lui.",
+    "category": "mode-style",
+    "aliases": [
+      "dr martens"
+    ]
+  },
+  {
+    "word": "Bracelet clouté",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Porté au Hellfest avec des clous de 3 cm : il ne peut plus se gratter le nez sans danger.",
+    "category": "mode-style",
+    "aliases": [
+      "bracelet a clous"
+    ]
+  },
+  {
+    "word": "Pendentif Mjöllnir",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Le marteau de Thor autour du cou : il jure être digne de le soulever, contrairement à toi.",
+    "category": "mode-style",
+    "aliases": [
+      "pendentif marteau de thor"
+    ]
+  },
+  {
+    "word": "Bijoux elfiques",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Feuilles d'argent et pierres de lune : il les achète en foire médiévale « pour offrir », jure-t-il.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Bague unique",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Une réplique de l'Anneau unique au bout d'une chaîne : il la regarde en murmurant « mon précieux ».",
+    "category": "mode-style"
+  },
+  {
+    "word": "Chevalière",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Il y graverait bien le blason de sa maison de Game of Thrones, mais c'est surtout un bijou de notaire.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Tatouage runique",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Des runes nordiques sur l'avant-bras : il te les traduit, que tu le demandes ou non.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Lunettes rondes",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Façon Harry Potter : ça se discute, il ne manque que la cicatrice, et un peu de magie.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Nœud papillon",
+    "chouffin": false,
+    "score": 44,
+    "reason": "« Les nœuds papillon, c'est cool », dit le Docteur. Au mariage du cousin, ça se discute.",
+    "category": "mode-style",
+    "aliases": [
+      "noeud papillon",
+      "noeud pap"
+    ]
+  },
+  {
+    "word": "Short cargo",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Six poches, dont une pour les dés : pratique, mais ça se discute, même en convention.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Chaussettes dans les sandales",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Un choix de confort qu'il défend avec la mauvaise foi d'un paladin.",
+    "category": "mode-style",
+    "aliases": [
+      "chaussettes sandales"
+    ]
+  },
+  {
+    "word": "Crocs",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Ça se discute : pratiques pour trois jours de convention, mais même le chouffin a ses limites.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Sneakers de luxe",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Des baskets à 900 € qu'on n'ose pas salir : lui fait la fosse en Doc Martens.",
+    "category": "mode-style",
+    "aliases": [
+      "baskets de luxe"
+    ]
+  },
+  {
+    "word": "Sac Louis Vuitton",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Un monogramme à 2 000 € : de quoi s'offrir 400 Chouffe. Aucun sens pour lui.",
+    "category": "mode-style",
+    "aliases": [
+      "louis vuitton",
+      "lv",
+      "sac lv"
+    ]
+  },
+  {
+    "word": "Gucci",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Du luxe logotypé partout : l'exact opposé du t-shirt de groupe à 25 € du Hellfest.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Rolex",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Une montre à 10 000 € : le chouffin lit l'heure sur sa Game Boy, merci.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Costume slim",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Cintré et trop court aux chevilles : la tenue de l'afterwork, pas de la taverne.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Lunettes de soleil de marque",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Portées en intérieur pour la photo : il préfère une cape d'invisibilité.",
+    "category": "mode-style",
+    "aliases": [
+      "lunettes de marque"
+    ]
+  },
+  {
+    "word": "Manucure",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Des ongles parfaits : il préfère ses doigts tachés de peinture à figurines.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Extensions de cils",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Des cils XXL d'influenceur : même un elfe ne pousse pas le raffinement aussi loin.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Contouring",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Trois teintes de fond de teint pour sculpter une joue : pas chouffin, sauf pour un cosplay d'orc.",
     "category": "mode-style"
   }
 ]

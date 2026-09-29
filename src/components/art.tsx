@@ -3,7 +3,7 @@
  * Clins d'œil génériques aux codes 2010-2015 (lunettes pixel, hitmarker, chips, canette).
  */
 
-import type { ReactElement, SVGProps } from "react";
+import { useId, type ReactElement, type SVGProps } from "react";
 
 type PixelPalette = Record<string, string>;
 
@@ -136,33 +136,29 @@ export function Chip(props: SVGProps<SVGSVGElement>) {
 
 /** Canette de soda fluo sans marque. */
 export function SodaCan(props: SVGProps<SVGSVGElement>) {
+  const id = useId();
+  const body = `${id}-body`;
+  const metal = `${id}-metal`;
   return (
     <svg viewBox="0 0 40 72" aria-hidden="true" {...props}>
       <defs>
-        <linearGradient id="can-body" x1="0" x2="1">
+        <linearGradient id={body} x1="0" x2="1">
           <stop offset="0" stopColor="#5f9f00" />
           <stop offset="0.35" stopColor="#d6ff6a" />
           <stop offset="0.6" stopColor="#b6ff2e" />
           <stop offset="1" stopColor="#4f8a00" />
         </linearGradient>
-        <linearGradient id="can-metal" x1="0" x2="1">
+        <linearGradient id={metal} x1="0" x2="1">
           <stop offset="0" stopColor="#8a8a8a" />
           <stop offset="0.4" stopColor="#f2f2f2" />
           <stop offset="1" stopColor="#7a7a7a" />
         </linearGradient>
       </defs>
-      <rect x="3" y="6" width="34" height="60" rx="6" fill="url(#can-body)" stroke="#1d3300" strokeWidth={2} />
-      <rect x="5" y="2" width="30" height="8" rx="4" fill="url(#can-metal)" stroke="#333" strokeWidth={1.5} />
-      <rect x="5" y="62" width="30" height="8" rx="4" fill="url(#can-metal)" stroke="#333" strokeWidth={1.5} />
+      <rect x="3" y="6" width="34" height="60" rx="6" fill={`url(#${body})`} stroke="#1d3300" strokeWidth={2} />
+      <rect x="5" y="2" width="30" height="8" rx="4" fill={`url(#${metal})`} stroke="#333" strokeWidth={1.5} />
+      <rect x="5" y="62" width="30" height="8" rx="4" fill={`url(#${metal})`} stroke="#333" strokeWidth={1.5} />
       <rect x="3" y="24" width="34" height="22" fill="#0e0a16" opacity={0.85} />
-      <text
-        x="20"
-        y="40"
-        textAnchor="middle"
-        fontFamily="Impact, 'Arial Narrow', sans-serif"
-        fontSize="13"
-        fill="#b6ff2e"
-      >
+      <text x="20" y="40" textAnchor="middle" fontFamily="Impact, 'Arial Narrow', sans-serif" fontSize="13" fill="#b6ff2e">
         FLUO
       </text>
     </svg>

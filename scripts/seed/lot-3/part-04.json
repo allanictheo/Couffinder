@@ -1,216 +1,5 @@
 [
   {
-    "word": "Doc Martens",
-    "chouffin": true,
-    "score": 76,
-    "reason": "Les bottes du métalleux : il les porte depuis 12 ans, indestructibles comme lui.",
-    "category": "mode-style",
-    "aliases": [
-      "dr martens"
-    ]
-  },
-  {
-    "word": "Bracelet clouté",
-    "chouffin": true,
-    "score": 84,
-    "reason": "Porté au Hellfest avec des clous de 3 cm : il ne peut plus se gratter le nez sans danger.",
-    "category": "mode-style",
-    "aliases": [
-      "bracelet a clous"
-    ]
-  },
-  {
-    "word": "Chaîne de portefeuille",
-    "chouffin": true,
-    "score": 72,
-    "reason": "Une chaîne qui pend à la poche : on l'entend arriver comme un fantôme de donjon.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Corpse paint",
-    "chouffin": true,
-    "score": 80,
-    "reason": "Le maquillage noir et blanc du black metal : il l'a tenté une fois à Halloween, sa mère a crié.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Pendentif Mjöllnir",
-    "chouffin": true,
-    "score": 93,
-    "reason": "Le marteau de Thor autour du cou : il jure être digne de le soulever, contrairement à toi.",
-    "category": "mode-style",
-    "aliases": [
-      "pendentif marteau de thor"
-    ]
-  },
-  {
-    "word": "Bijoux elfiques",
-    "chouffin": true,
-    "score": 86,
-    "reason": "Feuilles d'argent et pierres de lune : il les achète en foire médiévale « pour sa copine ».",
-    "category": "mode-style",
-    "aliases": [
-      "bijou elfique"
-    ]
-  },
-  {
-    "word": "Bague unique",
-    "chouffin": true,
-    "score": 88,
-    "reason": "Une réplique de l'Anneau unique au bout d'une chaîne : il la regarde en murmurant « mon précieux ».",
-    "category": "mode-style"
-  },
-  {
-    "word": "Chevalière",
-    "chouffin": true,
-    "score": 60,
-    "reason": "Chouffin de justesse : il y a fait graver le blason de sa maison de Game of Thrones.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Tatouage runique",
-    "chouffin": true,
-    "score": 86,
-    "reason": "Des runes nordiques sur l'avant-bras : il te les traduit, que tu le demandes ou non.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Lunettes rondes",
-    "chouffin": true,
-    "score": 62,
-    "reason": "Façon Harry Potter : chouffin de justesse, il ne manque que la cicatrice.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Nœud papillon",
-    "chouffin": true,
-    "score": 56,
-    "reason": "Parce que « les nœuds papillon, c'est cool », comme dit le Docteur. Chouffin de justesse.",
-    "category": "mode-style",
-    "aliases": [
-      "noeud papillon",
-      "noeud pap"
-    ]
-  },
-  {
-    "word": "Pin's",
-    "chouffin": true,
-    "score": 70,
-    "reason": "Sa veste en est couverte : un pin's par convention, un par jeu, un par série.",
-    "category": "mode-style",
-    "aliases": [
-      "pins"
-    ]
-  },
-  {
-    "word": "Short cargo",
-    "chouffin": true,
-    "score": 56,
-    "reason": "Chouffin de justesse : six poches, dont une pour les dés, une pour les cartes, une pour les chips.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Chaussettes dans les sandales",
-    "chouffin": true,
-    "score": 60,
-    "reason": "Un choix de confort qu'il défend avec la mauvaise foi d'un paladin.",
-    "category": "mode-style",
-    "aliases": [
-      "chaussettes sandales"
-    ]
-  },
-  {
-    "word": "Look gothique",
-    "chouffin": true,
-    "score": 66,
-    "reason": "Noir de la tête aux pieds, argent partout : chouffin de justesse, cousin sombre du métalleux.",
-    "category": "mode-style",
-    "aliases": [
-      "style gothique"
-    ]
-  },
-  {
-    "word": "Crocs",
-    "chouffin": false,
-    "score": 42,
-    "reason": "Ça se discute : pratiques pour trois jours de convention, mais même le chouffin a ses limites.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Sneakers de luxe",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Des baskets à 900 € qu'on n'ose pas salir : lui fait la fosse en Doc Martens.",
-    "category": "mode-style",
-    "aliases": [
-      "baskets de luxe"
-    ]
-  },
-  {
-    "word": "Sac Louis Vuitton",
-    "chouffin": false,
-    "score": 3,
-    "reason": "Un monogramme à 2 000 € : de quoi s'offrir 400 Chouffe. Aucun sens pour lui.",
-    "category": "mode-style",
-    "aliases": [
-      "louis vuitton",
-      "lv",
-      "sac lv"
-    ]
-  },
-  {
-    "word": "Gucci",
-    "chouffin": false,
-    "score": 4,
-    "reason": "Du luxe logotypé partout : l'exact opposé du t-shirt de groupe à 25 € du Hellfest.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Rolex",
-    "chouffin": false,
-    "score": 6,
-    "reason": "Une montre à 10 000 € : le chouffin lit l'heure sur sa Game Boy, merci.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Costume slim",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Cintré et trop court aux chevilles : la tenue de l'afterwork, pas de la taverne.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Lunettes de soleil de marque",
-    "chouffin": false,
-    "score": 8,
-    "reason": "Portées en intérieur pour la photo : il préfère une cape d'invisibilité.",
-    "category": "mode-style",
-    "aliases": [
-      "lunettes de marque"
-    ]
-  },
-  {
-    "word": "Manucure",
-    "chouffin": false,
-    "score": 8,
-    "reason": "Des ongles parfaits : il préfère ses doigts tachés de peinture à figurines.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Extensions de cils",
-    "chouffin": false,
-    "score": 4,
-    "reason": "Des cils d'influenceuse : même un elfe ne pousse pas le raffinement aussi loin.",
-    "category": "mode-style"
-  },
-  {
-    "word": "Contouring",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Trois teintes de fond de teint pour sculpter une joue : pas chouffin, sauf pour un cosplay d'orc.",
-    "category": "mode-style"
-  },
-  {
     "word": "Doudoune sans manches",
     "chouffin": false,
     "score": 8,
@@ -229,20 +18,14 @@
     "chouffin": false,
     "score": 14,
     "reason": "Le sac en toile de l'épicerie bio : pas chouffin, sauf s'il est à l'effigie de Kaamelott.",
-    "category": "mode-style",
-    "aliases": [
-      "totebag"
-    ]
+    "category": "mode-style"
   },
   {
     "word": "Style hipster",
     "chouffin": false,
     "score": 16,
     "reason": "Bonnet en juillet et vinyle sous le bras : un chouffin qui aurait mal tourné chez le barista.",
-    "category": "mode-style",
-    "aliases": [
-      "hipster"
-    ]
+    "category": "mode-style"
   },
   {
     "word": "Streetwear",
@@ -269,6 +52,93 @@
     "category": "mode-style"
   },
   {
+    "word": "Mocassins",
+    "chouffin": false,
+    "score": 12,
+    "reason": "La chaussure du déjeuner d'affaires : impossible de faire un pogo avec ça aux pieds.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Chemise en lin",
+    "chouffin": false,
+    "score": 12,
+    "reason": "La chemise des vacances à Saint-Tropez : trop blanche, trop froissée, zéro logo de groupe.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Marinière",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Bretonne, certes, mais surtout parisienne : ça ne vaudra jamais un t-shirt de groupe.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Casquette",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Pas chouffin : il préfère le fedora, pour l'originalité, bien sûr.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Survêtement",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Pas chouffin : c'est la tenue du dimanche canapé, pas celle de la convention.",
+    "category": "mode-style",
+    "aliases": [
+      "survet"
+    ]
+  },
+  {
+    "word": "Tatouage minimaliste",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Une petite ligne fine sur le poignet : il préfère des runes sur tout l'avant-bras.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Sac banane",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Ça se discute : pratique en festival pour les jetons, mais tellement hipster.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Béret",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Le chapeau des clichés parisiens : l'originalité, pour lui, c'est le fedora.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Chapeau panama",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Le chapeau de Roland-Garros et des vacances chics : trop blanc pour un métalleux.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Piercing",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Ça se discute : très présent dans la fosse du Hellfest, mais aussi chez tout le monde.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Maillot de foot",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Floqué au nom d'un joueur : il préfère le maillot de son équipe de Blood Bowl.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Parfum de luxe",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Un flacon à 150 € : il préfère l'odeur du vieux parchemin et de la bière belge.",
+    "category": "mode-style"
+  },
+  {
     "word": "Catch",
     "chouffin": true,
     "score": 94,
@@ -291,16 +161,6 @@
     "chouffin": true,
     "score": 90,
     "reason": "La grande nuit du catch : il la regarde en direct à 3 h du matin, Chouffe en main.",
-    "category": "sport",
-    "aliases": [
-      "wrestle mania"
-    ]
-  },
-  {
-    "word": "Royal Rumble",
-    "chouffin": true,
-    "score": 85,
-    "reason": "Trente catcheurs, un ring et une passion inexpliquée : il a déjà fait son pronostic.",
     "category": "sport"
   },
   {
@@ -322,9 +182,9 @@
   },
   {
     "word": "The Rock",
-    "chouffin": true,
-    "score": 62,
-    "reason": "Chouffin de justesse : légende du catch avant Hollywood, son sourcil levé est un mème éternel.",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Légende du catch devenue star de blockbusters : ça se discute, son sourcil levé reste un mème éternel.",
     "category": "sport",
     "aliases": [
       "dwayne johnson"
@@ -338,23 +198,9 @@
     "category": "sport"
   },
   {
-    "word": "Batista",
-    "chouffin": true,
-    "score": 80,
-    "reason": "L'Animal du catch devenu Drax dans les Gardiens de la Galaxie : le crossover parfait.",
-    "category": "sport"
-  },
-  {
-    "word": "Lucha libre",
-    "chouffin": true,
-    "score": 80,
-    "reason": "Masques colorés et sauts depuis la troisième corde : le catch avec panache, il adore.",
-    "category": "sport"
-  },
-  {
     "word": "Escrime",
     "chouffin": true,
-    "score": 78,
+    "score": 69,
     "reason": "Il pratique pour se sentir mousquetaire ou Jedi, selon l'humeur du jour.",
     "category": "sport"
   },
@@ -384,13 +230,6 @@
     "chouffin": true,
     "score": 88,
     "reason": "Il tire comme Legolas ou Hawkeye, dans sa tête. En vrai, dans le mur.",
-    "category": "sport"
-  },
-  {
-    "word": "Tir à l'arbalète",
-    "chouffin": true,
-    "score": 80,
-    "reason": "Une arme de siège miniature : il a vu Van Helsing et rêve d'en tenir une.",
     "category": "sport"
   },
   {
@@ -430,7 +269,7 @@
   {
     "word": "Kendo",
     "chouffin": true,
-    "score": 76,
+    "score": 67,
     "reason": "Le sabre japonais en armure : il se prend pour le samouraï de son animé préféré.",
     "category": "sport"
   },
@@ -452,7 +291,7 @@
     "word": "Highland games",
     "chouffin": true,
     "score": 85,
-    "reason": "Lancer de tronc, kilt et cornemuse : le seul sport où il encourage des Écossais en jupe.",
+    "reason": "Lancer de tronc, kilt et cornemuse : le sport olympique du Valhalla, selon lui.",
     "category": "sport",
     "aliases": [
       "jeux des highlands",
@@ -460,34 +299,24 @@
     ]
   },
   {
-    "word": "Strongman",
-    "chouffin": true,
-    "score": 68,
-    "reason": "Soulever des pierres et tirer des camions : chouffin de justesse, très viking dans l'esprit.",
-    "category": "sport"
-  },
-  {
     "word": "Bras de fer",
     "chouffin": true,
-    "score": 70,
+    "score": 65,
     "reason": "Le sport officiel de la taverne : il y défie tout le monde après la deuxième Chouffe.",
     "category": "sport"
   },
   {
     "word": "Fléchettes",
     "chouffin": true,
-    "score": 72,
+    "score": 64,
     "reason": "Le jeu du pub irlandais : il vise le 20, touche le mur, et jure que c'était voulu.",
-    "category": "sport",
-    "aliases": [
-      "flechette"
-    ]
+    "category": "sport"
   },
   {
     "word": "Billard",
-    "chouffin": true,
-    "score": 56,
-    "reason": "Chouffin de justesse : la table du fond du bar, les bières sur le rebord, des parties interminables.",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La table du fond du bar, les bières sur le rebord : ça se discute, c'est plus bar-tabac que taverne.",
     "category": "sport"
   },
   {
@@ -506,9 +335,9 @@
   },
   {
     "word": "Mölkky",
-    "chouffin": true,
-    "score": 64,
-    "reason": "Des quilles finlandaises en bois : il y joue en festival en l'appelant « un jeu viking ».",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Des quilles finlandaises : il l'appelle « un jeu viking », mais c'est surtout le jeu des campings.",
     "category": "sport"
   },
   {
@@ -520,16 +349,16 @@
   },
   {
     "word": "Karaté",
-    "chouffin": true,
-    "score": 56,
-    "reason": "Chouffin de justesse : Karate Kid, Dragon Ball et un kimono devenu trop petit en 2006.",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Karate Kid, Dragon Ball et un kimono devenu trop petit en 2006 : ça se discute.",
     "category": "sport"
   },
   {
     "word": "Kung-fu",
-    "chouffin": true,
-    "score": 60,
-    "reason": "Il a vu tous les films de Bruce Lee et Kung Fu Panda : il ne sait pas en faire, mais il y croit.",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Il a vu tous les Bruce Lee et Kung Fu Panda : il ne sait pas en faire, mais il y croit. Ça se discute.",
     "category": "sport"
   },
   {
@@ -558,10 +387,7 @@
     "chouffin": true,
     "score": 80,
     "reason": "Il ne joue plus en compétition, mais regarde toutes les finales de League of Legends.",
-    "category": "sport",
-    "aliases": [
-      "e-sport"
-    ]
+    "category": "sport"
   },
   {
     "word": "CrossFit",
@@ -624,9 +450,9 @@
   },
   {
     "word": "Randonnée",
-    "chouffin": true,
-    "score": 60,
-    "reason": "La Communauté a fait Fondcombe-Mordor à pied : chouffin de justesse, pour le lore.",
+    "chouffin": false,
+    "score": 42,
+    "reason": "La Communauté a fait Fondcombe-Mordor à pied, lui préfère le covoiturage. Ça se discute.",
     "category": "sport",
     "aliases": [
       "rando"
@@ -725,10 +551,7 @@
     "chouffin": false,
     "score": 5,
     "reason": "Le sport des cadres en congés : il préfère rester sur la terre ferme, en Terre du Milieu.",
-    "category": "sport",
-    "aliases": [
-      "kite surf"
-    ]
+    "category": "sport"
   },
   {
     "word": "Hyrox",
@@ -746,16 +569,102 @@
   },
   {
     "word": "Paintball",
-    "chouffin": true,
-    "score": 62,
-    "reason": "Chouffin de justesse : il se croit dans un jeu de tir, jusqu'au premier impact.",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Il se croit dans un jeu de tir jusqu'au premier impact : ça se discute, beaucoup de bleus.",
     "category": "sport"
   },
   {
     "word": "Airsoft",
     "chouffin": true,
-    "score": 74,
+    "score": 63,
     "reason": "Répliques et tenues tactiques : il vit ses jeux de guerre, avec du lore inventé en prime.",
+    "category": "sport"
+  },
+  {
+    "word": "Ping-pong",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Ça se discute : la table au sous-sol de la LAN, mais pas une passion à 2 h du matin.",
+    "category": "sport",
+    "aliases": [
+      "tennis de table"
+    ]
+  },
+  {
+    "word": "Badminton",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le sport du mercredi au collège : pas chouffin, même avec un volant en forme de Vif d'or.",
+    "category": "sport"
+  },
+  {
+    "word": "Beach-volley",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Plage, maillots et abdos : l'antithèse de la LAN party.",
+    "category": "sport"
+  },
+  {
+    "word": "Natation",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Des longueurs à la piscine municipale : il préfère explorer les temples de l'eau de Zelda.",
+    "category": "sport"
+  },
+  {
+    "word": "Cyclisme",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Lycra et cols de montagne : il ne pédale que dans Mario Kart.",
+    "category": "sport"
+  },
+  {
+    "word": "Ski",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Combinaison fluo et forfait à 60 € : il préfère la chaleur d'une taverne au pied des pistes.",
+    "category": "sport"
+  },
+  {
+    "word": "Snowboard",
+    "chouffin": false,
+    "score": 12,
+    "reason": "La glisse version sports extrêmes : pas assez de lore, trop de sauts périlleux.",
+    "category": "sport"
+  },
+  {
+    "word": "Équitation",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Ça se discute : les chevaliers montaient à cheval, mais le club hippique du dimanche, bof.",
+    "category": "sport"
+  },
+  {
+    "word": "Handball",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Le sport qu'on faisait en EPS : pas chouffin, aucun souvenir épique.",
+    "category": "sport",
+    "aliases": [
+      "hand"
+    ]
+  },
+  {
+    "word": "Stand up paddle",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Debout sur une planche en été à Biarritz : le chouffin, lui, préfère les drakkars.",
+    "category": "sport",
+    "aliases": [
+      "paddle"
+    ]
+  },
+  {
+    "word": "Marathon",
+    "chouffin": false,
+    "score": 12,
+    "reason": "42 km à pied sans raison : même Frodon aurait appelé un aigle.",
     "category": "sport"
   },
   {
@@ -836,13 +745,6 @@
     "category": "loisirs"
   },
   {
-    "word": "Collection de cartes",
-    "chouffin": true,
-    "score": 80,
-    "reason": "Des classeurs de cartes rares : il connaît la cote de chacune, pas celle de sa voiture.",
-    "category": "loisirs"
-  },
-  {
     "word": "Brassage de bière",
     "chouffin": true,
     "score": 88,
@@ -860,17 +762,59 @@
     "category": "loisirs"
   },
   {
-    "word": "Forge",
-    "chouffin": true,
-    "score": 82,
-    "reason": "Il a forgé un couteau en stage et se prend depuis pour le forgeron de Blancherive.",
-    "category": "loisirs"
-  },
-  {
     "word": "Arme en mousse",
     "chouffin": true,
     "score": 90,
     "reason": "Épées, haches et boucliers en latex : l'arsenal du GN, rangé dans son salon.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Reconstitution historique",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Camps médiévaux, tentes en toile et vraies cottes de mailles : il vit en 1350 chaque week-end.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Visite de château fort",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Il explique les mâchicoulis à tout le groupe sans qu'on le lui demande. Avec passion.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Marathon de films",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le Seigneur des Anneaux en version longue, 11 h 30 d'affilée : c'est son dimanche idéal.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Binge-watching",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Une saison de The Witcher en une nuit « pour le lore » : ça se discute, tout le monde le fait.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Avant-première",
+    "chouffin": true,
+    "score": 69,
+    "reason": "En cosplay, 3 h avant l'ouverture : il a vu le dernier Star Wars avant tout le monde.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Blind test",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Il reconnaît n'importe quelle OST de jeu vidéo en 2 secondes : imbattable, insupportable.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Pub quiz",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Imbattable sur Tolkien, perdu sur la mode : chouffin, surtout avec une pinte.",
     "category": "loisirs"
   }
 ]

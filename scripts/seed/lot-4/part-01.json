@@ -1,0 +1,863 @@
+[
+  {
+    "word": "Lundi",
+    "chouffin": false,
+    "score": 3,
+    "reason": "L'anti-chouffin absolu : pas de raid, pas de partie, juste un open space et un café tiède.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mardi",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Un jour sans relief. Sauf les semaines où le raid de la guilde tombe le mardi : là, tout change.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mercredi",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Sorties ciné, après-midi dessins animés, souvenirs du Club Dorothée : la nostalgie a un jour préféré.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Jeudi",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Thursday, le jour de Thor. Il te le rappellera marteau imaginaire en main, mais ça reste un jour de semaine.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vendredi",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Presque. Le vrai moment sacré commence à 20 h, avec les dés et les pizzas : ça s'appelle le vendredi soir.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vendredi soir",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Pizza, dés, fiches de perso froissées et MJ en retard : le rituel hebdomadaire du chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Samedi",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Grasse mat, convention si on a de la chance, sinon courses. Du potentiel, souvent mal exploité.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Dimanche",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Journée canapé et débrief de la partie de la veille. Puis l'angoisse du lundi guette, même les héros.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Week-end",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Deux jours pour finir un jeu de 120 heures. Il y croit à chaque fois, avec un optimisme touchant.",
+    "category": "quotidien",
+    "aliases": [
+      "weekend"
+    ]
+  },
+  {
+    "word": "Nuit blanche",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Raid qui s'éternise, partie de JdR qui déborde, « encore un tour » de Civ : l'état naturel du chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Janvier",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Résolutions, galettes et portefeuille qui se remet péniblement des soldes Steam d'hiver.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Février",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Mois court, froid et sans festival. Même le chouffin hiberne, sous un plaid, manette en main.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mars",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Un mois banal, mais aussi une planète. Il préfère nettement la planète, surtout avec des Martiens dessus.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Avril",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Poisson d'avril et giboulées. Le seul canular qu'il attend vraiment, c'est l'annonce de Half-Life 3.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mai",
+    "chouffin": true,
+    "score": 55,
+    "reason": "« May the Fourth be with you » : le 4 mai est férié dans son cœur. Le reste du mois, beaucoup moins.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Juin",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le mois du Hellfest. Il compte les jours depuis l'été dernier, t-shirt noir prêt depuis septembre.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Juillet",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Fêtes médiévales, Japan Expo et soirées en terrasse à parler lore : un mois qui se défend bien.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Août",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Vacances, camping et fêtes de village. Il emporte quand même un jeu de cartes, on ne sait jamais.",
+    "category": "quotidien",
+    "aliases": [
+      "aout"
+    ]
+  },
+  {
+    "word": "Septembre",
+    "chouffin": false,
+    "score": 12,
+    "reason": "La rentrée. Seule consolation : les gros jeux de fin d'année commencent à sortir.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Octobre",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Fêtes de la bière, puis Halloween au bout : il ressort le costume de sorcier et la chope en étain.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Novembre",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Gris et pluvieux, parfait pour une campagne de JdR au coin du feu. Le mois n'y est pour rien.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Décembre",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Cadeaux geek sous le sapin et marathon du SdA en version longue pendant les fêtes : une tradition.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Printemps",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Pollen, fleurs et gens qui se remettent à courir. Tout ce qu'il redoute, réuni en une saison.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Été",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Festivals de métal et fêtes médiévales, mais aussi 35 degrés en t-shirt noir. Bilan mitigé.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Automne",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Feuilles rousses, plaid et gros pavé de fantasy : l'ambiance de la Comté, à domicile.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Hiver",
+    "chouffin": true,
+    "score": 65,
+    "reason": "« L'hiver vient. » Il le dit chaque premier matin froid, avec le regard grave d'un Stark.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Matin",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Le chouffin et le matin ne se sont jamais vraiment présentés. Ils ne se croisent qu'en semaine.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Midi",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Pause déj : sandwich et débat sur le meilleur Star Wars. Le seul moment chouffin de la journée de bureau.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Après-midi",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Créneau neutre. Idéal pour une sieste stratégique avant la partie du soir.",
+    "category": "quotidien",
+    "aliases": [
+      "aprem"
+    ]
+  },
+  {
+    "word": "Soir",
+    "chouffin": false,
+    "score": 48,
+    "reason": "C'est là que tout commence : les dés sortent, le Discord s'allume, les héros se réveillent.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Nuit",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Heure de pointe du chouffin : raids, parties qui débordent et débats de lore jusqu'à 2 h du matin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Minuit",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Sorties de jeux et avant-premières à minuit pile : il y était, en costume, avec un thermos.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Aube",
+    "chouffin": false,
+    "score": 35,
+    "reason": "« Regardez à l'est à l'aube du cinquième jour. » À part Gandalf, personne n'aime se lever si tôt.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Crépuscule",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le mot qui fait fantasy dans n'importe quelle phrase. Twilight l'a un peu abîmé, hélas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Jour",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Jour de sortie, jour de raid ou jour de convention : un jour a besoin d'un événement pour compter.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Heure",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Unité de mesure du temps de jeu. Son compteur Steam le fait rougir, alors il ne regarde plus.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Minute",
+    "chouffin": false,
+    "score": 12,
+    "reason": "« Encore cinq minutes » : unité de mesure trompeuse avant un raid de trois heures.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Semaine",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Cinq jours d'attente entre deux sessions de JdR. Un long tunnel sans lore.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Année",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Unité de mesure entre deux saisons de sa série préférée. Toujours beaucoup trop longue.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Anniversaire",
+    "chouffin": false,
+    "score": 30,
+    "reason": "L'occasion rêvée de recevoir un jeu de plateau, un t-shirt Kaamelott ou une figurine peinte.",
+    "category": "quotidien",
+    "aliases": [
+      "anniv"
+    ]
+  },
+  {
+    "word": "Vacances",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Deux options : partir à la mer, ou rester finir sa pile de jeux. Il sait très bien ce qu'il choisit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Rentrée",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Cartable, agenda et fin des grasses matinées. Même Poudlard ne suffirait pas à la rendre sympa.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Grasse matinée",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Récupération obligatoire après une nuit blanche de raid. Presque un rituel.",
+    "category": "quotidien",
+    "aliases": [
+      "grasse mat"
+    ]
+  },
+  {
+    "word": "Sieste",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Pratique respectable, surtout avant une partie de JdR de huit heures.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Jour férié",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Une journée entière pour avancer la quête principale. Il ne le fera pas, mais il y croit.",
+    "category": "quotidien",
+    "aliases": [
+      "ferie"
+    ]
+  },
+  {
+    "word": "RTT",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Posés méthodiquement le jour de la sortie d'un jeu très attendu. Stratégie de haut niveau.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Calendrier",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Surtout utile pour entourer la date du prochain Hellfest et celles des sorties de jeux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Horloge",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Retour vers le futur lui a appris à ne jamais négliger une horloge. Ni un éclair.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Réveil",
+    "chouffin": false,
+    "score": 5,
+    "reason": "L'ennemi juré. Aucun boss de Dark Souls ne l'a autant fait souffrir.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Météo",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il ne la consulte que pour savoir s'il pleuvra au Hellfest. Spoiler : souvent.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pluie",
+    "chouffin": false,
+    "score": 25,
+    "reason": "L'excuse parfaite pour annuler la sortie vélo et lancer une partie. Merci les nuages.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Soleil",
+    "chouffin": false,
+    "score": 45,
+    "reason": "« Louange au Soleil ! » Solaire d'Astora a converti toute une génération. Le reste du temps, il l'évite.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Neige",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Jon Snow ne sait rien, mais il porte bien son nom. Et une partie de JdR sous la neige, c'est cosy.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vent",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Wind Waker lui a donné ses lettres de noblesse. Sinon, c'est surtout ce qui retourne le parapluie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Orage",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Thor est de sortie. Au premier grondement, le chouffin lève les yeux au ciel et salue Mjölnir.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tonnerre",
+    "chouffin": true,
+    "score": 55,
+    "reason": "« Par le marteau de Thor ! » Chaque coup de tonnerre est la preuve qu'Asgard veille.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Foudre",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Zeus la lance, Raiden la maîtrise, et le mage de la table la spamme. Électrisant.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Brouillard",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Silent Hill en a fait un personnage à part entière. Sinon, ça gêne surtout sur l'autoroute.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Brume",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Avalon se cache derrière, Stephen King y cache des monstres. Ambiance garantie.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Nuage",
+    "chouffin": false,
+    "score": 38,
+    "reason": "En anglais, ça se dit Cloud, comme Cloud Strife. Il trouve ça très classe, pour de la vapeur d'eau.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Arc-en-ciel",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Pour lui, c'est le Bifröst. Heimdall garde l'entrée, et le chouffin cherche le chemin d'Asgard.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tempête",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Tornade des X-Men ou sort de fin de partie : il aime les tempêtes, surtout fictives.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Grêle",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Un sort de niveau 4 dans Donjons & Dragons. Dans la vraie vie, juste des glaçons tombés du ciel.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Canicule",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Hellfest, t-shirt noir et 35 degrés : il a connu la fournaise, et il y retourne chaque année.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Froid",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Bordeciel l'a préparé : un bon manteau de fourrure, une chope d'hydromel, et ça passe.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lune",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Majora's Mask l'a marqué à vie : il la surveille encore pour vérifier qu'elle ne sourit pas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pleine lune",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Soir de loups-garous, de sorts puissants et de professeur Lupin qui a oublié sa potion.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Étoile",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Étoile d'invincibilité de Mario ou galaxie lointaine : il en connaît plus d'une.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Étoile filante",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il fait toujours le même vœu : le retour de sa série préférée, annulée beaucoup trop tôt.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ciel",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il y cherche surtout des vaisseaux et des dragons. Pour l'instant, rien à signaler.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Aurore boréale",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Ciel de Bordeciel, sagas nordiques et Vikings : le spectacle naturel le plus chouffin qui soit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Éclipse",
+    "chouffin": false,
+    "score": 30,
+    "reason": "L'occasion de sortir les lunettes spéciales et de disserter d'astronomie façon vulgarisateur.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mer",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Belle, mais il préfère les océans de lore aux vraies vagues. Et les pirates aux vacanciers.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Océan",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il a surtout traversé ceux de Wind Waker et d'Assassin's Creed Black Flag. À la voile, bien sûr.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lac",
+    "chouffin": true,
+    "score": 55,
+    "reason": "La Dame du Lac y garde Excalibur. Arthur, lui, y passe le moins de temps possible.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Rivière",
+    "chouffin": false,
+    "score": 12,
+    "reason": "On la traverse à gué dans toutes les quêtes. Dans la vraie vie, on prend le pont.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Fleuve",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Un grand cours d'eau, sans plus. Sauf l'Anduin, qui compte triple.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cascade",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Dans tout bon jeu, il y a une grotte secrète derrière. Il vérifie toujours.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Montagne",
+    "chouffin": false,
+    "score": 48,
+    "reason": "La Montagne Solitaire, les nains dedans, le dragon dessus : il ne regarde plus un sommet pareil.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Colline",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Chaque colline cache peut-être un trou de hobbit. Il toque, au cas où.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Volcan",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Il connaît le meilleur endroit pour jeter un anneau encombrant : la Montagne du Destin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Grotte",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Donjon naturel, repaire de Gollum et zone à coffres. Il n'y entre jamais sans torche.",
+    "category": "quotidien",
+    "aliases": [
+      "caverne"
+    ]
+  },
+  {
+    "word": "Forêt",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Brocéliande, Fangorn, la Forêt interdite : pour lui, aucun bois n'est vraiment ordinaire.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bois",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Ressource reine à Catane, matière des baguettes à Poudlard : le bois a de sérieuses références.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Arbre",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Les Ents parlent lentement, les arbres de Pandora s'illuminent : un arbre n'est jamais juste un arbre.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chêne",
+    "chouffin": true,
+    "score": 55,
+    "reason": "L'arbre du druide par excellence. Il y cherche du gui pour une potion, comme Panoramix.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Gui",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Panoramix le coupe à la serpe d'or, le druide de sa table aussi. Presque chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Saule",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Le Saule cogneur de Poudlard lui a appris à garer la voiture volante ailleurs.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Frêne",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Yggdrasil est un frêne. Le frêne est donc l'arbre-monde, rien de moins. Ça se discute à peine.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Houx",
+    "chouffin": false,
+    "score": 45,
+    "reason": "La baguette d'Harry Potter est en bois de houx. Rien que pour ça, le houx monte en grade.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Fougère",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Les sous-bois de Brocéliande en sont pleins. Une plante qui fait très ambiance druidique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Trèfle",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Trèfle à quatre feuilles : le bonus de chance dont tout rôliste rêve avant un jet décisif.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Sapin",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Conifère honnête, mais sans lore connu. Un Ent de seconde zone, au mieux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Fleur",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il ne l'offre que sous forme de Fleur de feu, dans Mario. Romantique à sa façon.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Rose",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Couleur ou fleur, c'est très Instagram. Seule exception : celle de la Belle et la Bête.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Herbe",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Il la touche rarement. « Va toucher de l'herbe », lui conseille-t-on sur les forums.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Feuille",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Pierre, feuille, ciseaux : il a une stratégie infaillible, théorisée sur un forum en 2006.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Mousse",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Sur une vieille pierre de Brocéliande ou sur une Chouffe bien servie : il valide dans les deux cas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Rocher",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Un gros caillou, sauf s'il cache l'entrée d'un donjon. Il le pousse toujours, au cas où.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Pierre",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Philosophale, de Lune ou d'Infinité : la pierre est l'objet magique le plus convoité de ses sagas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Sable",
+    "chouffin": false,
+    "score": 45,
+    "reason": "« Je n'aime pas le sable. » Anakin l'a dit, et il le cite à chaque sortie à la plage.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Désert",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Tatooine, Arrakis, les Terres désolées : le désert est le décor de ses épopées préférées.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Île",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Île au trésor, oui. Île de téléréalité, non. On va dire que ça dépend beaucoup de l'île.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Plage",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Serviette, crème solaire et tongs : pas son biome. Il y lit un pavé de fantasy, à l'ombre.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Prairie",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Belle, verte et pleine de moutons Minecraft. Un peu fade sans quête dessus.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Marais",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Shrek y habite, Yoda aussi, sur Dagobah. Un biome sous-coté que le chouffin respecte.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Jardin",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Le jardin de la Comté, oui. Le sien, il l'arrose une fois par an, quand il y pense.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Campagne",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Pas celle avec des vaches : celle qui dure trois ans et se joue le vendredi avec un MJ épuisé.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ville",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Métro, bouchons et bruit. Il ne l'apprécie qu'en ville fortifiée, sur sa carte de JdR.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Village",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Toute grande aventure commence dans un petit village tranquille. Il attend encore son appel.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Champ",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Beaucoup de blé, peu de lore. Sauf si un épouvantail se met à parler.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Nature",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il l'aime en fond d'écran et dans Zelda. En vrai, il préfère le wifi.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Paysage",
+    "chouffin": false,
+    "score": 30,
+    "reason": "La Nouvelle-Zélande lui a appris qu'un paysage peut devenir la Terre du Milieu.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Horizon",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Dans un monde ouvert, s'il le voit, il peut y aller. Dans la vraie vie, c'est plus compliqué.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Univers",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Univers étendu, univers partagé, multivers : son sujet de débat préféré, dans l'ordre chronologique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Monde",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Tant qu'il est ouvert, avec des quêtes secondaires et une carte à révéler, il est d'accord.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Planète",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Il en connaît plus de fictives que de réelles. Tatooine, Arrakis et Namek en tête.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Espace",
+    "chouffin": true,
+    "score": 52,
+    "reason": "L'ultime frontière. Space opera, vaisseaux et débat Star Wars contre Star Trek : il y vit à moitié.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Galaxie",
+    "chouffin": true,
+    "score": 58,
+    "reason": "« Il y a bien longtemps, dans une galaxie lointaine, très lointaine... » Il connaît la suite par cœur.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Terre",
+    "chouffin": false,
+    "score": 40,
+    "reason": "La Terre du Milieu, oui. La planète Terre a beaucoup moins de lore, mais il y habite.",
+    "category": "quotidien"
+  }
+]

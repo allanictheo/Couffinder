@@ -9,7 +9,11 @@ import type { JudgeResult, KnownResult, UnknownResult, VoteChoice, VoteCounts } 
 import { useMyVote } from "@/hooks/usePreferences";
 import { CheckIcon } from "./art";
 
-export type VotedHandler = (next: JudgeResult, alreadyVoted: boolean) => void;
+export type VotedHandler = (
+  next: JudgeResult,
+  alreadyVoted: boolean,
+  previous: KnownResult | UnknownResult,
+) => void;
 
 const CHOICE_LABEL: Record<VoteChoice, string> = {
   chouffin: "chouffin",
@@ -91,7 +95,7 @@ export function VotePanel({ subject, onVoted }: { subject: KnownResult | Unknown
         setBurst({ id: Date.now(), choice });
         sfx("vote");
       }
-      onVoted(response.result, response.alreadyVoted);
+      onVoted(response.result, response.alreadyVoted, subject);
     } catch (caught) {
       const apiError = toApiError(caught);
       setError(
