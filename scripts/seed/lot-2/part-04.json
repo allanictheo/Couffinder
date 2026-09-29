@@ -5,6 +5,7 @@
     "score": 70,
     "reason": "« Y U NO », « Forever Alone », « Me Gusta » : la bédé du chouffin en 2011. Nostalgie en noir et blanc.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "forever alone",
       "me gusta"
@@ -22,7 +23,8 @@
     "chouffin": false,
     "score": 12,
     "reason": "Il a dansé une fois en 2012 et le regrette encore. Aucune épée, aucun dragon, juste un cheval invisible.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "weeb"
   },
   {
     "word": "Ice Bucket Challenge",
@@ -36,42 +38,48 @@
     "chouffin": true,
     "score": 70,
     "reason": "« Chuck Norris a compté jusqu'à l'infini. Deux fois. » Il en connaît 200, et c'est trop.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Lolcat",
     "chouffin": false,
     "score": 42,
     "reason": "« I can has cheezburger? » L'humour de 2008 qu'il trouve encore hilarant. Il est bien le seul.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Grumpy Cat",
     "chouffin": false,
     "score": 40,
     "reason": "Le chat qui boude. Il s'y reconnaît quand on lui dit que les elfes, c'est ringard.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Stonks",
     "chouffin": false,
     "score": 34,
     "reason": "Le mème des investisseurs ravis. Il l'utilise, ironiquement, quand il revend une carte Pokémon.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Risitas",
     "chouffin": true,
     "score": 64,
     "reason": "Le sticker qui rit aux larmes sur le 18-25. Le chouffin rit avec, même quand c'est de lui qu'on rit.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Issou",
     "chouffin": true,
     "score": 58,
     "reason": "Le cri de guerre du 18-25. Le chouffin le connaît, l'emploie mal, et le forum le lui rend bien.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Forum Blabla 18-25",
@@ -79,6 +87,7 @@
     "score": 60,
     "reason": "Le berceau du mot « chouffin », inventé pour le taquiner. Il y traîne quand même, par curiosité.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "18-25",
       "blabla 18-25",
@@ -98,6 +107,7 @@
     "score": 99,
     "reason": "Le lieu de pèlerinage suprême. Il connaît chaque épisode, chaque réplique et chaque déguisement de Seb.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "jdg"
     ]
@@ -107,7 +117,8 @@
     "chouffin": true,
     "score": 96,
     "reason": "Ses Let's Play fleuves et ses aventures rôlistes ont bercé des milliers de chouffins. Un barde moderne.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "LinksTheSun",
@@ -115,6 +126,7 @@
     "score": 95,
     "reason": "Parodies, chansons geek et sketches cultes. Le chouffin les connaît par cœur et les chante faux.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "links the sun"
     ]
@@ -124,7 +136,8 @@
     "chouffin": true,
     "score": 93,
     "reason": "Son humour et sa culture geek ont façonné une génération. Son public ressemble à un rassemblement de chouffins.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "What the Cut",
@@ -132,6 +145,7 @@
     "score": 88,
     "reason": "Des vidéos étranges commentées avec génie. Le chouffin en cite encore des répliques de 2012.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "wtc"
     ]
@@ -141,21 +155,24 @@
     "chouffin": true,
     "score": 93,
     "reason": "L'Histoire racontée avec passion : Moyen Âge, Vikings et batailles. Le chouffin y vit à temps plein.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "roliste"
   },
   {
     "word": "e-penser",
     "chouffin": true,
     "score": 88,
     "reason": "La science expliquée avec humour et passion. Le chouffin y a appris la relativité entre deux raids.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Astronogeek",
     "chouffin": true,
     "score": 90,
     "reason": "L'astronomie, la science et les blagues geek. Le chouffin y a trouvé son télescope intérieur.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "La Tronche en Biais",
@@ -163,6 +180,7 @@
     "score": 86,
     "reason": "La zététique à l'humour appuyé : il adore débusquer les biais. Surtout ceux des autres.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "tenb"
     ]
@@ -173,6 +191,7 @@
     "score": 74,
     "reason": "Du rétro, des jeux obscurs et de la musique en direct. Le chouffin aime ce mélange de bidouille et de nostalgie.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "mistermv"
     ]
@@ -183,6 +202,7 @@
     "score": 74,
     "reason": "ZEvent, Trackmania et soirées mémorables. Pour le chouffin, un grand chef de clan du stream.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "zera"
     ]
@@ -192,7 +212,8 @@
     "chouffin": false,
     "score": 44,
     "reason": "Du gaming à la superstar, il a quitté la taverne pour les stades. Le chouffin se souvient de ses débuts.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Cyprien",
@@ -216,21 +237,24 @@
     "chouffin": true,
     "score": 52,
     "reason": "Des jeux vidéo, des objets bizarres et une bonne humeur contagieuse. Chouffin de justesse, par la manette.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Poisson Fécond",
     "chouffin": true,
     "score": 56,
     "reason": "Des délires absurdes et des mystères farfelus. Le chouffin adore qu'on lui parle d'Atlantide en rigolant.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Fouloscopie",
     "chouffin": true,
     "score": 62,
     "reason": "La science des foules expliquée avec soin. Le chouffin a enfin compris comment sortir du Hellfest.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Dr Nozman",
@@ -238,6 +262,7 @@
     "score": 50,
     "reason": "La science spectaculaire et les expériences. Un peu trop « waouh » pour le chouffin puriste.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "docteur nozman"
     ]
@@ -247,7 +272,8 @@
     "chouffin": true,
     "score": 78,
     "reason": "Des critiques fouillées et passionnées. Le chouffin y valide ses avis sur la trilogie de Peter Jackson.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Benzaie",
@@ -255,6 +281,7 @@
     "score": 76,
     "reason": "Le rétro, la pop culture et le goût du nanar. Le chouffin y reconnaît un frère de taverne.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "benzaie tv"
     ]
@@ -264,7 +291,8 @@
     "chouffin": true,
     "score": 82,
     "reason": "Crossed et Chroma : le cinéma et le jeu vidéo analysés avec amour. Un monument pour le chouffin cinéphile.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Salut les Geeks",
@@ -272,6 +300,7 @@
     "score": 76,
     "reason": "Les vidéos trash et la culture geek des années 2010. Le chouffin rit encore aux mêmes passages.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "slg"
     ]
@@ -281,14 +310,16 @@
     "chouffin": true,
     "score": 72,
     "reason": "Minecraft, modpacks et aventures sur serveur. Le chouffin a bâti sa première forteresse en le regardant.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Siphano",
     "chouffin": true,
     "score": 70,
     "reason": "Minecraft, stratégie et concepts délirants. Le chouffin aime sa folie de bâtisseur.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Domingo",
@@ -302,7 +333,8 @@
     "chouffin": false,
     "score": 40,
     "reason": "Une légende des FPS français. Le chouffin respecte, mais il préfère l'arc au fusil.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Inoxtag",
@@ -324,6 +356,7 @@
     "score": 70,
     "reason": "Laink, Terracid et leurs parties interminables. Le chouffin rit comme une hyène devant chaque épisode.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "wankil"
     ]
@@ -368,7 +401,8 @@
     "chouffin": true,
     "score": 92,
     "reason": "La websérie culte de science-fiction à la française. Le chouffin en cite des répliques comme du Kaamelott.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Flander's Company",
@@ -376,6 +410,7 @@
     "score": 78,
     "reason": "Des super-vilains en entreprise. Le chouffin y a trouvé le chaînon manquant entre Marvel et son bureau.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "flanders company"
     ]
@@ -385,28 +420,32 @@
     "chouffin": true,
     "score": 99,
     "reason": "Le créateur de Kaamelott. Son nom au générique, le chouffin le connaît mieux que sa propre adresse.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Franck Pitiot",
     "chouffin": true,
     "score": 90,
     "reason": "L'interprète de Perceval. Le chouffin lui doit ses meilleures répliques. C'est pas faux.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Jean-Christophe Hembert",
     "chouffin": true,
     "score": 86,
     "reason": "Karadoc, c'est lui. Le chouffin répète « le gras, c'est la vie » à chaque repas, avec gratitude.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Alain Chabat",
     "chouffin": true,
     "score": 70,
     "reason": "Mission Cléopâtre et Kaamelott : quel répertoire ! Le chouffin le cite presque autant qu'Astier.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "J. R. R. Tolkien",
@@ -414,6 +453,7 @@
     "score": 98,
     "reason": "Le père de la Terre du Milieu. Le chouffin a lu les appendices, puis le Silmarillion. Deux fois.",
     "category": "personnalites",
+    "tribe": "roliste",
     "aliases": [
       "tolkien",
       "jrr tolkien"
@@ -425,6 +465,7 @@
     "score": 90,
     "reason": "Le chouffin attend « Les Vents de l'hiver » avec la patience d'un frère de la Garde de Nuit.",
     "category": "personnalites",
+    "tribe": "roliste",
     "aliases": [
       "george rr martin",
       "grrm"
@@ -436,6 +477,7 @@
     "score": 88,
     "reason": "Le Disque-monde, l'humour et les trolls philosophes. Le chouffin a tous les tomes, rangés dans l'ordre.",
     "category": "personnalites",
+    "tribe": "roliste",
     "aliases": [
       "pratchett"
     ]
@@ -446,6 +488,7 @@
     "score": 86,
     "reason": "Le créateur de Geralt. Le chouffin le lit en VF en prétendant avoir essayé le polonais.",
     "category": "personnalites",
+    "tribe": "roliste",
     "aliases": [
       "sapkowski"
     ]
@@ -455,119 +498,136 @@
     "chouffin": true,
     "score": 90,
     "reason": "Le cofondateur de Donjons & Dragons. Le chouffin a une pensée pour lui à chaque 20 naturel.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Bernard Werber",
     "chouffin": true,
     "score": 54,
     "reason": "Les Fourmis, lu au collège, puis tout le reste. Il le défend encore en soirée, contre vents et marées.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "geek"
   },
   {
     "word": "Peter Jackson",
     "chouffin": true,
     "score": 95,
     "reason": "Il a filmé Le Seigneur des Anneaux, et le chouffin revoit les versions longues chaque Noël. Rituel sacré.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Howard Shore",
     "chouffin": true,
     "score": 84,
     "reason": "Le compositeur du Seigneur des Anneaux. Le chouffin fredonne le thème de la Comté sous la douche.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Christopher Lee",
     "chouffin": true,
     "score": 95,
     "reason": "Saruman, Dracula et des albums de métal symphonique passé 88 ans. Le maître absolu du chouffin.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Ian McKellen",
     "chouffin": true,
     "score": 90,
     "reason": "Gandalf, tout simplement. Le chouffin a déjà lancé « Vous ne passerez pas ! » à un contrôleur de train.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Viggo Mortensen",
     "chouffin": true,
     "score": 92,
     "reason": "Aragorn, le rôdeur devenu roi. Le chouffin a une réplique d'Andúril au mur et rêve de couronnement.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Sean Bean",
     "chouffin": true,
     "score": 86,
     "reason": "Boromir, Ned Stark : le chouffin a tant pleuré ses personnages qu'il tremble à chaque nouveau rôle.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Andy Serkis",
     "chouffin": true,
     "score": 78,
     "reason": "Gollum en capture de mouvement. Le chouffin murmure « mon précieux » à sa Chouffe en permanence.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "George Lucas",
     "chouffin": true,
     "score": 82,
     "reason": "Il a créé Star Wars, et le chouffin lui a pardonné la prélogie. Ou presque.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "geek"
   },
   {
     "word": "Mark Hamill",
     "chouffin": true,
     "score": 90,
     "reason": "Luke Skywalker et la voix du Joker. Le chouffin le vénère dans deux univers à la fois.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "geek"
   },
   {
     "word": "Harrison Ford",
     "chouffin": true,
     "score": 72,
     "reason": "Han Solo et Indiana Jones : un aventurier respecté. Mais pas assez de dragons pour la note maximale.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "geek"
   },
   {
     "word": "Henry Cavill",
     "chouffin": true,
     "score": 94,
     "reason": "Il monte ses PC, peint des figurines Warhammer et a incarné Geralt. Le chouffin le tient pour un modèle.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Keanu Reeves",
     "chouffin": true,
     "score": 78,
     "reason": "Neo, John Wick et Johnny Silverhand. Le chouffin le trouve « breathtaking », et il a raison.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "geek"
   },
   {
     "word": "Peter Dinklage",
     "chouffin": true,
     "score": 74,
     "reason": "Tyrion Lannister, l'esprit le plus fin de Westeros. Le chouffin cite ses répliques un verre à la main.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Christophe Lambert",
     "chouffin": true,
     "score": 72,
     "reason": "Highlander. « Il ne peut en rester qu'un ! » Le chouffin le hurle pour attribuer la dernière bière.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Hayao Miyazaki",
     "chouffin": true,
     "score": 72,
     "reason": "Les films Ghibli, poétiques et magiques. Le chouffin a pleuré devant Princesse Mononoké, sans honte.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "weeb"
   },
   {
     "word": "Hideo Kojima",
@@ -575,6 +635,7 @@
     "score": 82,
     "reason": "Metal Gear, Death Stranding et des cinématiques d'une heure. Le chouffin le suit comme un disciple.",
     "category": "personnalites",
+    "tribe": "gamer",
     "aliases": [
       "kojima"
     ]
@@ -584,7 +645,8 @@
     "chouffin": true,
     "score": 95,
     "reason": "Le créateur de Dark Souls et d'Elden Ring. Chaque mort du chouffin est une offrande à son génie.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "gamer"
   },
   {
     "word": "Shigeru Miyamoto",
@@ -592,6 +654,7 @@
     "score": 82,
     "reason": "Mario et Zelda sont sortis de sa tête. Le chouffin lui doit la moitié de son enfance.",
     "category": "personnalites",
+    "tribe": "gamer",
     "aliases": [
       "miyamoto"
     ]
@@ -602,6 +665,7 @@
     "score": 80,
     "reason": "Dragon Ball et les designs de Dragon Quest. Le chouffin tente toujours son Kaméhaméha, sans succès.",
     "category": "personnalites",
+    "tribe": "weeb",
     "aliases": [
       "toriyama"
     ]
@@ -612,6 +676,7 @@
     "score": 80,
     "reason": "Le créateur de Berserk, l'œuvre qui a inspiré Dark Souls. Le chouffin le lit avec un profond respect.",
     "category": "personnalites",
+    "tribe": "weeb",
     "aliases": [
       "miura"
     ]
@@ -622,6 +687,7 @@
     "score": 84,
     "reason": "Le compositeur de Final Fantasy. Le chouffin a ses concerts symphoniques en vinyle.",
     "category": "personnalites",
+    "tribe": "gamer",
     "aliases": [
       "uematsu"
     ]
@@ -631,14 +697,16 @@
     "chouffin": true,
     "score": 78,
     "reason": "« Please understand. » Le patron de Nintendo, joueur dans l'âme. Le chouffin garde son souvenir.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "gamer"
   },
   {
     "word": "Todd Howard",
     "chouffin": true,
     "score": 80,
     "reason": "« It just works. » Le chouffin rachète Skyrim chaque fois qu'il le lui demande.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "gamer"
   },
   {
     "word": "Gabe Newell",
@@ -646,6 +714,7 @@
     "score": 70,
     "reason": "Le patron de Valve et de Steam. Le chouffin attend toujours Half-Life 3 de sa part.",
     "category": "personnalites",
+    "tribe": "gamer",
     "aliases": [
       "gaben"
     ]
@@ -655,14 +724,16 @@
     "chouffin": true,
     "score": 82,
     "reason": "Le patron de Larian, venu en armure aux Game Awards. Le chouffin lui voue un culte depuis Baldur's Gate 3.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Chris Metzen",
     "chouffin": true,
     "score": 84,
     "reason": "L'homme derrière le lore de Warcraft. Le chouffin lui doit ses nuits de lecture et son amour des orcs.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "gamer"
   },
   {
     "word": "Hironobu Sakaguchi",
@@ -670,6 +741,7 @@
     "score": 80,
     "reason": "Le père de Final Fantasy. Le chouffin lui doit 400 heures de JRPG et quelques larmes.",
     "category": "personnalites",
+    "tribe": "gamer",
     "aliases": [
       "sakaguchi"
     ]
@@ -680,6 +752,7 @@
     "score": 84,
     "reason": "Le maître du jeu de Critical Role. Le chouffin rêve qu'il anime sa campagne, rien qu'une fois.",
     "category": "personnalites",
+    "tribe": "roliste",
     "aliases": [
       "matt mercer"
     ]
@@ -689,7 +762,8 @@
     "chouffin": true,
     "score": 54,
     "reason": "Le père de Linux. Plus développeur que chouffin, mais respecté dans chaque LAN.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "geek"
   },
   {
     "word": "Steve Jobs",
@@ -703,7 +777,8 @@
     "chouffin": true,
     "score": 68,
     "reason": "L'astronaute qui a emporté son saxophone dans l'espace. Le chouffin y voit un héros de science-fiction.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "geek"
   },
   {
     "word": "Jamy Gourmaud",
@@ -711,6 +786,7 @@
     "score": 76,
     "reason": "Le camion, les maquettes et « C'est pas sorcier ». Le chouffin lui doit sa curiosité.",
     "category": "personnalites",
+    "tribe": "geek",
     "aliases": [
       "jamy"
     ]
@@ -720,7 +796,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "Châteaux, Histoire et patrimoine : le chouffin approuve, même s'il manque des chevaliers en armure.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "roliste"
   },
   {
     "word": "Bear Grylls",
@@ -734,7 +811,8 @@
     "chouffin": false,
     "score": 42,
     "reason": "Un chef qui aime le rock et parle franc. Pas chouffin, mais il ferait un excellent tavernier.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "taverne"
   },
   {
     "word": "Denis Brogniart",
@@ -748,14 +826,16 @@
     "chouffin": false,
     "score": 22,
     "reason": "Pâtisseries fines et cuisine élégante. Le chouffin, lui, préfère un jarret-frites à la taverne.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "taverne"
   },
   {
     "word": "Gordon Ramsay",
     "chouffin": false,
     "score": 22,
     "reason": "Des cuisiniers qui se font sermonner. Le chouffin préfère l'aubergiste bourru de Skyrim.",
-    "category": "personnalites"
+    "category": "personnalites",
+    "tribe": "taverne"
   },
   {
     "word": "Nikos Aliagas",
@@ -811,7 +891,8 @@
     "chouffin": false,
     "score": 18,
     "reason": "Agiter les bras devant la télé. Il a lancé Star Wars Kinect et s'est retrouvé à danser avec Han Solo. Traumatisme.",
-    "category": "jeux-video"
+    "category": "jeux-video",
+    "tribe": "gamer"
   },
   {
     "word": "Stadia",
@@ -819,6 +900,7 @@
     "score": 12,
     "reason": "Le jeu en streaming de Google, parti aussi vite qu'il est venu. Le chouffin veut posséder ses jeux, point.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "google stadia"
     ]
@@ -828,7 +910,8 @@
     "chouffin": false,
     "score": 8,
     "reason": "Une ferme sur téléphone et un coq qui chante. Le seul élevage qui l'intéresse, c'est celui des dragons.",
-    "category": "jeux-video"
+    "category": "jeux-video",
+    "tribe": "gamer"
   },
   {
     "word": "YouTube Shorts",

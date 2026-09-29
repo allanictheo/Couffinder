@@ -5,6 +5,7 @@
     "score": 94,
     "reason": "Le sorceleur taciturne qui répond « Hmm » à tout. Le chouffin a copié le « Hmm », et la barbe.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "geralt",
       "geralt of rivia"
@@ -15,14 +16,16 @@
     "chouffin": true,
     "score": 80,
     "reason": "Un méchant aux cheveux longs, avec une aile et un thème chanté en latin. Le chouffin a tout copié sauf l'aile.",
-    "category": "jeux-video"
+    "category": "jeux-video",
+    "tribe": "gamer"
   },
   {
     "word": "Pikachu",
     "chouffin": true,
     "score": 70,
     "reason": "La mascotte que même sa grand-mère connaît. Il préfère Salamèche, mais ne crache pas sur un pika pika.",
-    "category": "jeux-video"
+    "category": "jeux-video",
+    "tribe": "gamer"
   },
   {
     "word": "Dracaufeu",
@@ -30,6 +33,7 @@
     "score": 82,
     "reason": "La carte holographique la plus convoitée de la cour de récré. Il l'a toujours, sous pochette.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "charizard"
     ]
@@ -40,6 +44,7 @@
     "score": 76,
     "reason": "Inutile en combat, mais il l'a monté au niveau 20 par pure foi. Il a eu un Léviator : leçon de vie.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "magikarp"
     ]
@@ -49,7 +54,8 @@
     "chouffin": true,
     "score": 88,
     "reason": "« Mrglglglgl ! » Il imite le cri des murlocs en réunion et personne ne comprend. Lui est ravi.",
-    "category": "jeux-video"
+    "category": "jeux-video",
+    "tribe": "gamer"
   },
   {
     "word": "Pour la Horde",
@@ -57,6 +63,7 @@
     "score": 95,
     "reason": "Le cri de ralliement des orcs de WoW. Il le lance en soirée dès que la tournée arrive.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "for the horde",
       "lok'tar ogar"
@@ -68,6 +75,7 @@
     "score": 95,
     "reason": "Le cri qui a ruiné un raid et nourri vingt ans de mèmes. Le chouffin a les larmes aux yeux à chaque fois.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "leeroy"
     ]
@@ -78,6 +86,7 @@
     "score": 88,
     "reason": "Le prince devenu Roi-liche. Le chouffin a pleuré à Stratholme et le raconte encore.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "roi-liche",
       "lich king"
@@ -89,6 +98,7 @@
     "score": 88,
     "reason": "« Vous n'êtes pas prêts ! » Sa phrase avant chaque examen, chaque réunion, chaque barbecue.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "illidan stormrage"
     ]
@@ -99,6 +109,7 @@
     "score": 82,
     "reason": "Le gâteau est un mensonge, et il le rappelle à chaque anniversaire. Ambiance garantie.",
     "category": "jeux-video",
+    "tribe": "gamer",
     "aliases": [
       "le gâteau est un mensonge"
     ]
@@ -108,7 +119,8 @@
     "chouffin": true,
     "score": 76,
     "reason": "La réponse sèche des fans de Souls. Il la sort à tout le monde, même à sa mère qui joue à Candy Crush.",
-    "category": "jeux-video"
+    "category": "jeux-video",
+    "tribe": "gamer"
   },
   {
     "word": "Over 9000",
@@ -116,6 +128,7 @@
     "score": 70,
     "reason": "« C'est plus de 8000 ! » En VF, bien sûr. Le chouffin a toujours un avis sur la traduction.",
     "category": "youtube-internet",
+    "tribe": "weeb",
     "aliases": [
       "plus de 8000",
       "it's over 9000"
@@ -127,6 +140,7 @@
     "score": 94,
     "reason": "Lunettes pixelisées, Doritos et 360 no scope : l'esthétique qui explose à l'écran quand on trouve un chouffin.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "major league gaming"
     ]
@@ -137,6 +151,7 @@
     "score": 78,
     "reason": "Tourner sur soi-même avant de tirer, sur fond de dubstep. Il le mime au bowling.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "360 noscope"
     ]
@@ -147,6 +162,7 @@
     "score": 64,
     "reason": "Il installe Linux sur tout, même sur le grille-pain, et appelle Windows « le système des Moldus ».",
     "category": "tech",
+    "tribe": "geek",
     "aliases": [
       "gnu linux"
     ]
@@ -156,14 +172,16 @@
     "chouffin": true,
     "score": 56,
     "reason": "« I use Arch, btw. » Il le dit en soirée sans qu'on lui demande. Plus hacker que chouffin, mais voisin.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "Ubuntu",
     "chouffin": false,
     "score": 50,
     "reason": "La porte d'entrée vers Linux. Le chouffin a commencé là, et il le cache aux puristes.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "Windows",
@@ -178,6 +196,7 @@
     "score": 48,
     "reason": "Il en a vu plus que de levers de soleil. Pour lui, c'est une sorte de vitrail.",
     "category": "tech",
+    "tribe": "geek",
     "aliases": [
       "blue screen",
       "bsod"
@@ -241,7 +260,8 @@
     "chouffin": true,
     "score": 78,
     "reason": "Un mini-ordinateur transformé en borne d'arcade. Le chouffin appelle ça du « bricolage de forgeron ».",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "Impression 3D",
@@ -249,6 +269,7 @@
     "score": 78,
     "reason": "Il imprime des figurines pour ses parties de JdR et des dés géants. Son imprimante tourne jour et nuit.",
     "category": "tech",
+    "tribe": "geek",
     "aliases": [
       "imprimante 3d"
     ]
@@ -258,14 +279,16 @@
     "chouffin": false,
     "score": 32,
     "reason": "Trop vieux même pour lui. Il sait juste qu'on y jouait à des jeux de rôle, et ça le fascine.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "Internet Explorer",
     "chouffin": false,
     "score": 24,
     "reason": "Le navigateur qui servait à télécharger un autre navigateur. Le chouffin en rit encore.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "Firefox",
@@ -273,6 +296,7 @@
     "score": 50,
     "reason": "Un renard de feu libre et indépendant. Presque une créature de fantasy, pour le chouffin.",
     "category": "tech",
+    "tribe": "geek",
     "aliases": [
       "mozilla firefox"
     ]
@@ -282,28 +306,32 @@
     "chouffin": false,
     "score": 48,
     "reason": "Il a changé le fond d'écran du CDI en 2006. Depuis, il se considère comme hacker.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "GitHub",
     "chouffin": false,
     "score": 46,
     "reason": "Il y a stocké trois mods Skyrim et un bot Discord. Il appelle ça son « portfolio ».",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "Stack Overflow",
     "chouffin": false,
     "score": 40,
     "reason": "Le forum des développeurs. Il y copie des réponses comme on recopie des sortilèges.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "geek"
   },
   {
     "word": "Discord",
     "chouffin": true,
     "score": 84,
     "reason": "Son serveur compte 14 salons, 3 rôles de modérateur et un salon #taverne. Sa vraie maison.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "gamer"
   },
   {
     "word": "TeamSpeak",
@@ -311,6 +339,7 @@
     "score": 74,
     "reason": "L'ancêtre vocal des raids WoW. Il se souvient avec émotion des voix grésillantes à 3 h du matin.",
     "category": "tech",
+    "tribe": "gamer",
     "aliases": [
       "ts3"
     ]
@@ -338,6 +367,7 @@
     "score": 32,
     "reason": "Il lui a demandé une campagne de D&D. Le résultat manquait cruellement de Perceval, il a tout réécrit.",
     "category": "tech",
+    "tribe": "geek",
     "aliases": [
       "chat gpt"
     ]
@@ -348,6 +378,7 @@
     "score": 38,
     "reason": "Le chouffin s'en méfie : il a vu Terminator et joué à Portal. Il y a des précédents.",
     "category": "tech",
+    "tribe": "geek",
     "aliases": [
       "ia"
     ]
@@ -443,7 +474,8 @@
     "chouffin": false,
     "score": 36,
     "reason": "Il en a laissé dépérir quatre et s'en veut encore. Mignon, mais pas assez de lore.",
-    "category": "tech"
+    "category": "tech",
+    "tribe": "gamer"
   },
   {
     "word": "Liseuse",
@@ -477,14 +509,16 @@
     "chouffin": true,
     "score": 76,
     "reason": "Sa télé, son école et sa taverne. Il y a vu plus d'heures de Joueur du Grenier que de nuits de sommeil.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Twitch",
     "chouffin": true,
     "score": 78,
     "reason": "Des gens qui jouent en direct et un chat qui spamme des emotes. Son feu de camp moderne.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "Dailymotion",
@@ -498,7 +532,8 @@
     "chouffin": true,
     "score": 78,
     "reason": "Il finance des jeux de plateau à 400 figurines. Il les reçoit deux ans plus tard et ne les peint jamais.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "roliste"
   },
   {
     "word": "Streamer",
@@ -506,6 +541,7 @@
     "score": 68,
     "reason": "Il a lancé son stream avec deux spectateurs : sa mère et son chat. Le lore de sa chaîne est déjà riche.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "streameur",
       "streameuse"
@@ -528,6 +564,7 @@
     "score": 42,
     "reason": "Un avatar animé qui stream. Le chouffin trouve ça intrigant, entre l'animé et le JdR numérique.",
     "category": "youtube-internet",
+    "tribe": "weeb",
     "aliases": [
       "vtubeur"
     ]
@@ -538,6 +575,7 @@
     "score": 68,
     "reason": "Le marathon caritatif des streamers français. Le chouffin donne, et regarde 48 heures d'affilée.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "z event"
     ]
@@ -547,7 +585,8 @@
     "chouffin": false,
     "score": 50,
     "reason": "Il communique en emotes Twitch. Sa grand-mère n'a toujours pas décrypté « PogChamp ».",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "PogChamp",
@@ -555,6 +594,7 @@
     "score": 48,
     "reason": "L'emote de l'exploit en direct. Il la spamme dès qu'un speedrunner bat un record.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "pog"
     ]
@@ -648,6 +688,7 @@
     "score": 36,
     "reason": "Un hôtel pixelisé où l'on bavarde. Il y a cherché un donjon et n'a trouvé qu'une piscine.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "habbo"
     ]
@@ -657,7 +698,8 @@
     "chouffin": false,
     "score": 30,
     "reason": "Des pingouins qui papotent. Mignon, mais le chouffin voulait une guerre de clans.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "gamer"
   },
   {
     "word": "9GAG",
@@ -665,6 +707,7 @@
     "score": 50,
     "reason": "Le site de mèmes de ses années lycée. Il y a appris l'anglais et beaucoup de blagues sur Chuck Norris.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "9 gag"
     ]
@@ -674,7 +717,8 @@
     "chouffin": true,
     "score": 70,
     "reason": "Un sous-forum pour chaque univers et des débats sans fin sur le lore. Le chouffin y est un oracle.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Forum",
@@ -682,6 +726,7 @@
     "score": 70,
     "reason": "Le forum phpBB de sa guilde, 12 000 messages et une signature animée. L'âge d'or.",
     "category": "youtube-internet",
+    "tribe": "gamer",
     "aliases": [
       "forum phpbb"
     ]
@@ -691,7 +736,8 @@
     "chouffin": true,
     "score": 62,
     "reason": "Il y a lu l'arbre généalogique complet des Targaryen à 3 h du matin. Un savoir inutile, donc précieux.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Wiki Fandom",
@@ -699,6 +745,7 @@
     "score": 76,
     "reason": "Un wiki par univers, lu plus attentivement que ses cours. Il y corrige même les fautes.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "fandom"
     ]
@@ -709,6 +756,7 @@
     "score": 70,
     "reason": "Il a écrit sa propre fin de Mass Effect 3 sur un forum en 2012. Elle est meilleure, selon lui.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "fanfic"
     ]
@@ -719,6 +767,7 @@
     "score": 74,
     "reason": "Un wiki d'horreur collaboratif rempli de dossiers classifiés. Il le lit la nuit et ne dort plus.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "scp"
     ]
@@ -728,7 +777,8 @@
     "chouffin": false,
     "score": 50,
     "reason": "Les histoires d'horreur du web. Il en racontait au collège, lampe torche sous le menton.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Leboncoin",
@@ -783,7 +833,8 @@
     "chouffin": false,
     "score": 34,
     "reason": "Des BD à faire défiler sur le téléphone. Il préfère ses tomes de Berserk bien rangés.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "weeb"
   },
   {
     "word": "Influenceur",
@@ -891,7 +942,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Il en a un pour chaque situation, souvent tiré de Kaamelott ou de Star Wars. L'humour de réaction.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Emoji",
@@ -906,6 +958,7 @@
     "score": 70,
     "reason": "Tu cliques sur un lien de soluce et tombes sur Rick Astley. Il le fait encore, par tradition.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "rick roll",
       "never gonna give you up"
@@ -916,14 +969,16 @@
     "chouffin": true,
     "score": 62,
     "reason": "Un chat-biscuit arc-en-ciel qui vole en boucle. Il a tenu dix heures en 2011 et en parle avec fierté.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Doge",
     "chouffin": false,
     "score": 50,
     "reason": "« Such wow. Very chouffin. » Un shiba en photo de profil : plus mème que passion.",
-    "category": "youtube-internet"
+    "category": "youtube-internet",
+    "tribe": "geek"
   },
   {
     "word": "Trollface",
@@ -931,6 +986,7 @@
     "score": 68,
     "reason": "« Problem? » Le sourire narquois des forums de 2010. Il le poste encore en réponse à tout.",
     "category": "youtube-internet",
+    "tribe": "geek",
     "aliases": [
       "troll face"
     ]
