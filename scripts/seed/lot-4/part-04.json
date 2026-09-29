@@ -91,21 +91,24 @@
     "chouffin": true,
     "score": 75,
     "reason": "Super Nintendo, Club Dorothée, cartes Pokémon : la nostalgie est son carburant principal.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Courage",
     "chouffin": true,
     "score": 55,
     "reason": "La vertu de Gryffondor, et celle de Sam portant Frodon. Il en parle avec des trémolos.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Sagesse",
     "chouffin": true,
     "score": 52,
     "reason": "Celle de Gandalf, de Yoda et d'Oncle Iroh. Il cite leurs répliques comme des proverbes.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Honneur",
@@ -126,7 +129,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "La Communauté de l'Anneau est avant tout une histoire d'amitié. Sa guilde aussi, à sa manière.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Rire",
@@ -304,7 +308,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "« Fuyez, pauvres fous ! » Gandalf l'a dit, et le chouffin le crie à chaque fin de soirée.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Sage",
@@ -453,6 +458,7 @@
     "score": 55,
     "reason": "Humour lourd, blagues lourdes, jeux de mots lourds : chez lui, c'est un compliment.",
     "category": "quotidien",
+    "tribe": "taverne",
     "aliases": [
       "lourde"
     ]
@@ -463,6 +469,7 @@
     "score": 60,
     "reason": "Dark Souls a fait de la difficulté un art de vivre. Plus c'est dur, plus il aime, et plus il le dit.",
     "category": "quotidien",
+    "tribe": "gamer",
     "aliases": [
       "dur"
     ]
@@ -472,14 +479,16 @@
     "chouffin": true,
     "score": 82,
     "reason": "Musique épique, bataille épique, soirée épique : c'est son adjectif pour absolument tout.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Mythique",
     "chouffin": true,
     "score": 65,
     "reason": "Palier au-dessus du légendaire, mythologie en prime : un mot qui fait vibrer le chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Rare",
@@ -493,7 +502,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "Tout ce qui est magique l'intéresse, surtout avec des baguettes, des parchemins et un grimoire.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Mystérieux",
@@ -517,7 +527,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "Stranger Things a rendu l'étrange très cool, avec des parties de D&D dedans. Il valide.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Bizarre",
@@ -575,21 +586,24 @@
     "chouffin": true,
     "score": 68,
     "reason": "Consoles cathodiques, cartouches soufflées et jeux 16 bits : le rétro est son biotope naturel.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Fantastique",
     "chouffin": true,
     "score": 58,
     "reason": "Littérature fantastique, bêtes fantastiques et Quatre Fantastiques : c'est exactement son rayon.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Héroïque",
     "chouffin": true,
     "score": 62,
     "reason": "Mode héroïque en raid, fantasy héroïque en lecture : il vit dans l'héroïque.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Interdit",
@@ -657,6 +671,7 @@
     "score": 75,
     "reason": "« C'est pas faux. » Le mot le plus cité de sa vie, surtout quand il n'a rien compris.",
     "category": "quotidien",
+    "tribe": "roliste",
     "aliases": [
       "fausse"
     ]
@@ -674,6 +689,7 @@
     "score": 65,
     "reason": "La couleur officielle de ses t-shirts, de ses chopes et de sa garde-robe entière. Aucun autre choix.",
     "category": "quotidien",
+    "tribe": "metal",
     "aliases": [
       "noire"
     ]
@@ -694,6 +710,7 @@
     "score": 52,
     "reason": "Gandalf le Gris, avant le relooking. Beaucoup le préfèrent à la version blanche.",
     "category": "quotidien",
+    "tribe": "roliste",
     "aliases": [
       "grise"
     ]
@@ -785,7 +802,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "Jeux de rôle, de plateau, de cartes ou vidéo : pour lui, jouer n'est pas un loisir, c'est un mode de vie.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Lire",
@@ -841,7 +859,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "Boire une Chouffe en débattant de lore à 2 h du matin : ça, c'est boire en chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "taverne"
   },
   {
     "word": "Parler",
@@ -897,7 +916,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "Peindre des figurines Warhammer au pinceau fin pendant tout un samedi : un art de vivre.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Construire",
@@ -946,7 +966,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Il explore chaque recoin des mondes ouverts avant de toucher à la quête principale. Toujours.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Lancer",

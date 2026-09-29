@@ -4,21 +4,24 @@
     "chouffin": true,
     "score": 58,
     "reason": "« Les Aigles arrivent ! » Et le débat « pourquoi ne pas voler jusqu'au Mordor » reprend aussitôt.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Faucon",
     "chouffin": true,
     "score": 60,
     "reason": "Le Faucon Millenium, le tas de ferraille le plus rapide de la galaxie. Tout faucon en profite.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Poney",
     "chouffin": true,
     "score": 62,
     "reason": "Le Poney Fringant est l'auberge la plus chouffin de la Terre du Milieu. Le poney y a gagné ses galons.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Cheval",
@@ -53,7 +56,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "« Je t'échange un mouton contre deux bois. » Catane a fait du mouton une monnaie chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Chèvre",
@@ -88,7 +92,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "Le lapin féroce de Sacré Graal, des Monty Python. Depuis, il regarde chaque lapin avec méfiance.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Souris",
@@ -123,7 +128,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Cthulhu lui doit son allure. Il ne peut plus en voir une sans penser aux Grands Anciens.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Tortue",
@@ -228,14 +234,16 @@
     "chouffin": true,
     "score": 55,
     "reason": "Pas d'abeilles, pas de miel. Pas de miel, pas d'hydromel. Il la respecte donc infiniment.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "taverne"
   },
   {
     "word": "Araignée",
     "chouffin": true,
     "score": 58,
     "reason": "Arachne dans le SdA, Aragog à Poudlard et Spider-Man : une relation compliquée, mais passionnée.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Papillon",
@@ -249,7 +257,8 @@
     "chouffin": true,
     "score": 68,
     "reason": "Batman en a fait un emblème et chaque grotte de RPG en est pleine. L'animal le plus Gotham qui soit.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Cerf",
@@ -305,7 +314,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "« Une hirondelle africaine ou européenne ? » Les Monty Python ont rendu la question vitale.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Dinosaure",
@@ -313,6 +323,7 @@
     "score": 52,
     "reason": "Jurassic Park, Yoshi et Dino Crisis : il n'est jamais vraiment sorti de sa phase dinosaure.",
     "category": "quotidien",
+    "tribe": "geek",
     "aliases": [
       "dino"
     ]
@@ -360,14 +371,16 @@
     "chouffin": true,
     "score": 65,
     "reason": "Salle de JdR idéale : sombre, fraîche, avec des rats pour la première quête. Et la réserve de Chouffe.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Grenier",
     "chouffin": true,
     "score": 85,
     "reason": "Le Joueur du Grenier y a élu domicile. Pour un chouffin, c'est un lieu de pèlerinage, pas un débarras.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Garage",
@@ -431,6 +444,7 @@
     "score": 55,
     "reason": "Base arrière du marathon Kaamelott, livres I à VI d'affilée. Il en porte encore l'empreinte.",
     "category": "quotidien",
+    "tribe": "roliste",
     "aliases": [
       "sofa"
     ]
@@ -461,7 +475,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "Ronde pour Arthur, couverte de dés, de fiches et de chips pour le MJ : c'est la table qui fait l'aventure.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Chaise",
@@ -482,21 +497,24 @@
     "chouffin": true,
     "score": 58,
     "reason": "Figurines alignées, intégrales de mangas et boîtes de jeux : l'étagère est son musée personnel.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Bibliothèque",
     "chouffin": true,
     "score": 52,
     "reason": "Tolkien, Pratchett et l'intégrale de One Piece : sa bibliothèque déborde et il en est très fier.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Armoire",
     "chouffin": true,
     "score": 52,
     "reason": "Il vérifie toujours le fond, au cas où Narnia serait derrière. Jamais trouvé, jamais abandonné.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Placard",
@@ -587,7 +605,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "Nimbus 2000, Éclair de Feu : un balai n'est pas un outil ménager, c'est un véhicule.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Poubelle",
@@ -673,7 +692,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "« Un auto-stoppeur doit toujours savoir où est sa serviette. » Le 25 mai, il la porte fièrement.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Ménage",
@@ -729,6 +749,7 @@
     "score": 55,
     "reason": "Monté pièce par pièce, RGB partout, baptisé d'un nom de dragon : le PC du chouffin est un compagnon.",
     "category": "quotidien",
+    "tribe": "gamer",
     "aliases": [
       "ordi"
     ]
@@ -854,6 +875,7 @@
     "score": 52,
     "reason": "La TI-82 et ses jeux cachés ont sauvé des heures de cours de maths. Objet culte d'une génération.",
     "category": "quotidien",
+    "tribe": "gamer",
     "aliases": [
       "calculette"
     ]
@@ -863,14 +885,16 @@
     "chouffin": true,
     "score": 55,
     "reason": "Pas celle en plastique : celle du Manuel du joueur, qu'il connaît mieux que le MJ. Il vérifie tout.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Carte",
     "chouffin": true,
     "score": 68,
     "reason": "Carte au trésor, carte de la Terre du Milieu ou carte Magic : une carte n'est jamais anodine.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Boussole",

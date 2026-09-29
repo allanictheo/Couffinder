@@ -4,7 +4,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "« 15 mètres de corde » : l'objet que tout joueur de JdR met dans son inventaire. Personne ne sait pourquoi.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Tente",
@@ -18,14 +19,16 @@
     "chouffin": true,
     "score": 62,
     "reason": "Il ne passe jamais devant sans l'ouvrir. Dans un jeu, c'est du loot. Sauf si c'est un Mimic.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Trésor",
     "chouffin": true,
     "score": 70,
     "reason": "Or, gemmes et objets légendaires : il suit la carte, fouille la grotte et le trouve. En jeu, surtout.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Journal",
@@ -84,21 +87,24 @@
     "chouffin": true,
     "score": 72,
     "reason": "D4, d6, d20 : il en a des centaines dans une bourse en cuir, et un préféré qu'il ne prête à personne.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Marteau",
     "chouffin": true,
     "score": 62,
     "reason": "Mjölnir est un marteau. Tout marteau est donc potentiellement digne. Il a essayé de soulever le sien.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Pioche",
     "chouffin": true,
     "score": 58,
     "reason": "Minecraft en a fait l'outil le plus iconique du jeu vidéo. Et les nains de la Moria approuvent.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Pelle",
@@ -112,7 +118,8 @@
     "chouffin": true,
     "score": 62,
     "reason": "L'outil fétiche de Gordon Freeman dans Half-Life. Plus jamais un simple pied-de-biche.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Tournevis",
@@ -126,7 +133,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Donkey Kong les lance, les nains du Hobbit s'y cachent, et on y met de la bière. Triple légitimité.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "taverne"
   },
   {
     "word": "Pinceau",
@@ -147,7 +155,8 @@
     "chouffin": false,
     "score": 50,
     "reason": "R2-D2, WALL-E et les Transformers : le robot est un pilier de la pop culture. Sauf l'aspirateur.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Fusée",
@@ -182,7 +191,8 @@
     "chouffin": true,
     "score": 72,
     "reason": "« Un anneau pour les gouverner tous. » Il le récite à chaque mariage, pendant l'échange des alliances.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Masque",
@@ -418,7 +428,8 @@
     "chouffin": true,
     "score": 62,
     "reason": "Mario est plombier. Tout plombier est donc un héros en puissance, capable de sauver une princesse.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Comptable",
@@ -462,7 +473,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "Chemise à carreaux, barbe, hache et grosse voix : un chouffin qui s'est trompé de forêt.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Informaticien",
@@ -470,6 +482,7 @@
     "score": 55,
     "reason": "Réparateur officiel des PC de toute la famille, fan de Linux et de SF : cliché, mais souvent juste.",
     "category": "quotidien",
+    "tribe": "geek",
     "aliases": [
       "informaticienne"
     ]
@@ -479,14 +492,16 @@
     "chouffin": true,
     "score": 52,
     "reason": "Chez Pratchett, c'est un orang-outan. Depuis, chaque bibliothécaire a son respect éternel.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Archéologue",
     "chouffin": true,
     "score": 62,
     "reason": "Indiana Jones et Lara Croft l'ont rendu glorieux. Fouiller des ruines pour un artefact : son rêve.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Astronaute",
@@ -507,7 +522,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "Personne n'a plus d'autorité qu'un juge en matière de chouffinitude. Respect au métier, forcément.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Artiste",
@@ -808,7 +824,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Surtout quand elle parle de Vikings, de chevaliers et de Moyen Âge. Nota Bene en a fait une passion.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Géographie",

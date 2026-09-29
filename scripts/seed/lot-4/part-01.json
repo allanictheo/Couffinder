@@ -39,7 +39,8 @@
     "chouffin": true,
     "score": 78,
     "reason": "Pizza, dés, fiches de perso froissées et MJ en retard : le rituel hebdomadaire du chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Samedi",
@@ -70,7 +71,8 @@
     "chouffin": true,
     "score": 70,
     "reason": "Raid qui s'éternise, partie de JdR qui déborde, « encore un tour » de Civ : l'état naturel du chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Janvier",
@@ -105,14 +107,16 @@
     "chouffin": true,
     "score": 55,
     "reason": "« May the Fourth be with you » : le 4 mai est férié dans son cœur. Le reste du mois, beaucoup moins.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Juin",
     "chouffin": true,
     "score": 62,
     "reason": "Le mois du Hellfest. Il compte les jours depuis l'été dernier, t-shirt noir prêt depuis septembre.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "metal"
   },
   {
     "word": "Juillet",
@@ -182,7 +186,8 @@
     "chouffin": true,
     "score": 65,
     "reason": "« L'hiver vient. » Il le dit chaque premier matin froid, avec le regard grave d'un Stark.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Matin",
@@ -210,14 +215,16 @@
     "chouffin": true,
     "score": 55,
     "reason": "Heure de pointe du chouffin : raids, parties qui débordent et débats de lore jusqu'à 2 h du matin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Minuit",
     "chouffin": true,
     "score": 52,
     "reason": "Sorties de jeux et avant-premières à minuit pile : il y était, en costume, avec un thermos.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Aube",
@@ -349,21 +356,24 @@
     "chouffin": true,
     "score": 60,
     "reason": "Thor est de sortie. Au premier grondement, le chouffin lève les yeux au ciel et salue Mjölnir.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Tonnerre",
     "chouffin": true,
     "score": 55,
     "reason": "« Par le marteau de Thor ! » Chaque coup de tonnerre est la preuve qu'Asgard veille.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Foudre",
     "chouffin": true,
     "score": 52,
     "reason": "Zeus la lance, Raiden la maîtrise, et le mage de la table la spamme. Électrisant.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Brouillard",
@@ -391,7 +401,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "Pour lui, c'est le Bifröst. Heimdall garde l'entrée, et le chouffin cherche le chemin d'Asgard.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Tempête",
@@ -426,7 +437,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "Soir de loups-garous, de sorts puissants et de professeur Lupin qui a oublié sa potion.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Étoile",
@@ -447,7 +459,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "Ciel de Bordeciel, sagas nordiques et Vikings : le spectacle naturel le plus chouffin qui soit.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Mer",
@@ -468,7 +481,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "La Dame du Lac y garde Excalibur. Arthur, lui, y passe le moins de temps possible.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Rivière",
@@ -503,7 +517,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "Il connaît le meilleur endroit pour jeter un anneau encombrant : la Montagne du Destin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Grotte",
@@ -511,6 +526,7 @@
     "score": 55,
     "reason": "Donjon naturel, repaire de Gollum et zone à coffres. Il n'y entre jamais sans torche.",
     "category": "quotidien",
+    "tribe": "roliste",
     "aliases": [
       "caverne"
     ]
@@ -520,7 +536,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Brocéliande, Fangorn, la Forêt interdite : pour lui, aucun bois n'est vraiment ordinaire.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Bois",
@@ -541,7 +558,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "L'arbre du druide par excellence. Il y cherche du gui pour une potion, comme Panoramix.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Gui",
@@ -555,7 +573,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "Le Saule cogneur de Poudlard lui a appris à garer la voiture volante ailleurs.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Frêne",
@@ -597,7 +616,8 @@
     "chouffin": false,
     "score": 45,
     "reason": "Sur une vieille pierre de Brocéliande ou sur une Chouffe bien servie : il valide dans les deux cas.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "taverne"
   },
   {
     "word": "Pierre",
@@ -653,7 +673,8 @@
     "chouffin": true,
     "score": 70,
     "reason": "Pas celle avec des vaches : celle qui dure trois ans et se joue le vendredi avec un MJ épuisé.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Ville",
@@ -681,7 +702,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Univers étendu, univers partagé, multivers : son sujet de débat préféré, dans l'ordre chronologique.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Monde",
@@ -702,14 +724,16 @@
     "chouffin": true,
     "score": 52,
     "reason": "L'ultime frontière. Space opera, vaisseaux et débat Star Wars contre Star Trek : il y vit à moitié.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Galaxie",
     "chouffin": true,
     "score": 58,
     "reason": "« Il y a bien longtemps, dans une galaxie lointaine, très lointaine... » Il connaît la suite par cœur.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Terre",
@@ -730,7 +754,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "Cercle de héros, barde qui chante faux et récit de quête : la base de toute aventure.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Cheminée",
@@ -751,7 +776,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "Final Fantasy tourne autour des cristaux depuis 1987. Pour lui, un cristal n'est jamais décoratif.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Diamant",
@@ -765,7 +791,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "La monnaie officielle d'Hyrule. Il ne peut pas en voir un sans entendre le petit son de Zelda.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Émeraude",
@@ -779,7 +806,8 @@
     "chouffin": true,
     "score": 52,
     "reason": "Smaug dort dessus, les nains le réclament et le chouffin le farme en boucle. Précieux.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Argent",
@@ -817,7 +845,8 @@
     "chouffin": true,
     "score": 68,
     "reason": "Fenrir, les loups-garous, la maison Stark : le loup est l'animal totem officiel du chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Renard",
@@ -838,20 +867,23 @@
     "chouffin": true,
     "score": 66,
     "reason": "Hugin et Munin, les corbeaux d'Odin, plus la Garde de Nuit : un CV chouffin impeccable.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Hibou",
     "chouffin": true,
     "score": 62,
     "reason": "Il attend toujours sa lettre de Poudlard. Chaque hibou qu'il croise est un espoir déçu.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Chouette",
     "chouffin": true,
     "score": 58,
     "reason": "Hedwige, et un nom qui ressemble presque à Chouffe. Chouffin par homonymie, et ça suffit.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   }
 ]

@@ -5,6 +5,7 @@
     "score": 62,
     "reason": "Star Wars contre Star Trek, livre contre film, Han a-t-il tiré le premier : débattre, c'est vivre.",
     "category": "quotidien",
+    "tribe": "geek",
     "aliases": [
       "débat"
     ]
@@ -91,14 +92,16 @@
     "chouffin": true,
     "score": 56,
     "reason": "Élu, prophétie, destin tracé : ses sagas préférées reposent toutes dessus.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Aventure",
     "chouffin": true,
     "score": 62,
     "reason": "« L'aventure, c'est l'aventure. » Pour lui, toute sortie de chez soi est une quête.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Mystère",
@@ -119,7 +122,8 @@
     "chouffin": true,
     "score": 58,
     "reason": "« Qu'ai-je dans ma poche ? » Bilbon et Gollum ont fait de l'énigme un art chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Pouvoir",
@@ -133,7 +137,8 @@
     "chouffin": true,
     "score": 72,
     "reason": "« Que la Force soit avec toi. » Impossible de dire ce mot sans prendre la voix d'Obi-Wan.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Lumière",
@@ -182,7 +187,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Warhammer en a fait une faction entière, les MJ en font un art. Le chaos est un ami fidèle.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Ordre",
@@ -224,7 +230,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "Humour lourd, second degré et références obscures : sa marque de fabrique.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "taverne"
   },
   {
     "word": "Blague",
@@ -239,6 +246,7 @@
     "score": 60,
     "reason": "Plus c'est lourd, plus il est fier. Le calembour est son arme secrète.",
     "category": "quotidien",
+    "tribe": "taverne",
     "aliases": [
       "jeux de mots",
       "calembour"
@@ -249,21 +257,24 @@
     "chouffin": true,
     "score": 70,
     "reason": "Il en place trois par phrase et vérifie que tu les as toutes captées. Sinon, il explique.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "geek"
   },
   {
     "word": "Citation",
     "chouffin": true,
     "score": 65,
     "reason": "Il en a une pour chaque situation de la vie, souvent signée Arthur ou Perceval.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Réplique",
     "chouffin": true,
     "score": 70,
     "reason": "Les répliques cultes de Kaamelott sont sa deuxième langue. Il les case même en réunion.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Vérité",
@@ -414,7 +425,8 @@
     "chouffin": true,
     "score": 78,
     "reason": "« Et puis j'ai pris une flèche dans le genou. » Skyrim a rendu cette articulation culte à jamais.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Cœur",
@@ -453,6 +465,7 @@
     "score": 85,
     "reason": "La réponse à la grande question sur la vie, l'univers et le reste. Tout chouffin le sait.",
     "category": "quotidien",
+    "tribe": "geek",
     "aliases": [
       "quarante-deux"
     ]
@@ -463,6 +476,7 @@
     "score": 60,
     "reason": "Le 20 naturel au d20 : le nombre qui fait hurler la table de joie. Sa note préférée.",
     "category": "quotidien",
+    "tribe": "roliste",
     "aliases": [
       "20"
     ]
@@ -493,6 +507,7 @@
     "score": 55,
     "reason": "Neuf compagnons pour la Communauté, neuf mondes sur Yggdrasil : le neuf est sacré chez lui.",
     "category": "quotidien",
+    "tribe": "roliste",
     "aliases": [
       "9"
     ]
@@ -532,7 +547,8 @@
     "chouffin": true,
     "score": 60,
     "reason": "Jeu de rôle, jeu vidéo, jeu de plateau : peu importe, du moment qu'il y a des règles à débattre.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Jeu de société",
@@ -540,6 +556,7 @@
     "score": 72,
     "reason": "Catane, Munchkin, Les Loups-garous : sa ludothèque déborde et il connaît toutes les règles.",
     "category": "loisirs",
+    "tribe": "roliste",
     "aliases": [
       "jeux de société",
       "jeu de plateau",
@@ -558,7 +575,8 @@
     "chouffin": false,
     "score": 22,
     "reason": "Mille pièces avec la carte de la Terre du Milieu : acceptable. Un paysage de Bretagne : non.",
-    "category": "loisirs"
+    "category": "loisirs",
+    "tribe": "roliste"
   },
   {
     "word": "Bricolage",
@@ -576,6 +594,7 @@
     "score": 72,
     "reason": "Figurines, cartes, dés : sa collection est son trésor, et il en connaît chaque pièce par cœur.",
     "category": "loisirs",
+    "tribe": "roliste",
     "aliases": [
       "collectionner"
     ]
@@ -585,14 +604,16 @@
     "chouffin": true,
     "score": 58,
     "reason": "Chasser les cartouches Super Nintendo entre deux services à café : un sport de chouffin.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Vide-grenier",
     "chouffin": true,
     "score": 68,
     "reason": "Des vieux jeux à deux euros et des BD introuvables : le paradis de la chine, et un grenier en prime.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "gamer"
   },
   {
     "word": "Musée",
@@ -681,6 +702,7 @@
     "score": 60,
     "reason": "« Je suis ton père. » Il ne peut plus entendre ce mot sans prendre une voix grave et un souffle rauque.",
     "category": "quotidien",
+    "tribe": "geek",
     "aliases": [
       "papa"
     ]
@@ -821,7 +843,8 @@
     "chouffin": true,
     "score": 55,
     "reason": "« Vous ne passerez pas ! » Depuis Khazad-dûm, aucun pont n'est anodin pour lui.",
-    "category": "quotidien"
+    "category": "quotidien",
+    "tribe": "roliste"
   },
   {
     "word": "Tour",
