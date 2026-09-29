@@ -1,0 +1,835 @@
+[
+  {
+    "word": "Reconstitution historique",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Camps médiévaux, tentes en toile et vraies cottes de mailles : il vit en 1350 chaque week-end.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Visite de château fort",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Il explique les mâchicoulis à tout le groupe sans qu'on le lui demande. Avec passion.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Marathon de films",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le Seigneur des Anneaux en version longue, 11 h 30 d'affilée : c'est son dimanche idéal.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Binge-watching",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Chouffin de justesse : une saison de The Witcher en une nuit, « pour le lore ».",
+    "category": "loisirs"
+  },
+  {
+    "word": "Avant-première",
+    "chouffin": true,
+    "score": 74,
+    "reason": "En cosplay, 3 h avant l'ouverture : il a vu le dernier Star Wars avant tout le monde.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Blind test",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il reconnaît n'importe quelle OST de jeu vidéo en 2 secondes : imbattable, insupportable.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Pub quiz",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Imbattable sur Tolkien, perdu sur la mode : chouffin, surtout avec une pinte.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Karaoké",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Il ne chante que des openings d'animés et du Sabaton : chouffin de justesse, public compris.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Escape game",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Énigmes et salle à thème : chouffin de justesse, surtout celles façon donjon ou Poudlard.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Laser game",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Il annonce ses stratégies comme un commandant de Warhammer 40K : chouffin de justesse.",
+    "category": "loisirs",
+    "aliases": [
+      "lasergame"
+    ]
+  },
+  {
+    "word": "Bowling",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Ça se discute : chaussures louées, une bière et une réplique de The Big Lebowski.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Flipper",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le flipper Star Wars au fond du bar : chouffin de justesse, nostalgie garantie.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Géocaching",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Une chasse au trésor au GPS : il y voit une quête secondaire de Skyrim.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Funko Pop",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Des figurines à grosse tête alignées sur l'étagère : il en a 147, toutes dans leur boîte.",
+    "category": "loisirs",
+    "aliases": [
+      "funko"
+    ]
+  },
+  {
+    "word": "Lego",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il a construit le Faucon Millenium et l'a mis sous vitrine : défense de toucher.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Maquettisme",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Des maquettes au 1/35 et de la colle partout : un loisir de patience et de nerd assumé.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Fanfiction",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Il a écrit 400 pages sur une quête secondaire de Legolas et Gimli : l'œuvre de sa vie.",
+    "category": "loisirs",
+    "aliases": [
+      "fanfic"
+    ]
+  },
+  {
+    "word": "Soirée déguisée",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Il vient toujours en Jedi ou en elfe, même quand le thème était « années 80 ».",
+    "category": "loisirs"
+  },
+  {
+    "word": "Apéro",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Chouffin de justesse : tant qu'il y a des Chouffe et des chips au paprika sur la table.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Calligraphie",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Chouffin de justesse : il écrit en runes elfiques sur ses fiches de perso.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Œnologie",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Faire tourner le vin en parlant de tanins : il préfère commenter la mousse de sa triple.",
+    "category": "loisirs",
+    "aliases": [
+      "oenologie"
+    ]
+  },
+  {
+    "word": "Brunch",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Avocado toast, œufs bénédicte et photo Instagram : le rituel sacré de l'anti-chouffin.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Afterwork",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Des collègues en costume slim sur un rooftop : le chouffin a déjà fui en roulade.",
+    "category": "loisirs",
+    "aliases": [
+      "after work",
+      "after-work"
+    ]
+  },
+  {
+    "word": "Rooftop",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Un cocktail à 16 € sur un toit avec DJ house : l'exact opposé de la taverne.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Spa",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Peignoir blanc et bain nordique : le seul nordique qu'il supporte, c'est Wardruna.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Shopping",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Faire les boutiques de luxe : il ne fait que les boutiques de figurines.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Voyage à Bali",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Yoga au lever du soleil et photos sur une balançoire : l'antithèse absolue du chouffin.",
+    "category": "loisirs",
+    "aliases": [
+      "bali"
+    ]
+  },
+  {
+    "word": "Festival électro",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Des DJ, des paillettes et de la house : le chouffin était au Hellfest, merci.",
+    "category": "loisirs",
+    "aliases": [
+      "festival de musique electro"
+    ]
+  },
+  {
+    "word": "Croisière",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Buffet, piscine et soirée blanche en mer : seule une croisière pirate trouverait grâce à ses yeux.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Team building",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Accrobranche et post-it : le seul team building qu'il reconnaît, c'est un raid à 40.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Atelier poterie",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Poterie et bougies parfumées : pas chouffin, sauf pour se fabriquer une chope.",
+    "category": "loisirs",
+    "aliases": [
+      "poterie"
+    ]
+  },
+  {
+    "word": "Méditation",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Rester immobile sans rien faire : il le fait déjà en attendant de réapparaître, merci.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Développement personnel",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Des livres pour « devenir la meilleure version de soi » : son perso est déjà niveau 60.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Accrobranche",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Ça se discute : il se prend pour un elfe sylvain, puis a le vertige au deuxième parcours.",
+    "category": "loisirs"
+  },
+  {
+    "word": "Hellfest",
+    "chouffin": true,
+    "score": 99,
+    "reason": "Le Graal du métal à Clisson : il y va chaque année et compte les jours depuis la fin de l'édition précédente.",
+    "category": "lieux-events",
+    "aliases": [
+      "hell fest"
+    ]
+  },
+  {
+    "word": "Wacken",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Le Hellfest allemand, dans la boue : il y est allé une fois et raconte encore la gadoue.",
+    "category": "lieux-events",
+    "aliases": [
+      "wacken open air"
+    ]
+  },
+  {
+    "word": "Graspop",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le festival de métal belge : de la bière belge et du métal au même endroit, le paradis.",
+    "category": "lieux-events",
+    "aliases": [
+      "graspop metal meeting"
+    ]
+  },
+  {
+    "word": "Motocultor",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le festival de métal breton : cidre, métal et Brocéliande à portée de voiture.",
+    "category": "lieux-events",
+    "aliases": [
+      "motocultor festival"
+    ]
+  },
+  {
+    "word": "Japan Expo",
+    "chouffin": true,
+    "score": 94,
+    "reason": "Quatre jours en cosplay à Villepinte : il y rachète chaque année le même sabre en mousse.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Paris Games Week",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Deux heures de queue pour 10 minutes de démo : il en ressort en extase.",
+    "category": "lieux-events",
+    "aliases": [
+      "pgw"
+    ]
+  },
+  {
+    "word": "Comic Con",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Des stars de séries, des cosplays et des files d'attente : son pèlerinage annuel.",
+    "category": "lieux-events",
+    "aliases": [
+      "comicon",
+      "comiccon"
+    ]
+  },
+  {
+    "word": "Gamescom",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le grand salon allemand du jeu vidéo : il suit toutes les annonces en direct, Monster en main.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Toulouse Game Show",
+    "chouffin": true,
+    "score": 84,
+    "reason": "La convention du Sud : cosplay, animés et jeux vidéo, il y descend en train avec son épée.",
+    "category": "lieux-events",
+    "aliases": [
+      "tgs"
+    ]
+  },
+  {
+    "word": "Festival d'Angoulême",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le festival de la BD : il y va surtout pour les dédicaces de fantasy et de comics.",
+    "category": "lieux-events",
+    "aliases": [
+      "angouleme"
+    ]
+  },
+  {
+    "word": "Festival des jeux de Cannes",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Des milliers de jeux de société à tester : le seul Cannes qui vaille, selon lui.",
+    "category": "lieux-events",
+    "aliases": [
+      "fij"
+    ]
+  },
+  {
+    "word": "Les Imaginales",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le festival des mondes imaginaires à Épinal : il en revient avec 12 romans de fantasy.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Convention",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Stands, cosplay, dédicaces et goodies : son lieu de vie trois week-ends par an.",
+    "category": "lieux-events",
+    "aliases": [
+      "convention geek"
+    ]
+  },
+  {
+    "word": "Puy du Fou",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Chevaliers, Vikings et grands spectacles : il y est allé 7 fois et il en a encore les larmes aux yeux.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Fête médiévale",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Cuisse de dinde, hydromel, joutes et bourse en cuir : le chouffin retrouve sa véritable époque.",
+    "category": "lieux-events",
+    "aliases": [
+      "marche medieval"
+    ]
+  },
+  {
+    "word": "Provins",
+    "chouffin": true,
+    "score": 88,
+    "reason": "La cité médiévale et ses spectacles de rapaces : il s'y sent comme à la maison.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Carcassonne",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Une vraie cité médiévale et un jeu de société : double dose de chouffinitude.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Château de Guédelon",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Un château fort construit avec les techniques du XIIIe siècle : il y ferait un stage à vie.",
+    "category": "lieux-events",
+    "aliases": [
+      "guedelon"
+    ]
+  },
+  {
+    "word": "Mont-Saint-Michel",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Une abbaye sur un rocher : il y voit Minas Tirith, et il n'a pas tout à fait tort.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Stonehenge",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Des pierres mystérieuses et des druides : il a des théories, beaucoup de théories.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Brocéliande",
+    "chouffin": true,
+    "score": 92,
+    "reason": "La forêt de Merlin et de la fée Viviane : il y cherche encore Excalibur.",
+    "category": "lieux-events",
+    "aliases": [
+      "foret de broceliande"
+    ]
+  },
+  {
+    "word": "Bretagne",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Chouchen, légendes arthuriennes et Motocultor : une terre chouffine, crêpes comprises.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Belgique",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le pays de la Chouffe, de Kwak et de Delirium : sa Terre promise, sa Comté à lui.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Achouffe",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Le village où naît La Chouffe : son lieu de pèlerinage, lutins inclus.",
+    "category": "lieux-events",
+    "aliases": [
+      "brasserie d'achouffe"
+    ]
+  },
+  {
+    "word": "Bruges",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Canaux, beffroi médiéval et bières trappistes : une ville de chouffin en carte postale.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Bruxelles",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Chouffin de justesse, grâce au Delirium Café et aux fresques de BD sur les murs.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Delirium Café",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Un bar bruxellois avec plus de 2 000 bières à la carte : il en a fait son QG spirituel.",
+    "category": "lieux-events",
+    "aliases": [
+      "delirium cafe bruxelles"
+    ]
+  },
+  {
+    "word": "Écosse",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Kilts, whisky, Highlander et châteaux hantés : il y va pour les brumes et les cornemuses.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Irlande",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Pubs, Guinness et légendes celtiques : chouffin, surtout la partie pub.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Norvège",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Fjords, Vikings et drakkars : il en revient avec un pendentif Mjöllnir et une barbe plus longue.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Nouvelle-Zélande",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le pays de la Terre du Milieu : il a déjà réservé une nuit à Hobbitebourg, dans ses rêves.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Japon",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le pays des animés et des jeux vidéo : il y a passé 10 jours à Akihabara et n'a rien vu d'autre.",
+    "category": "lieux-events",
+    "aliases": [
+      "japan"
+    ]
+  },
+  {
+    "word": "Akihabara",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le quartier geek de Tokyo : il y a dépensé l'équivalent d'un loyer en figurines.",
+    "category": "lieux-events",
+    "aliases": [
+      "akiba"
+    ]
+  },
+  {
+    "word": "Studio Harry Potter",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Les studios près de Londres : il a bu une bièraubeurre et pleuré devant la maquette du château.",
+    "category": "lieux-events",
+    "aliases": [
+      "warner bros studio tour"
+    ]
+  },
+  {
+    "word": "Dubrovnik",
+    "chouffin": true,
+    "score": 72,
+    "reason": "La Port-Réal de Game of Thrones : il y a rejoué la marche de la honte, pour rire.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Parc Astérix",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Des Gaulois, des sangliers et des Romains : chouffin de justesse, les montagnes russes en plus.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Taverne",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Son habitat naturel : chope en main, table en bois, barde enroué. Le reste du monde est optionnel.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Pub irlandais",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Guinness, fléchettes et chansons à boire : la taverne moderne du chouffin.",
+    "category": "lieux-events",
+    "aliases": [
+      "irish pub"
+    ]
+  },
+  {
+    "word": "Bar à jeux",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Des étagères de jeux de société et des bières belges : il y a sa chaise attitrée.",
+    "category": "lieux-events",
+    "aliases": [
+      "bar a jeux de societe"
+    ]
+  },
+  {
+    "word": "Magasin de jeux",
+    "chouffin": true,
+    "score": 88,
+    "reason": "La boutique de figurines et de jeux de plateau : il y passe plus de temps que chez lui.",
+    "category": "lieux-events",
+    "aliases": [
+      "boutique de figurines",
+      "boutique de jeux"
+    ]
+  },
+  {
+    "word": "Salle d'arcade",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Bornes, jetons et néons : il y a battu son record à Street Fighter en 1998, et en parle encore.",
+    "category": "lieux-events",
+    "aliases": [
+      "arcade"
+    ]
+  },
+  {
+    "word": "Bar à bières",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Trente tireuses et une ardoise de bières belges : son deuxième salon.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Oktoberfest",
+    "chouffin": true,
+    "score": 74,
+    "reason": "La fête de la bière de Munich en culotte de cuir : chouffin, même sans Chouffe au programme.",
+    "category": "lieux-events",
+    "aliases": [
+      "fete de la biere"
+    ]
+  },
+  {
+    "word": "Festival interceltique de Lorient",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Cornemuses, kilts et chouchen : un grand rassemblement de druides modernes.",
+    "category": "lieux-events",
+    "aliases": [
+      "interceltique"
+    ]
+  },
+  {
+    "word": "Vieilles Charrues",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Chouffin de justesse : de la bière, de la Bretagne et parfois un groupe de métal à l'affiche.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Disneyland",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Chouffin de justesse, grâce aux coins Star Wars et Marvel. Le reste, c'est la parade des princesses.",
+    "category": "lieux-events",
+    "aliases": [
+      "disneyland paris"
+    ]
+  },
+  {
+    "word": "E3",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le défunt grand salon du jeu vidéo : il revoit encore les conférences de 2004 sur YouTube.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Marché de Noël",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Ça se discute : vin chaud et chalets en bois, presque une fête médiévale, mais sans les joutes.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Salon du chocolat",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Des robes en chocolat et des dégustations chics : il cherche le stand de bière.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Coachella",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Festival d'influenceurs en couronnes de fleurs : le Hellfest version Instagram, en pire.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Tomorrowland",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Le festival électro géant : trop de paillettes, pas assez de headbang.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Burning Man",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Une ville éphémère dans le désert pour milliardaires de la tech : pas chouffin.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Saint-Tropez",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Yachts, rosé piscine et plage privée : l'enfer du chouffin en maillot.",
+    "category": "lieux-events",
+    "aliases": [
+      "st tropez"
+    ]
+  },
+  {
+    "word": "Ibiza",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Boîtes de nuit et DJ à 3 h du matin : lui préfère une taverne à 3 h du matin.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Fashion Week",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Défilés, influenceurs et sacs hors de prix : l'univers du chouffin s'est évanoui.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Met Gala",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Le tapis rouge le plus chic du monde : aucun t-shirt de métal n'y a jamais été admis.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Courchevel",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Ski en fourrure et chalets à 20 000 € la semaine : le chouffin, lui, skie dans Skyrim.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Dubaï",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Gratte-ciel, piscines et influenceurs : il préfère la tour de Barad-dûr.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Maldives",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Un bungalow sur pilotis pour la lune de miel Instagram : le chouffin part à Provins.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Saint-Barthélemy",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Yachts et plages privées : aucun lutin à l'horizon.",
+    "category": "lieux-events",
+    "aliases": [
+      "saint-barth",
+      "st barth"
+    ]
+  },
+  {
+    "word": "Cap Ferret",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Cabanes à huîtres et marinières de bon ton : pas chouffin.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Boîte de nuit",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Musique trop forte et reggaeton : il préfère le pogo, où l'on se rentre dedans avec amour.",
+    "category": "lieux-events",
+    "aliases": [
+      "discotheque"
+    ]
+  },
+  {
+    "word": "Bar à cocktails",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Mixologue et moustache cirée : il demande une Chouffe, le barman soupire.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Beach club",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Transats payants et DJ au bord de l'eau : le chouffin n'a jamais vu cette plage, de toute façon.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Starbucks",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Ton prénom mal écrit sur un gobelet à 7 € : pas chouffin, sauf pour le Wi-Fi avant la convention.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Parc des Princes",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Le stade du PSG : il préfère les parcs de Hobbitebourg.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Roland-Garros",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Tennis, panama et champagne : l'antithèse de la fosse du Hellfest.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Festival de Cannes",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Tapis rouge, smokings et films d'auteur : il attend la sortie du prochain Marvel.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Concept store",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Des bougies à 60 € et des tote bags : il cherche désespérément le rayon figurines.",
+    "category": "lieux-events"
+  }
+]

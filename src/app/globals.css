@@ -1,26 +1,596 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+ * Chouffinder : « montage 2012, rendu 2026 ».
+ * Les tokens sont documentés dans docs/design/direction-artistique.md.
+ */
+
+@theme {
+  /* Fonds : nuit de taverne, légèrement violette. */
+  --color-nuit: #0e0a16;
+  --color-nuit-2: #161022;
+  --color-surface: #1d162b;
+  --color-surface-2: #282039;
+  --color-ligne: rgb(255 255 255 / 0.12);
+
+  /* Textes. */
+  --color-parchemin: #f7f1e5;
+  --color-brume: #bcb1cf;
+
+  /* Accents. */
+  --color-dew: #b6ff2e; /* vert soda fluo : CHOUFFIN */
+  --color-dew-deep: #4f8a00;
+  --color-chips: #ff7a1a; /* orange chips */
+  --color-hydromel: #ffc84a; /* or, texte d'ambiance */
+  --color-metro: #1f6fe5; /* bleu flat 2013 : PAS CHOUFFIN */
+  --color-metro-deep: #1553b3;
+  --color-metro-light: #7ab4ff; /* texte bleu lisible sur fond nuit */
+  --color-alerte: #ff5a6a;
+  --color-neon-pink: #ff3ea5;
+  --color-neon-cyan: #3ef0ff;
+  --color-neon-yellow: #fff23e;
+  --color-neon-violet: #9b7bff;
+
+  /* Rareté du butin (éclaircie pour le contraste AA sur fond nuit). */
+  --color-rarity-poor: #a8a8a8;
+  --color-rarity-common: #f2f2f2;
+  --color-rarity-uncommon: #3dff2a;
+  --color-rarity-rare: #52a8ff;
+  --color-rarity-epic: #c77dff;
+  --color-rarity-legendary: #ff8a1a;
+
+  --radius-tile: 2px;
+  --radius-tooltip: 6px;
+  --radius-button: 14px;
+  --radius-field: 22px;
+  --radius-card: 24px;
+
+  --shadow-card: 0 1px 0 rgb(255 255 255 / 0.08) inset, 0 24px 60px -24px rgb(0 0 0 / 0.8);
+  --shadow-neon: 0 0 0 1px rgb(0 0 0 / 0.6), 0 0 70px -18px var(--color-dew);
+
+  --ease-punch: cubic-bezier(0.2, 1.4, 0.3, 1);
+  --ease-metro: cubic-bezier(0.1, 0.9, 0.2, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-anton), Impact, "Arial Narrow", sans-serif;
+  --font-comic: var(--font-comic-neue), "Comic Sans MS", "Chalkboard SE", cursive;
+  --font-pixel: var(--font-silkscreen), ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@property --ring-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@property --cooldown {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 0;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-nuit);
+  color: var(--color-parchemin);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--color-dew);
+  color: #0e0a16;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-dew);
+  outline-offset: 3px;
+}
+
+@layer components {
+  /* Fond étoilé + halos : statique, en position fixe (aucun repaint au scroll). */
+  .backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image:
+      radial-gradient(1.5px 1.5px at 12% 18%, rgb(255 255 255 / 0.85), transparent 60%),
+      radial-gradient(1px 1px at 68% 42%, rgb(255 255 255 / 0.6), transparent 60%),
+      radial-gradient(1px 1px at 35% 76%, rgb(255 255 255 / 0.55), transparent 60%),
+      radial-gradient(1.5px 1.5px at 88% 84%, rgb(182 255 46 / 0.6), transparent 60%),
+      radial-gradient(1px 1px at 52% 8%, rgb(255 200 74 / 0.7), transparent 60%),
+      radial-gradient(1px 1px at 22% 58%, rgb(62 240 255 / 0.5), transparent 60%);
+    background-size: 260px 260px;
+  }
+
+  .backdrop::before,
+  .backdrop::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  .backdrop::before {
+    background-image:
+      radial-gradient(1px 1px at 30% 30%, rgb(255 255 255 / 0.5), transparent 60%),
+      radial-gradient(1.5px 1.5px at 80% 12%, rgb(255 62 165 / 0.55), transparent 60%),
+      radial-gradient(1px 1px at 60% 70%, rgb(255 255 255 / 0.45), transparent 60%);
+    background-size: 410px 410px;
+  }
+
+  .backdrop::after {
+    background:
+      radial-gradient(70% 55% at 50% -12%, rgb(122 70 255 / 0.32), transparent 70%),
+      radial-gradient(45% 40% at 0% 100%, rgb(182 255 46 / 0.08), transparent 70%),
+      radial-gradient(45% 40% at 100% 90%, rgb(255 62 165 / 0.07), transparent 70%);
+  }
+
+  /* Roue de couleurs derrière le héros, clin d'œil aux fonds des « advice animals ». */
+  .sunburst {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: min(150vw, 1400px);
+    aspect-ratio: 1;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background:
+      repeating-conic-gradient(from 0deg, rgb(255 255 255 / 0.07) 0deg 9deg, transparent 9deg 18deg),
+      conic-gradient(
+        rgb(255 62 165 / 0.12),
+        rgb(255 138 26 / 0.12),
+        rgb(255 242 62 / 0.1),
+        rgb(182 255 46 / 0.12),
+        rgb(62 240 255 / 0.12),
+        rgb(155 123 255 / 0.12),
+        rgb(255 62 165 / 0.12)
+      );
+    mask-image: radial-gradient(closest-side, #000 15%, transparent 72%);
+    animation: sunburst-spin 90s linear infinite;
+    pointer-events: none;
+  }
+
+  /* Texte « meme » : Impact-like blanc, contour noir. */
+  .meme-text {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0.98;
+    letter-spacing: 0.01em;
+    -webkit-text-stroke: 0.09em #000;
+    paint-order: stroke fill;
+    text-shadow: 0 0.05em 0 #000, 0 0.1em 0.3em rgb(0 0 0 / 0.55);
+  }
+
+  .doge-text {
+    font-family: var(--font-comic);
+    font-weight: 700;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 0.75), 0 0 14px rgb(0 0 0 / 0.55);
+  }
+
+  .pixel-text {
+    font-family: var(--font-pixel);
+    -webkit-font-smoothing: none;
+    font-smooth: never;
+  }
+
+  /* Bordure RGB « gamer » du champ : tourne au focus, s'emballe pendant le chargement. */
+  .rgb-ring {
+    position: relative;
+    isolation: isolate;
+    padding: 3px;
+    border-radius: var(--radius-field);
+  }
+
+  .rgb-ring::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: conic-gradient(
+      from var(--ring-angle),
+      var(--color-neon-pink),
+      var(--color-chips),
+      var(--color-neon-yellow),
+      var(--color-dew),
+      var(--color-neon-cyan),
+      var(--color-neon-violet),
+      var(--color-neon-pink)
+    );
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    animation: ring-spin 6s linear infinite paused;
+  }
+
+  .rgb-ring:focus-within::before,
+  .rgb-ring[data-loading="true"]::before {
+    opacity: 1;
+    animation-play-state: running;
+  }
+
+  .rgb-ring[data-loading="true"]::before {
+    animation-duration: 0.9s;
+  }
+
+  .rgb-ring:focus-within {
+    box-shadow: 0 0 48px -10px rgb(182 255 46 / 0.55);
+  }
+
+  .rgb-ring:has(input:focus-visible) {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+  }
+
+  .field-shell {
+    border-radius: calc(var(--radius-field) - 3px);
+    background: linear-gradient(180deg, #221a33 0%, #150f20 100%);
+    box-shadow: inset 0 2px 8px rgb(0 0 0 / 0.6), inset 0 -1px 0 rgb(255 255 255 / 0.06);
+  }
+
+  /* Bouton glossy 2011 : dégradé, reflet, tranche 3D qui s'enfonce au clic. */
+  .btn-glossy {
+    position: relative;
+    isolation: isolate;
+    border-radius: var(--radius-button);
+    background: linear-gradient(180deg, #e2ff9a 0%, #b6ff2e 46%, #93e600 54%, #a8f51e 100%);
+    color: #11210a;
+    font-weight: 800;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 0.55);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.85),
+      inset 0 -2px 0 rgb(0 0 0 / 0.12),
+      0 5px 0 var(--color-dew-deep),
+      0 12px 24px -8px rgb(182 255 46 / 0.55);
+    transition:
+      transform 0.08s ease,
+      box-shadow 0.08s ease,
+      filter 0.15s ease;
+  }
+
+  .btn-glossy::before {
+    content: "";
+    position: absolute;
+    inset: 2px 3px 52% 3px;
+    z-index: -1;
+    border-radius: calc(var(--radius-button) - 3px) calc(var(--radius-button) - 3px) 50% 50% / calc(var(--radius-button) - 3px) calc(var(--radius-button) - 3px) 8px 8px;
+    background: linear-gradient(180deg, rgb(255 255 255 / 0.7), rgb(255 255 255 / 0.08));
+    pointer-events: none;
+  }
+
+  .btn-glossy:hover:not(:disabled) {
+    filter: brightness(1.05) saturate(1.1);
+  }
+
+  .btn-glossy:active:not(:disabled) {
+    transform: translateY(4px);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.85),
+      inset 0 -2px 0 rgb(0 0 0 / 0.12),
+      0 1px 0 var(--color-dew-deep),
+      0 4px 10px -4px rgb(182 255 46 / 0.5);
+  }
+
+  .btn-glossy:disabled {
+    cursor: progress;
+    filter: saturate(0.6) brightness(0.9);
+  }
+
+  /* Variante glossy bleue pour le vote « pas chouffin ». */
+  .btn-glossy[data-tone="pas"] {
+    background: linear-gradient(180deg, #a9ccff 0%, #5a9bff 46%, #2d74e8 54%, #3f86f5 100%);
+    color: #06142e;
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.85),
+      inset 0 -2px 0 rgb(0 0 0 / 0.12),
+      0 5px 0 var(--color-metro-deep),
+      0 12px 24px -8px rgb(31 111 229 / 0.55);
+  }
+
+  .btn-glossy[data-tone="pas"]:active:not(:disabled) {
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.85),
+      0 1px 0 var(--color-metro-deep),
+      0 4px 10px -4px rgb(31 111 229 / 0.5);
+  }
+
+  .btn-ghost {
+    border-radius: 999px;
+    border: 1px solid var(--color-ligne);
+    background: rgb(255 255 255 / 0.04);
+    color: var(--color-parchemin);
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      transform 0.1s ease;
+  }
+
+  .btn-ghost:hover:not(:disabled) {
+    background: rgb(255 255 255 / 0.09);
+    border-color: rgb(255 255 255 / 0.25);
+  }
+
+  .btn-ghost:active:not(:disabled) {
+    transform: scale(0.97);
+  }
+
+  /* Cartes de verdict : glossy néon (chouffin) contre flat design (pas chouffin). */
+  .card-chouffin {
+    border-radius: var(--radius-card);
+    border: 1px solid rgb(182 255 46 / 0.45);
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 0.07), rgb(255 255 255 / 0) 38%),
+      var(--color-surface);
+    box-shadow: var(--shadow-neon), var(--shadow-card);
+  }
+
+  .card-chouffin[data-legendary="true"] {
+    border-color: rgb(255 138 26 / 0.6);
+    box-shadow:
+      0 0 0 1px rgb(0 0 0 / 0.6),
+      0 0 80px -16px var(--color-rarity-legendary),
+      var(--shadow-card);
+  }
+
+  .card-pas {
+    border-radius: var(--radius-tile);
+    border: 2px solid var(--color-metro);
+    background: var(--color-surface);
+  }
+
+  .card-neutral {
+    border-radius: var(--radius-card);
+    border: 1px solid var(--color-ligne);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-card);
+  }
+
+  .stamp-chouffin {
+    display: inline-block;
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--color-dew);
+    padding: 0.06em 0.28em 0.1em;
+    border: 0.07em solid currentColor;
+    border-radius: 0.14em;
+    -webkit-text-stroke: 0.08em #000;
+    paint-order: stroke fill;
+    text-shadow: 0 0 0.35em rgb(182 255 46 / 0.55);
+    box-shadow:
+      0 0 0 0.03em #000,
+      inset 0 0 0 0.03em #000,
+      0 0 0.5em -0.1em rgb(182 255 46 / 0.6);
+  }
+
+  .stamp-chouffin[data-legendary="true"] {
+    color: var(--color-rarity-legendary);
+    text-shadow: 0 0 0.35em rgb(255 138 26 / 0.6);
+    box-shadow:
+      0 0 0 0.03em #000,
+      inset 0 0 0 0.03em #000,
+      0 0 0.6em -0.1em rgb(255 138 26 / 0.7);
+  }
+
+  .tile-pas {
+    display: inline-block;
+    background: var(--color-metro);
+    color: #fff;
+    font-family: var(--font-sans);
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    padding: 0.14em 0.32em 0.22em;
+    border-radius: var(--radius-tile);
+  }
+
+  /* Info-bulle d'objet façon MMORPG. */
+  .item-tooltip {
+    border-radius: var(--radius-tooltip);
+    border: 1px solid #6d7394;
+    background: linear-gradient(180deg, rgb(13 15 38 / 0.97), rgb(6 7 22 / 0.97));
+    box-shadow:
+      0 0 0 1px #000,
+      inset 0 0 0 1px rgb(255 255 255 / 0.05);
+  }
+
+  .card-pas .item-tooltip {
+    border-radius: var(--radius-tile);
+    border-color: rgb(255 255 255 / 0.14);
+    background: var(--color-nuit-2);
+    box-shadow: none;
+  }
+
+  .achievement {
+    border-radius: 999px;
+    background: linear-gradient(180deg, #454545 0%, #222 52%, #161616 100%);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.28),
+      0 0 0 1px rgb(0 0 0 / 0.8),
+      0 14px 36px rgb(0 0 0 / 0.65);
+    color: #fff;
+  }
+
+  .achievement-orb {
+    border-radius: 50%;
+    background: radial-gradient(circle at 34% 28%, #ffffff 0 7%, #e9e9e9 10%, #9c9c9c 58%, #545454 100%);
+    box-shadow:
+      inset 0 -3px 6px rgb(0 0 0 / 0.35),
+      0 0 0 2px #111,
+      0 0 18px rgb(255 255 255 / 0.25);
+    color: #1b1b1b;
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 0.18em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+  }
+
+  /* Recharge façon sort de MMORPG, pour le bouton « Réessayer » après un 429. */
+  .cooldown {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cooldown::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: conic-gradient(rgb(0 0 0 / 0.55) calc(var(--cooldown) * 360deg), transparent 0);
+    animation: cooldown-sweep var(--cooldown-duration, 5s) linear forwards;
+    pointer-events: none;
+  }
+
+  .lettrine::first-letter {
+    float: left;
+    font-family: var(--font-display);
+    font-size: 3.4em;
+    line-height: 0.82;
+    padding: 0.06em 0.12em 0 0;
+    color: var(--color-hydromel);
+  }
+
+  .late-fade-in {
+    animation: fade-in 0.35s ease 0.6s both;
+  }
+
+  .is-shaking {
+    animation: mlg-shake 0.48s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  }
+
+  .vt-title {
+    view-transition-name: hero-title;
+  }
+
+  .vt-search {
+    view-transition-name: search-box;
+  }
+}
+
+@keyframes ring-spin {
+  to {
+    --ring-angle: 360deg;
+  }
+}
+
+@keyframes sunburst-spin {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes spin {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes cooldown-sweep {
+  from {
+    --cooldown: 1;
+  }
+  to {
+    --cooldown: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes mlg-shake {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  10% {
+    transform: translate3d(-9px, 5px, 0) rotate(-0.6deg) scale(1.035);
+  }
+  22% {
+    transform: translate3d(9px, -6px, 0) rotate(0.6deg) scale(1.03);
+  }
+  34% {
+    transform: translate3d(-7px, -3px, 0) rotate(-0.4deg) scale(1.02);
+  }
+  48% {
+    transform: translate3d(5px, 5px, 0) rotate(0.3deg) scale(1.01);
+  }
+  64% {
+    transform: translate3d(-3px, 2px, 0);
+  }
+  80% {
+    transform: translate3d(2px, -1px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+::view-transition-group(*) {
+  animation-duration: 0.38s;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .sunburst,
+  .is-shaking {
+    animation: none;
+  }
+
+  .rgb-ring::before,
+  .rgb-ring:focus-within::before,
+  .rgb-ring[data-loading="true"]::before {
+    animation: none;
+  }
+
+  .spinner {
+    animation: pulse-soft 1.4s ease-in-out infinite;
+    border-right-color: currentColor;
+  }
+
+  .cooldown::after {
+    display: none;
+  }
+
+  .late-fade-in {
+    animation-duration: 0.01s;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+
+@keyframes pulse-soft {
+  50% {
+    opacity: 0.35;
+  }
 }

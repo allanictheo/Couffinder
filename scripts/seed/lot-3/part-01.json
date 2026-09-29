@@ -1,0 +1,816 @@
+[
+  {
+    "word": "Métal",
+    "chouffin": true,
+    "score": 95,
+    "reason": "Le socle de sa foi. Il pense écouter « un peu de tout », mais ce « tout » a toujours des guitares saturées.",
+    "category": "musique"
+  },
+  {
+    "word": "Heavy metal",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Des solos de 4 minutes et des pochettes à squelettes : il appelle ça « de la vraie musique ».",
+    "category": "musique"
+  },
+  {
+    "word": "Power metal",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Des dragons, des épées et des aigus à faire pâlir un elfe : la bande-son officielle de sa campagne de JDR.",
+    "category": "musique"
+  },
+  {
+    "word": "Folk metal",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Violons, cornemuses et guitares saturées : la taverne rencontre la fosse, il est au paradis.",
+    "category": "musique"
+  },
+  {
+    "word": "Viking metal",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Odin, drakkars et hydromel en 4/4 : il se sent pousser une barbe tressée à chaque refrain.",
+    "category": "musique"
+  },
+  {
+    "word": "Pirate metal",
+    "chouffin": true,
+    "score": 94,
+    "reason": "Des chansons sur le rhum chantées par des gars en tricorne. Yo-ho, le chouffin a trouvé son port d'attache.",
+    "category": "musique"
+  },
+  {
+    "word": "Metal symphonique",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Un orchestre, une chanteuse lyrique et des guitares : l'OST d'un jeu qui n'existe pas encore.",
+    "category": "musique",
+    "aliases": [
+      "symphonic metal"
+    ]
+  },
+  {
+    "word": "Black metal",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Maquillage noir et blanc, forêts enneigées, son de cave : il porte surtout le t-shirt au logo illisible.",
+    "category": "musique"
+  },
+  {
+    "word": "Death metal",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Il dit adorer, il n'a jamais compris un seul mot des paroles. C'est pas faux, c'est pas clair non plus.",
+    "category": "musique"
+  },
+  {
+    "word": "Nu metal",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Pantalons larges et nostalgie des années 2000 : chouffin de justesse, surtout dans la playlist de LAN.",
+    "category": "musique"
+  },
+  {
+    "word": "Metalcore",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Des breakdowns et des franges : chouffin de justesse, le vieux métalleux grogne que « c'était mieux avant ».",
+    "category": "musique"
+  },
+  {
+    "word": "Hard rock",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le métal de papa, celui qu'on écoute dans la voiture en route pour le Hellfest.",
+    "category": "musique"
+  },
+  {
+    "word": "Grunge",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Chemise à carreaux et riffs à trois accords : la porte d'entrée idéale vers la guitare de soirée.",
+    "category": "musique"
+  },
+  {
+    "word": "Punk",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Trop de crêtes, pas assez de dragons. Le chouffin respecte, mais préfère ses solos de 6 minutes.",
+    "category": "musique"
+  },
+  {
+    "word": "Chiptune",
+    "chouffin": true,
+    "score": 88,
+    "reason": "De la musique composée avec une Game Boy : il verse une larme de nostalgie à chaque bip.",
+    "category": "musique",
+    "aliases": [
+      "musique 8-bit",
+      "8-bit"
+    ]
+  },
+  {
+    "word": "Synthwave",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Néons, DeLorean et couchers de soleil rétro : la bande-son de sa nostalgie des années 80 qu'il n'a pas connues.",
+    "category": "musique",
+    "aliases": [
+      "retrowave"
+    ]
+  },
+  {
+    "word": "Eurobeat",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Déjà vu, Running in the 90s... impossible de prendre un rond-point sans entendre Initial D dans sa tête.",
+    "category": "musique"
+  },
+  {
+    "word": "Nightcore",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un opening d'animé accéléré avec une image d'animé en fond : chouffin de justesse, weeb certifié.",
+    "category": "musique"
+  },
+  {
+    "word": "Bardcore",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Des tubes pop réinterprétés au luth comme en 1350 : le crossover dont il ne savait pas avoir besoin.",
+    "category": "musique"
+  },
+  {
+    "word": "Musique médiévale",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Flûtes, luths et vielles : il l'écoute même en remplissant ses tableurs Excel, pour l'ambiance donjon.",
+    "category": "musique"
+  },
+  {
+    "word": "Musique celtique",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Cornemuses et harpes : il se voit déjà druide à Brocéliande, un verre de chouchen à la main.",
+    "category": "musique"
+  },
+  {
+    "word": "Chant de marin",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Wellerman en boucle, chope levée : il a rejoint l'équipage sans jamais avoir mis un pied sur un bateau.",
+    "category": "musique",
+    "aliases": [
+      "sea shanty"
+    ]
+  },
+  {
+    "word": "OST de jeu vidéo",
+    "chouffin": true,
+    "score": 94,
+    "reason": "Il reconnaît un thème de Zelda en 3 notes et pleure sur celui de Final Fantasy. Sa vraie playlist.",
+    "category": "musique",
+    "aliases": [
+      "ost",
+      "bande-son de jeu video",
+      "musique de jeu video"
+    ]
+  },
+  {
+    "word": "Opening d'animé",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Il connaît les paroles en japonais phonétique et les hurle au karaoké. Ne jamais le laisser choisir.",
+    "category": "musique",
+    "aliases": [
+      "opening",
+      "generique d'anime"
+    ]
+  },
+  {
+    "word": "Musique épique",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Des chœurs, des tambours et un crescendo : il l'écoute pour se motiver à descendre les poubelles.",
+    "category": "musique",
+    "aliases": [
+      "epic music"
+    ]
+  },
+  {
+    "word": "Musique de taverne",
+    "chouffin": true,
+    "score": 94,
+    "reason": "Luth, chopes qui tintent et barde enroué : le son exact de son bonheur un vendredi soir.",
+    "category": "musique"
+  },
+  {
+    "word": "Lo-fi",
+    "chouffin": true,
+    "score": 53,
+    "reason": "La fille qui étudie en boucle sur YouTube : chouffin de justesse, fond sonore de ses révisions de lore.",
+    "category": "musique",
+    "aliases": [
+      "lofi",
+      "lofi hip hop"
+    ]
+  },
+  {
+    "word": "Dubstep",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Gloire passée des montages de jeux vidéo de 2011. Aujourd'hui, le drop ne fait plus trembler la taverne.",
+    "category": "musique"
+  },
+  {
+    "word": "Rap",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Ça se discute : le rap des charts, non, mais Orelsan et Stupeflip gardent une place dans son cœur.",
+    "category": "musique"
+  },
+  {
+    "word": "Trap",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Des charleys qui roulent et des basses de boîte de nuit : aucune épée, aucun dragon. Il passe son tour.",
+    "category": "musique"
+  },
+  {
+    "word": "Drill",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Aucune épée, aucun dragon, aucune chope : le chouffin cherche la sortie du morceau.",
+    "category": "musique"
+  },
+  {
+    "word": "Autotune",
+    "chouffin": false,
+    "score": 18,
+    "reason": "La voix robotisée des tubes de l'été : pour lui, un robot qui chante, ça s'appelle Daft Punk.",
+    "category": "musique",
+    "aliases": [
+      "auto-tune"
+    ]
+  },
+  {
+    "word": "Reggaeton",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Le tube de l'été en boîte de nuit : l'exact opposé d'une soirée JDR. Le chouffin fuit en roulade.",
+    "category": "musique"
+  },
+  {
+    "word": "Afro-trap",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Parfait pour danser en club, zéro dragon au compteur. Le chouffin retourne à son luth.",
+    "category": "musique",
+    "aliases": [
+      "afrotrap"
+    ]
+  },
+  {
+    "word": "K-pop",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Chorégraphies millimétrées et fandom redoutable : geek, oui, chouffin, non. Aucun solo de 5 minutes.",
+    "category": "musique",
+    "aliases": [
+      "kpop"
+    ]
+  },
+  {
+    "word": "Variété française",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Ce que passe la radio au supermarché. Il préfère une reprise de Kaamelott à la vielle à roue.",
+    "category": "musique"
+  },
+  {
+    "word": "Pop",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Des refrains sans épée ni dragon : le chouffin zappe, sauf si c'est un opening d'animé.",
+    "category": "musique"
+  },
+  {
+    "word": "Techno",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Quatre heures de boum-boum sans un seul solo : il cherche désespérément un refrain à hurler.",
+    "category": "musique"
+  },
+  {
+    "word": "Deep house",
+    "chouffin": false,
+    "score": 6,
+    "reason": "La bande-son d'un rooftop à 14 € le cocktail. Le chouffin a pris feu en lisant ces mots.",
+    "category": "musique"
+  },
+  {
+    "word": "Jazz lounge",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Le fond sonore du brunch à avocado toast. Même un barde ivre refuserait de jouer ça.",
+    "category": "musique",
+    "aliases": [
+      "jazz de brunch"
+    ]
+  },
+  {
+    "word": "Jazz",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Respectable, mais trop de chemises en lin et pas assez de dragons. Ça se discute, au mieux.",
+    "category": "musique"
+  },
+  {
+    "word": "Bossa nova",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Musique de terrasse chic pour siroter un spritz : l'antimatière du chouffin.",
+    "category": "musique"
+  },
+  {
+    "word": "R'n'B",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Slows sucrés et clips en jacuzzi : il préfère une ballade de power metal sur un chevalier.",
+    "category": "musique",
+    "aliases": [
+      "rnb"
+    ]
+  },
+  {
+    "word": "Musique classique",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Ça se discute : il la trouve longue, sauf quand un requiem accompagne un trailer de jeu vidéo.",
+    "category": "musique"
+  },
+  {
+    "word": "Opéra",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Trop de smokings, pas assez de dragons. Sauf si c'est la chanteuse de Nightwish, là il écoute.",
+    "category": "musique"
+  },
+  {
+    "word": "Chanson française",
+    "chouffin": false,
+    "score": 24,
+    "reason": "La guitare au coin du feu, oui, mais ce n'est pas du Naheulbeuk. Pas chouffin, au mieux ça se discute.",
+    "category": "musique"
+  },
+  {
+    "word": "EDM",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Des festivals à 300 € le pass et des DJ qui lèvent les bras : il préfère un pogo au Hellfest.",
+    "category": "musique"
+  },
+  {
+    "word": "Tube de l'été",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Trois semaines en boucle à la plage, zéro écoute dans sa playlist. Le chouffin était en train de farmer.",
+    "category": "musique"
+  },
+  {
+    "word": "Guitare électrique",
+    "chouffin": true,
+    "score": 84,
+    "reason": "L'outil sacré. Il connaît trois accords, deux solos de Metallica et l'intro de Smoke on the Water.",
+    "category": "musique"
+  },
+  {
+    "word": "Guitare",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Sortie en soirée pour massacrer Nirvana au coin du feu. Personne ne l'a demandée, tout le monde la subit.",
+    "category": "musique",
+    "aliases": [
+      "gratte"
+    ]
+  },
+  {
+    "word": "Vielle à roue",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Un instrument médiéval à manivelle joué par des groupes de folk metal : tout ce qu'il aime en un objet.",
+    "category": "musique"
+  },
+  {
+    "word": "Cornemuse",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le son des Highlands, de Tri Yann et des fêtes médiévales. Les voisins en sont moins fans.",
+    "category": "musique",
+    "aliases": [
+      "biniou"
+    ]
+  },
+  {
+    "word": "Luth",
+    "chouffin": true,
+    "score": 86,
+    "reason": "L'instrument du barde. Il ne sait pas en jouer, mais en a acheté un en foire médiévale « pour la déco ».",
+    "category": "musique"
+  },
+  {
+    "word": "Nyckelharpa",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Ce drôle d'instrument suédois que joue Wardruna : il en parle 20 minutes à qui veut bien l'écouter.",
+    "category": "musique"
+  },
+  {
+    "word": "Ocarina",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Acheté après Zelda, il joue la Berceuse de Zelda depuis 1998. Le temps s'est arrêté, comme le chant.",
+    "category": "musique"
+  },
+  {
+    "word": "Harpe celtique",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Fées et légendes arthuriennes : il la trouve plus classe que toutes les harpes de conservatoire.",
+    "category": "musique"
+  },
+  {
+    "word": "Batterie",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Double pédale et solo de 8 minutes en concert : chouffin, surtout pour les voisins qui en sont témoins.",
+    "category": "musique"
+  },
+  {
+    "word": "Basse",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Chouffin de justesse : il sait qu'elle existe, surtout grâce aux blagues sur les bassistes de métal.",
+    "category": "musique"
+  },
+  {
+    "word": "Piano",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Ça se discute : il ne sait jouer que le thème de Final Fantasy et celui de Game of Thrones.",
+    "category": "musique"
+  },
+  {
+    "word": "Synthétiseur",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Chouffin de justesse grâce à la synthwave et aux OST des années 80. Sinon, c'est du matos de DJ.",
+    "category": "musique",
+    "aliases": [
+      "synthe"
+    ]
+  },
+  {
+    "word": "Ukulélé",
+    "chouffin": false,
+    "score": 28,
+    "reason": "L'instrument des reprises mignonnes sur Instagram. Le chouffin, lui, veut une guitare en forme de V.",
+    "category": "musique"
+  },
+  {
+    "word": "Saxophone",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Le solo de sax du bar lounge : pas vraiment l'ambiance taverne. Il le respecte de loin.",
+    "category": "musique"
+  },
+  {
+    "word": "Violon",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Ça se discute : magnifique dans le folk metal et dans Skyrim, moins au mariage du cousin.",
+    "category": "musique"
+  },
+  {
+    "word": "Air guitar",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Il y a mis plus d'heures que dans ses études. Une vraie guitare aurait été moins fatigante.",
+    "category": "musique",
+    "aliases": [
+      "air guitare"
+    ]
+  },
+  {
+    "word": "Headbang",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Le salut du métalleux. Il a mal à la nuque depuis 2009, mais il continue par principe.",
+    "category": "musique",
+    "aliases": [
+      "headbanging"
+    ]
+  },
+  {
+    "word": "Signe des cornes",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Deux doigts levés et un grand sourire : sa façon de dire bonjour, au revoir et « bonne soirée ».",
+    "category": "musique",
+    "aliases": [
+      "metal horns",
+      "cornes du diable"
+    ]
+  },
+  {
+    "word": "Wall of death",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Deux foules de métalleux qui se foncent dessus avec joie : il appelle ça « de la communion ».",
+    "category": "musique"
+  },
+  {
+    "word": "Circle pit",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Courir en rond en hurlant : le seul cardio qu'il fait de l'année, et il en est fier.",
+    "category": "musique"
+  },
+  {
+    "word": "Pogo",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Bousculade joyeuse devant la scène : il en ressort avec un bleu et un nouvel ami.",
+    "category": "musique"
+  },
+  {
+    "word": "Concert de métal",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Des milliers de t-shirts noirs, de la bière et des cheveux au vent : son grand rendez-vous du samedi.",
+    "category": "musique"
+  },
+  {
+    "word": "Sabaton",
+    "chouffin": true,
+    "score": 98,
+    "reason": "Des hymnes épiques sur des batailles historiques : il connaît mieux leurs paroles que son programme d'histoire.",
+    "category": "musique"
+  },
+  {
+    "word": "Rammstein",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Du métal allemand et des lance-flammes : au karaoké, il est persuadé de parler allemand.",
+    "category": "musique"
+  },
+  {
+    "word": "Metallica",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Le premier t-shirt de métal de la plupart des chouffins. Enter Sandman à la guitare, rituel obligatoire.",
+    "category": "musique"
+  },
+  {
+    "word": "Iron Maiden",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Eddie sur le t-shirt et « Run to the Hills » dans la voiture : une valeur sûre de la taverne.",
+    "category": "musique"
+  },
+  {
+    "word": "Slipknot",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Des masques flippants et neuf membres : il l'écoutait en 3e pour montrer qu'il était sombre.",
+    "category": "musique"
+  },
+  {
+    "word": "Nightwish",
+    "chouffin": true,
+    "score": 87,
+    "reason": "Chanteuse lyrique, orchestre et forêts finlandaises : la bande-son de son RPG intérieur.",
+    "category": "musique"
+  },
+  {
+    "word": "Gojira",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le métal français qui a joué à la cérémonie des JO de Paris : il en parle encore avec émotion.",
+    "category": "musique"
+  },
+  {
+    "word": "Wardruna",
+    "chouffin": true,
+    "score": 91,
+    "reason": "Chants nordiques anciens, série Vikings, instruments en os : en l'écoutant, il se prend pour un jarl.",
+    "category": "musique"
+  },
+  {
+    "word": "Korpiklaani",
+    "chouffin": true,
+    "score": 91,
+    "reason": "Du métal finlandais qui chante la forêt et la boisson : il danse la polka à la taverne sans honte.",
+    "category": "musique"
+  },
+  {
+    "word": "Alestorm",
+    "chouffin": true,
+    "score": 95,
+    "reason": "Des pirates écossais, un canard gonflable géant et des chansons sur le rhum : le paradis du chouffin.",
+    "category": "musique"
+  },
+  {
+    "word": "Ultra Vomit",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Du métal parodique à la française : il connaît Kammthaar par cœur et la hurle à chaque soirée.",
+    "category": "musique"
+  },
+  {
+    "word": "Naheulband",
+    "chouffin": true,
+    "score": 95,
+    "reason": "Les chansons du Donjon de Naheulbeuk en concert : « Mon ancêtre Gurdil » est son hymne national.",
+    "category": "musique",
+    "aliases": [
+      "naheulbeuk band"
+    ]
+  },
+  {
+    "word": "Powerwolf",
+    "chouffin": true,
+    "score": 91,
+    "reason": "Des loups-garous maquillés qui chantent des hymnes : il lève sa chope dès le premier refrain.",
+    "category": "musique"
+  },
+  {
+    "word": "Blind Guardian",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Des albums entiers sur Tolkien : du métal pour ceux qui ont lu le Silmarillion (lui a essayé).",
+    "category": "musique"
+  },
+  {
+    "word": "DragonForce",
+    "chouffin": true,
+    "score": 92,
+    "reason": "« Through the Fire and Flames » en mode Expert sur Guitar Hero : son plus grand accomplissement.",
+    "category": "musique",
+    "aliases": [
+      "dragon force"
+    ]
+  },
+  {
+    "word": "Wind Rose",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Des nains qui chantent « Diggy Diggy Hole » : il a creusé, creusé, creusé toute la soirée.",
+    "category": "musique"
+  },
+  {
+    "word": "Gloryhammer",
+    "chouffin": true,
+    "score": 89,
+    "reason": "Licornes, sorciers et Écosse dans l'espace : même le chouffin trouve ça un peu trop, et il adore.",
+    "category": "musique"
+  },
+  {
+    "word": "Amon Amarth",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Du viking metal avec un drakkar gonflable sur scène : la preuve qu'Odin a un bon agent.",
+    "category": "musique"
+  },
+  {
+    "word": "Eluveitie",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Du folk metal suisse à la vielle à roue et aux chants gaulois : enfin une raison d'apprendre le gaulois.",
+    "category": "musique"
+  },
+  {
+    "word": "Heilung",
+    "chouffin": true,
+    "score": 87,
+    "reason": "Chants rituels nordiques en costumes d'os : un concert qu'il décrit comme « une expérience ».",
+    "category": "musique"
+  },
+  {
+    "word": "The Hu",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Du métal mongol au chant de gorge : il a appris le mot « morin khuur » et le place partout.",
+    "category": "musique"
+  },
+  {
+    "word": "Babymetal",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Kawaii et métal réunis : le crossover parfait entre ses openings d'animés et ses t-shirts noirs.",
+    "category": "musique"
+  },
+  {
+    "word": "Lordi",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Des monstres qui gagnent l'Eurovision : la seule fois de sa vie qu'il a regardé l'Eurovision.",
+    "category": "musique"
+  },
+  {
+    "word": "Motörhead",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Ace of Spades et un as de pique gravé dans le cœur. Il a le t-shirt, évidemment.",
+    "category": "musique"
+  },
+  {
+    "word": "Black Sabbath",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Les pères fondateurs du métal : il les cite comme on cite les anciens dans un grimoire.",
+    "category": "musique"
+  },
+  {
+    "word": "Nirvana",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Smells Like Teen Spirit massacré à la guitare en soirée : un rite de passage obligatoire.",
+    "category": "musique"
+  },
+  {
+    "word": "Queen",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Bohemian Rhapsody hurlé à quatre en voiture : chouffin de justesse, car tout le monde aime Queen.",
+    "category": "musique"
+  },
+  {
+    "word": "Judas Priest",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Cuir, clous et falsetto : le look de son grand frère en 1988, qu'il porte encore aujourd'hui.",
+    "category": "musique"
+  },
+  {
+    "word": "Korn",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Chouffin de justesse : nostalgie de la LAN de 2003 et des pantalons trop larges.",
+    "category": "musique"
+  },
+  {
+    "word": "System of a Down",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Chop Suey en boucle : des paroles qu'il ne comprend pas mais qu'il hurle quand même.",
+    "category": "musique",
+    "aliases": [
+      "soad"
+    ]
+  },
+  {
+    "word": "Evanescence",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Bring Me to Life sur son vieux Skyblog : chouffin de justesse, période ado ténébreuse.",
+    "category": "musique"
+  },
+  {
+    "word": "Within Temptation",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Du métal symphonique plein de légendes : il découvre à chaque album qu'il connaît déjà les paroles.",
+    "category": "musique"
+  },
+  {
+    "word": "Helloween",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Des citrouilles et du power metal : il te corrige si tu l'écris Halloween, et il a raison.",
+    "category": "musique"
+  },
+  {
+    "word": "Rhapsody of Fire",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Des sagas de chevaliers en dix albums : il connaît le lore mieux que le groupe lui-même.",
+    "category": "musique"
+  },
+  {
+    "word": "Brothers of Metal",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Des Suédois qui chantent Odin et les dieux nordiques : ils ont compris le chouffin mieux que personne.",
+    "category": "musique"
+  },
+  {
+    "word": "Corvus Corax",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Des cornemuses médiévales en tenue de corbeaux : la bande-son officielle des fêtes médiévales.",
+    "category": "musique"
+  }
+]

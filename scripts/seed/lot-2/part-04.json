@@ -1,0 +1,979 @@
+[
+  {
+    "word": "Raspberry Pi",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Un mini-ordinateur transformé en borne d'arcade. Le chouffin appelle ça du « bricolage de forgeron ».",
+    "category": "tech"
+  },
+  {
+    "word": "Arduino",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Il a fait clignoter une LED en forme d'œil de Sauron. Projet majeur de sa carrière d'ingénieur.",
+    "category": "tech"
+  },
+  {
+    "word": "Impression 3D",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Il imprime des figurines pour ses parties de JdR et des dés géants. Son imprimante tourne jour et nuit.",
+    "category": "tech",
+    "aliases": [
+      "imprimante 3d"
+    ]
+  },
+  {
+    "word": "Modem 56k",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le crissement du modem qui se connecte : sa madeleine de Proust, et une facture de téléphone salée.",
+    "category": "tech",
+    "aliases": [
+      "56k"
+    ]
+  },
+  {
+    "word": "Minitel",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Trop vieux même pour lui. Il sait juste qu'on y jouait à des jeux de rôle, et ça le fascine.",
+    "category": "tech"
+  },
+  {
+    "word": "Internet Explorer",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Le navigateur qui servait à télécharger un autre navigateur. Le chouffin en rit encore.",
+    "category": "tech"
+  },
+  {
+    "word": "Firefox",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Un renard de feu libre et indépendant. Presque une créature de fantasy, pour le chouffin.",
+    "category": "tech",
+    "aliases": [
+      "mozilla firefox"
+    ]
+  },
+  {
+    "word": "Hacker",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Il a changé le fond d'écran du CDI en 2006. Depuis, il se considère comme hacker.",
+    "category": "tech"
+  },
+  {
+    "word": "GitHub",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Il y a stocké trois mods Skyrim et un bot Discord. Il appelle ça son « portfolio ».",
+    "category": "tech"
+  },
+  {
+    "word": "Stack Overflow",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le forum des développeurs. Il y copie des réponses comme on recopie des sortilèges.",
+    "category": "tech"
+  },
+  {
+    "word": "Discord",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Son serveur compte 14 salons, 3 rôles de modérateur et un salon #taverne. Sa vraie maison.",
+    "category": "tech"
+  },
+  {
+    "word": "TeamSpeak",
+    "chouffin": true,
+    "score": 82,
+    "reason": "L'ancêtre vocal des raids WoW. Il se souvient avec émotion des voix grésillantes à 3 h du matin.",
+    "category": "tech",
+    "aliases": [
+      "ts3"
+    ]
+  },
+  {
+    "word": "Mumble",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le vocal gratuit des guildes à l'ancienne. Il le juge plus noble que Discord, par principe.",
+    "category": "tech"
+  },
+  {
+    "word": "Skype",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Il s'en servait pour appeler mamie et pour Neverwinter Nights. Deux vies qui ne se croisaient pas.",
+    "category": "tech"
+  },
+  {
+    "word": "MSN Messenger",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Les wizz, les pseudos en couleurs et la chanson en cours d'écoute. Toute une adolescence en 2005.",
+    "category": "youtube-internet",
+    "aliases": [
+      "msn"
+    ]
+  },
+  {
+    "word": "Wizz",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Faire trembler la fenêtre de l'autre : la première attaque magique que le chouffin a maîtrisée.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "ChatGPT",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Il lui a demandé une campagne de D&D. Le résultat manquait cruellement de Perceval, il a tout réécrit.",
+    "category": "tech",
+    "aliases": [
+      "chat gpt"
+    ]
+  },
+  {
+    "word": "Intelligence artificielle",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le chouffin s'en méfie : il a vu Terminator et joué à Portal. Il y a des précédents.",
+    "category": "tech",
+    "aliases": [
+      "ia"
+    ]
+  },
+  {
+    "word": "NFT",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Un singe pixelisé à prix d'or. Le chouffin préfère une vraie figurine en étain, peinte à la main.",
+    "category": "tech"
+  },
+  {
+    "word": "Cryptomonnaie",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Des courbes qui montent et qui descendent. Le seul trésor du chouffin, c'est un coffre de pièces en chocolat.",
+    "category": "tech",
+    "aliases": [
+      "crypto"
+    ]
+  },
+  {
+    "word": "Bitcoin",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il en avait trois en 2011 pour payer un serveur de jeu. Il a préféré oublier. Moralité : pas chouffin.",
+    "category": "tech"
+  },
+  {
+    "word": "Métavers",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Un monde virtuel d'entreprise sans elfes ni quêtes. WoW existe depuis 2004, merci bien.",
+    "category": "tech",
+    "aliases": [
+      "metaverse"
+    ]
+  },
+  {
+    "word": "Drone",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Il a filmé sa maquette de Minas Tirith vue du ciel. Sans ça, franchement, rien de chouffin.",
+    "category": "tech"
+  },
+  {
+    "word": "GoPro",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Filmer son saut en parapente : trop sportif. Il l'a quand même fixée sur son heaume à la fête médiévale.",
+    "category": "tech"
+  },
+  {
+    "word": "Strava",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Des kilomètres et des dénivelés partagés : le fitness obsessionnel. Le seul trek qu'il suit, c'est celui de Frodon.",
+    "category": "tech"
+  },
+  {
+    "word": "Montre connectée",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Elle compte ses pas, il compte ses PV. Ils ne parlent pas le même langage.",
+    "category": "tech",
+    "aliases": [
+      "smartwatch"
+    ]
+  },
+  {
+    "word": "Excel",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Un seul fichier l'intéresse : la fiche de son perso D&D, avec 14 onglets. Le reste, c'est le boulot.",
+    "category": "tech"
+  },
+  {
+    "word": "PowerPoint",
+    "chouffin": false,
+    "score": 18,
+    "reason": "La réunion du lundi. Il y glisse un GIF de Kaamelott pour survivre.",
+    "category": "tech"
+  },
+  {
+    "word": "Microsoft Teams",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Des réunions qui auraient pu être un mail. Il met une citation de Karadoc en statut pour tenir.",
+    "category": "tech"
+  },
+  {
+    "word": "Tamagotchi",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Il en a laissé dépérir quatre et s'en veut encore. Mignon, mais pas assez de lore.",
+    "category": "tech"
+  },
+  {
+    "word": "Liseuse",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Pratique pour relire Le Trône de fer en voyage. Mais il préfère l'odeur du papier et le poids du pavé.",
+    "category": "tech",
+    "aliases": [
+      "kindle"
+    ]
+  },
+  {
+    "word": "Ring light",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Une lumière ronde pour être parfait en vidéo. Le chouffin tourne à la lueur de son RGB.",
+    "category": "tech"
+  },
+  {
+    "word": "Perche à selfie",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Tenir son téléphone à bout de bras devant un monument. Il préfère un bâton de sorcier.",
+    "category": "tech",
+    "aliases": [
+      "selfie stick"
+    ]
+  },
+  {
+    "word": "YouTube",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Sa télé, son école et sa taverne. Il y a vu plus d'heures de Joueur du Grenier que de nuits de sommeil.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Twitch",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Des gens qui jouent en direct et un chat qui spamme des emotes. Son feu de camp moderne.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Dailymotion",
+    "chouffin": false,
+    "score": 38,
+    "reason": "La plateforme où il trouvait des épisodes de Kaamelott en 240p en 2008. Un sanctuaire poussiéreux.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Tipeee",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Il y soutient Nota Bene et ses vulgarisateurs chaque mois. Le mécène de la culture chouffin.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Kickstarter",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Il finance des jeux de plateau à 400 figurines. Il les reçoit deux ans plus tard et ne les peint jamais.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Streamer",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Il a lancé son stream avec deux spectateurs : sa mère et son chat. Le lore de sa chaîne est déjà riche.",
+    "category": "youtube-internet",
+    "aliases": [
+      "streameur",
+      "streameuse"
+    ]
+  },
+  {
+    "word": "Youtubeur",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Un métier qui va du vulgarisateur génial à l'influenceur lifestyle. Le chouffin trie sévèrement.",
+    "category": "youtube-internet",
+    "aliases": [
+      "youtuber",
+      "youtubeuse"
+    ]
+  },
+  {
+    "word": "VTuber",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un avatar animé qui stream. Le chouffin trouve ça intrigant, entre l'animé et le JdR numérique.",
+    "category": "youtube-internet",
+    "aliases": [
+      "vtubeur"
+    ]
+  },
+  {
+    "word": "ZEvent",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le marathon caritatif des streamers français. Le chouffin donne, et regarde 48 heures d'affilée.",
+    "category": "youtube-internet",
+    "aliases": [
+      "z event"
+    ]
+  },
+  {
+    "word": "Emote",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Il communique en emotes Twitch. Sa grand-mère n'a toujours pas décrypté « PogChamp ».",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "PogChamp",
+    "chouffin": false,
+    "score": 48,
+    "reason": "L'emote de l'exploit en direct. Il la spamme dès qu'un speedrunner bat un record.",
+    "category": "youtube-internet",
+    "aliases": [
+      "pog"
+    ]
+  },
+  {
+    "word": "Kappa",
+    "chouffin": true,
+    "score": 52,
+    "reason": "L'emote Twitch la plus célèbre. Pour lui, elle veut dire « c'est une blague, mais pas trop ».",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Facebook",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Il n'y reste que pour un groupe de fans de Kaamelott et l'anniversaire de sa tante. Réseau de tontons.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Instagram",
+    "chouffin": false,
+    "score": 7,
+    "reason": "Des brunchs, des couchers de soleil et des abdos. Il y poste une figurine peinte, une fois par an.",
+    "category": "youtube-internet",
+    "aliases": [
+      "insta"
+    ]
+  },
+  {
+    "word": "TikTok",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Des danses de 15 secondes et des tendances éphémères. Le chouffin a besoin de trois heures de lore.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Snapchat",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Des photos qui disparaissent, avec des oreilles de chien. Le chouffin préfère les archives éternelles.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "BeReal",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Une photo imposée par jour ? Il enverrait toujours la même : son écran de Skyrim.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Twitter",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Il y débat de lore à coups de fils interminables. Mi-taverne, mi-champ de bataille.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "LinkedIn",
+    "chouffin": false,
+    "score": 5,
+    "reason": "« Ce que Skyrim m'a appris sur le management. » Il fuit ce réseau comme un vampire fuit le soleil.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Pinterest",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Des tableaux d'inspiration déco scandinave. Le seul Viking ici, c'est le nom d'un tabouret.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Tinder",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il a écrit « fan de Kaamelott » dans sa bio. Bilan : deux matchs et un débat sur Perceval.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Skyblog",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Le blog à paillettes avec musique automatique. Il a eu le sien, avec un GIF de dragon.",
+    "category": "youtube-internet",
+    "aliases": [
+      "skyrock blog"
+    ]
+  },
+  {
+    "word": "Myspace",
+    "chouffin": false,
+    "score": 28,
+    "reason": "La page de son groupe de métal du collège : trois écoutes, dont celle de sa mère.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Habbo Hotel",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Un hôtel pixelisé où l'on bavarde. Il y a cherché un donjon et n'a trouvé qu'une piscine.",
+    "category": "youtube-internet",
+    "aliases": [
+      "habbo"
+    ]
+  },
+  {
+    "word": "Club Penguin",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des pingouins qui papotent. Mignon, mais le chouffin voulait une guerre de clans.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "9GAG",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Le site de mèmes de ses années lycée. Il y a appris l'anglais et beaucoup de blagues sur Chuck Norris.",
+    "category": "youtube-internet",
+    "aliases": [
+      "9 gag"
+    ]
+  },
+  {
+    "word": "Reddit",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un sous-forum pour chaque univers et des débats sans fin sur le lore. Le chouffin y est un oracle.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Forum",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le forum phpBB de sa guilde, 12 000 messages et une signature animée. L'âge d'or.",
+    "category": "youtube-internet",
+    "aliases": [
+      "forum phpbb"
+    ]
+  },
+  {
+    "word": "Signature de forum",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Une bannière de Sephiroth, une citation de Gandalf et un compteur de posts. Tout le chouffin en 300 pixels.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Modérateur",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Il a été modo d'un forum Dofus. Il en parle comme d'un grade militaire.",
+    "category": "youtube-internet",
+    "aliases": [
+      "modo"
+    ]
+  },
+  {
+    "word": "Pseudo",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Son pseudo contient « Dark », « Wolf » ou « 666 ». Il n'en a pas changé depuis 2003.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Wikipédia",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Il y a lu l'arbre généalogique complet des Targaryen à 3 h du matin. Un savoir inutile, donc précieux.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Wiki Fandom",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Un wiki par univers, lu plus attentivement que ses cours. Il y corrige même les fautes.",
+    "category": "youtube-internet",
+    "aliases": [
+      "fandom"
+    ]
+  },
+  {
+    "word": "Fanfiction",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il a écrit sa propre fin de Mass Effect 3 sur un forum en 2012. Elle est meilleure, selon lui.",
+    "category": "youtube-internet",
+    "aliases": [
+      "fanfic"
+    ]
+  },
+  {
+    "word": "Fan art",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Il commande des portraits de son perso D&D. Ça coûte cher, mais c'est pour la guilde.",
+    "category": "youtube-internet",
+    "aliases": [
+      "fanart"
+    ]
+  },
+  {
+    "word": "SCP Foundation",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Un wiki d'horreur collaboratif rempli de dossiers classifiés. Il le lit la nuit et ne dort plus.",
+    "category": "youtube-internet",
+    "aliases": [
+      "scp"
+    ]
+  },
+  {
+    "word": "Creepypasta",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Les histoires d'horreur du web. Il en racontait au collège, lampe torche sous le menton.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Leboncoin",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Il y chasse les cartouches Super Nintendo et les figurines. Une brocante numérique, une vraie quête.",
+    "category": "youtube-internet",
+    "aliases": [
+      "le bon coin"
+    ]
+  },
+  {
+    "word": "eBay",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Des enchères de dernière seconde pour une édition collector. Adrénaline pure.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Vinted",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Revendre ses vêtements de marque. Il n'a que des t-shirts de groupes, et il ne s'en séparera jamais.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Doctissimo",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Le forum où chaque rhume devient une maladie médiévale. Pas très chouffin, malgré tout.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Uber Eats",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Un poke bowl livré en 20 minutes : pratique, mais il préfère un jarret à la taverne.",
+    "category": "youtube-internet",
+    "aliases": [
+      "ubereats"
+    ]
+  },
+  {
+    "word": "SensCritique",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Il y note tout, avec des avis de 3000 mots sur la fin de Mass Effect. Critique, son second métier.",
+    "category": "youtube-internet",
+    "aliases": [
+      "sens critique"
+    ]
+  },
+  {
+    "word": "Crunchyroll",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Les animés en simulcast. Il regarde One Piece en attendant la fin, qui ne viendra peut-être jamais.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Podcast",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Il écoute des parties de JdR de cinq heures. Les podcasts business, par contre, il les fuit.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Lofi Girl",
+    "chouffin": true,
+    "score": 52,
+    "reason": "La jeune fille qui révise en boucle sur YouTube. Lui préfère la version « lofi médiéval ».",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Webtoon",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Des BD à faire défiler sur le téléphone. Il préfère ses tomes de Berserk bien rangés.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Influenceur",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Placements de produits, brunch et lumière dorée. Le chouffin ne le suit pas, il suit Nota Bene.",
+    "category": "youtube-internet",
+    "aliases": [
+      "influenceuse",
+      "influenceur lifestyle"
+    ]
+  },
+  {
+    "word": "Placement de produit",
+    "chouffin": false,
+    "score": 15,
+    "reason": "« Cette vidéo est sponsorisée par... » Il zappe, sauf si c'est pour un jeu de plateau.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Code promo",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il ne l'utilise que pour des dés en résine, jamais pour une crème anti-âge. Ça sauve un peu le mot.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Story Instagram",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Son petit déjeuner en boomerang ? Le chouffin préfère raconter une saga en 12 tomes.",
+    "category": "youtube-internet",
+    "aliases": [
+      "story insta"
+    ]
+  },
+  {
+    "word": "Selfie",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il prend des photos, mais de ses figurines peintes. Jamais de lui, sauf en armure.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Get Ready With Me",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Se préparer face caméra : il enfile un t-shirt Sabaton et c'est bouclé en 12 secondes.",
+    "category": "youtube-internet",
+    "aliases": [
+      "grwm"
+    ]
+  },
+  {
+    "word": "Morning routine",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Réveil à 5 h, citron chaud et journal de gratitude. Le chouffin, lui, se lève à midi, niveau 42.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Haul",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Déballer ses achats de mode en vidéo. Lui déballe des boosters Magic, rien à voir.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Unboxing",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Il ouvre une édition collector en vidéo, les mains tremblantes. Ça, c'est compatible chouffin.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Vlog",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Raconter sa journée en vidéo. Celle du chouffin : réveil, forum, taverne. Peu vendeur.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "ASMR",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Des chuchotements relaxants. Il n'écoute que l'ASMR taverne, avec le crépitement du feu.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Danse TikTok",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il a tenté une chorégraphie et s'est cogné dans son étagère de figurines. Plus jamais.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Hashtag",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Il dit encore « dièse », par principe. Les tendances ne font pas partie de son lore.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Mème",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Il en a un pour chaque situation, souvent tiré de Kaamelott ou de Star Wars. L'humour de réaction.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "GIF",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Il répond à tout en GIF de Perceval. Même aux mails professionnels, c'est dire.",
+    "category": "youtube-internet",
+    "aliases": [
+      "gif animé"
+    ]
+  },
+  {
+    "word": "Emoji",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il préfère un bon « :) » à l'ancienne ou un sticker Risitas. Les emojis, c'est pour Instagram.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Spoiler",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Il a mis trois ans à pardonner un spoiler de Game of Thrones à un collègue. Les spoilers, c'est sacré.",
+    "category": "youtube-internet",
+    "aliases": [
+      "spoil"
+    ]
+  },
+  {
+    "word": "Rickroll",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Tu cliques sur un lien de soluce et tombes sur Rick Astley. Il le fait encore, par tradition.",
+    "category": "youtube-internet",
+    "aliases": [
+      "rick roll",
+      "never gonna give you up"
+    ]
+  },
+  {
+    "word": "Nyan Cat",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un chat-biscuit arc-en-ciel qui vole en boucle. Il a tenu dix heures en 2011 et en parle avec fierté.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Doge",
+    "chouffin": false,
+    "score": 50,
+    "reason": "« Such wow. Very chouffin. » Un shiba en photo de profil : plus mème que passion.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Trollface",
+    "chouffin": true,
+    "score": 68,
+    "reason": "« Problem? » Le sourire narquois des forums de 2010. Il le poste encore en réponse à tout.",
+    "category": "youtube-internet",
+    "aliases": [
+      "troll face"
+    ]
+  },
+  {
+    "word": "Rage comics",
+    "chouffin": true,
+    "score": 70,
+    "reason": "« Y U NO », « Forever Alone », « Me Gusta » : la bédé du chouffin en 2011. Nostalgie en noir et blanc.",
+    "category": "youtube-internet",
+    "aliases": [
+      "rage comic",
+      "forever alone",
+      "me gusta"
+    ]
+  },
+  {
+    "word": "Harlem Shake",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Tout le monde danse déguisé pendant 30 secondes. Il était caché sous le bureau, casque sur les oreilles.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Gangnam Style",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il a dansé une fois en 2012 et le regrette encore. Aucune épée, aucun dragon, juste un cheval invisible.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Ice Bucket Challenge",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Un seau d'eau glacée sur la tête pour la bonne cause. Il aurait préféré une chope de bière.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Chuck Norris Facts",
+    "chouffin": true,
+    "score": 70,
+    "reason": "« Chuck Norris a compté jusqu'à l'infini. Deux fois. » Il en connaît 200, et c'est trop.",
+    "category": "youtube-internet",
+    "aliases": [
+      "chuck norris fact"
+    ]
+  },
+  {
+    "word": "Epic Sax Guy",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le saxophoniste de l'Eurovision devenu mème. Il l'aime presque autant qu'un solo de Sabaton.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Lolcat",
+    "chouffin": false,
+    "score": 42,
+    "reason": "« I can has cheezburger? » L'humour de 2008 qu'il trouve encore hilarant. Il est bien le seul.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Grumpy Cat",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le chat qui boude. Il s'y reconnaît quand on lui dit que les elfes, c'est ringard.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Surprised Pikachu",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Le Pikachu bouche bée. C'est sa tête chaque fois qu'un personnage de Game of Thrones disparaît.",
+    "category": "youtube-internet",
+    "aliases": [
+      "pikachu surpris"
+    ]
+  },
+  {
+    "word": "This is fine",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le chien dans la maison en feu. Le chouffin pendant la réorganisation de sa boîte, une Chouffe à la main.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Stonks",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Le mème des investisseurs ravis. Il l'utilise, ironiquement, quand il revend une carte Pokémon.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Risitas",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le sticker qui rit aux larmes sur le 18-25. Le chouffin rit avec, même quand c'est de lui qu'on rit.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Issou",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le cri de guerre du 18-25. Le chouffin le connaît, l'emploie mal, et le forum le lui rend bien.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Khey",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Le mot de ralliement des forumeurs de JVC. Le chouffin en a été un, avant de devenir un sujet de topic.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Forum Blabla 18-25",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le berceau du mot « chouffin », inventé pour le taquiner. Il y traîne quand même, par curiosité.",
+    "category": "youtube-internet",
+    "aliases": [
+      "18-25",
+      "blabla 18-25",
+      "forum 18-25"
+    ]
+  },
+  {
+    "word": "Le Gorafi",
+    "chouffin": false,
+    "score": 48,
+    "reason": "L'info absurde, il aime. Mais toujours aucune dépêche sur la suite de Kaamelott, quelle déception.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Joueur du Grenier",
+    "chouffin": true,
+    "score": 99,
+    "reason": "Le lieu de pèlerinage suprême. Il connaît chaque épisode, chaque réplique et chaque déguisement de Seb.",
+    "category": "youtube-internet",
+    "aliases": [
+      "jdg"
+    ]
+  },
+  {
+    "word": "Bazar du Grenier",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le Grenier qui déballe des objets improbables. Le chouffin regarde, une Chouffe à la main.",
+    "category": "youtube-internet",
+    "aliases": [
+      "bdg"
+    ]
+  },
+  {
+    "word": "Bob Lennon",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Ses Let's Play fleuves et ses aventures rôlistes ont bercé des milliers de chouffins. Un barde moderne.",
+    "category": "youtube-internet"
+  }
+]

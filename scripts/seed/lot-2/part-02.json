@@ -1,0 +1,1027 @@
+[
+  {
+    "word": "FarmVille",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Envoyer des demandes de carottes à sa tante sur Facebook. Rien d'épique là-dedans.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "EA Sports FC",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Le jeu de foot annuel. Le seul foot que le chouffin respecte, c'est Blood Bowl, avec des orcs.",
+    "category": "jeux-video",
+    "aliases": [
+      "fifa",
+      "ea fc",
+      "fc 25"
+    ]
+  },
+  {
+    "word": "PES",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Il y jouait chez un pote en 2005, par politesse. Il alignait Castolo, pour la légende.",
+    "category": "jeux-video",
+    "aliases": [
+      "pro evolution soccer"
+    ]
+  },
+  {
+    "word": "NBA 2K",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Du basket réaliste et des micro-transactions. Le chouffin préfère un smash de troll des cavernes.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Rocket League",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Du foot avec des voitures, et c'est très fort. Mais aucune de ces voitures n'a de cornes ni de hache.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Just Dance",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Il a dansé une fois en soirée et réclamé du Rammstein. Il n'y en avait pas. Échec total.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Wii Sports",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Le bowling avec mamie, c'était sympa. Mais le chouffin refuse d'être un Mii en short.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Wii Fit",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Du yoga devant la télé avec une planche qui te juge. Le chouffin préfère le lancer de hache.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Ring Fit Adventure",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Un RPG où l'on tape des monstres en faisant des squats. L'idée le tente, les squats beaucoup moins.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Guitar Hero",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Il a fini « Through the Fire and Flames » en expert. C'est son seul vrai diplôme de guitare.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Rock Band",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Il prend toujours la batterie et hurle du Metallica au micro. Les voisins, eux, préfèrent les jeux solo.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "SingStar",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Chanter de la variété au salon, ce n'est pas son style. Sauf s'il existait une version metal. Il n'y en a pas.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Brain Training",
+    "chouffin": false,
+    "score": 20,
+    "reason": "L'âge de ton cerveau ? Le chouffin est fier de revenir à 12 ans dès qu'il parle de Pokémon.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Nintendogs",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Promener un chiot virtuel. Le chouffin aurait préféré un loup-garou virtuel.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Tetris",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le classique que tout le monde aime. Chouffin ? Pas vraiment, mais la musique le transporte.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Pac-Man",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Une icône respectable. Mais manger des pastilles en fuyant des fantômes, ça reste peu épique.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Street Fighter",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Hadoken ! Il sait sortir la manip depuis 1992 et te le prouve sur n'importe quelle borne.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Mortal Kombat",
+    "chouffin": true,
+    "score": 56,
+    "reason": "« Finish him ! » Il le sort en toute circonstance, parfois même en réunion d'équipe.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Tekken",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Il joue Eddy en martelant les boutons, et il gagne. Il appelle ça « avoir une technique ».",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Sonic",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Il a un avis sur chaque jeu Sonic depuis 1991. Souvent déçu, toujours présent.",
+    "category": "jeux-video",
+    "aliases": [
+      "sonic the hedgehog"
+    ]
+  },
+  {
+    "word": "Crash Bandicoot",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Des caisses, des fruits Wumpa et une danse de la victoire. Sa PlayStation 1 dort encore dans l'armoire.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Spyro",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Un petit dragon violet qui crache du feu et libère d'autres dragons. Le chouffin en avait la peluche.",
+    "category": "jeux-video",
+    "aliases": [
+      "spyro the dragon"
+    ]
+  },
+  {
+    "word": "Rayman",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le héros sans bras, fierté française. Il boude les Lapins Crétins, par principe.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Metroid",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Samus, l'armure et les couloirs sombres. Il te spoile la révélation de 1986, par pédagogie.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Castlevania",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Des vampires, un fouet et de l'orgue à fond. C'est gothique, c'est épique, c'est chouffin.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Shadow of the Colossus",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Terrasser des géants de pierre avec un cheval et une épée. Il a pleuré à la fin, et il le nie.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Okami",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Une déesse louve qui peint le monde. C'est de la mythologie japonaise, et il connaît le lore par cœur.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Nier: Automata",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Des androïdes, des fins multiples et une crise existentielle. Il te conseille la fin E, la larme à l'œil.",
+    "category": "jeux-video",
+    "aliases": [
+      "nier"
+    ]
+  },
+  {
+    "word": "Devil May Cry",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Des démons, des épées géantes et du métal : il fait les cornes du diable dès l'écran titre.",
+    "category": "jeux-video",
+    "aliases": [
+      "dmc"
+    ]
+  },
+  {
+    "word": "God of War",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Kratos a déménagé en Scandinavie et le chouffin a suivi. Il dit « Boy » à son chat depuis.",
+    "category": "jeux-video",
+    "aliases": [
+      "god of war ragnarok"
+    ]
+  },
+  {
+    "word": "Assassin's Creed",
+    "chouffin": true,
+    "score": 60,
+    "reason": "L'Histoire romancée en saut de la foi. Il adore, mais il râle que l'Animus « n'est pas crédible ».",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Assassin's Creed Valhalla",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Des Vikings, des raids et des tavernes. Il a joué aux dés plus qu'il n'a pillé l'Angleterre.",
+    "category": "jeux-video",
+    "aliases": [
+      "ac valhalla"
+    ]
+  },
+  {
+    "word": "For Honor",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Chevaliers contre Vikings contre samouraïs : le débat de taverne qu'il a toujours voulu trancher.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Chivalry 2",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Des batailles médiévales où tout le monde hurle en courant. Une fête médiévale avec de vraies épées.",
+    "category": "jeux-video",
+    "aliases": [
+      "chivalry"
+    ]
+  },
+  {
+    "word": "Ghost of Tsushima",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un samouraï, des haïkus et le vent qui guide. Le chouffin a composé trois haïkus sur la bière.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Red Dead Redemption 2",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Il a passé 20 heures à brosser son cheval. Pas de dragons, mais une taverne et des chapeaux.",
+    "category": "jeux-video",
+    "aliases": [
+      "rdr2",
+      "red dead"
+    ]
+  },
+  {
+    "word": "GTA",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le jeu de tout le monde, surtout de ceux qui ne jouent qu'à ça. Le chouffin y fait juste le taxi.",
+    "category": "jeux-video",
+    "aliases": [
+      "gta v",
+      "gta 5",
+      "grand theft auto"
+    ]
+  },
+  {
+    "word": "The Last of Us",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Un chef-d'œuvre, il l'admet. Mais c'est triste et réaliste, et il préfère ses zombies en coop avec une bière.",
+    "category": "jeux-video",
+    "aliases": [
+      "tlou"
+    ]
+  },
+  {
+    "word": "Uncharted",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Du cinéma d'action bien fait. Mais Nathan Drake n'a jamais trouvé l'Anneau Unique, donc bof.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Tomb Raider",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Lara Croft et les tombeaux antiques : l'archéologie romancée, ça, il adore.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Resident Evil",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Il a peur, mais connaître le lore d'Umbrella fait de lui un expert en virologie, dit-il.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Silent Hill",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Le brouillard et la radio qui grésille. Il y a joué avec toutes les lumières allumées, le brave.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Dead by Daylight",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Il se fait attraper et accuse le lag. Horreur sympathique, mais pas vraiment son monde.",
+    "category": "jeux-video",
+    "aliases": [
+      "dbd"
+    ]
+  },
+  {
+    "word": "Phasmophobia",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Chasser des fantômes entre copains en hurlant. Il aurait préféré des spectres elfiques.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Among Us",
+    "chouffin": false,
+    "score": 34,
+    "reason": "« Rouge est suspect » : il l'a répété en boucle en 2020. Aujourd'hui, il fait comme si ça n'avait pas existé.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Fall Guys",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Des haricots qui tombent. Mignon, mais aucun haricot n'a jamais soulevé Mjöllnir.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Roblox",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Le terrain de jeu de son petit cousin. Le chouffin y est entré une fois, il en est ressorti vieux.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Starfield",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Mille planètes et beaucoup de vide. Mais c'est Bethesda, alors il lui pardonne tout. Presque.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "No Man's Sky",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Détesté au lancement, adoré au douzième patch. Le chouffin sait pardonner, comme un paladin.",
+    "category": "jeux-video",
+    "aliases": [
+      "nms"
+    ]
+  },
+  {
+    "word": "Star Citizen",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il a payé un vaisseau 400 euros en 2014 et attend toujours. Sa foi ferait pâlir un templier.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Kerbal Space Program",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Ses fusées explosent au décollage et il appelle ça « faire de la science ». e-penser serait fier.",
+    "category": "jeux-video",
+    "aliases": [
+      "ksp"
+    ]
+  },
+  {
+    "word": "Factorio",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Il a automatisé une usine si grande qu'il en a oublié de dormir. Un peu ingénieur pour être 100 % chouffin.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "RimWorld",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Il raconte ses colons comme une saga nordique. Le chouffin adore quand un tableur devient une épopée.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Warframe",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des ninjas de l'espace et 800 armes. Il y joue gratuitement depuis dix ans et le vit comme un exploit.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Destiny",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un lore fascinant caché dans des fiches à collectionner. Il est le seul à les avoir lues, bien sûr.",
+    "category": "jeux-video",
+    "aliases": [
+      "destiny 2"
+    ]
+  },
+  {
+    "word": "Halo",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Il ne jouait qu'à l'épée à énergie. Le chouffin reste un chevalier, même dans l'espace.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Gears of War",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Des soldats bodybuildés qui se cachent derrière des murets. Beaucoup de testostérone, pas assez de lore.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Dark Souls",
+    "chouffin": true,
+    "score": 95,
+    "reason": "Il est mort 400 fois contre Ornstein et Smough, et il appelle ça « apprendre ». Louez le soleil !",
+    "category": "jeux-video",
+    "aliases": [
+      "dark souls 3",
+      "dark souls remastered"
+    ]
+  },
+  {
+    "word": "Demon's Souls",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le précurseur que seuls les vrais ont connu sur PS3. Il te le rappelle à chaque partie de Dark Souls.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Bloodborne",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Il attend la version PC depuis 2015. Des chasseurs victoriens dans la tête, et un chapeau assorti.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Sekiro",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Parer, parer, parer, mourir. Trois semaines pour vaincre Isshin, et il le raconte comme une guerre.",
+    "category": "jeux-video",
+    "aliases": [
+      "sekiro shadows die twice"
+    ]
+  },
+  {
+    "word": "Elden Ring",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Un monde ouvert Souls avec des chevaliers, des dragons et un lore obscur. L'Entre-terre, c'est chez lui.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Professeur Layton",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Il résout des énigmes avec un chapeau haut de forme. Déjà, le chapeau, ça compte beaucoup.",
+    "category": "jeux-video",
+    "aliases": [
+      "professor layton"
+    ]
+  },
+  {
+    "word": "Phoenix Wright",
+    "chouffin": true,
+    "score": 62,
+    "reason": "« Objection ! » Il le crie en réunion, au restaurant, chez le médecin. C'est devenu son cri de guerre.",
+    "category": "jeux-video",
+    "aliases": [
+      "ace attorney"
+    ]
+  },
+  {
+    "word": "Trackmania",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Les nuits de Zerator et les tracés infernaux : il admire, même quand il finit dans le décor.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "WWE 2K",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le catch sur console : il rejoue les matchs de l'Undertaker avec la musique d'entrée à fond.",
+    "category": "jeux-video",
+    "aliases": [
+      "wwe smackdown",
+      "smackdown vs raw"
+    ]
+  },
+  {
+    "word": "Tony Hawk's Pro Skater",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Pour la bande-son punk rock, surtout. Le skate, il le laisse aux gens qui ont de l'équilibre.",
+    "category": "jeux-video",
+    "aliases": [
+      "thps"
+    ]
+  },
+  {
+    "word": "Beat Saber",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Des sabres laser en réalité virtuelle, il y a presque du Star Wars. Presque.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Osu!",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Cliquer sur des cercles en rythme. Ses openings d'animés y sont, mais pas son âme de guerrier.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Vampire Survivors",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Il survit à 10 000 chauves-souris avec une seule touche. Le jeu idéal pour une soirée bière.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Slay the Spire",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Un jeu de cartes où il meurt au dernier étage. Il dit que c'est « un Magic en solo ».",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Balatro",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Du poker roguelike très addictif. Mais sans elfe ni taverne, il peine à y voir un destin.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Goat Simulator",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Une chèvre qui détruit tout. Absurde et drôle, parfait pour un épisode du Joueur du Grenier.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Microsoft Flight Simulator",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Survoler sa maison en Cessna, c'est beau. Mais aucun aigle géant ne vient le chercher.",
+    "category": "jeux-video",
+    "aliases": [
+      "flight simulator"
+    ]
+  },
+  {
+    "word": "Cities: Skylines",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Gérer les bouchons d'une ville. Le chouffin, lui, voulait gérer une forteresse naine.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Zoo Tycoon",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Il a mis un dinosaure dans son zoo et s'est senti épique pendant cinq minutes.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Donkey Kong",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Des tonneaux, des bananes et un gorille en cravate. Il aime la musique de DK Country plus que le jeu.",
+    "category": "jeux-video",
+    "aliases": [
+      "donkey kong country"
+    ]
+  },
+  {
+    "word": "Mario Party",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Il a perdu une étoile au dernier tour. Il n'a plus jamais adressé la parole à ce copain.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Ogame",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Il se levait à 4 h du matin pour protéger sa flotte. Du space opera dans un navigateur, sacrifice chouffin.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Dungeon Keeper",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« Il est bon d'être méchant. » Le jeu où il distribue des baffes aux diablotins pour qu'ils creusent plus vite.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Worms",
+    "chouffin": true,
+    "score": 62,
+    "reason": "La Sainte Grenade d'Antioche comme arme ultime. Un clin d'œil aux Monty Python, il n'en fallait pas plus.",
+    "category": "jeux-video",
+    "aliases": [
+      "worms armageddon"
+    ]
+  },
+  {
+    "word": "Démineur",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le jeu du PC familial sous Windows 98. Nostalgique, mais pas franchement passionnant.",
+    "category": "jeux-video",
+    "aliases": [
+      "minesweeper"
+    ]
+  },
+  {
+    "word": "Wordle",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Cinq lettres par jour, partagées sur les réseaux. Le chouffin tente toujours « CHOPE ». Raté.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Nintendo 64",
+    "chouffin": true,
+    "score": 90,
+    "reason": "La manette à trois poignées, GoldenEye à quatre et Ocarina of Time. Son âge d'or, ni plus ni moins.",
+    "category": "jeux-video",
+    "aliases": [
+      "n64"
+    ]
+  },
+  {
+    "word": "Super Nintendo",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Chrono Trigger, Zelda 3 et Street Fighter 2. Il la garde branchée sur un vieux téléviseur cathodique.",
+    "category": "jeux-video",
+    "aliases": [
+      "snes",
+      "super nes"
+    ]
+  },
+  {
+    "word": "NES",
+    "chouffin": true,
+    "score": 78,
+    "reason": "La console de ses premiers Mario et Zelda. Il souffle encore dans les cartouches par réflexe.",
+    "category": "jeux-video",
+    "aliases": [
+      "nintendo entertainment system"
+    ]
+  },
+  {
+    "word": "Game Boy",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Pokémon Rouge, Tetris et quatre piles AA toujours à plat. Une partie de son enfance s'est jouée en vert et gris.",
+    "category": "jeux-video",
+    "aliases": [
+      "gameboy",
+      "game boy color",
+      "game boy advance",
+      "gba"
+    ]
+  },
+  {
+    "word": "GameCube",
+    "chouffin": true,
+    "score": 80,
+    "reason": "La poignée de transport et Wind Waker. Il la trouve injustement boudée, comme un rôdeur incompris.",
+    "category": "jeux-video",
+    "aliases": [
+      "nintendo gamecube",
+      "ngc"
+    ]
+  },
+  {
+    "word": "Wii",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Elle trônait dans le salon de tous les parents. Le chouffin, lui, n'y a joué qu'à Twilight Princess.",
+    "category": "jeux-video",
+    "aliases": [
+      "nintendo wii"
+    ]
+  },
+  {
+    "word": "Nintendo Switch",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Zelda dans le train et Smash en soirée. Un peu grand public, mais elle a remis Nintendo dans son cœur.",
+    "category": "jeux-video",
+    "aliases": [
+      "switch",
+      "switch 2",
+      "nintendo switch 2"
+    ]
+  },
+  {
+    "word": "Nintendo DS",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Pokémon, Zelda et Professeur Layton dans la poche. Un double écran pour un double plaisir.",
+    "category": "jeux-video",
+    "aliases": [
+      "nintendo 3ds",
+      "3ds"
+    ]
+  },
+  {
+    "word": "PlayStation",
+    "chouffin": true,
+    "score": 62,
+    "reason": "La PS1, pour Final Fantasy VII et Crash. Le reste, c'est de la nostalgie de console grise.",
+    "category": "jeux-video",
+    "aliases": [
+      "ps1",
+      "psx",
+      "playstation 1"
+    ]
+  },
+  {
+    "word": "PlayStation 2",
+    "chouffin": true,
+    "score": 70,
+    "reason": "La console la plus vendue de l'histoire et de sa jeunesse. Shadow of the Colossus, Kingdom Hearts, amen.",
+    "category": "jeux-video",
+    "aliases": [
+      "ps2"
+    ]
+  },
+  {
+    "word": "PS5",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Une belle machine qui ressemble à une box internet géante. Le chouffin attend encore l'exclusivité qui le fera craquer.",
+    "category": "jeux-video",
+    "aliases": [
+      "playstation 5"
+    ]
+  },
+  {
+    "word": "PSP",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Monster Hunter en coop dans la cour du lycée. Et un film en UMD, une fois, pour voir.",
+    "category": "jeux-video",
+    "aliases": [
+      "playstation portable"
+    ]
+  },
+  {
+    "word": "Xbox",
+    "chouffin": false,
+    "score": 40,
+    "reason": "La console des FPS américains. Il en avait une pour Morrowind et Fable, et c'était tout.",
+    "category": "jeux-video",
+    "aliases": [
+      "xbox series x",
+      "xbox one"
+    ]
+  },
+  {
+    "word": "Xbox 360",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Mass Effect, Skyrim et le cercle rouge de la mort. Il l'a réparée avec une serviette, comme un forgeron.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Sega Mega Drive",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Sonic, Streets of Rage et « Sega, c'est plus fort que toi ». Un vétéran de la guerre des consoles.",
+    "category": "jeux-video",
+    "aliases": [
+      "mega drive",
+      "megadrive"
+    ]
+  },
+  {
+    "word": "Dreamcast",
+    "chouffin": true,
+    "score": 74,
+    "reason": "La console partie trop tôt, pleurée comme un héros de tragédie. Shenmue, Soul Calibur, respect.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Atari",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Pong et les cartouches d'E.T. enterrées dans le désert. Il connaît l'anecdote par cœur et te la raconte.",
+    "category": "jeux-video",
+    "aliases": [
+      "atari 2600"
+    ]
+  },
+  {
+    "word": "Steam Deck",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un PC portable pour jouer à Elden Ring dans le train. Il a déjà tout bidouillé sous Linux.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Casque VR",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Il a combattu des squelettes en réalité virtuelle et cassé une lampe. Le futur, c'est dangereux.",
+    "category": "jeux-video",
+    "aliases": [
+      "réalité virtuelle",
+      "oculus",
+      "vr"
+    ]
+  },
+  {
+    "word": "Manette",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Il en a une par console, rangées par ordre chronologique. Certaines portent des traces de rage.",
+    "category": "jeux-video",
+    "aliases": [
+      "gamepad"
+    ]
+  },
+  {
+    "word": "Joystick",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Le vieux stick d'arcade qu'il ressort pour Street Fighter. Il le tient comme une épée.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Borne d'arcade",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Il rêve d'en avoir une dans son garage, avec Metal Slug et une tireuse à bière. Un vrai projet de vie.",
+    "category": "jeux-video",
+    "aliases": [
+      "arcade"
+    ]
+  },
+  {
+    "word": "Cartouche",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Le jeu vidéo physique, lourd et rassurant. Il en a des caisses et refuse d'en vendre une seule.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Souffler dans la cartouche",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le rituel sacré de sa jeunesse. Inutile selon la science, mais le chouffin jure que ça marche.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Carte mémoire",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Il y a perdu 80 heures de Final Fantasy X. Une cicatrice qu'il ne montre à personne.",
+    "category": "jeux-video",
+    "aliases": [
+      "memory card"
+    ]
+  },
+  {
+    "word": "Télé cathodique",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Indispensable au retrogaming. Il porte ses 40 kg avec la dévotion d'un moine copiste.",
+    "category": "jeux-video",
+    "aliases": [
+      "tube cathodique",
+      "crt"
+    ]
+  },
+  {
+    "word": "Retrogaming",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Ses étagères débordent de vieilles consoles. Il parle de « patrimoine », son banquier de « crise ».",
+    "category": "jeux-video",
+    "aliases": [
+      "retro gaming"
+    ]
+  },
+  {
+    "word": "Émulateur",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Toute la ludothèque Super Nintendo dans un Raspberry Pi. Pour la préservation du patrimoine, bien sûr.",
+    "category": "jeux-video",
+    "aliases": [
+      "émulation"
+    ]
+  },
+  {
+    "word": "PC gamer",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Une tour qui clignote, un ventirad énorme et un fond d'écran Warhammer. Son autel personnel.",
+    "category": "jeux-video",
+    "aliases": [
+      "pc gaming"
+    ]
+  },
+  {
+    "word": "PC Master Race",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il méprise poliment les consoles et parle d'images par seconde comme d'un grand vin. 144 Hz, minimum.",
+    "category": "jeux-video",
+    "aliases": [
+      "pcmr"
+    ]
+  },
+  {
+    "word": "Clavier mécanique",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Clac clac clac. Ses colocs l'entendent à travers deux murs quand il débat de lore sur un forum.",
+    "category": "jeux-video"
+  },
+  {
+    "word": "RGB",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Son PC, son clavier et sa souris clignotent comme une taverne à Noël. « Ça rajoute des FPS ! »",
+    "category": "jeux-video"
+  },
+  {
+    "word": "Souris gamer",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Onze boutons, et il n'en utilise que trois. Mais les onze sont personnalisés.",
+    "category": "jeux-video",
+    "aliases": [
+      "souris gaming"
+    ]
+  },
+  {
+    "word": "Casque gamer",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Il le porte même pour écouter Sabaton. Surtout pour écouter Sabaton, en fait.",
+    "category": "jeux-video",
+    "aliases": [
+      "casque gaming"
+    ]
+  },
+  {
+    "word": "Chaise gamer",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Siège baquet et coussin lombaire aux couleurs de sa guilde. Il a renoncé au trône de fer, trop dur pour le dos.",
+    "category": "jeux-video",
+    "aliases": [
+      "chaise gaming",
+      "fauteuil gamer"
+    ]
+  },
+  {
+    "word": "Carte graphique",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il en parle avec la passion d'un joaillier. Il en a payé une plus cher que sa voiture.",
+    "category": "jeux-video",
+    "aliases": [
+      "gpu"
+    ]
+  },
+  {
+    "word": "Watercooling",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Des tuyaux fluo dans le boîtier. Il n'a rien compris à la physique, mais c'est joli comme une potion.",
+    "category": "jeux-video"
+  }
+]

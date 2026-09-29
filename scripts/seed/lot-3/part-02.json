@@ -1,0 +1,829 @@
+[
+  {
+    "word": "Tri Yann",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Des chansons bretonnes en fête médiévale : il chante « La Jument de Michao » en tapant du pied.",
+    "category": "musique"
+  },
+  {
+    "word": "Manau",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« La Tribu de Dana », rap celtique de 1998 : le pont parfait entre sa jeunesse et ses druides.",
+    "category": "musique"
+  },
+  {
+    "word": "Matmatah",
+    "chouffin": true,
+    "score": 72,
+    "reason": "« Lambé an dro » en soirée bretonne : chouffin, surtout quand il y a du cidre.",
+    "category": "musique"
+  },
+  {
+    "word": "Soldat Louis",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Leur tube hurlé à 3 h du matin en fin de soirée : un classique de taverne, une chope dans chaque main.",
+    "category": "musique"
+  },
+  {
+    "word": "Dropkick Murphys",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Du punk irlandais aux cornemuses : la seule raison pour laquelle il fête la Saint-Patrick.",
+    "category": "musique"
+  },
+  {
+    "word": "Les Fatals Picards",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Du rock humoristique à la française : il cite leurs paroles presque aussi souvent que Kaamelott.",
+    "category": "musique"
+  },
+  {
+    "word": "Mass Hysteria",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le métal français qui fait bouillir les fosses : « Furia ! » est son cri de guerre en soirée.",
+    "category": "musique"
+  },
+  {
+    "word": "Orelsan",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Rap de gamer normand qui cite Dragon Ball et les jeux vidéo : le rappeur officiel des chouffins.",
+    "category": "musique"
+  },
+  {
+    "word": "Bigflo et Oli",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Chouffin de justesse : du rap gentil qu'il écoute en disant que c'est « du vrai texte ».",
+    "category": "musique",
+    "aliases": [
+      "bigflo & oli",
+      "bigflo oli"
+    ]
+  },
+  {
+    "word": "Stupeflip",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Du rap chelou en cagoule, bourré de références geek : il fait partie du Crou depuis 2003.",
+    "category": "musique"
+  },
+  {
+    "word": "Casseurs Flowters",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Deux potes qui glandent devant la console dans « Comment c'est loin » : sa vie en film.",
+    "category": "musique"
+  },
+  {
+    "word": "Jul",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Des tubes à la chaîne pour la boîte de nuit : le chouffin était au Hellfest ce week-end-là.",
+    "category": "musique"
+  },
+  {
+    "word": "Bad Bunny",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Reggaeton, stades pleins et zéro lance-flammes : pas chouffin pour un sou.",
+    "category": "musique"
+  },
+  {
+    "word": "David Guetta",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Les bras levés à Ibiza : l'exact opposé d'un pogo au Hellfest.",
+    "category": "musique"
+  },
+  {
+    "word": "Coldplay",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Bracelets lumineux et ballades douces : le chouffin s'est endormi au deuxième morceau.",
+    "category": "musique"
+  },
+  {
+    "word": "Imagine Dragons",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Pas chouffin, mais ça se discute : « Enemy » dans Arcane l'a fait vaciller.",
+    "category": "musique"
+  },
+  {
+    "word": "BTS",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Fanbase géante et chorégraphies au cordeau : pas chouffin, même si l'Army ressemble à une guilde.",
+    "category": "musique"
+  },
+  {
+    "word": "Daft Punk",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Des robots et la BO de Tron Legacy : chouffin de justesse, la SF sauve tout.",
+    "category": "musique"
+  },
+  {
+    "word": "Kavinsky",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Nightcall, la voiture de Drive et un zombie en néon : la synthwave faite homme.",
+    "category": "musique"
+  },
+  {
+    "word": "Carpenter Brut",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Synthwave rageuse et imagerie horrifique des années 80 : le métalleux des néons.",
+    "category": "musique"
+  },
+  {
+    "word": "Stromae",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Belge, mais pas brasseur : ça se discute, il manque juste une chope dans ses clips.",
+    "category": "musique"
+  },
+  {
+    "word": "Indochine",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Le groupe de la grande sœur : pas chouffin, même avec le t-shirt noir.",
+    "category": "musique"
+  },
+  {
+    "word": "Rick Astley",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Il ne va jamais te laisser tomber, ni arrêter de te rickroller : l'hymne officiel d'Internet.",
+    "category": "musique"
+  },
+  {
+    "word": "Darude",
+    "chouffin": true,
+    "score": 68,
+    "reason": "« Sandstorm » : la réponse à toute question « c'est quoi cette musique ? » dans le chat d'un stream.",
+    "category": "musique",
+    "aliases": [
+      "sandstorm"
+    ]
+  },
+  {
+    "word": "Hatsune Miku",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Une chanteuse virtuelle à couettes bleues qui remplit des salles : le rêve de tout chouffin weeb.",
+    "category": "musique",
+    "aliases": [
+      "miku",
+      "vocaloid"
+    ]
+  },
+  {
+    "word": "Bernard Minet",
+    "chouffin": true,
+    "score": 76,
+    "reason": "La voix des génériques du Club Dorothée : il chante Bioman en entier sous la douche.",
+    "category": "musique"
+  },
+  {
+    "word": "John Williams",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Star Wars, Harry Potter, Indiana Jones, Jurassic Park : le compositeur de toute sa jeunesse.",
+    "category": "musique"
+  },
+  {
+    "word": "Howard Shore",
+    "chouffin": true,
+    "score": 92,
+    "reason": "La BO du Seigneur des Anneaux : il pleure dès les premières notes du thème de la Comté.",
+    "category": "musique"
+  },
+  {
+    "word": "Hans Zimmer",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Des BRAAAM partout, Interstellar, Pirates des Caraïbes : chouffin, surtout pour les montées.",
+    "category": "musique"
+  },
+  {
+    "word": "Ramin Djawadi",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le générique de Game of Thrones : il le fredonne en montant l'escalier comme un Stark.",
+    "category": "musique"
+  },
+  {
+    "word": "Nobuo Uematsu",
+    "chouffin": true,
+    "score": 91,
+    "reason": "Le compositeur de Final Fantasy : One-Winged Angel lui file des frissons depuis 1997.",
+    "category": "musique",
+    "aliases": [
+      "uematsu"
+    ]
+  },
+  {
+    "word": "Koji Kondo",
+    "chouffin": true,
+    "score": 87,
+    "reason": "Les thèmes de Mario et de Zelda : il les siffle depuis sa naissance, ou presque.",
+    "category": "musique"
+  },
+  {
+    "word": "Joe Hisaishi",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Les musiques des Ghibli : même le chouffin le plus bourru pleure devant Totoro.",
+    "category": "musique"
+  },
+  {
+    "word": "Two Steps From Hell",
+    "chouffin": true,
+    "score": 86,
+    "reason": "La musique des trailers épiques : il la met pour faire la vaisselle, comme un héros.",
+    "category": "musique"
+  },
+  {
+    "word": "Toby Fox",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le compositeur d'Undertale : « Megalovania » est sa sonnerie depuis 2015.",
+    "category": "musique"
+  },
+  {
+    "word": "Vinyle",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Ça se discute : belle collection de BO de jeux, mais le hipster du coin a exactement le même rayon.",
+    "category": "musique"
+  },
+  {
+    "word": "La Chouffe",
+    "chouffin": true,
+    "score": 100,
+    "reason": "Le nom sacré. Le lutin au bonnet rouge est son totem, et chaque gorgée est un hommage.",
+    "category": "boissons"
+  },
+  {
+    "word": "Mc Chouffe",
+    "chouffin": true,
+    "score": 93,
+    "reason": "La cousine brune de la Chouffe : pour les soirées où il se sent l'âme d'un nain de la Moria.",
+    "category": "boissons",
+    "aliases": [
+      "mcchouffe"
+    ]
+  },
+  {
+    "word": "Hydromel",
+    "chouffin": true,
+    "score": 98,
+    "reason": "La boisson des dieux nordiques et des fêtes médiévales : il la boit dans une corne, évidemment.",
+    "category": "boissons",
+    "aliases": [
+      "mead"
+    ]
+  },
+  {
+    "word": "Cervoise",
+    "chouffin": true,
+    "score": 95,
+    "reason": "La bière des Gaulois et des tavernes : rien que le mot lui donne envie de taper sur une table.",
+    "category": "boissons"
+  },
+  {
+    "word": "Chouchen",
+    "chouffin": true,
+    "score": 88,
+    "reason": "L'hydromel breton : un détour par Brocéliande dans un verre, fées comprises.",
+    "category": "boissons"
+  },
+  {
+    "word": "Hypocras",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Vin épicé médiéval : il en boit à Provins en racontant l'histoire de son épée.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bièraubeurre",
+    "chouffin": true,
+    "score": 90,
+    "reason": "La boisson de Poudlard : il en a bu une vraie au studio Harry Potter et en parle encore.",
+    "category": "boissons",
+    "aliases": [
+      "butterbeer",
+      "biere au beurre"
+    ]
+  },
+  {
+    "word": "Kwak",
+    "chouffin": true,
+    "score": 93,
+    "reason": "Servie dans un verre à étrier en bois : il la commande surtout pour le spectacle.",
+    "category": "boissons",
+    "aliases": [
+      "pauwel kwak"
+    ]
+  },
+  {
+    "word": "Chimay",
+    "chouffin": true,
+    "score": 88,
+    "reason": "La bleue : une trappiste qui se boit comme on lit un grimoire, avec respect et lenteur.",
+    "category": "boissons"
+  },
+  {
+    "word": "Leffe",
+    "chouffin": true,
+    "score": 66,
+    "reason": "La belge de supermarché : chouffin débutant, première marche avant la Chouffe.",
+    "category": "boissons"
+  },
+  {
+    "word": "Duvel",
+    "chouffin": true,
+    "score": 88,
+    "reason": "« Diable » en flamand : il la boit en rappelant qu'elle cogne fort, comme un orc.",
+    "category": "boissons"
+  },
+  {
+    "word": "Delirium Tremens",
+    "chouffin": true,
+    "score": 92,
+    "reason": "L'éléphant rose sur la bouteille : le totem de ses fins de soirée à la taverne.",
+    "category": "boissons",
+    "aliases": [
+      "delirium"
+    ]
+  },
+  {
+    "word": "Karmeliet",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Trois céréales, un verre élégant et un chouffin qui se prend soudain pour un sommelier.",
+    "category": "boissons",
+    "aliases": [
+      "tripel karmeliet"
+    ]
+  },
+  {
+    "word": "Orval",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Une trappiste avec une truite et un anneau sur l'étiquette : il y voit une référence à Tolkien.",
+    "category": "boissons"
+  },
+  {
+    "word": "Westvleteren",
+    "chouffin": true,
+    "score": 88,
+    "reason": "La trappiste la plus rare du monde : il en a bu une en 2014 et la décrit comme le Graal.",
+    "category": "boissons"
+  },
+  {
+    "word": "Rochefort",
+    "chouffin": true,
+    "score": 80,
+    "reason": "La trappiste costaude : il raconte l'avoir découverte « dans une taverne des Ardennes ». Épique.",
+    "category": "boissons"
+  },
+  {
+    "word": "Grimbergen",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un phénix sur l'étiquette : une bière d'abbaye avec une créature mythique, il valide.",
+    "category": "boissons"
+  },
+  {
+    "word": "Affligem",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Bière d'abbaye honorable : chouffin de justesse, il l'accepte quand la Chouffe est en rupture.",
+    "category": "boissons"
+  },
+  {
+    "word": "Maredsous",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Une bière d'abbaye belge sérieuse : il l'appelle « la bière des moines copistes ».",
+    "category": "boissons"
+  },
+  {
+    "word": "Cuvée des Trolls",
+    "chouffin": true,
+    "score": 94,
+    "reason": "Une bière belge avec un troll sur l'étiquette : on dirait qu'elle a été brassée pour lui.",
+    "category": "boissons",
+    "aliases": [
+      "cuvee des troll"
+    ]
+  },
+  {
+    "word": "Gulden Draak",
+    "chouffin": true,
+    "score": 90,
+    "reason": "« Dragon d'or » en flamand : une bière avec un dragon, il n'y a rien à ajouter.",
+    "category": "boissons"
+  },
+  {
+    "word": "Barbar",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Bière belge au miel avec un barbare sur l'étiquette : c'est son portrait craché, dit-il.",
+    "category": "boissons"
+  },
+  {
+    "word": "Mort Subite",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Une bière bruxelloise au nom de boss final : il la commande surtout pour la réplique.",
+    "category": "boissons"
+  },
+  {
+    "word": "Kriek",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Bière belge à la cerise : il jure « qu'elle n'est pas si sucrée », avec une mauvaise foi totale.",
+    "category": "boissons"
+  },
+  {
+    "word": "Gueuze",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Lambic bruxellois acidulé : il grimace un peu, mais la commande pour faire connaisseur.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bière belge",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Son eau de source. Il connaît plus de brasseries belges que de départements français.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bière trappiste",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Brassée par des moines depuis des siècles : il la sirote avec le respect d'un novice.",
+    "category": "boissons",
+    "aliases": [
+      "trappiste"
+    ]
+  },
+  {
+    "word": "Bière d'abbaye",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Des moines, des blasons et du degré : tout ce qu'un chouffin exige d'une bière.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bière triple",
+    "chouffin": true,
+    "score": 85,
+    "reason": "Du degré et de la mousse : il commande « une triple » d'une voix grave de nain.",
+    "category": "boissons",
+    "aliases": [
+      "tripel"
+    ]
+  },
+  {
+    "word": "Bière",
+    "chouffin": true,
+    "score": 78,
+    "reason": "La boisson de base. Il n'aime pas toutes les bières, mais toutes les bières l'aiment.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bière artisanale",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Chouffin, sauf quand elle coûte 9 € dans un bar en palettes avec un barman en tablier.",
+    "category": "boissons",
+    "aliases": [
+      "craft beer"
+    ]
+  },
+  {
+    "word": "IPA",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Ça se discute : trop houblonnée, trop hipster, trop de noms en jeux de mots.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bière de Noël",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Chouffin de justesse : il l'achète pour l'étiquette avec des gnomes et des sapins.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bière sans alcool",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Un chouffin qui commande une sans alcool, c'est un orc qui fait du yoga.",
+    "category": "boissons"
+  },
+  {
+    "word": "Panaché",
+    "chouffin": false,
+    "score": 20,
+    "reason": "De la bière coupée à la limonade : pour un chouffin, c'est un sacrilège.",
+    "category": "boissons"
+  },
+  {
+    "word": "Kronenbourg",
+    "chouffin": false,
+    "score": 38,
+    "reason": "La « Kro » : beauf, oui, geek, non. Il la boit quand il n'y a vraiment plus rien.",
+    "category": "boissons",
+    "aliases": [
+      "kro"
+    ]
+  },
+  {
+    "word": "Heineken",
+    "chouffin": false,
+    "score": 24,
+    "reason": "La bière des stades et des pubs télé : trop lisse, trop verte, pas assez de lutins.",
+    "category": "boissons"
+  },
+  {
+    "word": "1664",
+    "chouffin": false,
+    "score": 28,
+    "reason": "« La française premium » : il hausse un sourcil et commande une Chouffe.",
+    "category": "boissons"
+  },
+  {
+    "word": "Desperados",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Bière à la tequila de soirée étudiante : pas chouffin, sauf à 3 h du matin en fin de LAN.",
+    "category": "boissons"
+  },
+  {
+    "word": "Corona",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Une bière avec un citron dans le goulot : ambiance plage d'influenceur, pas taverne.",
+    "category": "boissons"
+  },
+  {
+    "word": "Guinness",
+    "chouffin": true,
+    "score": 74,
+    "reason": "La brune du pub irlandais : il en boit une par Saint-Patrick en parlant de leprechauns.",
+    "category": "boissons"
+  },
+  {
+    "word": "Cidre",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Chouffin de justesse, grâce aux fêtes médiévales et aux crêpes bretonnes.",
+    "category": "boissons"
+  },
+  {
+    "word": "Vin chaud",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Le verre de la fête médiévale de décembre : il le boit en cape, les doigts gelés.",
+    "category": "boissons"
+  },
+  {
+    "word": "Jägermeister",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un cerf sur la bouteille et des herbes mystérieuses : la potion du métalleux en festival.",
+    "category": "boissons",
+    "aliases": [
+      "jager",
+      "jaeger"
+    ]
+  },
+  {
+    "word": "Rhum",
+    "chouffin": true,
+    "score": 72,
+    "reason": "La boisson des pirates : il en boit en chantant Alestorm, un bandeau sur l'œil.",
+    "category": "boissons"
+  },
+  {
+    "word": "Rhum arrangé",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Chouffin de justesse : il en fait maison et l'appelle « potion de soin ».",
+    "category": "boissons"
+  },
+  {
+    "word": "Grog",
+    "chouffin": true,
+    "score": 74,
+    "reason": "La boisson des pirates et de Monkey Island : il en prépare l'hiver en citant Guybrush.",
+    "category": "boissons"
+  },
+  {
+    "word": "Whisky",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Chouffin de justesse : il a vu Highlander, porte un kilt une fois par an et dit « single malt ».",
+    "category": "boissons",
+    "aliases": [
+      "whiskey"
+    ]
+  },
+  {
+    "word": "Pastis",
+    "chouffin": false,
+    "score": 32,
+    "reason": "L'apéro de la pétanque : beauf, oui, mais sans dés ni dragon. Pas chouffin.",
+    "category": "boissons",
+    "aliases": [
+      "ricard",
+      "pastaga"
+    ]
+  },
+  {
+    "word": "Monster",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le carburant officiel des LAN : à la quatrième canette, il voit la Matrice.",
+    "category": "boissons",
+    "aliases": [
+      "monster energy"
+    ]
+  },
+  {
+    "word": "Red Bull",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Sports extrêmes et parachutistes : il en boit, mais préfère la Monster en LAN.",
+    "category": "boissons",
+    "aliases": [
+      "redbull"
+    ]
+  },
+  {
+    "word": "Mountain Dew",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le mythe gamer MLG avec des Doritos : il en a importé une fois, rien que pour le mème.",
+    "category": "boissons",
+    "aliases": [
+      "mtn dew"
+    ]
+  },
+  {
+    "word": "Boisson énergisante",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Indispensable pour tenir une nuit de raid : ses reins ont un autre avis.",
+    "category": "boissons"
+  },
+  {
+    "word": "Coca-Cola",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Universel et neutre : il en boit en LAN, mais personne n'a jamais débattu du Coca à 2 h du matin.",
+    "category": "boissons",
+    "aliases": [
+      "coca"
+    ]
+  },
+  {
+    "word": "Pepsi",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Le débat Coca ou Pepsi l'occupe bien plus que la boisson elle-même.",
+    "category": "boissons"
+  },
+  {
+    "word": "Ice Tea",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Boisson des LAN du collège : ça se discute, c'est nostalgique mais pas légendaire.",
+    "category": "boissons",
+    "aliases": [
+      "icetea"
+    ]
+  },
+  {
+    "word": "Ramune",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Soda japonais avec une bille dans le goulot : vu dans cent animés, acheté à Japan Expo.",
+    "category": "boissons"
+  },
+  {
+    "word": "Bubble tea",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Des perles de tapioca et une file d'attente : ça se discute, un peu weeb, beaucoup Instagram.",
+    "category": "boissons"
+  },
+  {
+    "word": "Saké",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Chouffin de justesse : il l'a découvert grâce aux animés et en commande au restau japonais.",
+    "category": "boissons"
+  },
+  {
+    "word": "Café",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Il en boit pour tenir la campagne de JDR, mais il lui préfère la Monster.",
+    "category": "boissons"
+  },
+  {
+    "word": "Thé",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Pas chouffin, sauf servi par l'oncle Iroh d'Avatar ou dans une tasse Poufsouffle.",
+    "category": "boissons"
+  },
+  {
+    "word": "Spritz",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Orange fluo en terrasse pour la story Instagram : l'antithèse absolue de la taverne.",
+    "category": "boissons",
+    "aliases": [
+      "aperol spritz",
+      "aperol"
+    ]
+  },
+  {
+    "word": "Mojito",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Menthe fraîche et paille en bambou : cocktail de rooftop, pas de taverne.",
+    "category": "boissons"
+  },
+  {
+    "word": "Moscow mule",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Servi dans une tasse en cuivre pour la photo : il préfère sa chope en étain.",
+    "category": "boissons"
+  },
+  {
+    "word": "Gin tonic",
+    "chouffin": false,
+    "score": 14,
+    "reason": "La boisson de l'afterwork en open space : trop chic pour la taverne.",
+    "category": "boissons"
+  },
+  {
+    "word": "Vodka",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Trop neutre pour un chouffin, sauf quand Korpiklaani en chante les louanges.",
+    "category": "boissons"
+  },
+  {
+    "word": "Tequila",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Sel, citron, grimace : pas chouffin, mais ça finit souvent en karaoké d'opening.",
+    "category": "boissons"
+  },
+  {
+    "word": "Matcha latte",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Vert fluo et lait d'avoine, photo à l'appui : même un elfe trouverait ça trop raffiné.",
+    "category": "boissons",
+    "aliases": [
+      "matcha"
+    ]
+  },
+  {
+    "word": "Smoothie detox",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Du chou kale mixé à 8 € : l'opposé exact d'une Chouffe et d'un sanglier rôti.",
+    "category": "boissons",
+    "aliases": [
+      "jus detox",
+      "smoothie"
+    ]
+  },
+  {
+    "word": "Kombucha",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Du thé fermenté avec un truc qui flotte dedans : même l'apothicaire de la taverne refuserait.",
+    "category": "boissons"
+  }
+]
