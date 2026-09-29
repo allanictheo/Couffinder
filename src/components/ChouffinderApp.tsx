@@ -40,6 +40,13 @@ type Overlay =
   | { kind: "mlg"; id: number; seed: number; word: string; legendary: boolean }
   | { kind: "sad"; id: number; word: string; variant: SadVariant };
 
+let sequence = 0;
+/** Identifiant unique pour les toasts et overlays (sans horloge : rendu pur). */
+function nextId(): number {
+  sequence += 1;
+  return sequence;
+}
+
 function prefersReducedMotion(): boolean {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
@@ -134,7 +141,7 @@ export function ChouffinderApp() {
       if (result.chouffin) {
         if (result.legendary || Math.random() < MLG_CHANCE) {
           setToast({
-            id: Date.now(),
+            id: nextId(),
             points: result.legendary ? 100 : pick([10, 20, 30, 50]),
             title: result.legendary ? "Légende vivante" : pick(ACHIEVEMENTS),
           });
@@ -144,7 +151,7 @@ export function ChouffinderApp() {
           }
           setOverlay({
             kind: "mlg",
-            id: Date.now(),
+            id: nextId(),
             seed: Math.floor(Math.random() * 2 ** 31),
             word: result.word,
             legendary: result.legendary,
@@ -157,7 +164,7 @@ export function ChouffinderApp() {
       }
 
       if (!reduced && Math.random() < SAD_CHANCE) {
-        setOverlay({ kind: "sad", id: Date.now(), word: result.word, variant: Math.random() < 0.5 ? "bsod" : "nope" });
+        setOverlay({ kind: "sad", id: nextId(), word: result.word, variant: Math.random() < 0.5 ? "bsod" : "nope" });
         return;
       }
       sfx("flat");
@@ -278,14 +285,14 @@ export function ChouffinderApp() {
         return;
       }
       if (previous.status === "unknown" && next.status === "known") {
-        setToast({ id: Date.now(), points: 50, title: "Parrain d'un mot" });
+        setToast({ id: nextId(), points: 50, title: "Parrain d'un mot" });
         sfx("achievement");
         announce(`Mot adopté par la communauté : « ${next.word} » est ${next.chouffin ? "chouffin" : "pas chouffin"}.`);
         resultRef.current?.scrollIntoView({ block: "start", behavior: prefersReducedMotion() ? "auto" : "smooth" });
         return;
       }
       if (previous.status === "known" && next.status === "known" && previous.chouffin !== next.chouffin) {
-        setToast({ id: Date.now(), points: 30, title: "Le peuple a parlé" });
+        setToast({ id: nextId(), points: 30, title: "Le peuple a parlé" });
         sfx("flip");
         shake();
         announce(`Verdict renversé ! « ${next.word} » est maintenant ${next.chouffin ? "chouffin" : "pas chouffin"}.`);
