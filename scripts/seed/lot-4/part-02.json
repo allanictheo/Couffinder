@@ -1,155 +1,5 @@
 [
   {
-    "word": "Feu",
-    "chouffin": false,
-    "score": 35,
-    "reason": "Boule de feu : le sort préféré de tout débutant en JdR. Et le chouffin s'enflamme vite en débat.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Feu de camp",
-    "chouffin": true,
-    "score": 58,
-    "reason": "Cercle de héros, barde qui chante faux et récit de quête : la base de toute aventure.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Cheminée",
-    "chouffin": false,
-    "score": 45,
-    "reason": "Plaid, feu qui crépite et gros pavé de fantasy : l'ambiance taverne, à domicile.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Bougie",
-    "chouffin": false,
-    "score": 45,
-    "reason": "Indispensable pour l'ambiance d'une partie de JdR. Plus il y en a, plus le MJ est sérieux.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Cristal",
-    "chouffin": true,
-    "score": 55,
-    "reason": "Final Fantasy tourne autour des cristaux depuis 1987. Pour lui, un cristal n'est jamais décoratif.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Diamant",
-    "chouffin": false,
-    "score": 42,
-    "reason": "« Diamants ! » Le cri de joie du joueur de Minecraft qui a creusé trois heures pour ça.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Rubis",
-    "chouffin": true,
-    "score": 55,
-    "reason": "La monnaie officielle d'Hyrule. Il ne peut pas en voir un sans entendre le petit son de Zelda.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Émeraude",
-    "chouffin": false,
-    "score": 40,
-    "reason": "Les Émeraudes du Chaos de Sonic et la Cité d'Émeraude d'Oz : une pierre qui a du lore.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Or",
-    "chouffin": true,
-    "score": 52,
-    "reason": "Smaug dort dessus, les nains le réclament et le chouffin le farme en boucle. Précieux.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Argent",
-    "chouffin": false,
-    "score": 30,
-    "reason": "Métal qui repousse les loups-garous, compte en banque vidé par les soldes : bilan contrasté.",
-    "category": "quotidien",
-    "aliases": [
-      "thune"
-    ]
-  },
-  {
-    "word": "Fer",
-    "chouffin": false,
-    "score": 30,
-    "reason": "Iron Man, c'est l'homme de fer, et il y a un Trône de Fer. Un métal qui a su se placer.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Chat",
-    "chouffin": false,
-    "score": 28,
-    "reason": "Internet leur appartient. Et le chat du chouffin dort toujours sur les fiches de perso.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Chien",
-    "chouffin": false,
-    "score": 25,
-    "reason": "Brave bête. Il l'appellerait bien Fenrir ou Crockdur, rarement Médor.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Chaton",
-    "chouffin": false,
-    "score": 12,
-    "reason": "Mignon, viral, un peu trop Instagram. Il le tolère s'il s'appelle Gandalf.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Chiot",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Adorable, mais aucune statistique de combat. Il passe son tour.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Loup",
-    "chouffin": true,
-    "score": 68,
-    "reason": "Fenrir, les loups-garous, la maison Stark : le loup est l'animal totem officiel du chouffin.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Renard",
-    "chouffin": false,
-    "score": 32,
-    "reason": "Robin des Bois version Disney et mascotte de Firefox. Rusé, mais pas encore invité à la taverne.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Ours",
-    "chouffin": false,
-    "score": 50,
-    "reason": "Beorn en prend la forme et les berserkers en portent la peau. Un ours, c'est un Viking qui s'ignore.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Corbeau",
-    "chouffin": true,
-    "score": 66,
-    "reason": "Hugin et Munin, les corbeaux d'Odin, plus la Garde de Nuit : un CV chouffin impeccable.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Hibou",
-    "chouffin": true,
-    "score": 62,
-    "reason": "Il attend toujours sa lettre de Poudlard. Chaque hibou qu'il croise est un espoir déçu.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Chouette",
-    "chouffin": true,
-    "score": 58,
-    "reason": "Hedwige, et un nom qui ressemble presque à Chouffe. Chouffin par homonymie, et ça suffit.",
-    "category": "quotidien"
-  },
-  {
     "word": "Aigle",
     "chouffin": true,
     "score": 58,
@@ -220,13 +70,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Coq",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Réveil naturel à 5 h du matin. Donc ennemi naturel du chouffin.",
-    "category": "quotidien"
-  },
-  {
     "word": "Canard",
     "chouffin": false,
     "score": 25,
@@ -262,13 +105,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Hamster",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Il tourne dans sa roue comme un joueur en fin de contenu. Mignon, mais sans lore.",
-    "category": "quotidien"
-  },
-  {
     "word": "Poisson",
     "chouffin": false,
     "score": 15,
@@ -276,31 +112,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Poisson rouge",
-    "chouffin": false,
-    "score": 12,
-    "reason": "Mémoire de trois secondes, comme lui face aux noms des personnages du Silmarillion.",
-    "category": "quotidien"
-  },
-  {
     "word": "Requin",
     "chouffin": false,
     "score": 20,
     "reason": "Les Dents de la mer et Sharknado : plutôt nanar que chouffin. Mais il a vu les six Sharknado.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Baleine",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Moby Dick est un roman d'aventure, admettons. Le reste du temps, elle chante sans guitare.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Dauphin",
-    "chouffin": false,
-    "score": 12,
-    "reason": "Trop sympa, trop lisse, trop mascotte de parc aquatique. Sauf Ecco, qui avait son charme.",
     "category": "quotidien"
   },
   {
@@ -339,24 +154,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Lézard",
-    "chouffin": false,
-    "score": 25,
-    "reason": "Les hommes-lézards de Warhammer, oui. Celui qui dort sur le mur du jardin, beaucoup moins.",
-    "category": "quotidien"
-  },
-  {
     "word": "Salamandre",
     "chouffin": false,
     "score": 42,
     "reason": "Esprit du feu chez les alchimistes et inspiration de Salamèche : un petit lézard à gros lore.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Crocodile",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Tic-tac, le crocodile de Peter Pan, et c'est à peu près tout ce qu'il y a à dire.",
     "category": "quotidien"
   },
   {
@@ -402,31 +203,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Zèbre",
-    "chouffin": false,
-    "score": 3,
-    "reason": "Rayé, rapide et absent de toutes ses sagas. Circulez.",
-    "category": "quotidien"
-  },
-  {
     "word": "Panda",
     "chouffin": false,
     "score": 42,
     "reason": "Kung Fu Panda et les Pandarens de WoW, grands amateurs de bière : le panda a du potentiel.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Koala",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Il dort vingt heures par jour. Le seul point commun avec lui, c'est la sieste.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Kangourou",
-    "chouffin": false,
-    "score": 3,
-    "reason": "Il boxe, paraît-il. Pas de lore, pas de chouffinitude.",
     "category": "quotidien"
   },
   {
@@ -451,13 +231,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Fourmi",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Ant-Man la trouve pratique. Lui préfère les colonies qu'il gère dans ses jeux de stratégie.",
-    "category": "quotidien"
-  },
-  {
     "word": "Araignée",
     "chouffin": true,
     "score": 58,
@@ -465,31 +238,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Mouche",
-    "chouffin": false,
-    "score": 12,
-    "reason": "Elle l'embête pendant les parties. Et Sa Majesté des Mouches, ce n'est pas le même Seigneur.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Moustique",
-    "chouffin": false,
-    "score": 5,
-    "reason": "L'ennemi du campeur de festival. Aucun lore ne le sauvera.",
-    "category": "quotidien"
-  },
-  {
     "word": "Papillon",
     "chouffin": false,
     "score": 15,
     "reason": "Il ne le voit qu'en effet papillon, dans les jeux à choix multiples.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Escargot",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Lent comme un chargement de jeu sur disquette. Nostalgique, à la rigueur.",
     "category": "quotidien"
   },
   {
@@ -528,31 +280,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Pigeon",
-    "chouffin": false,
-    "score": 8,
-    "reason": "Il ne transporte plus de messages depuis longtemps. Aucun intérêt en matière de lore.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Mouette",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Elle crie, elle vole des frites, elle n'a aucun lore. Circulez.",
-    "category": "quotidien"
-  },
-  {
     "word": "Pingouin",
     "chouffin": false,
     "score": 35,
     "reason": "Tux, la mascotte de Linux : le chouffin informaticien le défend avec ferveur.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Cygne",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Élégant, blanc et un brin prétentieux. Tout ce qu'il n'est pas.",
     "category": "quotidien"
   },
   {
@@ -585,13 +316,6 @@
     "aliases": [
       "dino"
     ]
-  },
-  {
-    "word": "Castor",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Architecte doué, mais sans lien avec l'univers. Il construit des barrages, pas des donjons.",
-    "category": "quotidien"
   },
   {
     "word": "Maison",
@@ -630,16 +354,6 @@
     "score": 42,
     "reason": "Salon de thé : non. Salon du jeu vidéo ou salon fantastique : oui, badge au cou.",
     "category": "quotidien"
-  },
-  {
-    "word": "Salle de bain",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Aucun lore dans cette pièce. On y chante les openings d'animés sous la douche, c'est tout.",
-    "category": "quotidien",
-    "aliases": [
-      "salle de bains"
-    ]
   },
   {
     "word": "Cave",
@@ -698,45 +412,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Toit",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Assassin's Creed lui a appris à courir dessus. En vrai, il préfère nettement le plancher.",
-    "category": "quotidien"
-  },
-  {
     "word": "Mur",
     "chouffin": false,
     "score": 20,
     "reason": "Le Mur de Game of Thrones, oui. Celui de la salle à manger, non.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Plafond",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Il le fixe surtout à 3 h du matin, après une fin de série décevante.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Balcon",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Pour un apéro en rooftop, c'est non. Pour admirer la pleine lune, pourquoi pas.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Terrasse",
-    "chouffin": false,
-    "score": 12,
-    "reason": "Terrasse de café pour débattre du dernier épisode : acceptable. Afterwork en terrasse : non.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Couloir",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Dans un donjon, c'est là que sont les pièges. Chez soi, c'est là que traîne le chat.",
     "category": "quotidien"
   },
   {
@@ -764,13 +443,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Oreiller",
-    "chouffin": false,
-    "score": 5,
-    "reason": "Pas de lore. Juste là pour les siestes de récupération post-raid.",
-    "category": "quotidien"
-  },
-  {
     "word": "Couette",
     "chouffin": false,
     "score": 12,
@@ -782,13 +454,6 @@
     "chouffin": false,
     "score": 42,
     "reason": "Cape improvisée, couverture de soirée JdR et compagnon d'hiver : l'armure du chouffin casanier.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Couverture",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Celle d'un livre de fantasy avec un dragon dessus : oui. Celle du lit : beaucoup moins.",
     "category": "quotidien"
   },
   {
@@ -841,17 +506,384 @@
     "category": "quotidien"
   },
   {
-    "word": "Tiroir",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Câbles, dés en rab et vieux manuels de règles y dorment dans un désordre créatif.",
-    "category": "quotidien"
-  },
-  {
     "word": "Malle",
     "chouffin": false,
     "score": 40,
     "reason": "Malle de Poudlard ou malle au trésor : il en a une pour ranger ses costumes de GN.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Miroir",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Le Miroir du Riséd, celui de Blanche-Neige, et celui devant lequel il répète ses répliques de Perceval.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lampe",
+    "chouffin": false,
+    "score": 15,
+    "reason": "La lampe du génie d'Aladdin, oui. Celle du salon, beaucoup moins.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chandelier",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Chandelier de la Belle et la Bête, bougies de banquet médiéval : très ambiance taverne.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tapis",
+    "chouffin": false,
+    "score": 20,
+    "reason": "S'il est volant, on en reparle. Sinon, c'est surtout là que roulent les dés.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Frigo",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Rempli de Chouffe et de pizzas surgelées, il gagnerait des points. Là, c'est juste un frigo.",
+    "category": "quotidien",
+    "aliases": [
+      "réfrigérateur",
+      "frigidaire"
+    ]
+  },
+  {
+    "word": "Micro-ondes",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Arme ultime du repas de raid : réchauffer en deux minutes et retourner au clavier.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Grille-pain",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Dans Battlestar Galactica, c'est le surnom des Cylons. Du coup, il se méfie du sien.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Machine à laver",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Elle lave les t-shirts de métal à 30 degrés, pour que le noir reste noir. Mission sacrée.",
+    "category": "quotidien",
+    "aliases": [
+      "lave-linge"
+    ]
+  },
+  {
+    "word": "Aspirateur",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Il ramasse les chips tombées pendant la soirée JdR. Un héros discret, mais pas chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Balai",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Nimbus 2000, Éclair de Feu : un balai n'est pas un outil ménager, c'est un véhicule.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Poubelle",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Là où finissent les boîtes de pizza d'après partie. Rien d'épique.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Clé",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Dans un donjon, chaque clé ouvre un coffre ou la porte du boss. Chez lui, surtout la porte d'entrée.",
+    "category": "quotidien",
+    "aliases": [
+      "clef"
+    ]
+  },
+  {
+    "word": "Serrure",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Crocheter une serrure, jet de Dextérité : il a passé des heures sur ce mini-jeu de Skyrim.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Vase",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Dans Zelda, on les casse pour trouver des rubis. Chez sa mère, il a vite compris que ça ne marchait pas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cafetière",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Carburant des nuits blanches, mais trop banale pour être vénérée.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Poêle",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Raiponce en fait une arme redoutable, PUBG aussi. Rien que pour ça, elle mérite le respect.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Marmite",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Panoramix y prépare la potion magique. Une marmite, c'est un chaudron qui s'ignore.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tasse",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Mug « Keep calm and roll a d20 » ou tasse Kaamelott : chez lui, elles sont toutes geek.",
+    "category": "quotidien",
+    "aliases": [
+      "mug"
+    ]
+  },
+  {
+    "word": "Fourchette",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Ariel s'en sert pour se coiffer. C'est la seule fourchette qui ait du lore.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cuillère",
+    "chouffin": false,
+    "score": 38,
+    "reason": "« Il n'y a pas de cuillère. » Matrix a donné à la cuillère une profondeur philosophique inédite.",
+    "category": "quotidien",
+    "aliases": [
+      "cuiller"
+    ]
+  },
+  {
+    "word": "Serviette",
+    "chouffin": true,
+    "score": 60,
+    "reason": "« Un auto-stoppeur doit toujours savoir où est sa serviette. » Le 25 mai, il la porte fièrement.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ménage",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il le fait après la soirée jeux, en retrouvant des dés sous le canapé.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Repassage",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Un t-shirt de métal ne se repasse pas. C'est une règle.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Déménagement",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Le jour où l'on découvre qu'on a 47 cartons de jeux et de figurines. Épique, mais douloureux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Voisin",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Il tape au mur quand la guilde hurle sur Discord à 2 h du matin. Pas l'ami du chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Colocation",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Un salon transformé en salle de jeu, quatre fans de Warhammer et une réserve de chips : un rêve.",
+    "category": "quotidien",
+    "aliases": [
+      "coloc"
+    ]
+  },
+  {
+    "word": "Téléphone",
+    "chouffin": false,
+    "score": 18,
+    "reason": "« E.T. téléphone maison ! » Sinon, il sert surtout à commander les pizzas de la soirée jeux.",
+    "category": "quotidien",
+    "aliases": [
+      "tél"
+    ]
+  },
+  {
+    "word": "Ordinateur",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Monté pièce par pièce, RGB partout, baptisé d'un nom de dragon : le PC du chouffin est un compagnon.",
+    "category": "quotidien",
+    "aliases": [
+      "ordi"
+    ]
+  },
+  {
+    "word": "Télévision",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Branchée à trois consoles et une Super Nintendo. Il ne regarde plus la télé, il joue dessus.",
+    "category": "quotidien",
+    "aliases": [
+      "télé",
+      "tv"
+    ]
+  },
+  {
+    "word": "Parapluie",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Hagrid y cache sa baguette. Pour tous les autres, ça reste un parapluie.",
+    "category": "quotidien",
+    "aliases": [
+      "pépin"
+    ]
+  },
+  {
+    "word": "Sac",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Tout dépend de ce qu'on met dedans. S'il est sans fond, comme celui d'Hermione, on en reparle.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Sac à dos",
+    "chouffin": false,
+    "score": 45,
+    "reason": "L'inventaire de l'aventurier : corde, torche, rations. Le sien contient surtout des dés et un chargeur.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Valise",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Pour une convention : trois t-shirts et douze kilos de goodies. Un inventaire mal géré.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Portefeuille",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Il se vide à chaque soldes Steam et à chaque salon du jeu. Une victime collatérale.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Montre",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Il ne la regarde jamais pendant les parties. Au bureau, toutes les cinq minutes.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lunettes",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Harry Potter les a rendues héroïques. Sur le nez d'un MJ, elles donnent un air d'érudit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Stylo",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Utile pour les fiches de perso, mais le crayon reste supérieur : il faut pouvoir gommer.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Crayon",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Seul outil légal sur une fiche de perso : les points de vie changent tout le temps.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Gomme",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Effacer les PV perdus, rajouter les XP : petit rôle, grande mission sur la fiche de perso.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cahier",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Le sien est couvert de plans de donjons et de listes de sorts. La prise de notes, version chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Carnet",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Carnet de campagne, notes de MJ et cartes griffonnées : il en a douze, tous à moitié remplis.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Livre",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Le livre est toujours mieux que le film. C'est une règle, il ne la discute pas.",
+    "category": "quotidien",
+    "aliases": [
+      "bouquin"
+    ]
+  },
+  {
+    "word": "Colle",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Pour recoller le bras d'un Space Marine tombé du bureau. L'outil secret du peintre de figurines.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Calculatrice",
+    "chouffin": true,
+    "score": 52,
+    "reason": "La TI-82 et ses jeux cachés ont sauvé des heures de cours de maths. Objet culte d'une génération.",
+    "category": "quotidien",
+    "aliases": [
+      "calculette"
+    ]
+  },
+  {
+    "word": "Règle",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Pas celle en plastique : celle du Manuel du joueur, qu'il connaît mieux que le MJ. Il vérifie tout.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Carte",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Carte au trésor, carte de la Terre du Milieu ou carte Magic : une carte n'est jamais anodine.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Boussole",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Jack Sparrow en a une qui ne pointe pas le nord. Indispensable pour tout aventurier.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lampe torche",
+    "chouffin": false,
+    "score": 42,
+    "reason": "« Il fait noir. Vous risquez d'être mangé par un grue. » Zork lui a appris à toujours en avoir une.",
     "category": "quotidien"
   }
 ]

@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, m } from "motion/react";
-import { useId, useState } from "react";
+import { useId, useRef, useState } from "react";
 import { postVote, toApiError } from "@/lib/client/api";
 import { formatNumber } from "@/lib/client/copy";
 import { rememberVote, sfx } from "@/lib/client/preferences";
@@ -72,6 +72,7 @@ export function VotePanel({ subject, onVoted }: { subject: KnownResult | Unknown
   const [notice, setNotice] = useState<string | null>(null);
   const [burst, setBurst] = useState<{ id: number; choice: VoteChoice } | null>(null);
   const headingId = useId();
+  const burstCount = useRef(0);
 
   const adopting = subject.status === "unknown";
   const disabledReason = subject.status === "unknown" ? subject.votingDisabledReason : undefined;
@@ -92,7 +93,8 @@ export function VotePanel({ subject, onVoted }: { subject: KnownResult | Unknown
       if (response.alreadyVoted) {
         setNotice("Ton vote était déjà compté. Bien essayé, petit malin.");
       } else {
-        setBurst({ id: Date.now(), choice });
+        burstCount.current += 1;
+        setBurst({ id: burstCount.current, choice });
         sfx("vote");
       }
       onVoted(response.result, response.alreadyVoted, subject);

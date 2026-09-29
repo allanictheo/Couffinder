@@ -126,10 +126,7 @@
     "chouffin": false,
     "score": 28,
     "reason": "Vacances, camping et fêtes de village. Il emporte quand même un jeu de cartes, on ne sait jamais.",
-    "category": "quotidien",
-    "aliases": [
-      "aout"
-    ]
+    "category": "quotidien"
   },
   {
     "word": "Septembre",
@@ -202,16 +199,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Après-midi",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Créneau neutre. Idéal pour une sieste stratégique avant la partie du soir.",
-    "category": "quotidien",
-    "aliases": [
-      "aprem"
-    ]
-  },
-  {
     "word": "Soir",
     "chouffin": false,
     "score": 48,
@@ -251,27 +238,6 @@
     "chouffin": false,
     "score": 15,
     "reason": "Jour de sortie, jour de raid ou jour de convention : un jour a besoin d'un événement pour compter.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Heure",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Unité de mesure du temps de jeu. Son compteur Steam le fait rougir, alors il ne regarde plus.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Minute",
-    "chouffin": false,
-    "score": 12,
-    "reason": "« Encore cinq minutes » : unité de mesure trompeuse avant un raid de trois heures.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Semaine",
-    "chouffin": false,
-    "score": 8,
-    "reason": "Cinq jours d'attente entre deux sessions de JdR. Un long tunnel sans lore.",
     "category": "quotidien"
   },
   {
@@ -323,27 +289,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Jour férié",
-    "chouffin": false,
-    "score": 20,
-    "reason": "Une journée entière pour avancer la quête principale. Il ne le fera pas, mais il y croit.",
-    "category": "quotidien",
-    "aliases": [
-      "ferie"
-    ]
-  },
-  {
     "word": "RTT",
     "chouffin": false,
     "score": 35,
     "reason": "Posés méthodiquement le jour de la sortie d'un jeu très attendu. Stratégie de haut niveau.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Calendrier",
-    "chouffin": false,
-    "score": 20,
-    "reason": "Surtout utile pour entourer la date du prochain Hellfest et celles des sorties de jeux.",
     "category": "quotidien"
   },
   {
@@ -452,13 +401,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Grêle",
-    "chouffin": false,
-    "score": 20,
-    "reason": "Un sort de niveau 4 dans Donjons & Dragons. Dans la vraie vie, juste des glaçons tombés du ciel.",
-    "category": "quotidien"
-  },
-  {
     "word": "Canicule",
     "chouffin": false,
     "score": 30,
@@ -494,13 +436,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Étoile filante",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Il fait toujours le même vœu : le retour de sa série préférée, annulée beaucoup trop tôt.",
-    "category": "quotidien"
-  },
-  {
     "word": "Ciel",
     "chouffin": false,
     "score": 20,
@@ -512,13 +447,6 @@
     "chouffin": true,
     "score": 58,
     "reason": "Ciel de Bordeciel, sagas nordiques et Vikings : le spectacle naturel le plus chouffin qui soit.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Éclipse",
-    "chouffin": false,
-    "score": 30,
-    "reason": "L'occasion de sortir les lunettes spéciales et de disserter d'astronomie façon vulgarisateur.",
     "category": "quotidien"
   },
   {
@@ -547,13 +475,6 @@
     "chouffin": false,
     "score": 12,
     "reason": "On la traverse à gué dans toutes les quêtes. Dans la vraie vie, on prend le pont.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Fleuve",
-    "chouffin": false,
-    "score": 20,
-    "reason": "Un grand cours d'eau, sans plus. Sauf l'Anduin, qui compte triple.",
     "category": "quotidien"
   },
   {
@@ -651,38 +572,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Fougère",
-    "chouffin": false,
-    "score": 30,
-    "reason": "Les sous-bois de Brocéliande en sont pleins. Une plante qui fait très ambiance druidique.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Trèfle",
-    "chouffin": false,
-    "score": 30,
-    "reason": "Trèfle à quatre feuilles : le bonus de chance dont tout rôliste rêve avant un jet décisif.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Sapin",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Conifère honnête, mais sans lore connu. Un Ent de seconde zone, au mieux.",
-    "category": "quotidien"
-  },
-  {
     "word": "Fleur",
     "chouffin": false,
     "score": 15,
     "reason": "Il ne l'offre que sous forme de Fleur de feu, dans Mario. Romantique à sa façon.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Rose",
-    "chouffin": false,
-    "score": 12,
-    "reason": "Couleur ou fleur, c'est très Instagram. Seule exception : celle de la Belle et la Bête.",
     "category": "quotidien"
   },
   {
@@ -704,13 +597,6 @@
     "chouffin": false,
     "score": 45,
     "reason": "Sur une vieille pierre de Brocéliande ou sur une Chouffe bien servie : il valide dans les deux cas.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Rocher",
-    "chouffin": false,
-    "score": 15,
-    "reason": "Un gros caillou, sauf s'il cache l'entrée d'un donjon. Il le pousse toujours, au cas où.",
     "category": "quotidien"
   },
   {
@@ -749,13 +635,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Prairie",
-    "chouffin": false,
-    "score": 12,
-    "reason": "Belle, verte et pleine de moutons Minecraft. Un peu fade sans quête dessus.",
-    "category": "quotidien"
-  },
-  {
     "word": "Marais",
     "chouffin": false,
     "score": 42,
@@ -791,31 +670,10 @@
     "category": "quotidien"
   },
   {
-    "word": "Champ",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Beaucoup de blé, peu de lore. Sauf si un épouvantail se met à parler.",
-    "category": "quotidien"
-  },
-  {
     "word": "Nature",
     "chouffin": false,
     "score": 15,
     "reason": "Il l'aime en fond d'écran et dans Zelda. En vrai, il préfère le wifi.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Paysage",
-    "chouffin": false,
-    "score": 30,
-    "reason": "La Nouvelle-Zélande lui a appris qu'un paysage peut devenir la Terre du Milieu.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Horizon",
-    "chouffin": false,
-    "score": 28,
-    "reason": "Dans un monde ouvert, s'il le voit, il peut y aller. Dans la vraie vie, c'est plus compliqué.",
     "category": "quotidien"
   },
   {
@@ -858,6 +716,142 @@
     "chouffin": false,
     "score": 40,
     "reason": "La Terre du Milieu, oui. La planète Terre a beaucoup moins de lore, mais il y habite.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Feu",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Boule de feu : le sort préféré de tout débutant en JdR. Et le chouffin s'enflamme vite en débat.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Feu de camp",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Cercle de héros, barde qui chante faux et récit de quête : la base de toute aventure.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cheminée",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Plaid, feu qui crépite et gros pavé de fantasy : l'ambiance taverne, à domicile.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Bougie",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Indispensable pour l'ambiance d'une partie de JdR. Plus il y en a, plus le MJ est sérieux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Cristal",
+    "chouffin": true,
+    "score": 55,
+    "reason": "Final Fantasy tourne autour des cristaux depuis 1987. Pour lui, un cristal n'est jamais décoratif.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Diamant",
+    "chouffin": false,
+    "score": 42,
+    "reason": "« Diamants ! » Le cri de joie du joueur de Minecraft qui a creusé trois heures pour ça.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Rubis",
+    "chouffin": true,
+    "score": 55,
+    "reason": "La monnaie officielle d'Hyrule. Il ne peut pas en voir un sans entendre le petit son de Zelda.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Émeraude",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Les Émeraudes du Chaos de Sonic et la Cité d'Émeraude d'Oz : une pierre qui a du lore.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Or",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Smaug dort dessus, les nains le réclament et le chouffin le farme en boucle. Précieux.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Argent",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Métal qui repousse les loups-garous, compte en banque vidé par les soldes : bilan contrasté.",
+    "category": "quotidien",
+    "aliases": [
+      "thune"
+    ]
+  },
+  {
+    "word": "Chat",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Internet leur appartient. Et le chat du chouffin dort toujours sur les fiches de perso.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chien",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Brave bête. Il l'appellerait bien Fenrir ou Crockdur, rarement Médor.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chaton",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Mignon, viral, un peu trop Instagram. Il le tolère s'il s'appelle Gandalf.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Loup",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Fenrir, les loups-garous, la maison Stark : le loup est l'animal totem officiel du chouffin.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Renard",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Robin des Bois version Disney et mascotte de Firefox. Rusé, mais pas encore invité à la taverne.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Ours",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Beorn en prend la forme et les berserkers en portent la peau. Un ours, c'est un Viking qui s'ignore.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Corbeau",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Hugin et Munin, les corbeaux d'Odin, plus la Garde de Nuit : un CV chouffin impeccable.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Hibou",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Il attend toujours sa lettre de Poudlard. Chaque hibou qu'il croise est un espoir déçu.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Chouette",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Hedwige, et un nom qui ressemble presque à Chouffe. Chouffin par homonymie, et ça suffit.",
     "category": "quotidien"
   }
 ]
