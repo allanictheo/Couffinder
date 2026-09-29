@@ -73,7 +73,7 @@ Il ignore les doublons.
 
 ## Déploiement (GitHub + Vercel)
 
-Le repo est importé dans Vercel (projet `couffinder`). Vercel déploie donc automatiquement à chaque push : en production pour la branche de production, en preview pour les autres branches.
+Le repo est importé dans Vercel (projet `chouffinder`). Vercel déploie donc automatiquement à chaque push : en production pour la branche de production, en preview pour les autres branches.
 
 Le workflow `.github/workflows/ci.yml` vérifie chaque push :
 
@@ -81,9 +81,9 @@ Le workflow `.github/workflows/ci.yml` vérifie chaque push :
 - cohérence de la base de mots ;
 - build.
 
-Il teste ensuite que le site en production répond. L'URL testée est `https://couffinder.vercel.app` ; tu peux la changer avec la variable de repo `SITE_URL`.
+Il teste ensuite que le site en production répond. L'URL testée est `https://chouffinder.vercel.app` ; tu peux la changer avec la variable de repo `SITE_URL`.
 
-**Base de votes** : sur Vercel, dans le projet `couffinder`, ouvre l'onglet Storage. Crée une base Upstash for Redis (offre gratuite) et connecte-la au projet. Les variables `KV_REST_API_URL` et `KV_REST_API_TOKEN` sont ajoutées automatiquement. Redéploie ensuite : les votes deviennent persistants. Tant que la base n'est pas branchée, le pied de page affiche « Mode démo ».
+**Base de votes** : sur Vercel, dans le projet `chouffinder`, ouvre l'onglet Storage. Crée une base Upstash for Redis (offre gratuite) et connecte-la au projet. Les variables `KV_REST_API_URL` et `KV_REST_API_TOKEN` sont ajoutées automatiquement. Redéploie ensuite : les votes deviennent persistants. Tant que la base n'est pas branchée, le pied de page affiche « Mode démo ».
 
 Variables d'environnement :
 
