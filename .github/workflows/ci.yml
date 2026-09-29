@@ -1,0 +1,57 @@
+name: CI
+
+# Le déploiement est fait par l'intégration GitHub de Vercel (projet « couffinder ») à chaque push.
+# Ce workflow vérifie le code, puis teste le site en production.
+
+on:
+  push:
+    branches:
+      - main
+      - claude/chouffinder-site-jufqgs
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Word base
+        run: npm run words && git diff --exit-code src/data/words.json
+
+      - name: Build
+        run: npm run build
+
+  smoke:
+    needs: check
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    env:
+      SITE_URL: ${{ vars.SITE_URL || 'https://couffinder.vercel.app' }}
+    steps:
+      - name: Production answers
+        run: |
+          # Laisse à Vercel le temps de déployer ce commit.
+          sleep 90
+          curl -fsS "$SITE_URL/api/stats" | tee stats.json
+          echo
+          curl -fsS -G "$SITE_URL/api/judge" --data-urlencode "q=Kaamelott" | grep -q '"status":"known"'
+          if grep -q '"persistent":false' stats.json; then
+            echo "::warning::Les votes ne sont pas persistants : connecte une base Upstash Redis au projet Vercel (onglet Storage)."
+          fi

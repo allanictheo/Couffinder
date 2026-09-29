@@ -20,7 +20,7 @@
 - Next.js 16 (App Router), React 19, TypeScript et Tailwind CSS 4.
 - `motion` pour les micro-interactions et WebAudio pour les sons, synthétisés sans aucun fichier audio.
 - Upstash Redis pour les votes. En local, ou tant que Redis n'est pas branché, un stockage en mémoire prend le relais.
-- Déploiement Vercel via GitHub Actions, comme pour Traix.
+- Déploiement Vercel à chaque push GitHub, avec une CI GitHub Actions (lint, build, test de la production).
 
 ## Les agents
 
@@ -73,12 +73,17 @@ Il ignore les doublons.
 
 ## Déploiement (GitHub + Vercel)
 
-Le workflow `.github/workflows/deploy.yml` déploie en production à chaque push sur `main` ou sur la branche de développement. Il crée et utilise un projet Vercel dédié nommé `chouffinder`.
+Le repo est importé dans Vercel (projet `couffinder`). Vercel déploie donc automatiquement à chaque push : en production pour la branche de production, en preview pour les autres branches.
 
-1. **Token Vercel** : dans le repo GitHub, va dans Settings > Secrets and variables > Actions. Ajoute le secret `VERCEL_TOKEN`. Tu peux reprendre le même token que pour Traix ou en créer un sur vercel.com/account/tokens.
-2. **Premier déploiement** : relance le workflow (onglet Actions, « Deploy to Vercel », bouton « Run workflow »). Le projet `chouffinder` est créé automatiquement.
-3. **Base de votes** : sur Vercel, dans le projet `chouffinder`, ouvre l'onglet Storage. Crée une base Upstash for Redis (offre gratuite) et connecte-la au projet. Les variables `KV_REST_API_URL` et `KV_REST_API_TOKEN` sont ajoutées automatiquement.
-4. Relance le workflow une dernière fois : les votes sont maintenant persistants.
+Le workflow `.github/workflows/ci.yml` vérifie chaque push :
+
+- lint ;
+- cohérence de la base de mots ;
+- build.
+
+Il teste ensuite que le site en production répond. L'URL testée est `https://couffinder.vercel.app` ; tu peux la changer avec la variable de repo `SITE_URL`.
+
+**Base de votes** : sur Vercel, dans le projet `couffinder`, ouvre l'onglet Storage. Crée une base Upstash for Redis (offre gratuite) et connecte-la au projet. Les variables `KV_REST_API_URL` et `KV_REST_API_TOKEN` sont ajoutées automatiquement. Redéploie ensuite : les votes deviennent persistants. Tant que la base n'est pas branchée, le pied de page affiche « Mode démo ».
 
 Variables d'environnement :
 
