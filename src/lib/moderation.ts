@@ -97,7 +97,6 @@ const INSULT_ROOTS = [
 ];
 
 const INSULT_TOKENS = [
-  "con",
   "conne",
   "salope",
   "salop",
@@ -105,7 +104,6 @@ const INSULT_TOKENS = [
   "fdp",
   "ntm",
   "tg",
-  "nique",
   "niquer",
   "nik",
   "niker",
@@ -131,6 +129,9 @@ const INSULT_TOKENS = [
 ];
 
 const INSULT_PHRASES = [
+  // "con" et "nique" seuls ou en insulte, mais pas dans "Comic Con" ou "pique-nique".
+  /^(?:cons?|niques?)$/,
+  /\b(?:gros|sale|pauvre|espece de|bande de|petit|vieux) cons?\b/,
   /\b(?:ta gueule|ferme ta gueule|ta mere|ta race|nique ta|nique sa|va te faire|trou du cul|sac a merde|tete de noeud|attarde mental|gros porc|grosse truie|gros lard|grosse vache)\b/,
   /\bfils de (?:pute|p|chien|chienne|catin)\b/,
 ];

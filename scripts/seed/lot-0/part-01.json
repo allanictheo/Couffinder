@@ -1,6 +1,0 @@
-[
-  {"word":"Kaamelott","chouffin":true,"score":100,"reason":"Le texte sacré. Un chouffin qui ne cite pas Perceval trois fois par repas est un imposteur.","category":"series-films","aliases":["kamelot","kaamelot"]},
-  {"word":"La Chouffe","chouffin":true,"score":100,"reason":"L'origine du nom. Le lutin sur l'étiquette est considéré comme un ancêtre.","category":"boissons"},
-  {"word":"Brunch","chouffin":false,"score":6,"reason":"Un repas qui n'est ni le petit déj ni le déjeuner, et en plus sans hydromel. Hérésie.","category":"nourriture"},
-  {"word":"Dragon","chouffin":true,"score":88,"reason":"Il dort sur un tas d'or et crache du feu. Le rêve de tout chouffin, en plus écailleux.","category":"fantasy-jdr"}
-]

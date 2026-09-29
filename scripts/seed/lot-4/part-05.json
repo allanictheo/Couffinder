@@ -1,26 +1,5 @@
 [
   {
-    "word": "Explorer",
-    "chouffin": true,
-    "score": 60,
-    "reason": "Il explore chaque recoin des mondes ouverts avant de toucher à la quête principale. Toujours.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Lancer",
-    "chouffin": false,
-    "score": 45,
-    "reason": "Lancer les dés est un art, avec souffle porte-bonheur et gestuelle secrète.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Tricher",
-    "chouffin": false,
-    "score": 25,
-    "reason": "Il ne triche jamais aux dés. Le MJ, par contre, triche en douce pour sauver les joueurs.",
-    "category": "quotidien"
-  },
-  {
     "word": "Débattre",
     "chouffin": true,
     "score": 62,
@@ -371,13 +350,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Soirée jeux",
-    "chouffin": true,
-    "score": 85,
-    "reason": "Pizza, dés, Catane et débats animés jusqu'à 2 h du matin : le sommet de la semaine du chouffin.",
-    "category": "loisirs"
-  },
-  {
     "word": "Mariage",
     "chouffin": false,
     "score": 25,
@@ -589,16 +561,6 @@
     "category": "loisirs"
   },
   {
-    "word": "Échecs",
-    "chouffin": false,
-    "score": 42,
-    "reason": "Harry et Ron y ont joué en vrai, avec des pièces géantes. Stratégie noble, mais un peu calme.",
-    "category": "loisirs",
-    "aliases": [
-      "jeu d'échecs"
-    ]
-  },
-  {
     "word": "Bricolage",
     "chouffin": false,
     "score": 25,
@@ -607,30 +569,6 @@
     "aliases": [
       "bricoler"
     ]
-  },
-  {
-    "word": "Jardinage",
-    "chouffin": false,
-    "score": 10,
-    "reason": "Son seul potager est dans Stardew Valley. Mais c'est un très bon potager.",
-    "category": "loisirs",
-    "aliases": [
-      "jardiner"
-    ]
-  },
-  {
-    "word": "Camping",
-    "chouffin": false,
-    "score": 35,
-    "reason": "Camping de festival, tente sous la pluie : la version rock et bière du camping.",
-    "category": "loisirs"
-  },
-  {
-    "word": "Tricot",
-    "chouffin": false,
-    "score": 35,
-    "reason": "Écharpe Poufsouffle, pull Weasley avec initiale : le tricot geek a ses adeptes.",
-    "category": "loisirs"
   },
   {
     "word": "Collection",
@@ -781,8 +719,7 @@
     "reason": "Elle croit qu'il joue encore à la Nintendo. Il joue encore à la Nintendo. Elle a raison.",
     "category": "quotidien",
     "aliases": [
-      "mamie",
-      "mémé"
+      "mamie"
     ]
   },
   {
@@ -939,6 +876,27 @@
     "chouffin": false,
     "score": 10,
     "reason": "Il dit « Grand merci, noble ami ». En vrai, merci suffit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Au revoir",
+    "chouffin": false,
+    "score": 20,
+    "reason": "« Namárië », en elfique. Il le dit parfois à la boulangère, qui ne comprend pas.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Oui",
+    "chouffin": false,
+    "score": 20,
+    "reason": "« C'est pas faux » est sa manière de dire oui sans avoir compris.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Non",
+    "chouffin": false,
+    "score": 25,
+    "reason": "« Noooon ! » Il le crie comme Dark Vador à la fin de l'épisode III. À chaque fois.",
     "category": "quotidien"
   }
 ]

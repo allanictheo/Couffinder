@@ -32,7 +32,7 @@ export function stripArticle(key: string): string {
 export function singularize(key: string): string {
   return key
     .split(" ")
-    .map((token) => (token.length > 3 && /[sx]$/.test(token) ? token.slice(0, -1) : token))
+    .map((token) => (token.length > 2 && /[sx]$/.test(token) ? token.slice(0, -1) : token))
     .join(" ");
 }
 

@@ -14,20 +14,6 @@
     "category": "quotidien"
   },
   {
-    "word": "Afterwork",
-    "chouffin": false,
-    "score": 2,
-    "reason": "Cocktails, rooftop, networking : l'afterwork est l'anti-soirée jeux par excellence.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Team building",
-    "chouffin": false,
-    "score": 20,
-    "reason": "Si c'est un escape game, il s'en sort. Si c'est du paddle, il pose un jour de congé.",
-    "category": "quotidien"
-  },
-  {
     "word": "Visio",
     "chouffin": false,
     "score": 8,
@@ -486,13 +472,6 @@
     "chouffin": true,
     "score": 82,
     "reason": "Musique épique, bataille épique, soirée épique : c'est son adjectif pour absolument tout.",
-    "category": "quotidien"
-  },
-  {
-    "word": "Légendaire",
-    "chouffin": true,
-    "score": 82,
-    "reason": "Rareté orange dans ses jeux, statut sacré dans sa bouche : tout ce qui compte est légendaire.",
     "category": "quotidien"
   },
   {
@@ -960,6 +939,27 @@
     "chouffin": false,
     "score": 35,
     "reason": "Il crie « Pour la Horde ! » en soirée. Personne ne sait pourquoi, mais tout le monde suit.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Explorer",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Il explore chaque recoin des mondes ouverts avant de toucher à la quête principale. Toujours.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Lancer",
+    "chouffin": false,
+    "score": 45,
+    "reason": "Lancer les dés est un art, avec souffle porte-bonheur et gestuelle secrète.",
+    "category": "quotidien"
+  },
+  {
+    "word": "Tricher",
+    "chouffin": false,
+    "score": 25,
+    "reason": "Il ne triche jamais aux dés. Le MJ, par contre, triche en douce pour sauver les joueurs.",
     "category": "quotidien"
   }
 ]
