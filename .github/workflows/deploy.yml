@@ -1,0 +1,66 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - main
+      - claude/chouffinder-site-jufqgs
+  workflow_dispatch:
+
+concurrency:
+  group: vercel-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  VERCEL_PROJECT: chouffinder
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Check Vercel token
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "::error::Secret VERCEL_TOKEN manquant : ajoute-le dans Settings > Secrets and variables > Actions du repo."
+            exit 1
+          fi
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel@latest
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      # Projet Vercel dédié : on ne se lie jamais à un autre projet (Traix...) par défaut.
+      - name: Link Vercel project
+        run: |
+          vercel project inspect "$VERCEL_PROJECT" --token=${{ secrets.VERCEL_TOKEN }} > /dev/null 2>&1 \
+            || vercel project add "$VERCEL_PROJECT" --token=${{ secrets.VERCEL_TOKEN }}
+          vercel link --yes --project "$VERCEL_PROJECT" --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Pull Vercel environment
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Build
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Deploy to Vercel
+        id: deploy
+        run: |
+          url=$(vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }})
+          echo "url=$url" >> $GITHUB_OUTPUT
+
+      - name: Print deployment URL
+        run: echo "Deployed to ${{ steps.deploy.outputs.url }}"
