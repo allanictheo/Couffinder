@@ -22,6 +22,11 @@ export const CATEGORIES = [
 
 export type Category = (typeof CATEGORIES)[number];
 
+/** Les tribus de chouffin : chaque tribu a ses propres animations easter egg. */
+export const TRIBES = ["gamer", "geek", "metal", "taverne", "weeb", "roliste"] as const;
+
+export type Tribe = (typeof TRIBES)[number];
+
 /** Une entrée de la base, telle que produite par l'agent juge-chouffin. */
 export interface SeedWord {
   word: string;
@@ -30,6 +35,8 @@ export interface SeedWord {
   score: number;
   reason: string;
   category: Category;
+  /** Tribu de chouffin. Obligatoire pour un mot chouffin, présente pour un mot pas chouffin seulement s'il touche clairement l'univers d'une tribu. */
+  tribe?: Tribe;
   aliases?: string[];
 }
 
@@ -53,6 +60,8 @@ export interface KnownResult {
   score: number;
   reason: string;
   category: Category | null;
+  /** Tribu du mot (thème des animations), null pour un mot neutre ou adopté par la communauté. */
+  tribe: Tribe | null;
   /** Verdict initial de l'agent, null si le mot a été ajouté par la communauté. */
   agentVerdict: boolean | null;
   votes: VoteCounts;

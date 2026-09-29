@@ -14,12 +14,15 @@ const CATEGORIES = new Set([
   "nourriture", "mode-style", "sport", "loisirs", "tech", "lieux-events", "personnalites", "quotidien",
 ]);
 
+const TRIBES = new Set(["gamer", "geek", "metal", "taverne", "weeb", "roliste"]);
+
 interface Entry {
   word: string;
   chouffin: boolean;
   score: number;
   reason: string;
   category: string;
+  tribe?: string;
   aliases?: string[];
 }
 
@@ -51,13 +54,18 @@ for (const file of files) {
       reason: String(raw.reason ?? "").trim(),
       category: raw.category,
     };
+    if (raw.tribe !== undefined) entry.tribe = raw.tribe;
 
     if (!entry.word) errors.push(`${where} : mot vide`);
     if (!Number.isInteger(entry.score) || entry.score < 0 || entry.score > 100) errors.push(`${where} : score invalide`);
     if (entry.chouffin !== entry.score >= 51) errors.push(`${where} : chouffin incohérent avec le score`);
     if (!entry.reason || entry.reason.length > 140) errors.push(`${where} : justification vide ou > 140 caractères`);
     if (!CATEGORIES.has(entry.category)) errors.push(`${where} : catégorie inconnue "${entry.category}"`);
-    if (/—/.test(entry.word + entry.reason + (raw.aliases ?? []).join(""))) errors.push(`${where} : tiret cadratin interdit`);
+    if (entry.tribe !== undefined && !TRIBES.has(entry.tribe)) errors.push(`${where} : tribu inconnue "${entry.tribe}"`);
+    if (process.env.REQUIRE_TRIBE && entry.chouffin && !entry.tribe) errors.push(`${where} : mot chouffin sans tribu`);
+    if ((entry.word + entry.reason + (raw.aliases ?? []).join("")).includes(String.fromCharCode(0x2014))) {
+      errors.push(`${where} : tiret cadratin interdit`);
+    }
 
     const key = normalizeKey(entry.word);
     if (taken.has(key) || byKey.has(key)) {

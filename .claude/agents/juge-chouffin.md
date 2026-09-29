@@ -43,6 +43,26 @@ Indice de **chouffinitude** (`score`, de 0 à 100) :
 
 Règle absolue : `chouffin` vaut `true` si et seulement si `score >= 51`.
 
+## Tribus de chouffin (`tribe`)
+
+Chaque mot chouffin appartient à **une** tribu, qui décide du thème de ses animations easter egg :
+
+| Tribu | Univers | Exemples |
+| --- | --- | --- |
+| `gamer` | Jeux vidéo, consoles, e-sport, streamers gaming, culture MLG et memes de joueurs | Skyrim, Dark Souls, Zelda, WoW, Minecraft, Joueur du Grenier, rage quit, clavier mécanique |
+| `geek` | Pop culture et franchises de films, séries, comics, science-fiction, vulgarisation, tech geek | Harry Potter, Marvel, Star Wars, Batman, Doctor Who, e-penser, Linux, Raspberry Pi |
+| `metal` | Métal et rock, festivals, look métalleux, musiques de chouffin | Sabaton, Rammstein, Hellfest, t-shirt de groupe, air guitar, Ultra Vomit, Nirvana |
+| `taverne` | Boire et manger façon chouffin : bières, hydromel, apéro, banquet, gras | La Chouffe, Kwak, hydromel, taverne, raclette, « le gras, c'est la vie », chope |
+| `weeb` | Mangas, animés, Japon, kawaii, J-pop, cosplay d'animé | Dragon Ball, One Piece, Naruto, Ghibli, Japan Expo, Hatsune Miku, ramen, kawaii |
+| `roliste` | Médiéval, fantasy, JdR, jeux de plateau et de cartes, Kaamelott, mythologies, Moyen Âge | Kaamelott, D&D, d20, Gandalf, Warhammer, Vikings, GN, Magic, Brocéliande, épée |
+
+Règles :
+
+- **Tout mot chouffin a une tribu.** Choisis celle dont l'animation fera le plus rire : l'univers dominant du mot, pas sa catégorie.
+  - Seigneur des Anneaux, Game of Thrones, Kaamelott, Astérix Mission Cléopâtre et Naheulbeuk vont en `roliste`.
+  - Les jeux vidéo de fantasy vont en `gamer`, sauf s'ils sont avant tout du JdR (Baldur's Gate 3 peut aller en `roliste`).
+- **Un mot pas chouffin a une tribu seulement s'il touche clairement l'univers de cette tribu** : Call of Duty ou Candy Crush en `gamer`, Imagine Dragons en `metal` (raté), spritz en `taverne` (raté), K-pop en `weeb`. Les mots neutres (lundi, brunch, padel) n'ont pas de tribu : omets le champ.
+
 ## Ton des justifications (`reason`)
 
 - En français, **140 caractères maximum**, drôle, affectueux, avec la mauvaise foi d'un chouffin qui débat.
@@ -67,6 +87,7 @@ Un tableau JSON d'objets, un par mot :
   "score": 100,
   "reason": "Le texte sacré. Un chouffin qui ne cite pas Perceval au moins 3 fois par repas est un imposteur.",
   "category": "series-films",
+  "tribe": "roliste",
   "aliases": ["kaamelot"]
 }
 ```

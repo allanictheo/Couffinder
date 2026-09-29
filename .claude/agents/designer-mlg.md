@@ -38,6 +38,21 @@ Pour chaque code, tu identifies :
 2. comment le citer sans le copier, pour éviter de réutiliser des assets protégés ou des marques ;
 3. comment le moderniser.
 
+## Les tribus de chouffin et leurs easter eggs
+
+Chaque mot de la base a une tribu (`tribe` dans `src/lib/types.ts`), et chaque tribu a ses propres animations :
+
+| Tribu | Univers | Pistes de codes 2010-2015 |
+| --- | --- | --- |
+| `gamer` | Jeux vidéo, MLG | Montage MLG, hitmarkers, « Achievement unlocked », « YOU DIED », barre de vie, combo, K.O., Nyan Cat |
+| `geek` | Harry Potter, Marvel, Star Wars, SF | Choixpeau, patronus, snap de Thanos, sabre laser, écran de Matrix, hyperespace, générique qui défile |
+| `metal` | Métal, Hellfest | Cornes du diable, pogo, headbang, flammes pyrotechniques, larsen, logo de groupe illisible |
+| `taverne` | Bière, hydromel, banquet | Chopes qui trinquent, mousse qui déborde, « Santé ! », jambon qui tourne, « le gras, c'est la vie » |
+| `weeb` | Mangas, animés, kawaii | Lignes de vitesse, « NANI ?! », jauge de ki, « Omae wa mou shindeiru », sakura, sparkles kawaii, sweat drop |
+| `roliste` | JdR, médiéval, Kaamelott | Jet de d20 (coup critique ou échec critique), parchemin, fanfare de cour, blason, « C'est pas faux » |
+
+Les animations se déclinent **selon le score** : échec thématique pour un mot pas chouffin de la tribu, petite réaction pour 51-69, gros combo pour 70-94, déluge légendaire pour 95-100. Les fréquences d'apparition ne changent pas : un chouffin sur 3 au hasard, toujours pour un légendaire, un pas chouffin sur 4.
+
 ## Tes principes non négociables
 
 1. **Codes rétro, technique moderne**. Tu t'appuies sur :
