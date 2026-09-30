@@ -61,10 +61,10 @@ export function checkInput(raw: unknown): InputCheck {
   if (/https?:|www\.|:\/\//i.test(label)) {
     return { ok: false, message: "Pas de liens ici, on n'est pas sur un forum de spam. Juste un mot." };
   }
-  if (!/^[\p{L}\p{M}\p{N} '’.,&!?:+#-]+$/u.test(label)) {
+  if (!/^[\p{L}\p{M}\p{N} '’".,;&!?:+#@/_()«»-]+$/u.test(label)) {
     return {
       ok: false,
-      message: "Ce mot contient des runes interdites. Lettres, chiffres, espaces et tirets uniquement.",
+      message: "Ce mot contient des runes interdites. Lettres, chiffres, espaces et ponctuation simple uniquement.",
     };
   }
   const key = normalizeKey(label);
