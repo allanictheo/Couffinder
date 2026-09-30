@@ -1,0 +1,928 @@
+[
+  {
+    "word": "Masterclass",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Quand quelqu'un réussit un truc à la perfection. Le chouffin le dit de chaque réplique d'Alexandre Astier.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Force à toi",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Le soutien version Twitter. Le chouffin préfère « Que la Force soit avec toi », la version longue.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "C'est ciao",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Quand c'est fini, plus d'espoir. Le chouffin le dit au boss final, juste avant de mourir en deuxième phase.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Flop",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Un échec total. Le chouffin le dit de la saison 8 de Game of Thrones, avec colère.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Tu peux pas test",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le défi ultime des années 2010. Le chouffin le ressort encore quand il présente sa collection de dés.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Askip",
+    "chouffin": false,
+    "score": 18,
+    "reason": "« À ce qu'il paraît. » Le chouffin, lui, cite ses sources, même pour les rumeurs de jeux.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Jpp",
+    "chouffin": false,
+    "score": 22,
+    "reason": "« J'en peux plus. » Le chouffin l'écrit après trois heures de fou rire devant Kaamelott.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Ptdr",
+    "chouffin": false,
+    "score": 42,
+    "reason": "« Pété de rire », le rire des forums. Le chouffin le tape encore, suivi d'un smiley, par nostalgie.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Mdr",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Le rire écrit à la française. Le chouffin en ajoute un après chaque vanne sur Perceval.",
+    "category": "youtube-internet",
+    "aliases": [
+      "mort de rire",
+      "mdrr"
+    ]
+  },
+  {
+    "word": "XD",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le rire aux yeux plissés de l'ère MSN. Le chouffin l'utilise encore, par fidélité au vieux Web.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Chokbar",
+    "chouffin": false,
+    "score": 22,
+    "reason": "« Choqué. » Le chouffin l'est aussi, mais seulement devant les Noces pourpres.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Dinguerie",
+    "chouffin": false,
+    "score": 26,
+    "reason": "« C'est une dinguerie. » Le chouffin le réserve à la cinématique d'intro d'Elden Ring.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Sah quel plaisir",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le bonheur pur en trois mots. Le chouffin le dit en ouvrant sa première Chouffe du week-end.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Mood",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Une image qui résume ton état. Celle du chouffin : un hobbit qui fait la sieste au coin du feu.",
+    "category": "youtube-internet",
+    "aliases": [
+      "big mood"
+    ]
+  },
+  {
+    "word": "Cringe",
+    "chouffin": false,
+    "score": 40,
+    "reason": "La gêne absolue. Le chouffin la ressent en revoyant les photos de son premier cosplay.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Malaisant",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Ce qui met mal à l'aise. Le chouffin l'est quand on lui demande de résumer le lore de Kingdom Hearts.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Gênance",
+    "chouffin": false,
+    "score": 32,
+    "reason": "La gêne élevée au rang d'art. Le chouffin la frôle chaque fois qu'il chante un opening d'animé en public.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Oklm",
+    "chouffin": false,
+    "score": 14,
+    "reason": "« Au calme. » Le chouffin l'est dans sa taverne, loin des réseaux.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Crari",
+    "chouffin": false,
+    "score": 18,
+    "reason": "« Soi-disant. » Le chouffin ne fait jamais semblant : il a vraiment fini Dark Souls.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Tkt",
+    "chouffin": false,
+    "score": 10,
+    "reason": "« T'inquiète. » Le chouffin s'inquiète quand même, surtout pour son personnage de niveau 1.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Quoicoubeh",
+    "chouffin": false,
+    "score": 4,
+    "reason": "La blague de cour de récré de 2023. Le chouffin s'est terré dans son donjon en attendant que ça passe.",
+    "category": "youtube-internet",
+    "aliases": [
+      "quoicoube"
+    ]
+  },
+  {
+    "word": "Apagnan",
+    "chouffin": false,
+    "score": 6,
+    "reason": "La réponse à « quoicoubeh ». Le chouffin n'a pas compris, et il ne veut pas comprendre.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "POV",
+    "chouffin": false,
+    "score": 14,
+    "reason": "« Point de vue » en légende de vidéo. Le chouffin préfère le point de vue du MJ : il voit tout.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Personne absolument personne",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Le format « Personne : Absolument personne : ». Le chouffin s'en sert pour placer une réplique de Kaamelott.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Tweet qui a mal vieilli",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le tweet sûr de lui, démenti par le temps. Le chouffin garde les captures de ceux qui juraient que Kaamelott ne reviendrait pas.",
+    "category": "youtube-internet",
+    "aliases": [
+      "aged like milk"
+    ]
+  },
+  {
+    "word": "On est ensemble",
+    "chouffin": false,
+    "score": 20,
+    "reason": "La solidarité en trois mots. Le chouffin préfère « Nous sommes la Communauté de l'Anneau ».",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Seum",
+    "chouffin": false,
+    "score": 38,
+    "reason": "La rage mêlée de dépit. Le chouffin l'a après une partie de Dark Souls, ou un 1 naturel au dé.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Je suis décédé",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Mort de rire, version tragédie. Le chouffin, lui, préfère ressusciter au dernier feu de camp.",
+    "category": "youtube-internet",
+    "aliases": [
+      "jsuis decede"
+    ]
+  },
+  {
+    "word": "Wesh",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Le salut décontracté. Le chouffin dit plutôt « Salutations, voyageur ».",
+    "category": "youtube-internet",
+    "aliases": [
+      "wsh"
+    ]
+  },
+  {
+    "word": "Frérot",
+    "chouffin": false,
+    "score": 16,
+    "reason": "L'ami proche. Le chouffin, lui, dit « compagnon d'armes ».",
+    "category": "youtube-internet",
+    "aliases": [
+      "frero"
+    ]
+  },
+  {
+    "word": "Lmao",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Le rire à l'anglaise. Le chouffin préfère « mdr », par patriotisme.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Aura",
+    "chouffin": false,
+    "score": 16,
+    "reason": "« +1000 aura », les points de prestige d'Internet. Le chouffin préfère les points d'expérience.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Rizz",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Le charme selon Internet. Le chouffin mise sur son charisme de barde, avec un score de 8.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Slay",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Tout réussir avec style. Le chouffin, lui, terrasse des dragons, au sens propre.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Délulu",
+    "chouffin": false,
+    "score": 12,
+    "reason": "L'illusion assumée, venue des fans de K-pop. Le chouffin, lui, croit encore à la sortie du prochain Game of Thrones en livre.",
+    "category": "youtube-internet",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Red flag",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Le signal d'alarme. Pour le chouffin : quelqu'un qui n'a jamais vu Le Seigneur des Anneaux.",
+    "category": "youtube-internet",
+    "aliases": [
+      "green flag"
+    ]
+  },
+  {
+    "word": "Skibidi",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Des toilettes qui chantent pour les enfants. Le chouffin se sent très, très vieux.",
+    "category": "youtube-internet",
+    "aliases": [
+      "skibidi toilet"
+    ]
+  },
+  {
+    "word": "Brainrot",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Un cerveau abîmé par les vidéos courtes. Le chouffin se soigne avec trois heures de lore de Dark Souls.",
+    "category": "youtube-internet",
+    "aliases": [
+      "brain rot"
+    ]
+  },
+  {
+    "word": "Sheesh",
+    "chouffin": false,
+    "score": 18,
+    "reason": "L'admiration en version étirée. Le chouffin préfère un bon « Par la barbe de Merlin ! ».",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Bruh",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La consternation en un mot. Le chouffin le lâche quand son équipe attaque le boss sans l'attendre.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "PLS",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Être « en PLS », effondré. Le chouffin y finit à chaque mort de Boromir, même au dixième visionnage.",
+    "category": "youtube-internet",
+    "aliases": [
+      "en pls"
+    ]
+  },
+  {
+    "word": "Khey",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le frère d'armes du Blabla 18-25. Le chouffin salue ses kheys, puisque c'est là-bas que son nom est né.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Ahi",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Le rire du forum 18-25. Le chouffin l'écrit encore avec nostalgie, même sur Twitter.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Émoticône",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le « :) » et le « xD » des anciens. Le chouffin les préfère aux emojis, question d'honneur.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "smiley"
+    ]
+  },
+  {
+    "word": "Emoji crâne",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Le crâne qui veut dire « mort de rire ». Le chouffin l'utilise aussi pour parler de ses liches.",
+    "category": "youtube-internet",
+    "aliases": [
+      "emoji tete de mort",
+      "skull emoji"
+    ]
+  },
+  {
+    "word": "Emoji clown",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Le clown qui dit « t'es ridicule ». Le chouffin l'envoie à qui confond Gandalf et Dumbledore.",
+    "category": "youtube-internet",
+    "aliases": [
+      "clown emoji"
+    ]
+  },
+  {
+    "word": "Emoji yeux",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Deux yeux qui regardent en coin. Le chouffin l'envoie dès qu'une rumeur de nouveau Zelda circule.",
+    "category": "youtube-internet",
+    "aliases": [
+      "eyes emoji",
+      "emoji regard"
+    ]
+  },
+  {
+    "word": "Emoji moaï",
+    "chouffin": false,
+    "score": 48,
+    "reason": "La statue de l'île de Pâques qui juge en silence. Le chouffin l'aime bien, elle a des airs de golem.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "moai emoji"
+    ]
+  },
+  {
+    "word": "Emoji qui pleure de rire",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Le rire en larmes, trop utilisé. Le chouffin le trouve dépassé : il est passé au crâne.",
+    "category": "youtube-internet",
+    "aliases": [
+      "emoji mort de rire"
+    ]
+  },
+  {
+    "word": "Emoji pouce",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Le pouce levé, réponse sèche par excellence. Le chouffin lui préfère un salut de chevalier.",
+    "category": "youtube-internet",
+    "aliases": [
+      "thumbs up"
+    ]
+  },
+  {
+    "word": "Emoji popcorn",
+    "chouffin": false,
+    "score": 36,
+    "reason": "On sort le popcorn, le drama commence. Le chouffin le sort aussi pour les théories de fin de saison.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Emoji feu",
+    "chouffin": false,
+    "score": 12,
+    "reason": "La flamme pour dire que c'est génial. Le chouffin préfère un sort de Boule de feu.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Emoji qui pleure",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Des larmes en cascade. Le chouffin l'envoie après la fin de Red Dead Redemption 2.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Emoji caca",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Le petit tas souriant. Le chouffin le réserve aux adaptations ratées de ses jeux préférés.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Emoji chope de bière",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Deux chopes qui trinquent. Le chouffin l'envoie tous les vendredis à 18 h : c'est le signal de ralliement.",
+    "category": "youtube-internet",
+    "tribe": "taverne",
+    "aliases": [
+      "emoji biere",
+      "emoji chope"
+    ]
+  },
+  {
+    "word": "Emoji dragon",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le dragon vert. Le chouffin le glisse partout, comme une signature de mage.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Emoji mage",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le petit magicien barbu. Le chouffin y voit Gandalf, et il n'a pas tort.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "emoji sorcier",
+      "emoji magicien"
+    ]
+  },
+  {
+    "word": "Emoji manette",
+    "chouffin": true,
+    "score": 58,
+    "reason": "La manette qui annonce la session de jeu. Le chouffin l'envoie à sa guilde et tout le monde se connecte.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "emoji jeu video"
+    ]
+  },
+  {
+    "word": "Emoji épée",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Les épées croisées qui annoncent un duel. Le chouffin les dégaine au moindre débat sur les elfes.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "emoji epees croisees"
+    ]
+  },
+  {
+    "word": "Distracted boyfriend",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Le type qui se retourne sur une autre. Le chouffin s'en sert pour résumer : lui, sa pile de jeux, et le nouveau jeu.",
+    "category": "youtube-internet",
+    "aliases": [
+      "petit ami distrait",
+      "mec qui se retourne"
+    ]
+  },
+  {
+    "word": "Galaxy brain",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des cerveaux de plus en plus lumineux. Le chouffin s'en sert pour classer les stratégies de sa table de JDR.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "expanding brain",
+      "cerveau galaxie"
+    ]
+  },
+  {
+    "word": "This is fine",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Le chien qui boit son café dans une pièce en feu. C'est le chouffin pendant un raid qui tourne mal.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "chien this is fine"
+    ]
+  },
+  {
+    "word": "Pikachu surpris",
+    "chouffin": true,
+    "score": 80,
+    "reason": "La tête de Pikachu choqué. Le chouffin la poste quand il meurt au même boss pour la vingtième fois.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "surprised pikachu"
+    ]
+  },
+  {
+    "word": "Is this a pigeon",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un héros d'animé qui prend un papillon pour un pigeon. Le chouffin en a fait sa réaction préférée.",
+    "category": "youtube-internet",
+    "tribe": "weeb",
+    "aliases": [
+      "est ce un pigeon"
+    ]
+  },
+  {
+    "word": "Woman yelling at cat",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Une femme qui crie, un chat perplexe devant son assiette. Le chouffin est toujours du côté du chat.",
+    "category": "youtube-internet",
+    "aliases": [
+      "femme qui crie sur un chat"
+    ]
+  },
+  {
+    "word": "Two buttons",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Deux boutons, un dilemme en sueur. Le chouffin hésite pareil entre deux classes au début d'un RPG.",
+    "category": "youtube-internet",
+    "aliases": [
+      "deux boutons"
+    ]
+  },
+  {
+    "word": "Spider-Man pointing",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Deux Spider-Man qui se pointent du doigt. Le chouffin le poste dès qu'il croise quelqu'un avec le même cosplay que lui.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "spider-man qui pointe"
+    ]
+  },
+  {
+    "word": "Plan de Gru",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Un plan en quatre cases qui dérape à la fin. Comme chaque plan du chouffin pour boucler une campagne de JDR.",
+    "category": "youtube-internet",
+    "aliases": [
+      "gru's plan",
+      "gru plan"
+    ]
+  },
+  {
+    "word": "Always has been",
+    "chouffin": true,
+    "score": 64,
+    "reason": "« Attends, ça a toujours été comme ça ? » L'astronaute face à la vérité : le chouffin adore ce mème spatial.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Panik Kalm Panik",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Panique, calme, panique. Le chouffin l'a vécu en ouvrant le récap de ses précommandes.",
+    "category": "youtube-internet",
+    "aliases": [
+      "panik kalm"
+    ]
+  },
+  {
+    "word": "Mocking SpongeBob",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Bob l'éponge qui répète en alternant les majuscules. Le chouffin trouve ça moins noble qu'une réplique de Kaamelott.",
+    "category": "youtube-internet",
+    "aliases": [
+      "bob l'eponge moqueur",
+      "spongebob moqueur"
+    ]
+  },
+  {
+    "word": "Monkey puppet",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le singe gêné qui détourne le regard. C'est le chouffin quand on lui demande s'il a fini Skyrim.",
+    "category": "youtube-internet",
+    "aliases": [
+      "singe gene"
+    ]
+  },
+  {
+    "word": "Uno reverse",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La carte qui renvoie l'attaque à l'envoyeur. Le chouffin préfère un contresort de Magic, plus élégant.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "carte uno reverse",
+      "uno reverse card"
+    ]
+  },
+  {
+    "word": "Big Chungus",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Un Bugs Bunny géant sur une fausse jaquette de jeu. Le chouffin a cru à une vraie sortie, un tout petit peu.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Sus",
+    "chouffin": true,
+    "score": 54,
+    "reason": "« Suspect », hérité d'Among Us. Le chouffin le dit encore quand quelqu'un pioche trop bien au Magic.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "amogus"
+    ]
+  },
+  {
+    "word": "Bongo Cat",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le chat qui tape sur des bongos au rythme des touches. Le chouffin l'a en overlay pendant ses parties.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Caramelldansen",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Les mains en oreilles de lapin et une danse en boucle. Le chouffin l'a dansée en convention une fois. Enfin, dix.",
+    "category": "youtube-internet",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Leekspin",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Une héroïne d'animé qui fait tourner un poireau en boucle. Le chouffin fredonne l'air depuis 2006.",
+    "category": "youtube-internet",
+    "tribe": "weeb",
+    "aliases": [
+      "loituma",
+      "ievan polkka"
+    ]
+  },
+  {
+    "word": "Trololo",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Une chanson sans paroles devenue l'hymne des trolls. Le chouffin la fredonne pour agacer ses amis.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "mr trololo"
+    ]
+  },
+  {
+    "word": "Keyboard Cat",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Le chat au clavier qui accompagne les ratés. Le chouffin le joue après chaque échec critique.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Badger badger badger",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des blaireaux, un champignon, un serpent. Le chouffin l'a en tête depuis l'ère Flash.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "badger badger"
+    ]
+  },
+  {
+    "word": "Peanut Butter Jelly Time",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Une banane qui danse, relique de l'ère Flash. Le chouffin la connaît, mais préfère les vraies légendes.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Philosoraptor",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Un dinosaure qui se pose de grandes questions. Le chouffin s'y reconnaît, surtout à 2 h du matin.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Challenge Accepted",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le visage du défi des rage comics. Le chouffin le sort dès qu'on lui propose de finir Dark Souls sans armure.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Pedro Pedro Pedro",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Un raton laveur qui tourne en boucle. Le chouffin ne comprend pas, et il en est fier.",
+    "category": "youtube-internet",
+    "aliases": [
+      "raton laveur qui danse"
+    ]
+  },
+  {
+    "word": "Cheems",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Le cousin de Doge, qui glisse des « m » partout. Le chouffin écrit « burgemr » et se trouve très drôle.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "GIF Kaamelott",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Arthur qui soupire, Perceval qui ne comprend pas. Le chouffin répond à tout par un GIF Kaamelott : c'est sa langue.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "gifs kaamelott",
+      "meme kaamelott",
+      "reaction kaamelott"
+    ]
+  },
+  {
+    "word": "GIF",
+    "chouffin": true,
+    "score": 54,
+    "reason": "L'image animée qu'il prononce « jif » pour agacer tout le monde. Le chouffin a un avis tranché sur la question.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "jif"
+    ]
+  },
+  {
+    "word": "Compte No Context",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Des captures sorties de leur contexte, souvent de Kaamelott. Le chouffin les suit tous et rit sans contexte.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "no context",
+      "sans contexte"
+    ]
+  },
+  {
+    "word": "Copypasta",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un pavé copié-collé à l'infini. Le chouffin en connaît dix par cœur, dont trois nés sur les forums.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "pate a copier"
+    ]
+  },
+  {
+    "word": "Hoax",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La fausse info qui tourne en boucle. Le chouffin la démonte avec l'enthousiasme d'un sorceleur.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Hoaxbuster",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le site qui démonte les rumeurs depuis l'époque des chaînes de mails. Le chouffin y renvoie son oncle, avec amour.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Fact-checking",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Vérifier les faits. Le chouffin le fait surtout pour les dates du calendrier de la Terre du Milieu.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "fact check"
+    ]
+  },
+  {
+    "word": "Clash",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Deux comptes qui s'écharpent. Le chouffin préfère un clash de sorts dans un duel de Magic.",
+    "category": "youtube-internet",
+    "aliases": [
+      "clash twitter"
+    ]
+  },
+  {
+    "word": "Bot Twitter",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Un compte qui poste tout seul. Le chouffin a codé le sien pour tweeter une citation de Kaamelott par jour.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Pseudo",
+    "chouffin": true,
+    "score": 56,
+    "reason": "DarkSasuke76, Legolas_du_59 : le chouffin garde le même depuis 2005 et le défend comme un blason.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "pseudonyme"
+    ]
+  },
+  {
+    "word": "Hackerman",
+    "chouffin": true,
+    "score": 66,
+    "reason": "« Je suis Hackerman. » Le hacker ultime de Kung Fury. Le chouffin le dit en ouvrant un terminal.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Shut up and take my money",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Fry qui tend ses billets. Le chouffin réagit pareil devant chaque édition collector.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Not sure if",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Fry qui plisse les yeux, en plein doute. C'est le chouffin devant chaque rebondissement de série.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "futurama fry"
+    ]
+  },
+  {
+    "word": "Evil Kermit",
+    "chouffin": false,
+    "score": 32,
+    "reason": "La petite voix qui pousse à la faute. Celle du chouffin lui souffle : « Commande un deuxième collector. »",
+    "category": "youtube-internet",
+    "aliases": [
+      "kermit malefique"
+    ]
+  },
+  {
+    "word": "One does not simply",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Boromir et sa main levée : « On ne rentre pas si facilement dans le Mordor. » Le chouffin l'adapte à toutes les sauces.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "on ne rentre pas si facilement dans le mordor"
+    ]
+  },
+  {
+    "word": "Ah shit, here we go again",
+    "chouffin": true,
+    "score": 72,
+    "reason": "CJ de retour à Los Santos. Le chouffin le soupire à chaque nouvelle partie de Dark Souls.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "here we go again"
+    ]
+  }
+]

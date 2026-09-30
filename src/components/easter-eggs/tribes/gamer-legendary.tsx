@@ -26,6 +26,7 @@ import {
   Pop,
   Rays,
   Rise,
+  Scramble,
   Shake,
   Slam,
   Stage,
@@ -821,4 +822,287 @@ function LegendaryBoss({ word, seed, durationMs, onDone }: EggProps) {
       <Flash at={BOSS_DEATH} peak={0.3} />
     </Stage>
   );
+}
+
+/* ------------------------------------------------------------------ */
+/* Évolution                                                            */
+/* ------------------------------------------------------------------ */
+
+const EVOLVE_START = 0.45;
+const EVOLVE_AT = 2.3;
+
+/**
+ * Pulsation du mot qui s'apprête à évoluer : des demi-cycles de plus en plus
+ * courts, jamais sous 0,17 s (moins de 3 pulsations par seconde). Échelle
+ * seulement, aucune alternance de luminosité.
+ */
+function evolutionPulse() {
+  const span = EVOLVE_AT - EVOLVE_START;
+  const times = [0];
+  const values = [1];
+  let time = 0;
+  let half = 0.36;
+  let grow = true;
+  while (time + half < span - 0.05) {
+    time += half;
+    times.push(time / span);
+    values.push(grow ? 1.24 : 0.96);
+    grow = !grow;
+    half = Math.max(0.17, half * 0.86);
+  }
+  times.push(1);
+  values.push(1.35);
+  return { span, times, values };
+}
+
+const EVOLUTION_PULSE = evolutionPulse();
+
+function SparkleStar({ color = "#fff6c4" }: { color?: string }) {
+  return (
+    <svg viewBox="0 0 20 20" aria-hidden="true" className="w-full">
+      <path d="M10 0 L12.2 7.8 L20 10 L12.2 12.2 L10 20 L7.8 12.2 L0 10 L7.8 7.8 Z" fill={color} />
+    </svg>
+  );
+}
+
+function LegendaryEvolution({ word, score, seed, durationMs, onDone }: EggProps) {
+  const display = shortWord(word, 22);
+  const ultimate = `${shortWord(word, 18).toLocaleUpperCase("fr-FR")} ULTIME`;
+  return (
+    <Stage durationMs={durationMs} onDone={onDone} sound={sounds.evolution} className="starfield">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,rgb(120_80_255/0.45)_0%,rgb(40_20_90/0.55)_35%,rgb(5_6_15/0.9)_75%)]" />
+      <Rays color="rgb(255 214 120 / 0.2)" delay={EVOLVE_AT} spin={35} duration={1.4} />
+
+      {/* Anneaux d'énergie qui convergent vers le mot. */}
+      {Array.from({ length: 6 }, (_, index) => (
+        <m.div
+          key={index}
+          className="absolute left-1/2 top-[42%] size-[62vmin] rounded-full border-2 border-[#d9ccff]"
+          style={{ x: "-50%", y: "-50%" }}
+          initial={{ scale: 2.4, opacity: 0 }}
+          animate={{ scale: [2.4, 0.1], opacity: [0, 0.8, 0] }}
+          transition={{ delay: EVOLVE_START + 0.1 + index * 0.27, duration: 0.8, ease: "easeIn" }}
+        />
+      ))}
+
+      <div className="absolute inset-x-0 top-[42%] grid -translate-y-1/2 place-items-center px-4">
+        <m.div
+          className="col-start-1 row-start-1 size-[46vmin] rounded-full bg-[radial-gradient(closest-side,rgb(255_255_255/0.85),rgb(190_170_255/0.35)_55%,transparent)]"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: [0, 0.9, 0], scale: [0.5, 1.1, 1.6] }}
+          transition={{ delay: EVOLVE_START, duration: EVOLVE_AT - EVOLVE_START + 0.4, times: [0, 0.8, 1] }}
+        />
+        <m.div
+          className="col-start-1 row-start-1"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: [0, 1, 1, 0], scale: EVOLUTION_PULSE.values }}
+          transition={{
+            opacity: { duration: EVOLVE_AT + 0.02, times: [0, 0.08, 0.99, 1] },
+            scale: { delay: EVOLVE_START, duration: EVOLUTION_PULSE.span, times: EVOLUTION_PULSE.times, ease: "easeInOut" },
+          }}
+        >
+          <p className="meme-text max-w-[92vw] break-words text-center [text-shadow:0_0_24px_#fff,0_0_60px_#b9a8ff]" style={{ fontSize: wordSize(display, { max: 12, cap: 7, min: 2.2 }) }}>
+            {display}
+          </p>
+        </m.div>
+        <div className="col-start-1 row-start-1 flex flex-col items-center">
+          <Slam delay={EVOLVE_AT} from={0.2} rotate={0} settle={0} duration={0.5} className="max-w-[94vw] break-words text-rarity-legendary" style={{ fontSize: wordSize(ultimate, { max: 11, cap: 6.5, min: 2 }) }}>
+            {ultimate}
+          </Slam>
+          <Pop delay={EVOLVE_AT + 0.55} className="hud-text mt-3 text-center text-[clamp(0.9rem,2.6vw,1.4rem)] text-neon-cyan">
+            Chouffinitude +{score} · Nouvelle attaque : Tournée générale
+          </Pop>
+        </div>
+      </div>
+
+      <Burst
+        seed={seed + 17}
+        count={20}
+        x={50}
+        y={42}
+        delay={EVOLVE_AT}
+        duration={1.2}
+        distance={[20, 50]}
+        size={[14, 30]}
+        spin={120}
+        render={(index) => <SparkleStar color={index % 3 === 0 ? "#ffd98a" : index % 3 === 1 ? "#ffffff" : "#c9b8ff"} />}
+      />
+
+      {/* Boîte de dialogue de RPG rétro. */}
+      <div className="absolute inset-x-0 bottom-[5vh] flex justify-center px-3">
+        <m.div
+          className="relative w-[min(42rem,94vw)] rounded-[6px] border-4 border-[#1b1b1b] bg-[#f8f8f0] p-1 shadow-[0_8px_0_rgb(0_0_0/0.45)]"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.25, ease: EASE_OUT }}
+        >
+          <div className="pixel-text grid min-h-[4.8rem] rounded-[3px] border-2 border-[#5a6b8c] px-4 py-3 text-[clamp(0.85rem,2.2vw,1.1rem)] leading-relaxed text-[#1b1b1b]">
+            <m.p className="col-start-1 row-start-1" initial={{ opacity: 1 }} animate={{ opacity: 0 }} transition={{ delay: EVOLVE_AT + 0.2, duration: 0.05 }}>
+              <Typed text={`Quoi ? « ${display} » évolue !`} delay={0.2} />
+            </m.p>
+            <p className="col-start-1 row-start-1">
+              <Typed text={`Félicitations ! « ${display} » a évolué en « ${ultimate} » !`} delay={EVOLVE_AT + 0.3} step={0.02} />
+            </p>
+          </div>
+          <m.span
+            className="absolute bottom-2 right-3 text-[0.8rem] text-[#1b1b1b]"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: [0, 1, 0.2, 1] }}
+            transition={{ delay: 1.2, duration: 1.8 }}
+          >
+            ▼
+          </m.span>
+        </m.div>
+      </div>
+      <Flash at={EVOLVE_AT} peak={0.38} />
+    </Stage>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Rage quit inversé                                                    */
+/* ------------------------------------------------------------------ */
+
+const OPPONENTS = ["Brunch_Addict", "PadelPro75", "Lundi_Matin", "KaleWarrior", "Trotti_Lover", "Afterwork_Fan", "Quinoa_Sensei"] as const;
+const QUIT_NOTES = ["Alt + F4", "manette lancée", "déconnecté", "Alt + F4", "a débranché la box"] as const;
+const GG_TYPED = 1.95;
+const GG_SOFTENED = 2.45;
+
+function LegendaryRagequit({ word, seed, durationMs, onDone }: EggProps) {
+  const quits = sounds.RAGEQUIT_TIMES;
+  const plan = usePlan(seed, (random) => ({
+    rows: shuffle(OPPONENTS, random)
+      .slice(0, quits.length)
+      .map((name, index) => ({ name, at: quits[index], ping: Math.round(between(random, 18, 90)), spin: between(random, 360, 720) * (index % 2 ? -1 : 1) })),
+  }));
+  const player = shortWord(word, 18);
+  return (
+    <Stage durationMs={durationMs} onDone={onDone} sound={sounds.ragequit} className={VIGNETTE}>
+      <div className="scanlines opacity-30" />
+      <div className="absolute inset-0 flex items-center justify-center px-3 pt-8">
+        <m.section
+          className="w-[min(40rem,94vw)] overflow-hidden rounded-md border border-white/15 bg-[#0f1220]/95 shadow-[0_20px_60px_rgb(0_0_0/0.6)]"
+          initial={{ opacity: 0, scale: 0.92 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.3, ease: EASE_OUT }}
+        >
+          <div className="flex items-center justify-between border-b border-white/10 px-4 py-2 text-sm">
+            <span className="font-bold text-white">Partie classée · 1 contre 5</span>
+            <span className="text-brume">Carte : La Taverne</span>
+          </div>
+          <p className="bg-dew/15 px-4 pt-2 text-xs font-bold uppercase tracking-wider text-dew">Équipe chouffin</p>
+          <div className="grid grid-cols-[1fr_auto] items-center gap-3 bg-dew/15 px-4 pb-2 pt-1 text-[0.95rem]">
+            <span className="truncate font-bold text-white">{player}</span>
+            <span className="tabular-nums text-dew">25 / 0 / 5</span>
+          </div>
+          <p className="px-4 pt-3 text-xs font-bold uppercase tracking-wider text-[#ff9aa4]">Équipe normie</p>
+          <div className="px-2 pb-2">
+            {plan.rows.map((row, index) => (
+              <m.div
+                key={row.name}
+                className="relative grid h-[2.3rem] grid-cols-[1fr_auto_6.6rem] items-center gap-3 px-2 text-[0.95rem]"
+                initial={{ opacity: 1 }}
+                animate={{ opacity: 0.5 }}
+                transition={{ delay: row.at + 0.1, duration: 0.2 }}
+              >
+                <span className="relative truncate text-white">
+                  {row.name}
+                  <m.span
+                    className="absolute inset-x-0 top-1/2 h-[2px] origin-left bg-[#ff5a6a]"
+                    initial={{ scaleX: 0 }}
+                    animate={{ scaleX: 1 }}
+                    transition={{ delay: row.at, duration: 0.18 }}
+                  />
+                </span>
+                <span className="tabular-nums text-brume">{row.ping} ms</span>
+                <span className="relative text-right text-sm font-bold">
+                  <m.span className="absolute inset-0 text-dew" initial={{ opacity: 1 }} animate={{ opacity: 0 }} transition={{ delay: row.at, duration: 0.05 }}>
+                    En jeu
+                  </m.span>
+                  <m.span className="text-[#ff7a85]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: row.at, duration: 0.05 }}>
+                    Rage quit
+                  </m.span>
+                </span>
+                <m.div
+                  className="pointer-events-none absolute right-8 top-0 w-9"
+                  initial={{ opacity: 0, x: 0, y: 0, rotate: 0 }}
+                  animate={{ opacity: [0, 1, 1, 0], x: ["0vw", "8vw", "22vw"], y: ["0vh", "-14vh", "-4vh"], rotate: row.spin }}
+                  transition={{ delay: row.at, duration: 0.7, ease: "easeOut" }}
+                >
+                  <PixelPad className="w-full drop-shadow-[0_3px_0_rgb(0_0_0/0.6)]" />
+                </m.div>
+                <m.span
+                  className="hud-text pointer-events-none absolute left-[38%] top-0 whitespace-nowrap text-[0.8rem] text-hydromel"
+                  initial={{ opacity: 0, y: 0 }}
+                  animate={{ opacity: [0, 1, 0], y: [4, -12, -22] }}
+                  transition={{ delay: row.at, duration: 0.6 }}
+                >
+                  {QUIT_NOTES[index % QUIT_NOTES.length]}
+                </m.span>
+              </m.div>
+            ))}
+          </div>
+          {/* Le chat de la partie : « gg ez » est adouci d'office. */}
+          <div className="border-t border-white/10 px-4 py-2.5 text-[0.95rem]">
+            <m.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: GG_TYPED - 0.1, duration: 0.1 }} className="grid">
+              <span className="col-start-1 row-start-1">
+                <span className="text-brume">[Tous] </span>
+                <span className="font-bold text-dew">{player}</span>
+                <span className="text-white"> : </span>
+                <m.span className="text-white" initial={{ opacity: 1 }} animate={{ opacity: 0 }} transition={{ delay: GG_SOFTENED, duration: 0.05 }}>
+                  <Typed text="gg ez" delay={GG_TYPED} step={0.075} />
+                </m.span>
+              </span>
+              <m.span className="col-start-1 row-start-1" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: GG_SOFTENED, duration: 0.05 }}>
+                <span className="text-brume">[Tous] </span>
+                <span className="font-bold text-dew">{player}</span>
+                <span className="text-white"> : </span>
+                <Scramble text="Bien joué à tous, vous étiez presque chouffins." delay={GG_SOFTENED} duration={0.4} glyphs="#@$%&*?!01" className="text-white" />
+              </m.span>
+            </m.p>
+            <Rise delay={GG_SOFTENED + 0.3} distance={4} className="mt-1 text-xs italic text-brume">
+              (message adouci par la taverne : ici, on gagne avec classe)
+            </Rise>
+          </div>
+        </m.section>
+      </div>
+
+      <m.div
+        className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgb(14_10_22/0.85),rgb(14_10_22/0.4)_60%,transparent)]"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2.72, duration: 0.2 }}
+      />
+      <div className="absolute inset-x-0 top-[26%] flex flex-col items-center px-4 text-center">
+        <Slam delay={2.75} from={2.8} className="text-[clamp(2.6rem,10vw,7rem)] text-dew">
+          Victoire par abandon
+        </Slam>
+        <Pop delay={3} className="hud-text mt-2 text-[clamp(1.2rem,4vw,2.4rem)] text-white">
+          GG WP
+        </Pop>
+      </div>
+    </Stage>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+
+export default function GamerLegendaryEgg(props: EggProps) {
+  switch (props.variant) {
+    case "konami":
+      return <LegendaryKonami {...props} />;
+    case "loot":
+      return <LegendaryLoot {...props} />;
+    case "speedrun":
+      return <LegendarySpeedrun {...props} />;
+    case "boss":
+      return <LegendaryBoss {...props} />;
+    case "evolution":
+      return <LegendaryEvolution {...props} />;
+    case "ragequit":
+      return <LegendaryRagequit {...props} />;
+    case "illuminati":
+    default:
+      return <LegendaryIlluminati {...props} />;
+  }
 }

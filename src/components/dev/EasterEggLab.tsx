@@ -11,19 +11,25 @@ import {
   EGG_LEVELS,
   LEVEL_LABELS,
   LEVEL_SAMPLE_SCORES,
+  SAD_VARIANTS,
   TRIBE_EGGS,
+  VIE_LEVELS,
+  VIE_LEVEL_LABELS,
+  VIE_NORMALE,
   planSurprise,
   type EggLevel,
   type SurprisePlan,
+  type VieLevel,
 } from "../easter-eggs/catalog";
 import { EggLayer, warmupEggs } from "../easter-eggs/EggLayer";
-import { TribeIcon } from "../easter-eggs/icons";
+import { GrassSun, TribeIcon } from "../easter-eggs/icons";
 import { useSurprises } from "../easter-eggs/useSurprises";
 
 /**
  * Labo des easter eggs (page de développement) : chaque animation de chaque
- * tribu et de chaque niveau, à la demande, plus un simulateur de verdict qui
- * applique les vraies fréquences.
+ * tribu et de chaque niveau, la famille « Vie normale » tranche par tranche, à
+ * la demande, plus un simulateur de verdict et un mesureur qui appliquent les
+ * vraies fréquences.
  */
 
 const EMPTY_PLAN: SurprisePlan = { overlay: null, toast: null, sfx: null, sting: null, shake: false };
@@ -51,11 +57,58 @@ function scoreFor(level: EggLevel): { score: number; chouffin: boolean; legendar
   return { score, chouffin: level !== "fail", legendary: level === "legendary" };
 }
 
+interface FrequencyRow {
+  label: string;
+  measured: number;
+  expected: number;
+}
+
 interface Frequencies {
   draws: number;
-  chouffin: number;
-  pasChouffin: number;
+  rows: FrequencyRow[];
+  /** Répartition des apothéoses gamer (toujours jouées) entre leurs variantes. */
+  gamerLegendary: Array<{ id: string; share: number }>;
 }
+
+type Draw = Parameters<typeof planSurprise>[0];
+
+function share(draws: number, draw: Draw, accept: (plan: SurprisePlan) => boolean): number {
+  let hits = 0;
+  for (let i = 0; i < draws; i++) if (accept(planSurprise(draw))) hits += 1;
+  return hits / draws;
+}
+
+/** Mesure les fréquences réelles de `planSurprise` (aucun hasard truqué). */
+function measureFrequencies(draws: number): Frequencies {
+  const any = (plan: SurprisePlan) => plan.overlay !== null;
+  const vie = (plan: SurprisePlan) => plan.overlay?.kind === "vie";
+  const rows: FrequencyRow[] = [
+    { label: "Chouffin gamer (score 80) : animation", measured: share(draws, { word: "x", tribe: "gamer", score: 80, chouffin: true, legendary: false }, any), expected: 1 / 3 },
+    { label: "Chouffin sans tribu (score 80) : combo MLG", measured: share(draws, { word: "x", tribe: null, score: 80, chouffin: true, legendary: false }, any), expected: 1 / 3 },
+    { label: "Légendaire gamer (score 97) : apothéose", measured: share(draws, { word: "x", tribe: "gamer", score: 97, chouffin: true, legendary: true }, any), expected: 1 },
+    { label: "Pas chouffin gamer (score 20) : échec thématique", measured: share(draws, { word: "x", tribe: "gamer", score: 20, chouffin: false, legendary: false }, any), expected: 1 / 4 },
+  ];
+  for (const level of VIE_LEVELS) {
+    const score = VIE_NORMALE.samples[level].score;
+    const draw: Draw = { word: "x", tribe: null, score, chouffin: false, legendary: false };
+    const count = VIE_NORMALE.variants[level].length;
+    rows.push({ label: `Pas chouffin sans tribu (score ${score}) : réaction`, measured: share(draws, draw, any), expected: 1 / 4 });
+    rows.push({
+      label: `  dont « Vie normale, ${VIE_LEVEL_LABELS[level].name.toLocaleLowerCase("fr-FR")} »`,
+      measured: share(draws, draw, vie),
+      expected: (1 / 4) * (count / (count + SAD_VARIANTS.length)),
+    });
+  }
+  const tally = new Map<string, number>();
+  for (let i = 0; i < draws; i++) {
+    const plan = planSurprise({ word: "x", tribe: "gamer", score: 97, chouffin: true, legendary: true });
+    if (plan.overlay?.kind === "tribe") tally.set(plan.overlay.variant, (tally.get(plan.overlay.variant) ?? 0) + 1);
+  }
+  const gamerLegendary = TRIBE_EGGS.gamer.variants.legendary.map((variant) => ({ id: variant.label, share: (tally.get(variant.id) ?? 0) / draws }));
+  return { draws, rows, gamerLegendary };
+}
+
+const percent = (value: number) => `${(Math.round(value * 1000) / 10).toLocaleString("fr-FR")} %`;
 
 export function EasterEggLab({ autoplay, word: initialWord, reduced: initialReduced = false }: { autoplay?: string; word?: string; reduced?: boolean }) {
   const [wordOverride, setWordOverride] = useState(initialWord ?? "");
@@ -74,6 +127,17 @@ export function EasterEggLab({ autoplay, word: initialWord, reduced: initialRedu
     if (typed) return typed;
     return tribe ? TRIBE_EGGS[tribe].samples[level] : level === "fail" ? "Brunch" : "Kaamelott";
   }, [wordOverride]);
+
+  const wordForVie = useCallback((level: VieLevel) => wordOverride.trim() || VIE_NORMALE.samples[level].word, [wordOverride]);
+
+  /** Famille « Vie normale » : sans variante, c'est le vrai tirage (écran bleu et NOPE compris). */
+  const launchVie = useCallback(
+    (level: VieLevel, variant?: string) => {
+      const score = VIE_NORMALE.samples[level].score;
+      play(planSurprise({ word: wordForVie(level), tribe: null, chouffin: false, score, legendary: false }, { force: true, reduced, variant }));
+    },
+    [play, reduced, wordForVie],
+  );
 
   const launch = useCallback(
     (tribe: Tribe, level: EggLevel, variant?: string) => {
@@ -108,33 +172,34 @@ export function EasterEggLab({ autoplay, word: initialWord, reduced: initialRedu
     const outcome = plan.overlay
       ? plan.overlay.kind === "tribe"
         ? `${plan.overlay.tribe} · ${plan.overlay.level} · ${plan.overlay.variant}`
-        : plan.overlay.kind === "mlg"
-          ? "combo MLG générique"
-          : `réaction triste (${plan.overlay.variant})`
+        : plan.overlay.kind === "vie"
+          ? `vie normale · ${plan.overlay.level} · ${plan.overlay.variant}`
+          : plan.overlay.kind === "mlg"
+            ? "combo MLG générique"
+            : `réaction triste (${plan.overlay.variant})`
       : plan.toast
         ? `toast seul (mouvement réduit) : ${plan.toast.title}`
         : `rien de spécial (son « ${plan.sfx ?? "aucun"} »)`;
     setLog((previous) => [`Score ${simScore}, ${tribe ?? "sans tribu"} : ${outcome}`, ...previous].slice(0, 6));
   }, [play, reduced, simScore, simTribe, wordFor]);
 
-  const measure = useCallback(() => {
-    let chouffinHits = 0;
-    let pasHits = 0;
-    const draws = 10000;
-    for (let i = 0; i < draws; i++) {
-      if (planSurprise({ word: "x", tribe: "gamer", score: 80, chouffin: true, legendary: false }).overlay) chouffinHits += 1;
-      if (planSurprise({ word: "x", tribe: "gamer", score: 20, chouffin: false, legendary: false }).overlay) pasHits += 1;
-    }
-    setFrequencies({ draws, chouffin: chouffinHits / draws, pasChouffin: pasHits / draws });
-  }, []);
+  const measure = useCallback(() => setFrequencies(measureFrequencies(10000)), []);
 
-  // Lecture automatique (captures d'écran) : ?play=tribu.niveau.variante
+  // Lecture automatique (captures d'écran) : ?play=tribu.niveau.variante, ?play=vie.tranche.variante, ?play=none.fail.bsod
   useEffect(() => {
     warmupEggs();
     if (!autoplay) return;
-    const [tribe, level, variant] = autoplay.split(".");
-    if (!(TRIBES as readonly string[]).includes(tribe) || !(EGG_LEVELS as readonly string[]).includes(level)) return;
-    const timer = window.setTimeout(() => launch(tribe as Tribe, level as EggLevel, variant), 400);
+    const [family, level, variant] = autoplay.split(".");
+    let start: (() => void) | null = null;
+    if ((TRIBES as readonly string[]).includes(family) && (EGG_LEVELS as readonly string[]).includes(level)) {
+      start = () => launch(family as Tribe, level as EggLevel, variant);
+    } else if (family === "vie" && (VIE_LEVELS as readonly string[]).includes(level)) {
+      start = () => launchVie(level as VieLevel, variant);
+    } else if (family === "none" && ["mlg", "mlg-legendary", "bsod", "nope"].includes(variant)) {
+      start = () => launchGeneric(variant as "mlg" | "mlg-legendary" | "bsod" | "nope");
+    }
+    if (!start) return;
+    const timer = window.setTimeout(start, 400);
     return () => window.clearTimeout(timer);
     // Une seule fois, au montage.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -149,8 +214,9 @@ export function EasterEggLab({ autoplay, word: initialWord, reduced: initialRedu
               <p className="pixel-text text-xs text-hydromel">Page de développement (404 en production)</p>
               <h1 className="meme-text mt-2 text-[clamp(2rem,6vw,3.6rem)]">Labo des easter eggs</h1>
               <p className="mt-2 max-w-2xl text-brume">
-                Chaque tribu, chaque niveau de score, chaque variante. En vrai, le combo sort 1 fois sur 3 (toujours si légendaire)
-                et l&apos;échec 1 fois sur 4 ; ici, tout part à la demande. Clic ou Échap pour passer.
+                Chaque tribu, chaque niveau de score, chaque variante, et la famille « Vie normale » des mots pas chouffin sans
+                tribu. En vrai, le combo sort 1 fois sur 3 (toujours si légendaire) et l&apos;échec 1 fois sur 4 ; ici, tout part à
+                la demande. Clic ou Échap pour passer.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3">
@@ -227,6 +293,53 @@ export function EasterEggLab({ autoplay, word: initialWord, reduced: initialRedu
               );
             })}
 
+            <section className="card-neutral p-5" aria-labelledby="lab-vie">
+              <div className="flex items-center gap-3">
+                <span className="achievement-orb grid size-12 shrink-0 place-items-center" data-theme="vie-normale">
+                  <GrassSun className="size-7" />
+                </span>
+                <div>
+                  <h2 id="lab-vie" className="font-display text-2xl uppercase tracking-wide">
+                    {VIE_NORMALE.label} <span className="pixel-text text-xs text-brume">(sans tribu, pas chouffin)</span>
+                  </h2>
+                  <p className="text-sm text-brume">{VIE_NORMALE.universe}</p>
+                </div>
+              </div>
+              <p className="mt-3 text-sm text-brume">
+                Tirée 1 fois sur 4, à parts égales avec l&apos;écran bleu et NOPE. « Au hasard » applique ce vrai tirage.
+              </p>
+              <div className="mt-2 flex flex-col gap-4">
+                {VIE_LEVELS.map((level) => (
+                  <div key={level} className="border-t border-ligne pt-3">
+                    <p className="text-sm font-bold">
+                      {VIE_LEVEL_LABELS[level].name}{" "}
+                      <span className="font-normal text-brume">
+                        ({VIE_LEVEL_LABELS[level].range}) · « {wordForVie(level)} » ({VIE_NORMALE.samples[level].score})
+                      </span>
+                    </p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {VIE_NORMALE.variants[level].map((variant) => (
+                        <button
+                          key={variant.id}
+                          type="button"
+                          data-egg={`vie.${level}.${variant.id}`}
+                          onClick={() => launchVie(level, variant.id)}
+                          className="btn-glossy inline-flex min-h-11 items-center px-3 text-sm"
+                          data-tone="pas"
+                        >
+                          {variant.label}
+                          <span className="ml-2 text-xs font-medium opacity-75">{(variant.durationMs / 1000).toLocaleString("fr-FR")} s</span>
+                        </button>
+                      ))}
+                      <button type="button" onClick={() => launchVie(level)} className="btn-ghost inline-flex min-h-11 items-center px-3 text-sm font-semibold">
+                        Au hasard
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+
             <section className="card-neutral p-5" aria-labelledby="lab-generic">
               <h2 id="lab-generic" className="font-display text-2xl uppercase tracking-wide">
                 Sans tribu
@@ -295,12 +408,35 @@ export function EasterEggLab({ autoplay, word: initialWord, reduced: initialRedu
                 <button type="button" onClick={measure} className="btn-ghost inline-flex min-h-11 items-center px-4 text-sm font-semibold">
                   Vérifier les fréquences (10 000 tirages)
                 </button>
-                {frequencies ? (
-                  <p className="mt-2 text-sm" aria-live="polite">
-                    Chouffin (score 80) : animation {Math.round(frequencies.chouffin * 1000) / 10} % (attendu 33,3 %). Pas chouffin : réaction{" "}
-                    {Math.round(frequencies.pasChouffin * 1000) / 10} % (attendu 25 %).
-                  </p>
-                ) : null}
+                <div aria-live="polite">
+                  {frequencies ? (
+                    <>
+                      <table className="mt-3 w-full text-left text-sm" data-testid="frequencies">
+                        <caption className="sr-only">Fréquences mesurées sur {frequencies.draws.toLocaleString("fr-FR")} tirages</caption>
+                        <thead className="text-brume">
+                          <tr>
+                            <th scope="col" className="py-1 pr-2 font-semibold">Tirage</th>
+                            <th scope="col" className="py-1 pr-2 text-right font-semibold">Mesuré</th>
+                            <th scope="col" className="py-1 text-right font-semibold">Attendu</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {frequencies.rows.map((row) => (
+                            <tr key={row.label} className="border-t border-ligne">
+                              <td className={`py-1 pr-2 ${row.label.startsWith("  ") ? "pl-4 text-brume" : ""}`}>{row.label.trim()}</td>
+                              <td className="py-1 pr-2 text-right tabular-nums">{percent(row.measured)}</td>
+                              <td className="py-1 text-right tabular-nums text-brume">{percent(row.expected)}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                      <p className="mt-3 text-sm text-brume">
+                        Apothéoses gamer (attendu {percent(1 / frequencies.gamerLegendary.length)} chacune) :{" "}
+                        {frequencies.gamerLegendary.map((entry) => `${entry.id} ${percent(entry.share)}`).join(" · ")}
+                      </p>
+                    </>
+                  ) : null}
+                </div>
               </div>
             </section>
           </div>

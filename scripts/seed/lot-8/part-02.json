@@ -1,0 +1,978 @@
+[
+  {
+    "word": "Hervé Cuisine",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Des recettes accessibles à tous. Le chouffin veut bien, s'il y a une recette de lembas ou de ragoût de hobbit.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Chef Michel Dumas",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Cuisine du terroir et plats mijotés. Le chouffin salive, il ne manque qu'une chope et un feu de cheminée.",
+    "category": "youtube-internet",
+    "tribe": "taverne"
+  },
+  {
+    "word": "FastGoodCuisine",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Des burgers géants et du fast-food fait maison. Le chouffin en pleure de joie : le gras, c'est la vie.",
+    "category": "youtube-internet",
+    "tribe": "taverne",
+    "aliases": [
+      "fast good cuisine"
+    ]
+  },
+  {
+    "word": "Carl Is Cooking",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des recettes en musique, joli montage. Le chouffin apprécie, mais il aurait mis plus de fromage.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Lookbook",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Présenter ses tenues de la saison ? Le chouffin a une seule tenue, le tee-shirt de groupe, pour toutes les saisons.",
+    "category": "mode-style"
+  },
+  {
+    "word": "Tuto maquillage",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Le seul tuto maquillage qui intéresse le chouffin : les oreilles d'elfe en latex pour la convention.",
+    "category": "youtube-internet",
+    "aliases": [
+      "tuto make up",
+      "tuto makeup"
+    ]
+  },
+  {
+    "word": "Routine skincare",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Dix produits sur le visage chaque matin. Le chouffin a un savon, et il sert aussi pour la barbe.",
+    "category": "mode-style",
+    "aliases": [
+      "skincare",
+      "skincare routine"
+    ]
+  },
+  {
+    "word": "Pouce bleu",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le like de YouTube. Le chouffin en met un à chaque vidéo du Joueur du Grenier, par devoir sacré.",
+    "category": "youtube-internet",
+    "aliases": [
+      "like youtube"
+    ]
+  },
+  {
+    "word": "Clochette",
+    "chouffin": false,
+    "score": 20,
+    "reason": "« Activez la cloche ! » Le chouffin ne l'a activée que pour une chaîne, et il le vit comme un serment.",
+    "category": "youtube-internet",
+    "aliases": [
+      "activez la cloche",
+      "cloche youtube"
+    ]
+  },
+  {
+    "word": "Abonne-toi",
+    "chouffin": false,
+    "score": 26,
+    "reason": "« Like, commente, abonne-toi ! » Le chouffin s'abonne seulement aux chaînes qui parlent de lore.",
+    "category": "youtube-internet",
+    "aliases": [
+      "abonnez vous",
+      "like et abonne toi"
+    ]
+  },
+  {
+    "word": "Miniature putaclic",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Une tête choquée, une flèche rouge, « VOUS N'ALLEZ PAS Y CROIRE ». Le chouffin n'y croit pas, en effet.",
+    "category": "youtube-internet",
+    "aliases": [
+      "putaclic",
+      "clickbait",
+      "piege a clics"
+    ]
+  },
+  {
+    "word": "Démonétisation",
+    "chouffin": false,
+    "score": 38,
+    "reason": "La hantise des YouTubeurs. Le chouffin a suivi chaque crise en commentaire, avec la ferveur d'un croisé.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Strike YouTube",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Le fléau des vidéastes de jeu, Joueur du Grenier en tête. Le chouffin connaît le lore des strikes par cœur.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "content id",
+      "copyright strike"
+    ]
+  },
+  {
+    "word": "Face cam",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La petite tête du streamer dans un coin de l'écran. Le chouffin préfère voir le jeu, sauf si le fou rire vaut le coup.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Vidéo réaction",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Regarder quelqu'un regarder une vidéo. Le chouffin trouve ça étrange, sauf pour les bandes-annonces Star Wars.",
+    "category": "youtube-internet",
+    "aliases": [
+      "react",
+      "reaction video"
+    ]
+  },
+  {
+    "word": "Video essay",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Une heure d'analyse sur un seul film ou un seul jeu. Le chouffin adore et la met en fond en peignant ses figurines.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "essai video",
+      "video-essai"
+    ]
+  },
+  {
+    "word": "Vulgarisation",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Expliquer la science avec humour et références geek. La moitié des abonnements du chouffin, c'est de la vulga.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "vulga",
+      "vulgarisation scientifique"
+    ]
+  },
+  {
+    "word": "Zététique",
+    "chouffin": true,
+    "score": 86,
+    "reason": "L'art du doute méthodique. Le chouffin demande « Source ? » à tout le monde, même au tavernier.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "zeteticien"
+    ]
+  },
+  {
+    "word": "YouTube Rewind",
+    "chouffin": false,
+    "score": 34,
+    "reason": "La vidéo de fin d'année que tout le monde a détestée. Le chouffin a mis un pouce rouge par principe.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Dislike",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le pouce rouge, disparu du compteur public. Le chouffin le regrette : c'était son arme pour juger les remakes.",
+    "category": "youtube-internet",
+    "aliases": [
+      "pouce rouge",
+      "bouton dislike"
+    ]
+  },
+  {
+    "word": "Tuto",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un tuto pour tout, de la soudure à la peinture de figurines. Le chouffin en regarde dix, puis rate quand même.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "tutoriel",
+      "tutorial"
+    ]
+  },
+  {
+    "word": "Top 10",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Des classements pour tout et n'importe quoi. Le chouffin préfère les tier lists, plus nobles et plus polémiques.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Storytime",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Raconter sa vie face caméra pendant 40 minutes. Le chouffin, lui, raconte sa dernière partie de JDR. Pendant deux heures.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Mukbang",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Manger énormément face caméra. Le chouffin préfère un banquet entre amis, sans caméra, avec de l'hydromel.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Prank",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Des farces filmées pour faire du clic. Le chouffin préfère les pièges d'un MJ sadique, bien plus élégants.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Dropshipping",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Revendre des gadgets avec 300 % de marge. Le chouffin préfère acheter ses dés sur un stand de convention.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Revenus passifs",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Gagner de l'argent en dormant ? Le chouffin, en dormant, rêve de dragons, et c'est déjà très bien.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Trading",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Des graphiques et des promesses de fortune. Le chouffin ne spécule que sur ses cartes Magic, et encore.",
+    "category": "loisirs",
+    "aliases": [
+      "trader"
+    ]
+  },
+  {
+    "word": "Vlog familial",
+    "chouffin": false,
+    "score": 4,
+    "reason": "Une famille filmée au quotidien. Le chouffin préfère les sagas familiales, les Weasley en tête.",
+    "category": "youtube-internet",
+    "aliases": [
+      "family vlog",
+      "chaine familiale"
+    ]
+  },
+  {
+    "word": "Digital nomad",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Travailler depuis Bali avec un smoothie. Le chouffin télétravaille aussi, depuis son canapé, avec une Chouffe.",
+    "category": "youtube-internet",
+    "aliases": [
+      "nomade digital",
+      "nomade numerique"
+    ]
+  },
+  {
+    "word": "Cryptobro",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Il parle de « to the moon » à chaque repas. Le chouffin n'investit que dans des dés en métal.",
+    "category": "youtube-internet",
+    "aliases": [
+      "crypto bro",
+      "crypto influenceur"
+    ]
+  },
+  {
+    "word": "Web3",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Le futur d'Internet, à les entendre. Le chouffin est resté sur son forum phpBB, et il s'y trouve très bien.",
+    "category": "tech",
+    "aliases": [
+      "web 3"
+    ]
+  },
+  {
+    "word": "NordVPN",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le sponsor de toutes les vidéos geek. Le chouffin connaît la pub par cœur et la récite comme une incantation.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "nord vpn"
+    ]
+  },
+  {
+    "word": "Sub Twitch",
+    "chouffin": false,
+    "score": 48,
+    "reason": "S'abonner à son streamer préféré. Le chouffin le fait surtout pour débloquer les emotes de sa guilde.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "sub",
+      "abonnement twitch"
+    ]
+  },
+  {
+    "word": "Just Chatting",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Discuter en live sans jouer. Le chouffin ne comprend pas : Twitch, c'est pour les jeux et les soirées JDR.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Chat Twitch",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Des milliers de messages en majuscules et des emotes partout. Le chouffin s'y sent comme dans une taverne bondée.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Modo",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le gardien du chat Twitch, bannisseur de trolls. Le chouffin endosse le rôle avec le sérieux d'un paladin.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "moderateur",
+      "moderatrice"
+    ]
+  },
+  {
+    "word": "Subathon",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Un stream qui dure tant qu'on s'abonne. Le chouffin trouve ça épique, mais il faut bien dormir un jour.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Kappa",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Le visage de l'ironie sur Twitch. Le chouffin le poste après chaque blague douteuse, pour se couvrir.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "KEKW",
+    "chouffin": true,
+    "score": 64,
+    "reason": "L'emote du fou rire. Le chouffin la spamme dès qu'un streamer rate un saut facile.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Copium",
+    "chouffin": true,
+    "score": 58,
+    "reason": "S'inhaler de l'espoir quand tout est perdu. Le chouffin en consomme une dose à chaque report de jeu.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "cope"
+    ]
+  },
+  {
+    "word": "Kick",
+    "chouffin": false,
+    "score": 18,
+    "reason": "La plateforme concurrente de Twitch. Le chouffin reste fidèle à sa taverne violette.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Oiseau bleu",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le logo historique de Twitter. Le chouffin le regrette un peu : un oiseau, c'était plus noble qu'une lettre toute seule.",
+    "category": "youtube-internet",
+    "aliases": [
+      "logo twitter"
+    ]
+  },
+  {
+    "word": "Tweet",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Un message court. Le chouffin, lui, tweete sur le lore de Warhammer, et il en poste quarante d'affilée.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Retweet",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Partager sans rien ajouter. Le chouffin retweete surtout des fan arts de Gandalf.",
+    "category": "youtube-internet",
+    "aliases": [
+      "rt"
+    ]
+  },
+  {
+    "word": "Thread",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le fil de tweets numérotés. Le chouffin en écrit un de 47 messages sur la chronologie de Star Wars. 1/47.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "fil twitter",
+      "thread twitter"
+    ]
+  },
+  {
+    "word": "Ratio",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Quand la réponse récolte plus de likes que le tweet. Le chouffin préfère gagner ses duels au jet d'initiative.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "TT",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Les tendances de Twitter. Le chouffin ne s'y intéresse que quand Kaamelott passe en top tendance.",
+    "category": "youtube-internet",
+    "aliases": [
+      "trending topic",
+      "top tendance",
+      "tendances twitter"
+    ]
+  },
+  {
+    "word": "Fail Whale",
+    "chouffin": true,
+    "score": 64,
+    "reason": "La baleine portée par des oiseaux quand Twitter plantait. Le chouffin la regrette comme un vieux boss de donjon.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "baleine twitter"
+    ]
+  },
+  {
+    "word": "Œuf Twitter",
+    "chouffin": false,
+    "score": 22,
+    "reason": "L'avatar par défaut des comptes anonymes. Le chouffin s'en méfie comme d'un PNJ sans nom qui propose une quête.",
+    "category": "youtube-internet",
+    "aliases": [
+      "compte oeuf"
+    ]
+  },
+  {
+    "word": "Community Notes",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des notes collectives pour corriger les tweets trompeurs. Le chouffin zététicien y voit un sort de Dissipation de la magie.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "notes de la communaute",
+      "note de communaute"
+    ]
+  },
+  {
+    "word": "X",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Twitter devenu une simple lettre. Le chouffin dit toujours « Twitter », par principe, comme il dit encore « Raider ».",
+    "category": "youtube-internet",
+    "aliases": [
+      "x com",
+      "ex twitter"
+    ]
+  },
+  {
+    "word": "Compte parodique",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Dark Vador qui tweete sa vie de bureau, Sauron qui râle. Le chouffin les suit tous et les cite en soirée.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "compte parodie",
+      "parody account"
+    ]
+  },
+  {
+    "word": "Tweet de marque",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Une marque qui fait de l'humour pour vendre. Le chouffin rit, mais n'achète que si c'est une bière belge.",
+    "category": "youtube-internet",
+    "aliases": [
+      "twitter des marques",
+      "brand twitter"
+    ]
+  },
+  {
+    "word": "Community manager",
+    "chouffin": false,
+    "score": 34,
+    "reason": "La personne derrière le compte de la marque. Le chouffin la respecte dès qu'elle cite Kaamelott.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Twitter geek",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Débats sur la prélogie, fan arts et threads de lore. Le coin de Twitter où le chouffin se sent chez lui.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "twitter des geeks",
+      "geek twitter"
+    ]
+  },
+  {
+    "word": "Twitter drama",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Un clash, des captures d'écran, du popcorn. Le chouffin suit, mais préfère les trahisons de Game of Thrones.",
+    "category": "youtube-internet",
+    "aliases": [
+      "drama twitter"
+    ]
+  },
+  {
+    "word": "TweetDeck",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Dix colonnes de tweets à l'écran. Le chouffin s'en servait comme du tableau de bord d'un vaisseau spatial.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "tweet deck"
+    ]
+  },
+  {
+    "word": "Twitter Spaces",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Des salons audio en direct. Le chouffin préfère Discord, avec sa guilde et sa soundboard.",
+    "category": "youtube-internet",
+    "aliases": [
+      "spaces"
+    ]
+  },
+  {
+    "word": "Tweet épinglé",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Le tweet affiché en haut du profil. Celui du chouffin est une citation de Kaamelott depuis 2014.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Sondage Twitter",
+    "chouffin": false,
+    "score": 46,
+    "reason": "« Gandalf ou Dumbledore ? » Le chouffin lance le sondage, puis conteste le résultat en réponse.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Live-tweet",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Commenter en direct la rediffusion du Seigneur des Anneaux. Le chouffin le fait à chaque fois, avec une ferveur intacte.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Subtweet",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Critiquer quelqu'un sans le nommer. Le chouffin préfère le défier en duel, à l'épée en mousse.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Shadowban",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Être rendu invisible sans le savoir. Le chouffin y voit un sort d'invisibilité lancé par un mage débutant.",
+    "category": "youtube-internet",
+    "aliases": [
+      "shadow ban"
+    ]
+  },
+  {
+    "word": "Coche bleue",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Jadis un gage de notoriété, aujourd'hui un abonnement. Le chouffin préfère un blason, c'est plus classe.",
+    "category": "youtube-internet",
+    "aliases": [
+      "badge bleu",
+      "twitter blue",
+      "compte certifie"
+    ]
+  },
+  {
+    "word": "DM",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Les messages privés. Le chouffin y envoie des mèmes Kaamelott à 3 h du matin.",
+    "category": "youtube-internet",
+    "aliases": [
+      "message prive",
+      "direct message",
+      "mp"
+    ]
+  },
+  {
+    "word": "Follow",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Suivre un compte. Le chouffin suit surtout des comptes de fan arts et de figurines peintes.",
+    "category": "youtube-internet",
+    "aliases": [
+      "follow back",
+      "followers"
+    ]
+  },
+  {
+    "word": "Unfollow",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Se désabonner sans prévenir. Le chouffin le fait à quiconque dit du mal des films de Peter Jackson.",
+    "category": "youtube-internet",
+    "aliases": [
+      "desabonnement"
+    ]
+  },
+  {
+    "word": "Block",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Bloquer un compte. Le chouffin s'en sert comme d'un bouclier de paladin, avec parcimonie.",
+    "category": "youtube-internet",
+    "aliases": [
+      "bloquer",
+      "blocage"
+    ]
+  },
+  {
+    "word": "Mute",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Masquer sans bloquer. Le chouffin s'en sert surtout pour éviter les spoilers le jour d'une sortie.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Tweet supprimé",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Il existait, puis il a disparu. Le chouffin avait une capture, bien sûr, en bon archiviste de lore.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Vieux tweets",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Ils ressortent toujours au pire moment. Le chouffin, lui, n'a tweeté que du Kaamelott : il dort tranquille.",
+    "category": "youtube-internet",
+    "aliases": [
+      "ressortir les vieux tweets"
+    ]
+  },
+  {
+    "word": "Screenshot",
+    "chouffin": false,
+    "score": 22,
+    "reason": "La preuve ultime du drama. Le chouffin, lui, fait surtout des captures de ses loots rares.",
+    "category": "youtube-internet",
+    "aliases": [
+      "capture d'ecran",
+      "screen"
+    ]
+  },
+  {
+    "word": "Twittos",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Les habitants de Twitter. Le chouffin en fait partie, dans le quartier geek, juste à côté de la taverne.",
+    "category": "youtube-internet",
+    "aliases": [
+      "tweetos",
+      "twittas"
+    ]
+  },
+  {
+    "word": "Twittosphère",
+    "chouffin": false,
+    "score": 22,
+    "reason": "L'ensemble de Twitter. Le chouffin n'en connaît qu'une province : celle des débats sur le lore.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Timeline",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Le fil des tweets. Le chouffin y fait défiler des fan arts d'Elden Ring jusqu'à l'aube.",
+    "category": "youtube-internet",
+    "aliases": [
+      "tl",
+      "fil d'actualite"
+    ]
+  },
+  {
+    "word": "Onglet Pour vous",
+    "chouffin": false,
+    "score": 12,
+    "reason": "L'algorithme décide ce que tu vois. Le chouffin préfère que ce soit le MJ qui décide.",
+    "category": "youtube-internet",
+    "aliases": [
+      "pour vous",
+      "for you"
+    ]
+  },
+  {
+    "word": "280 caractères",
+    "chouffin": false,
+    "score": 30,
+    "reason": "La limite d'un tweet. Le chouffin la trouve bien trop courte pour résumer la bataille du Gouffre de Helm.",
+    "category": "youtube-internet",
+    "aliases": [
+      "140 caracteres"
+    ]
+  },
+  {
+    "word": "Photo de profil",
+    "chouffin": false,
+    "score": 16,
+    "reason": "La vitrine de ton compte. Celle du chouffin : son perso de WoW, ou un Gandalf.",
+    "category": "youtube-internet",
+    "aliases": [
+      "pp",
+      "pdp"
+    ]
+  },
+  {
+    "word": "Bannière Twitter",
+    "chouffin": false,
+    "score": 14,
+    "reason": "L'image en haut du profil. Le chouffin y met un paysage de Skyrim, évidemment.",
+    "category": "youtube-internet",
+    "aliases": [
+      "header twitter"
+    ]
+  },
+  {
+    "word": "Bouton Modifier",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Réclamé pendant des années pour corriger ses fautes. Le chouffin s'en sert pour changer « Gandalf le Gris » en « le Blanc ».",
+    "category": "youtube-internet",
+    "aliases": [
+      "bouton editer",
+      "edit button"
+    ]
+  },
+  {
+    "word": "Bluesky",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le refuge des exilés de Twitter. Le chouffin y a ouvert un compte, puis il est retourné sur Discord.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Mastodon",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un réseau social libre et décentralisé, et un groupe de métal. Le chouffin est comblé deux fois.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Tumblr",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le royaume des fandoms, des GIF et des théories sur Doctor Who. Le chouffin y a passé ses plus belles nuits.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Vine",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Six secondes de vidéo en boucle. Le chouffin regrette cette époque, avant que tout ne devienne TikTok.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Periscope",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Le live façon Twitter, disparu depuis. Le chouffin ne s'en souvient pas, il était déjà sur Twitch.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Mot-dièse",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Le terme officiel pour hashtag. Le chouffin l'emploie pour faire le malin, comme un vieux mage pédant.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Gazouillis",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le mot québécois pour tweet. Le chouffin le trouve charmant, presque elfique.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Concours RT + Follow",
+    "chouffin": false,
+    "score": 32,
+    "reason": "RT, follow, et peut-être une clé Steam à la clé. Le chouffin participe à tous et n'a jamais rien gagné.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "giveaway",
+      "concours twitter"
+    ]
+  },
+  {
+    "word": "Tweet viral",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Des milliers de likes en une heure. Le chouffin n'en a eu qu'un, une blague sur Perceval, et il en parle encore.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Bad buzz",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Quand un tweet tourne au désastre. Le chouffin préfère les désastres de ses parties de D&D.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Shitpost",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Poster n'importe quoi, pour rire. Un art des forums que le chouffin pratique depuis le Blabla 18-25.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "shitposting"
+    ]
+  },
+  {
+    "word": "Ragebait",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Un tweet conçu pour énerver. Le chouffin ne mord que si on critique Kaamelott.",
+    "category": "youtube-internet",
+    "aliases": [
+      "rage bait"
+    ]
+  },
+  {
+    "word": "Doomscrolling",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Faire défiler des mauvaises nouvelles jusqu'à l'aube. Le chouffin préfère faire défiler un wiki Fandom.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Touch grass",
+    "chouffin": false,
+    "score": 44,
+    "reason": "« Va toucher de l'herbe. » Le chouffin y va, mais en GN, avec une épée en mousse.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "va toucher de l'herbe",
+      "touche de l'herbe"
+    ]
+  },
+  {
+    "word": "Chronically online",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Trop longtemps en ligne, et ça se voit. Le chouffin conteste : il se déconnecte pour ses parties de JDR.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Main character",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Se prendre pour le héros de l'histoire. Le chouffin, lui, sait qu'il est le barde du groupe.",
+    "category": "youtube-internet",
+    "aliases": [
+      "main character syndrome"
+    ]
+  },
+  {
+    "word": "Rent free",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Occuper l'esprit de quelqu'un gratuitement. La fin de Game of Thrones vit dans la tête du chouffin sans payer de loyer.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Skill issue",
+    "chouffin": true,
+    "score": 70,
+    "reason": "« Problème de compétence. » Le chouffin le sort à chaque mort dans Elden Ring, sauf les siennes.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Stan",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le fan extrême, roi du Twitter K-pop. Le chouffin est pareil avec Kaamelott, mais il appelle ça de la culture.",
+    "category": "youtube-internet",
+    "tribe": "weeb",
+    "aliases": [
+      "stan twitter"
+    ]
+  },
+  {
+    "word": "Fancam",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Une vidéo d'idole K-pop postée en réponse à tout. Le chouffin, lui, répond avec un GIF de Perceval.",
+    "category": "youtube-internet",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Mutuals",
+    "chouffin": false,
+    "score": 18,
+    "reason": "On se suit l'un l'autre. Pour le chouffin, c'est un pacte de guilde.",
+    "category": "youtube-internet",
+    "aliases": [
+      "moots"
+    ]
+  },
+  {
+    "word": "Sheh",
+    "chouffin": false,
+    "score": 30,
+    "reason": "« Bien fait ! » en une syllabe. Le chouffin le pense quand l'orc rate son jet, mais il reste fair-play.",
+    "category": "youtube-internet",
+    "aliases": [
+      "cheh"
+    ]
+  }
+]

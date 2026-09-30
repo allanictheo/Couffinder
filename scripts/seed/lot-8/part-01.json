@@ -1,0 +1,869 @@
+[
+  {
+    "word": "Science Étonnante",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Paradoxes, physique quantique et maths au calme. Le chouffin la regarde trois fois, puis l'explique à la taverne comme un maître.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "david louapre"
+    ]
+  },
+  {
+    "word": "Scilabus",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Des expériences maison pour démonter les idées reçues. Le chouffin les refait dans sa cuisine, lunettes de protection sur le nez.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Linguisticae",
+    "chouffin": true,
+    "score": 76,
+    "reason": "L'histoire des langues racontée avec passion. Le chouffin y comprend enfin pourquoi le vieil anglais sonne comme du Tolkien.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Le Monde à L'envers",
+    "chouffin": true,
+    "score": 58,
+    "reason": "De la vulgarisation qui retourne les idées reçues comme une crêpe. Le chouffin approuve, surtout si ça finit en débat à 2 h du matin.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Axolot",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Curiosités, mystères et bizarreries du monde. Le chouffin y puise ses anecdotes pour briller entre deux parties de JDR.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "patrick baud"
+    ]
+  },
+  {
+    "word": "Hygiène Mentale",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Esprit critique et biais cognitifs, expliqués pas à pas. Le chouffin zététicien la recommande à chaque repas de famille.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Defakator",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Il démonte les vidéos truquées et les fausses infos avec humour. Le chouffin adore voir un OVNI redevenir un sac plastique.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Micode",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Hacking, cybersécurité et arnaques en ligne décortiquées. Le chouffin se sent pirate d'élite depuis qu'il a ouvert un terminal.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Underscore_",
+    "chouffin": true,
+    "score": 68,
+    "reason": "L'émission tech où l'on parle IA, hacking et bidouille. Le chouffin la regarde en direct, un Raspberry Pi sur les genoux.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Monsieur Bidouille",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Électronique, soudure et projets maison. Le chouffin a un fer à souder, trois Arduino et zéro projet fini. Mais il y croit.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Heu?reka",
+    "chouffin": true,
+    "score": 54,
+    "reason": "L'économie et la finance expliquées sans jargon. Le chouffin regarde surtout pour comprendre l'inflation du prix de la Chouffe.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Monsieur Phi",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Philosophie et paradoxes, avec un humour pince-sans-rire. Le chouffin y découvre que le bateau de Thésée est un débat de lore.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Le Réveilleur",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Énergie et climat expliqués avec des chiffres, beaucoup de chiffres. Le chouffin suit, sa calculatrice de MJ à la main.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "ScienceClic",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Relativité et trous noirs en animations superbes. Le chouffin la regarde après Interstellar pour vérifier que Nolan n'a pas triché.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "science clic"
+    ]
+  },
+  {
+    "word": "Balade Mentale",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Des vidéos contemplatives sur l'univers et le temps. Le chouffin les regarde à 2 h du matin et se sent tout petit, Chouffe en main.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Doc Seven",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Anecdotes et listes de faits étonnants. Le chouffin en ressort avec dix trucs à placer au prochain apéro, et il les placera tous.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Le Vortex",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Des vulgarisateurs réunis sur une même chaîne. Le chouffin y retrouve ses YouTubeurs préférés comme dans un crossover Marvel.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Mr Sam",
+    "chouffin": true,
+    "score": 62,
+    "reason": "L'actu scientifique passée au crible. Le chouffin zététicien adore voir une étude « révolutionnaire » se dégonfler en direct.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "mr sam point d'actu",
+      "point d'actu"
+    ]
+  },
+  {
+    "word": "Stupid Economics",
+    "chouffin": false,
+    "score": 48,
+    "reason": "L'économie racontée avec des blagues, c'est malin. Le chouffin rit, mais il préfère l'économie d'un village de Warhammer.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "L'Esprit Sorcier",
+    "chouffin": true,
+    "score": 64,
+    "reason": "La science façon « C'est pas sorcier », version web. Le chouffin approuve et réclame juste le retour du camion.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Le Précepteur",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Des cours de philo au coin du feu. Le chouffin écoute Platon comme un podcast de lore, les yeux mi-clos.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Mamytwink",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Mystères, lieux abandonnés et légendes urbaines. Le chouffin adore, tant qu'on ne lui demande pas de descendre à la cave.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Zeste de Science",
+    "chouffin": true,
+    "score": 56,
+    "reason": "La recherche du CNRS en format court et coloré. Le chouffin la partage pour prouver que son goût du bizarre est scientifique.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "La Statistique expliquée à mon chat",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Les stats racontées à un chat. Le chouffin comprend enfin pourquoi il rate ses jets de dés, et ce n'est pas la faute du dé.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Grafikart",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Des tutos de développement web par centaines. Le chouffin y a appris à coder le site de sa guilde, jamais mis à jour depuis 2012.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Graven",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Tutos de programmation et plugins Minecraft. Le chouffin a lancé son serveur : trois joueurs, dont lui et son chat.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Cocadmin",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Serveurs, Linux et vie d'admin système. Le chouffin y apprend à auto-héberger le wiki de sa campagne de JDR.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Deus Ex Silicium",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Il démonte le matériel informatique pièce par pièce. Le chouffin contemple ces cartes mères comme des reliques sacrées.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Max Bird",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un humoriste qui vulgarise sur scène. Le chouffin adore apprendre en rigolant, surtout quand ça parle de dinosaures.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Hugo Lisoir",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Astronomie, fusées et ciel étoilé. Le chouffin sort son télescope, vise Jupiter et tombe sur le lampadaire du voisin.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Feldup",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Il explore les recoins étranges d'Internet. Le chouffin regarde en pleine nuit, puis dort lumière allumée sans jamais l'avouer.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Bruce Benamran",
+    "chouffin": true,
+    "score": 84,
+    "reason": "La voix d'e-penser. Le chouffin a appris la relativité avec lui et en parle comme d'un maître Jedi de la vulga.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Fabien Olicard",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Mentalisme et mémoire, c'est bluffant. Le chouffin apprécie, mais il aurait préféré un vrai sort de Détection des pensées.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Et tout le monde s'en fout",
+    "chouffin": true,
+    "score": 56,
+    "reason": "De courts monologues sur les grandes questions de la vie. Le chouffin se reconnaît dans chaque épisode, et fait semblant que non.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Lama Faché",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Des anecdotes rapides et amusantes. Le chouffin les regarde, mais trouve qu'il manque cruellement de dragons.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Yvan Monka",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Le prof de maths qui a sauvé des générations de lycéens. Le chouffin le remercie pour les probabilités de ses d20.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "HugoDécrypte",
+    "chouffin": false,
+    "score": 32,
+    "reason": "L'actu expliquée vite et clairement. Le chouffin préfère les nouvelles de la Terre du Milieu, mais il jette un œil.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Konbini",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Interviews et formats viraux. Le chouffin n'y va que si un acteur du Seigneur des Anneaux passe au Fast & Curious.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Passé Sauvage",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Histoire et archéologie racontées avec passion. Le chouffin y découvre la vraie vie des chevaliers, sans armure étincelante.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Histony",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Des vidéos d'histoire précises et sourcées. Le chouffin les cite pour contredire son pote qui a tout appris dans Assassin's Creed.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "C'est une autre histoire",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Mythologie et histoire de l'art racontées avec humour. Le chouffin y retrouve Zeus, sa famille compliquée et ses mauvais choix.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "manon bril"
+    ]
+  },
+  {
+    "word": "L'Histoire nous le dira",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un historien raconte le passé avec entrain et mille anecdotes. Le chouffin en ressort avec de quoi animer dix banquets.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Confessions d'Histoire",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Les grandes figures de l'Histoire se confient face caméra. Le chouffin rêve d'un épisode spécial chevaliers de la Table ronde.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Benjamin Brillaud",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le visage de Nota Bene. Pour le chouffin, un barde moderne qui raconte les batailles mieux que n'importe quel ménestrel.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Parlons Y-stoire",
+    "chouffin": true,
+    "score": 58,
+    "reason": "L'histoire racontée comme une discussion entre potes. Le chouffin l'écoute en peignant ses figurines : le combo parfait.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Actuel Moyen Âge",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Des historiens qui démontent les clichés sur le Moyen Âge. Le chouffin découvre que les chevaliers se lavaient. Choc.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Hooper",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Du gaming et des délires en vidéo depuis des années. Le chouffin le suit par nostalgie, entre deux runs de Dark Souls.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Mathieu Sommet",
+    "chouffin": true,
+    "score": 82,
+    "reason": "La voix de Salut les Geeks et de ses personnages. Le chouffin connaît les répliques par cœur, dans l'ordre.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "matthieu sommet"
+    ]
+  },
+  {
+    "word": "Kameto",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Le fondateur de la Karmine Corp et de ses chants de stade. Le chouffin salue l'épopée, mais préfère la taverne aux tribunes.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "kamet0"
+    ]
+  },
+  {
+    "word": "Ponce",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Des lives gaming détendus et une communauté fidèle. Le chouffin y passe ses soirées, plaid sur les genoux et Chouffe à côté.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Laink",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Une moitié de Wankil. Le chouffin a les larmes aux yeux dès qu'il s'égosille sur un jeu indé improbable.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Terracid",
+    "chouffin": true,
+    "score": 74,
+    "reason": "L'autre moitié de Wankil. Le chouffin rit avant même la chute, par pur réflexe.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Humility",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Du stream gaming entre potes, sans prise de tête. Le chouffin y retrouve l'ambiance d'une LAN de 2008, les pizzas froides en moins.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Doigby",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Des lives gaming et des événements communautaires. Le chouffin vient pour le jeu, il reste pour le chat en délire.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "MisterJDay",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Des vidéos gaming depuis la préhistoire de YouTube. Le chouffin l'a découvert au lycée et ne l'a jamais lâché.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "mister jday"
+    ]
+  },
+  {
+    "word": "Seb la Frite",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Du divertissement grand public et de la bonne humeur. Le chouffin sourit, mais il cherche encore le rapport avec les dragons.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Fanta et Bob",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Bob Lennon et Fanta dans leurs aventures Minecraft. Le chouffin a tout vu et se souvient de chaque blague.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "fantabobshow"
+    ]
+  },
+  {
+    "word": "Frigiel",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Minecraft, encore et toujours, et même des BD avec Fluffy. Le chouffin a construit la même base que lui, en moins droit.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Jiraya",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Minecraft et délires de stream. Le chouffin le regardait après le collège, il y retourne après le boulot.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "jirayalecochon"
+    ]
+  },
+  {
+    "word": "Kenbogard",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Tout sur les jeux de combat, de Street Fighter à Tekken. Le chouffin connaît les combos par cœur, pas les manipulations. Nuance.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Kayane",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Une figure des jeux de combat en France depuis Soulcalibur. Le chouffin respecte, lui gagne surtout en tapant sur tous les boutons.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "ZLAN",
+    "chouffin": true,
+    "score": 72,
+    "reason": "La LAN géante de ZeratoR et ses épreuves improbables. Le chouffin y revoit sa LAN de 2007, avec des câbles partout.",
+    "category": "lieux-events",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Speedons",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un marathon de speedrun caritatif à la française. Le chouffin fait un don, puis regarde un inconnu finir Zelda en 20 minutes.",
+    "category": "lieux-events",
+    "tribe": "gamer"
+  },
+  {
+    "word": "GP Explorer",
+    "chouffin": false,
+    "score": 36,
+    "reason": "La course automobile des YouTubeurs. Le chouffin regarde, mais il préfère Mario Kart et sa carapace bleue.",
+    "category": "lieux-events"
+  },
+  {
+    "word": "Le Bazar du Grenier",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Seb et Fred testent des objets et racontent des histoires. Le chouffin y a trouvé sa série de JDR préférée : Aventures.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Sébastien Rassiat",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Seb du Grenier, ses fous rires et ses parties de JDR. Pour le chouffin, un pilier de la taverne YouTube.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "seb du grenier"
+    ]
+  },
+  {
+    "word": "Frédéric Molas",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Fred du Grenier, le compère de toujours de Seb. Le chouffin le suit du Joueur du Grenier jusqu'aux Aventures.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "fred du grenier"
+    ]
+  },
+  {
+    "word": "Mahyar Shakeri",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le MJ d'Aventures. Le chouffin le prend pour modèle quand il improvise une quête à sa table du samedi.",
+    "category": "youtube-internet",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Krayn",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Streamer et joueur d'Aventures. Le chouffin le suit de ses lives jusqu'aux donjons du Bazar du Grenier.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Chroma",
+    "chouffin": true,
+    "score": 72,
+    "reason": "La série de Karim Debbache sur le cinéma. Le chouffin attend encore la suite, comme il attend le prochain livre de George R. R. Martin.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Crossed",
+    "chouffin": true,
+    "score": 76,
+    "reason": "L'émission de Karim Debbache sur les films adaptés de jeux vidéo. Le chouffin y a compris pourquoi certaines adaptations font si mal.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Wankul",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le jeu de cartes à collectionner de Wankil. Le chouffin a ouvert trop de boosters, et jure que c'est pour la collection.",
+    "category": "fantasy-jdr",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Samuel Étienne",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Le présentateur de Questions pour un champion devenu streamer de revue de presse. Le chouffin adore ce crossover improbable.",
+    "category": "personnalites",
+    "tribe": "gamer",
+    "aliases": [
+      "samuel etienne twitch"
+    ]
+  },
+  {
+    "word": "Joyca",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Des défis et du divertissement pour ados. Le chouffin se sent soudain très vieux et va boire un hydromel pour oublier.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "David Lafarge Pokémon",
+    "chouffin": true,
+    "score": 72,
+    "reason": "« Hé, salut à tous les amis ! » L'actu Pokémon GO en continu. Le chouffin connaît l'intro mieux que l'hymne national.",
+    "category": "youtube-internet",
+    "tribe": "gamer",
+    "aliases": [
+      "david lafarge"
+    ]
+  },
+  {
+    "word": "Julien Tellouck",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Un visage de Game One. Le chouffin a grandi avec lui, devant la télé, manette en main.",
+    "category": "personnalites",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Gaming Live",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Les vidéos de gameplay de jeuxvideo.com. Le chouffin les regardait avant d'acheter un jeu, ou à la place.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Pix'n Love",
+    "chouffin": true,
+    "score": 70,
+    "reason": "De beaux livres sur l'histoire du jeu vidéo. Le chouffin en a une étagère entière, rangée par console.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Gamekult",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le site aux notes sévères et aux débats passionnés. Le chouffin a hurlé pour un 6/10, puis s'est abonné.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Twitch Plays Pokémon",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Des milliers de joueurs pour un seul Pokémon Rouge. Le chouffin prie encore le Fossile Nautile et raconte l'épopée.",
+    "category": "youtube-internet",
+    "tribe": "gamer"
+  },
+  {
+    "word": "François Descraques",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le papa du Visiteur du futur. Le chouffin pense à lui à chaque paradoxe temporel qu'il tente d'expliquer à ses amis.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Davy Mourier",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Nolife, Nerdz et des BD sur la mort qui font rire. Pour le chouffin, un pilier de la culture geek française.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Pen of Chaos",
+    "chouffin": true,
+    "score": 95,
+    "reason": "Le créateur du Donjon de Naheulbeuk. Pour le chouffin, c'est un demi-dieu. Ou un Nain, mais un Nain légendaire.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "john lang"
+    ]
+  },
+  {
+    "word": "Reflets d'Acide",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Une saga audio de fantasy en alexandrins. Le chouffin la déclame en vers à la taverne, et personne n'ose l'arrêter.",
+    "category": "youtube-internet",
+    "tribe": "roliste",
+    "aliases": [
+      "jbx"
+    ]
+  },
+  {
+    "word": "Les Kassos",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Les dessins animés de ton enfance, version trash. Le chouffin rit un peu trop fort, puis fait mine d'être choqué.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Palmashow",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Des sketchs et des parodies de haute volée. Le chouffin adore, mais tonton aussi, alors ça ne compte pas vraiment.",
+    "category": "youtube-internet",
+    "aliases": [
+      "palma show"
+    ]
+  },
+  {
+    "word": "Bapt&Gael",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Des sketchs efficaces sur la vie quotidienne. Le chouffin trouve qu'il manque juste un donjon et un dragon.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Le Woop",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Des sketchs de bande de potes. Sympathique, mais le chouffin attend toujours l'épisode dans une taverne.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Lolywood",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Des sketchs et des parodies bien produits. Le chouffin rit, mais il n'y trouve pas assez de lore.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Jhon Rachid",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Humour, sketchs et regards sur la vie. Le chouffin rit, mais il attend toujours le crossover avec Kaamelott.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Mister V",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Des sketchs, du rap et des pizzas. Le chouffin ne garde que les pizzas.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Durendal",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Des critiques de films passionnées, sous le nom d'une épée légendaire. Le chouffin adhère avant même d'avoir vu la vidéo.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "Vled Tapas",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Des analyses de films et séries très fouillées. Le chouffin y apprend que Matrix est plus profond que son tee-shirt Matrix.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "InThePanda",
+    "chouffin": true,
+    "score": 60,
+    "reason": "L'actu ciné et des critiques pour cinéphiles pop. Le chouffin y guette chaque bande-annonce Marvel ou Star Wars.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "in the panda"
+    ]
+  },
+  {
+    "word": "Le Ciné-club de M. Bobine",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Des analyses de films savantes. Le chouffin en retient deux mots compliqués et les ressort au prochain Star Wars.",
+    "category": "youtube-internet",
+    "tribe": "geek",
+    "aliases": [
+      "monsieur bobine",
+      "m bobine"
+    ]
+  },
+  {
+    "word": "François Theurel",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Le Fossoyeur de Films en personne. Le chouffin lui confie ses soirées ciné les yeux fermés.",
+    "category": "youtube-internet",
+    "tribe": "geek"
+  },
+  {
+    "word": "EnjoyPhoenix",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Beauté et lifestyle, une star du genre. Le chouffin n'a qu'une routine : barbe, tee-shirt noir, c'est parti.",
+    "category": "youtube-internet",
+    "aliases": [
+      "enjoy phoenix"
+    ]
+  },
+  {
+    "word": "Sananas",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Maquillage et tutos beauté. Le chouffin ne se maquille que pour un GN, et avec de la peinture d'orc.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Emma CakeCup",
+    "chouffin": false,
+    "score": 10,
+    "reason": "Lifestyle et vie quotidienne. Le chouffin préfère la vie quotidienne d'un hobbit : plus de repas.",
+    "category": "youtube-internet",
+    "aliases": [
+      "emma cake cup"
+    ]
+  },
+  {
+    "word": "Juju Fitcats",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Fitness et séances de sport. Le chouffin fait du sport aussi : il porte des fûts à la fête médiévale.",
+    "category": "youtube-internet",
+    "aliases": [
+      "juju fit cats"
+    ]
+  },
+  {
+    "word": "Sissy Mua",
+    "chouffin": false,
+    "score": 7,
+    "reason": "Des séances de fitness endiablées. Le chouffin préfère le cardio du Hellfest, en plein pogo.",
+    "category": "youtube-internet"
+  },
+  {
+    "word": "Bruno Maltor",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Voyages et vlogs de globe-trotteur. Le chouffin voyage aussi, mais seulement en Nouvelle-Zélande, pour les décors.",
+    "category": "youtube-internet"
+  }
+]

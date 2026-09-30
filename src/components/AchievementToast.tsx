@@ -4,7 +4,8 @@ import { AnimatePresence, m } from "motion/react";
 import { useEffect } from "react";
 import type { Tribe } from "@/lib/types";
 import { Trophy } from "./art";
-import { TribeIcon } from "./easter-eggs/icons";
+import type { ToastTheme } from "./easter-eggs/catalog";
+import { GrassSun, TribeIcon } from "./easter-eggs/icons";
 
 export interface ToastData {
   id: number;
@@ -14,6 +15,8 @@ export interface ToastData {
   kicker?: string;
   /** Tribu du mot : l'orbe prend ses couleurs et son icône. */
   tribe?: Tribe | null;
+  /** Thème hors tribu (famille « Vie normale ») : orbe ciel et herbe. */
+  theme?: ToastTheme;
   /** « fail » pour les échecs thématiques (mouvement réduit). */
   tone?: "win" | "fail";
 }
@@ -51,8 +54,14 @@ export function AchievementToast({ toast, onDismiss }: { toast: ToastData | null
               clipPath: { delay: 0.3, duration: 0.5, ease: [0.16, 1, 0.3, 1] },
             }}
           >
-            <span className="achievement-orb grid size-12 shrink-0 place-items-center" data-tribe={toast.tribe ?? undefined}>
-              {toast.tribe ? <TribeIcon tribe={toast.tribe} className="size-7" /> : <Trophy className="size-6" />}
+            <span className="achievement-orb grid size-12 shrink-0 place-items-center" data-tribe={toast.tribe ?? undefined} data-theme={toast.theme}>
+              {toast.tribe ? (
+                <TribeIcon tribe={toast.tribe} className="size-7" />
+              ) : toast.theme === "vie-normale" ? (
+                <GrassSun className="size-7" />
+              ) : (
+                <Trophy className="size-6" />
+              )}
             </span>
             <span className="flex min-w-0 flex-col leading-tight">
               <span className={`text-xs ${failed ? "text-[#ffb3ba]" : "text-white/75"}`}>

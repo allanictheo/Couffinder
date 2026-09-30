@@ -1,0 +1,1234 @@
+[
+  {
+    "word": "Marty McFly",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Il a joué Johnny B. Goode au bal de 1955. Le chouffin attend toujours l'hoverboard promis pour 2015, et il le fait savoir.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "marty"
+    ]
+  },
+  {
+    "word": "Neo",
+    "chouffin": true,
+    "score": 90,
+    "reason": "L'Élu en long manteau noir. Le chouffin a esquivé une balle de ping-pong au ralenti en 2003 et ne s'en est jamais remis.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "thomas anderson"
+    ]
+  },
+  {
+    "word": "Morpheus",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Pilule rouge ou pilule bleue ? Le chouffin choisit la rouge et vous explique la simulation jusqu'à 4 h du matin.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Agent Smith",
+    "chouffin": true,
+    "score": 82,
+    "reason": "« Monsieur Anderson... » Le chouffin imite la voix à chaque réunion. Ses collègues ont peur qu'il se duplique.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Trinity",
+    "chouffin": true,
+    "score": 66,
+    "reason": "La hackeuse qui court sur les murs. Le chouffin a tenté la pose en soirée costumée, avec un imperméable de supermarché.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Ellen Ripley",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Elle affronte la reine Alien en exosquelette de chantier. Le chouffin la place tout en haut de sa liste des héros de SF.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "ripley"
+    ]
+  },
+  {
+    "word": "Xénomorphe",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Double mâchoire, sang acide, design signé Giger. Le chouffin en a une figurine qui terrorise sa mère depuis 2009.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "xenomorph"
+    ]
+  },
+  {
+    "word": "Sarah Connor",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Elle prépare l'humanité à la guerre contre les machines. Le chouffin aussi : il débranche son grille-pain avant de partir.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "T-1000",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le robot en métal liquide qui traverse les barreaux. Le chouffin se demande encore comment il garde l'uniforme repassé.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Robocop",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Mi-homme, mi-machine, tout flic. Le chouffin a la VHS et défend le premier film comme une satire géniale.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Mad Max",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Un taiseux, une voiture et un désert post-apo. Le chouffin a customisé sa Clio pareil, mais en autocollants.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "max rockatansky"
+    ]
+  },
+  {
+    "word": "Gizmo",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Pas d'eau, pas de lumière, rien à manger après minuit. Le chouffin applique ces règles à son chat, par prudence.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Bibendum Chamallow",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Il fallait ne penser à rien, Ray a pensé à lui. Le chouffin grille ses chamallows au barbecue avec un air vengeur.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "stay puft",
+      "marshmallow man"
+    ]
+  },
+  {
+    "word": "HAL 9000",
+    "chouffin": true,
+    "score": 78,
+    "reason": "« Je suis désolé, Dave. » Le chouffin parle poliment à son assistant vocal, au cas où. On ne sait jamais.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "hal"
+    ]
+  },
+  {
+    "word": "Roy Batty",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le monologue des larmes dans la pluie. Le chouffin le récite sous la douche, ce qui est nettement moins poétique.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Paul Atréides",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Un messie du désert, des vers géants et l'Épice. Le chouffin a lu les six tomes et vous le rappelle à chaque film.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "muad'dib"
+    ]
+  },
+  {
+    "word": "Palpatine",
+    "chouffin": true,
+    "score": 90,
+    "reason": "« Fais-le. » « Je suis le Sénat. » Le chouffin a un mème de Palpatine pour chaque situation, repas de famille compris.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "dark sidious",
+      "darth sidious",
+      "empereur palpatine"
+    ]
+  },
+  {
+    "word": "Leia Organa",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Princesse, générale et reine de la répartie. Le chouffin la cite plus souvent que Luke, et il sait faire la coiffure.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "princesse leia",
+      "leia"
+    ]
+  },
+  {
+    "word": "Général Grievous",
+    "chouffin": true,
+    "score": 78,
+    "reason": "« Général Kenobi ! » Quatre sabres et une toux terrible. Le chouffin répond à chaque « Hello there » depuis quinze ans.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "grievous"
+    ]
+  },
+  {
+    "word": "Amiral Ackbar",
+    "chouffin": true,
+    "score": 72,
+    "reason": "« C'est un piège ! » Le chouffin le crie dès qu'on lui propose un brunch. Trois mots, une carrière, une légende.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "ackbar",
+      "admiral ackbar"
+    ]
+  },
+  {
+    "word": "Greedo",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Han a tiré le premier, point final. Le chouffin a cessé de parler à un cousin qui défendait la version remasterisée.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Ron Weasley",
+    "chouffin": true,
+    "score": 66,
+    "reason": "L'ami fidèle qui a peur des araignées et adore les chocogrenouilles. Le chouffin s'y reconnaît, surtout pour les chocogrenouilles.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Dobby",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« Dobby est libre ! » Le chouffin laisse traîner une chaussette sur son bureau en hommage. C'est son excuse officielle.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Sirius Black",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le parrain rebelle à la moto volante qui se change en gros chien noir. Le chouffin le trouve plus rock que Harry.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Neville Londubat",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le timide devenu héros, épée de Gryffondor en main. Le chouffin y voit sa propre trajectoire, en attendant l'épée.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "neville longbottom"
+    ]
+  },
+  {
+    "word": "Star-Lord",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un walkman, une mixtape des années 70 et un vaisseau. Le chouffin a la même compil, recopiée en playlist.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "peter quill"
+    ]
+  },
+  {
+    "word": "Rocket Raccoon",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un raton laveur génie de la mécanique, mauvais caractère inclus. Le chouffin démonte aussi tout ce qu'il touche, sans le talent.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Magneto",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le méchant qui a parfois raison, avec un casque magnifique. Le chouffin débat encore de Magneto contre Xavier à 3 h.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Alfred Pennyworth",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le majordome qui recoud Batman et sert le thé. Le chouffin rêve d'un Alfred, il a un coloc qui fait la vaisselle une fois l'an.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "alfred"
+    ]
+  },
+  {
+    "word": "Bane",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le masque, la voix et un plan d'une complexité folle. Le chouffin fait l'imitation en soirée, ses amis mettent des bouchons.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Hellboy",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Un démon rouge au grand cœur qui aime les chats et les pancakes. Le chouffin a trouvé son modèle de dimanche matin.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Korben Dallas",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Chauffeur de taxi volant qui sauve l'univers entre deux amendes. Le chouffin a vu Le Cinquième Élément quarante fois.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "korben"
+    ]
+  },
+  {
+    "word": "Leeloo",
+    "chouffin": true,
+    "score": 66,
+    "reason": "« Leeloo Dallas Multipass ! » Le chouffin le crie à la caisse en tendant sa carte de fidélité. À chaque fois.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "leelou",
+      "leeloo dallas"
+    ]
+  },
+  {
+    "word": "Spock",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Oreilles pointues, logique implacable et salut vulcain. Le chouffin l'a appris à cinq ans et l'utilise encore pour dire bonjour.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "monsieur spock",
+      "mr spock"
+    ]
+  },
+  {
+    "word": "Optimus Prime",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un camion qui devient robot et fait de grands discours. Le chouffin a la figurine, et il la transforme sans notice.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "optimus"
+    ]
+  },
+  {
+    "word": "Casque Noir",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Le Vador de La Folle Histoire de l'espace, en plus petit et plus nerveux. Le chouffin le cite pour prouver sa culture.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "dark helmet"
+    ]
+  },
+  {
+    "word": "Marvin",
+    "chouffin": true,
+    "score": 76,
+    "reason": "L'androïde blasé au cerveau gros comme une planète. Le chouffin le cite chaque lundi matin, en soupirant pareil.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "marvin l androide paranoiaque"
+    ]
+  },
+  {
+    "word": "Buzz l'Éclair",
+    "chouffin": true,
+    "score": 70,
+    "reason": "« Vers l'infini et au-delà ! » Le chouffin a gardé le jouet aux ailes qui s'ouvrent. Personne n'a le droit d'y toucher.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "buzz lightyear"
+    ]
+  },
+  {
+    "word": "Le Géant de fer",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Un robot géant venu de l'espace qui rêve d'être Superman. Le chouffin le défend comme un chef-d'œuvre méconnu.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "iron giant",
+      "the iron giant"
+    ]
+  },
+  {
+    "word": "George Abitbol",
+    "chouffin": true,
+    "score": 96,
+    "reason": "L'homme le plus classe du monde. Le chouffin répond à toute critique : « Le train de tes injures roule sur le rail de mon indifférence. »",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "georges abitbol",
+      "homme le plus classe du monde"
+    ]
+  },
+  {
+    "word": "Serge Karamazov",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le garde du corps de La Cité de la peur, roi de la carioca. Le chouffin la danse à chaque mariage, sans exception.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "karamazov"
+    ]
+  },
+  {
+    "word": "Jacquouille la Fripouille",
+    "chouffin": true,
+    "score": 92,
+    "reason": "« Okayyy ! » « C'est dingue ! » Le chouffin l'imite à chaque fête médiévale, accent et démarche compris. Ses amis ont abandonné.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "jacquouille",
+      "jacouille"
+    ]
+  },
+  {
+    "word": "Godefroy de Montmirail",
+    "chouffin": true,
+    "score": 86,
+    "reason": "« Que trépasse si je faiblis ! » Le chevalier perdu dans notre époque. Le chouffin a gardé la devise pour ses entretiens d'embauche.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "godefroy",
+      "godefroy le hardi"
+    ]
+  },
+  {
+    "word": "Inigo Montoya",
+    "chouffin": true,
+    "score": 90,
+    "reason": "« Bonjour, je m'appelle Inigo Montoya... » Le chouffin se présente ainsi à chaque nouvelle table de JdR. Tout le monde finit la phrase.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "inigo"
+    ]
+  },
+  {
+    "word": "Vizzini",
+    "chouffin": true,
+    "score": 62,
+    "reason": "« Inconcevable ! » Le chouffin le dit si souvent qu'on lui rappelle que ce mot ne veut pas dire ce qu'il croit.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Falkor",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le dragon porte-bonheur à tête de chien. Le chouffin en rêvait enfant, aujourd'hui il se contente d'un coussin Falkor.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "fuchur"
+    ]
+  },
+  {
+    "word": "Chevaliers qui disent Ni",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Ils exigent un buisson. Le chouffin a déjà offert une plante verte à un ami en criant « Ni ! ». Il ne s'est jamais expliqué.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "knights who say ni",
+      "chevalier qui dit ni"
+    ]
+  },
+  {
+    "word": "Lapin de Caerbannog",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Un lapin blanc, une menace absolue, une Sainte Grenade d'Antioche. Le chouffin ne fait plus confiance aux lapins de Pâques.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "lapin tueur",
+      "killer rabbit"
+    ]
+  },
+  {
+    "word": "Tim l'Enchanteur",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un sorcier qui fait tout exploser et met en garde contre le lapin. Le chouffin a le même chapeau à cornes, pour les GN.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "tim the enchanter"
+    ]
+  },
+  {
+    "word": "Robin des Bois",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Arc, collants et forêt de Sherwood. Le chouffin a vu toutes les versions et défend celle avec le renard de Disney.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "robin hood"
+    ]
+  },
+  {
+    "word": "Guillaume de Baskerville",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un moine enquêteur dans une abbaye pleine de manuscrits. Le chouffin appelle ça « Sherlock au Moyen Âge » et adore.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "william de baskerville"
+    ]
+  },
+  {
+    "word": "Maximus",
+    "chouffin": true,
+    "score": 76,
+    "reason": "« Force et honneur. » Le chouffin le dit en levant sa chope et récite son nom complet sans respirer. Péplum validé.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "maximus decimus meridius"
+    ]
+  },
+  {
+    "word": "Shrek",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un ogre qui aime son marais et déteste qu'on le dérange. Le chouffin se reconnaît beaucoup trop, surtout le dimanche.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Krokmou",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le dragon noir qui se comporte comme un chat. Le chouffin rêve d'apprivoiser un dragon, en attendant il a un chat noir.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "toothless"
+    ]
+  },
+  {
+    "word": "Panoramix",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Druide, serpe d'or et potion magique. Le chouffin a la barbe blanche en cosplay et cherche encore la recette parfaite d'hydromel.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "getafix"
+    ]
+  },
+  {
+    "word": "Amonbofis",
+    "chouffin": true,
+    "score": 80,
+    "reason": "L'architecte rival de Numérobis, maître du sabotage. Le chouffin le cite en réunion dès qu'un collègue sabote son projet.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Éowyn",
+    "chouffin": true,
+    "score": 78,
+    "reason": "« Je ne suis pas un homme ! » Le chouffin se lève à ce moment du film. Même au cinéma. Surtout au cinéma.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Théoden",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« Où sont le cheval et le cavalier ? » Le chouffin récite le poème puis charge, à la sortie du cinéma, vers la friterie.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Pippin",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le hobbit qui fait tomber un seau dans un puits de la Moria. Le chouffin s'y reconnaît : lui aussi réveille toute la maison à 3 h.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "peregrin touque",
+      "pippin touque"
+    ]
+  },
+  {
+    "word": "Sylvebarbe",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Un Ent qui met trois jours à dire bonjour. Le chouffin a la même vitesse de décision devant une carte de bières.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "treebeard",
+      "barbebois"
+    ]
+  },
+  {
+    "word": "Roi-Sorcier d'Angmar",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le chef des Nazgûls et sa prophétie mal lue. Le chouffin explique la faille de la prophétie à tous ses dîners.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "roi sorcier",
+      "witch king"
+    ]
+  },
+  {
+    "word": "Thorin Écu-de-Chêne",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le roi nain têtu qui chante sa montagne perdue. Le chouffin fredonne « Misty Mountains » en boucle, voix grave incluse.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "thorin",
+      "thorin oakenshield"
+    ]
+  },
+  {
+    "word": "Smaug",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Un dragon couché sur une montagne d'or. Le chouffin fait pareil sur sa collection de cartes Magic, avec le même regard.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Tom Bombadil",
+    "chouffin": true,
+    "score": 94,
+    "reason": "Le grand absent des films. À 2 h du matin, le chouffin t'explique pendant une heure pourquoi c'est un scandale. Et il a raison.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "bombadil"
+    ]
+  },
+  {
+    "word": "Gwaihir",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Le seigneur des Aigles. « Pourquoi ne pas avoir volé jusqu'au Mordor ? » Le chouffin a un exposé de 40 minutes prêt à dégainer.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "seigneur des aigles",
+      "aigles geants"
+    ]
+  },
+  {
+    "word": "Doof Warrior",
+    "chouffin": true,
+    "score": 95,
+    "reason": "Une guitare lance-flammes sur un camion de tambours en plein désert. Le chouffin a trouvé le plus beau métier du monde.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "coma the doof warrior",
+      "guitariste lance flammes"
+    ]
+  },
+  {
+    "word": "Immortan Joe",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le tyran au masque à dents et à l'armée de War Boys. Le chouffin trouve le look parfait pour le Hellfest, respirateur compris.",
+    "category": "series-films",
+    "tribe": "metal"
+  },
+  {
+    "word": "Ash Williams",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Une tronçonneuse au bras et un « boomstick » face aux démons. Le chouffin préfère L'Armée des ténèbres, pour les chevaliers.",
+    "category": "series-films",
+    "tribe": "metal"
+  },
+  {
+    "word": "Eric Draven",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le corbeau, le maquillage blanc et une B.O. qui cogne. Le chouffin a eu sa période gothique, il a gardé le poster.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "the crow"
+    ]
+  },
+  {
+    "word": "Ghost Rider",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Un crâne en flammes sur une moto de l'enfer. Le chouffin a le t-shirt, même s'il fait semblant d'avoir oublié les films.",
+    "category": "series-films",
+    "tribe": "metal"
+  },
+  {
+    "word": "Freddy Krueger",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le pull rayé, le chapeau, les cauchemars. Le chouffin a vu tous les films en soirée pizza et dort encore avec la lumière.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "freddy"
+    ]
+  },
+  {
+    "word": "Jack Skellington",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le roi d'Halloween qui découvre Noël. Le chouffin l'a sur sa trousse depuis le collège, catégorie gothique chic.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "jack skeleton"
+    ]
+  },
+  {
+    "word": "Assurancetourix",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Le barde ligoté à chaque banquet. Le chouffin se reconnaît quand il sort sa guitare en soirée, et finit pareil.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "cacofonix"
+    ]
+  },
+  {
+    "word": "Spinal Tap",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le groupe dont les amplis montent jusqu'à 11. Depuis, le chouffin règle tout sur 11, même le micro-ondes.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "this is spinal tap"
+    ]
+  },
+  {
+    "word": "Wayne et Garth",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Bohemian Rhapsody en voiture et headbang synchronisé. Le chouffin refait la scène à chaque trajet, même vers le supermarché.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "wayne s world",
+      "wayne and garth"
+    ]
+  },
+  {
+    "word": "Bill et Ted",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Deux rockeurs qui voyagent dans le temps pour réussir un exposé. « Excellent ! » Air guitar obligatoire, le chouffin valide.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "bill and ted"
+    ]
+  },
+  {
+    "word": "Dewey Finn",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le prof remplaçant qui apprend le rock à une classe entière. Le chouffin rêve de ce poste, il a déjà la tenue et le discours.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "school of rock"
+    ]
+  },
+  {
+    "word": "Flash Gordon",
+    "chouffin": true,
+    "score": 58,
+    "reason": "« Flash ! Ah-ah ! » Un héros kitsch avec une B.O. de Queen. Le chouffin chante le refrain et oublie le film, c'est normal.",
+    "category": "series-films",
+    "tribe": "metal"
+  },
+  {
+    "word": "Jack Sparrow",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« Pourquoi le rhum est toujours parti ? » Le chouffin pose la même question devant son frigo vide, au lendemain de soirée.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "capitaine jack sparrow",
+      "captain jack sparrow"
+    ]
+  },
+  {
+    "word": "Frère Tuck",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le moine de Sherwood, bon vivant et bretteur. Le chouffin l'aurait nommé brasseur officiel de sa guilde.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "friar tuck"
+    ]
+  },
+  {
+    "word": "Ti-Biscuit",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le biscuit rebelle de Shrek qui tient tête à Farquaad. Le chouffin respecte tout ce qui accompagne bien une bière.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "gingy"
+    ]
+  },
+  {
+    "word": "Kronk",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Garde du corps, chef cuisinier et philosophe. Le chouffin lui confierait le barbecue, mais jamais le levier.",
+    "category": "series-films",
+    "tribe": "taverne"
+  },
+  {
+    "word": "Po",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Un panda qui apprend le kung-fu entre deux bols de raviolis. Le chouffin appelle ça « s'entraîner à l'apéro ».",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "kung fu panda"
+    ]
+  },
+  {
+    "word": "Baloo",
+    "chouffin": true,
+    "score": 62,
+    "reason": "« Il en faut peu pour être heureux. » Le chouffin approuve : une Chouffe, un canapé et une campagne de JdR. Ça suffit.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "balou"
+    ]
+  },
+  {
+    "word": "Timon et Pumbaa",
+    "chouffin": true,
+    "score": 54,
+    "reason": "« Hakuna Matata. » Philosophie validée, mais le menu à base d'insectes, le chouffin le remplace par une raclette.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "pumbaa",
+      "timon and pumbaa"
+    ]
+  },
+  {
+    "word": "The Dude",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Peignoir, bowling et cocktail au lait. Le chouffin trouve ça zen, et remplace le cocktail par une Chouffe bien fraîche.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "lebowski",
+      "the big lebowski",
+      "jeffrey lebowski"
+    ]
+  },
+  {
+    "word": "Wallace et Gromit",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un inventeur fou de fromage et son chien génial. Le chouffin a les mêmes idées folles, pas le chien qui rattrape tout.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "wallace and gromit",
+      "gromit"
+    ]
+  },
+  {
+    "word": "Claudy Focan",
+    "chouffin": true,
+    "score": 58,
+    "reason": "La star de Dikkenek et ses répliques cultes. Le chouffin les cite toutes en commandant une Kwak au comptoir.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "claudy"
+    ]
+  },
+  {
+    "word": "Abraracourcix",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le chef qui craint que le ciel lui tombe sur la tête et adore les banquets. Le chouffin partage les deux passions.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "vitalstatistix"
+    ]
+  },
+  {
+    "word": "Raoul Volfoni",
+    "chouffin": true,
+    "score": 54,
+    "reason": "« Faut reconnaître, c'est du brutal. » Le chouffin la sort à chaque dégustation d'hydromel artisanal un peu trop fort.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "volfoni"
+    ]
+  },
+  {
+    "word": "Totoro",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Une grosse boule de poils qui attend le bus sous la pluie. Le chouffin a la peluche et la défend comme un trésor.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "mon voisin totoro"
+    ]
+  },
+  {
+    "word": "Sans-Visage",
+    "chouffin": true,
+    "score": 56,
+    "reason": "L'esprit masqué qui dévore le buffet des bains du Voyage de Chihiro. Le chouffin fait pareil au buffet de la convention.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kaonashi",
+      "no face"
+    ]
+  },
+  {
+    "word": "Calcifer",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Un démon de feu qui fait cuire les œufs au bacon. Le chouffin en voudrait un dans sa cuisine, à la place du grille-pain.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Porco Rosso",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un aviateur à tête de cochon dans un hydravion rouge. Le chouffin le trouve plus classe que tous les pilotes de Top Gun.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Nausicaä",
+    "chouffin": true,
+    "score": 64,
+    "reason": "La princesse de la Vallée du Vent qui parle aux insectes géants. Le chouffin rappelle que c'est grâce à elle que Ghibli existe.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Chatbus",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un chat qui est aussi un bus. Le chouffin l'a vu une fois et trouve depuis tous les transports en commun décevants.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "catbus"
+    ]
+  },
+  {
+    "word": "Kaneda",
+    "chouffin": true,
+    "score": 78,
+    "reason": "La moto rouge et le dérapage mythique. Le chouffin a refait la pose en trottinette et garde un poster d'Akira au mur.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "shotaro kaneda"
+    ]
+  },
+  {
+    "word": "Tetsuo",
+    "chouffin": true,
+    "score": 66,
+    "reason": "« KANEDAAA ! » Le chouffin le hurle dans les parkings pour l'écho. Ses voisins ont appris à reconnaître le cri.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "tetsuo shima"
+    ]
+  },
+  {
+    "word": "Motoko Kusanagi",
+    "chouffin": true,
+    "score": 66,
+    "reason": "La Major de Ghost in the Shell, cyborg philosophe. Le chouffin a vu l'animé de 1995 et ignore poliment le remake.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "major kusanagi"
+    ]
+  },
+  {
+    "word": "Godzilla",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le roi des monstres, qui a prêté son nom japonais à Gojira. Le chouffin a tous les films, même ceux en costume de caoutchouc.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Scott Pilgrim",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Il doit vaincre sept ex maléfiques comme dans un jeu vidéo. Le chouffin a trouvé le film le plus fidèle à sa vie intérieure.",
+    "category": "series-films",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Mewtwo",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le clone surpuissant du premier film Pokémon. Le chouffin l'a usé en VHS et le prend encore dans chaque équipe.",
+    "category": "series-films",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Ralph la casse",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un méchant de borne d'arcade qui veut devenir gentil. Le chouffin a compté tous les caméos de jeux vidéo, deux fois.",
+    "category": "series-films",
+    "tribe": "gamer",
+    "aliases": [
+      "wreck it ralph",
+      "les mondes de ralph"
+    ]
+  },
+  {
+    "word": "Kevin Flynn",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le développeur aspiré dans son propre jeu vidéo. Le chouffin rêve de la même chose, surtout pour la moto de lumière.",
+    "category": "series-films",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Padmé Amidala",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Reine, sénatrice et tenues impossibles. Le chouffin respecte, mais la prélogie, il la regarde surtout en mode mème.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "padme",
+      "reine amidala"
+    ]
+  },
+  {
+    "word": "Kylo Ren",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Il casse tout au sabre dès qu'il est contrarié. Le chouffin le trouve moins Vador qu'ado en crise. Débat ouvert.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "ben solo"
+    ]
+  },
+  {
+    "word": "BB-8",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Un droïde ballon très mignon. Le chouffin préfère R2-D2, qui a plus de caractère et moins de rayons au magasin de jouets.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Snoke",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Un grand méchant arrivé de nulle part et reparti aussi vite. Le chouffin a encore trois théories inutilisées dans un carnet.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Porg",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Des oiseaux tout mignons conçus pour vendre des peluches. Le chouffin les a trouvés suspects dès la bande-annonce.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Mutt Williams",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Le fils d'Indy qui se prend pour Tarzan avec des singes. Le chouffin fait comme si le quatrième film n'existait pas.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Vernon Dursley",
+    "chouffin": false,
+    "score": 16,
+    "reason": "L'oncle moldu qui déteste tout ce qui sort de l'ordinaire. L'antithèse absolue du chouffin, placard sous l'escalier compris.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "oncle vernon"
+    ]
+  },
+  {
+    "word": "Dolores Ombrage",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Rose bonbon, assiettes à chatons et règlement intérieur. Le chouffin la déteste plus que Voldemort, c'est dire.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "ombrage",
+      "dolores umbridge",
+      "umbridge"
+    ]
+  },
+  {
+    "word": "Gilderoy Lockhart",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un sorcier influenceur qui signe des autographes. Le chouffin se méfie des héros qui ont plus de fans que d'exploits.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "lockhart"
+    ]
+  },
+  {
+    "word": "Rusard",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Le concierge qui déteste le bruit, les élèves et la joie. Le chouffin a eu le même voisin, avec le même chat.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "argus rusard",
+      "argus filch"
+    ]
+  },
+  {
+    "word": "Bellatrix Lestrange",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Mangemorte exaltée au rire strident. Le chouffin trouve le personnage réussi, mais il ne l'inviterait pas à sa table de JdR.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "bellatrix"
+    ]
+  },
+  {
+    "word": "Hawkeye",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Un arc face à une armée d'aliens. Le chouffin respecte l'archer, mais le classe « Avenger le plus discret du groupe ».",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "clint barton",
+      "oeil de faucon"
+    ]
+  },
+  {
+    "word": "Harley Quinn",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Couleurs pop, batte de baseball et chaos. Le chouffin préfère sa version du dessin animé des années 90, et il le dit fort.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "The Mask",
+    "chouffin": false,
+    "score": 46,
+    "reason": "« Ssssplendide ! » Un masque vert et beaucoup de grimaces. Le chouffin le cite volontiers, mais c'est plus cartoon que lore.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "stanley ipkiss"
+    ]
+  },
+  {
+    "word": "Edna Mode",
+    "chouffin": false,
+    "score": 44,
+    "reason": "« Pas de capes ! » La styliste des super-héros. Le chouffin approuve le conseil, mais la mode, ce n'est pas son rayon.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "edna"
+    ]
+  },
+  {
+    "word": "Minion",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Petits, jaunes et partout sur Facebook. Le chouffin reconnaît leur talent de sbires, mais ils ont trop de mèmes de tonton.",
+    "category": "series-films",
+    "tribe": "geek"
+  }
+]

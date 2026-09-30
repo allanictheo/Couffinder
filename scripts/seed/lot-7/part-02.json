@@ -1,0 +1,769 @@
+[
+  {
+    "word": "Gru",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Un méchant qui voulait voler la Lune et finit papa gâteau. Le chouffin attendait plus d'ambition d'un super-vilain.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Stitch",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Un extraterrestre destructeur devenu doudou. Le chouffin le trouve mignon, mais il le croise sur trop de pyjamas.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "lilo et stitch",
+      "experience 626"
+    ]
+  },
+  {
+    "word": "E.T.",
+    "chouffin": false,
+    "score": 48,
+    "reason": "« E.T. téléphone maison. » Le chouffin respecte le classique, mais préfère ses extraterrestres avec de l'acide dans le sang.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "et l extraterrestre"
+    ]
+  },
+  {
+    "word": "Katniss Everdeen",
+    "chouffin": false,
+    "score": 40,
+    "reason": "L'archère de Hunger Games. Le chouffin préfère les archers elfes et range la saga au rayon « dystopie pour ados ».",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "katniss"
+    ]
+  },
+  {
+    "word": "Na'vi",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Des géants bleus sur Pandora. Le chouffin a vu Avatar en 3D, il en a surtout gardé des lunettes et un mal de crâne.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Jacob Black",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Le loup-garou de Twilight qui se bat pour une histoire d'amour. Le chouffin préfère ses loups-garous dans un bestiaire de D&D.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Edward aux mains d'argent",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Un jardinier gothique aux mains en lames de ciseaux. Le chouffin aime Tim Burton, mais c'est un conte romantique, pas une épopée.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "edward scissorhands"
+    ]
+  },
+  {
+    "word": "Woody",
+    "chouffin": false,
+    "score": 46,
+    "reason": "« Il y a un serpent dans ma botte ! » Un cow-boy attachant, mais le chouffin a toujours été team Buzz.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "sherif woody",
+      "woody pride"
+    ]
+  },
+  {
+    "word": "Megamind",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Un super-vilain bleu qui gagne enfin et s'ennuie aussitôt. Le chouffin trouve l'idée maligne, mais n'en parle jamais à 2 h.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Chucky",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Une poupée qui a traumatisé toute une génération. Le chouffin range ses figurines dans une boîte fermée, par précaution.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Pennywise",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Le clown des égouts de Ça. Le chouffin a lu le pavé de King, mais refuse désormais les ballons rouges à la fête foraine.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "grippe sou"
+    ]
+  },
+  {
+    "word": "Beetlejuice",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Dites son nom trois fois... Le chouffin s'arrête à deux, par sécurité. Culte, mais plus Tim Burton que chouffin pur.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Lando Calrissian",
+    "chouffin": false,
+    "score": 50,
+    "reason": "La cape, le charisme et le Faucon perdu aux cartes. Le chouffin l'aime bien, mais il ne lui a jamais pardonné Bespin.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "lando"
+    ]
+  },
+  {
+    "word": "La Denrée",
+    "chouffin": false,
+    "score": 50,
+    "reason": "L'extraterrestre de La Soupe aux choux. Le chouffin a vu le film chez ses grands-parents et en garde un souvenir flou mais tendre.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Double-Face",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Le procureur qui décide de tout à pile ou face. Le chouffin fait pareil pour choisir sa bière, mais il triche.",
+    "category": "series-films",
+    "tribe": "geek"
+  },
+  {
+    "word": "Norbert Dragonneau",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Le magizoologiste à la valise pleine de bestioles. Le chouffin adore le bestiaire, beaucoup moins les suites.",
+    "category": "series-films",
+    "tribe": "geek",
+    "aliases": [
+      "newt scamander"
+    ]
+  },
+  {
+    "word": "Tauriel",
+    "chouffin": false,
+    "score": 32,
+    "reason": "L'elfe inventée pour les films du Hobbit. Le chouffin puriste a écrit une lettre ouverte à Tolkien, qui n'a pas répondu.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Azog",
+    "chouffin": false,
+    "score": 44,
+    "reason": "L'orque pâle en images de synthèse. Le chouffin regrette les orques en latex du Seigneur des Anneaux, bien plus crédibles.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "azog le profanateur"
+    ]
+  },
+  {
+    "word": "Percy Jackson",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un demi-dieu ado et la mythologie grecque. Le chouffin aime les livres, mais les films, il a décidé qu'ils n'existaient pas.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Jacques-Henri Jacquart",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Le descendant snob de Jacquouille, voiture de luxe et bonnes manières. Le chouffin préfère l'ancêtre, qui avait du panache.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "jacquart"
+    ]
+  },
+  {
+    "word": "Lord Farquaad",
+    "chouffin": false,
+    "score": 48,
+    "reason": "« Certains d'entre vous mourront, mais c'est un sacrifice que je suis prêt à faire. » Le chouffin le cite, sans plus.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "farquaad"
+    ]
+  },
+  {
+    "word": "Génie d'Aladdin",
+    "chouffin": false,
+    "score": 49,
+    "reason": "Trois vœux et un show permanent. Le chouffin demanderait une Chouffe infinie, mais il trouve le personnage trop Broadway.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "genie de la lampe",
+      "genie aladdin"
+    ]
+  },
+  {
+    "word": "Maléfique",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La fée noire qui se change en dragon. Le chouffin adore le dragon, beaucoup moins le remake qui la rend gentille.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "maleficent"
+    ]
+  },
+  {
+    "word": "Monsieur Tumnus",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Un faune qui invite à prendre le thé dans la neige. Le chouffin aime Narnia, mais il aurait sorti l'hydromel.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "tumnus",
+      "mr tumnus"
+    ]
+  },
+  {
+    "word": "Mushu",
+    "chouffin": false,
+    "score": 47,
+    "reason": "Un mini-dragon bavard et vexé. Le chouffin préfère ses dragons immenses et silencieux, mais il rit à chaque réplique.",
+    "category": "series-films",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Chat Potté",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Les yeux qui font fondre et l'épée à la ceinture. Le chouffin l'aime bien, mais un chat bretteur, ce n'est pas un vrai paladin.",
+    "category": "series-films",
+    "tribe": "roliste",
+    "aliases": [
+      "puss in boots"
+    ]
+  },
+  {
+    "word": "Jason Voorhees",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un masque de hockey et un camp de vacances maudit. Le chouffin a le masque pour le Hellfest, mais les films lui font peur.",
+    "category": "series-films",
+    "tribe": "metal"
+  },
+  {
+    "word": "Mercredi Addams",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Tresses noires et humeur sombre. Le chouffin a appris la danse de la série, mais reste fidèle aux films des années 90.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "wednesday addams"
+    ]
+  },
+  {
+    "word": "Blues Brothers",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Costumes noirs, lunettes noires et course-poursuite géante. Le chouffin adore, mais le blues, ce n'est pas encore du métal.",
+    "category": "series-films",
+    "tribe": "metal",
+    "aliases": [
+      "jake et elwood"
+    ]
+  },
+  {
+    "word": "Rémy",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Un rat qui cuisine divinement. Le chouffin respecte, mais sa grande cuisine à lui, c'est raclette et pizza surgelée.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "remy ratatouille"
+    ]
+  },
+  {
+    "word": "Winnie l'Ourson",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Un ours obsédé par le miel. Le chouffin lui ferait découvrir l'hydromel, mais Winnie reste un doudou, pas un viking.",
+    "category": "series-films",
+    "tribe": "taverne",
+    "aliases": [
+      "winnie the pooh",
+      "winnie"
+    ]
+  },
+  {
+    "word": "Patrick Chirac",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Le roi de l'apéro au camping des Flots Bleus. Le chouffin partage l'amour de l'apéro, mais préfère une taverne à un emplacement 17.",
+    "category": "series-films",
+    "tribe": "taverne"
+  },
+  {
+    "word": "Jeff Tuche",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Millionnaire du Loto et fou de frites. Le chouffin approuve les frites, mais rappelle que le vrai credo, c'est « le gras, c'est la vie ».",
+    "category": "series-films",
+    "tribe": "taverne"
+  },
+  {
+    "word": "Le Glaude",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Soupe aux choux, vin rouge et amitié extraterrestre. Le chouffin trouve ça très taverne, mais c'est surtout le film de papy.",
+    "category": "series-films",
+    "tribe": "taverne"
+  },
+  {
+    "word": "Garfield",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Il déteste le lundi et adore les lasagnes. Le chouffin partage les deux passions, mais un chat orange, ça reste un peu léger.",
+    "category": "series-films",
+    "tribe": "taverne"
+  },
+  {
+    "word": "Ponyo",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Une petite fille-poisson qui adore le jambon. Le chouffin trouve ça mignon, mais il préfère Ghibli quand la forêt se met en colère.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Kiki la petite sorcière",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Une sorcière livreuse et son chat qui parle. Le chouffin aime Ghibli, mais un service de livraison, ce n'est pas une quête épique.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kiki s delivery service"
+    ]
+  },
+  {
+    "word": "Vanellope",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La pilote glitchée d'un jeu de course en bonbons. Le chouffin, lui, retient surtout les caméos de Sonic et Bowser.",
+    "category": "series-films",
+    "tribe": "gamer",
+    "aliases": [
+      "vanellope von schweetz"
+    ]
+  },
+  {
+    "word": "Dastan",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Le prince du film Prince of Persia. Le chouffin préfère le jeu et répète « c'est pas canon » dès qu'on en parle.",
+    "category": "series-films",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Bob Razowski",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un œil, beaucoup de blagues et un mème célèbre. Le chouffin rit, mais Monstres & Cie reste une sortie en famille, pas une passion.",
+    "category": "series-films",
+    "aliases": [
+      "mike wazowski"
+    ]
+  },
+  {
+    "word": "Kuzco",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Un empereur changé en lama, et Kronk qui tire le mauvais levier. Le chouffin adore les mèmes, beaucoup moins le lama.",
+    "category": "series-films"
+  },
+  {
+    "word": "Capitaine Crochet",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un pirate qui a peur d'un crocodile à réveil. Le chouffin préfère ses pirates avec du rhum, une malédiction et un kraken.",
+    "category": "series-films",
+    "aliases": [
+      "captain hook"
+    ]
+  },
+  {
+    "word": "Tyler Durden",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Première règle : ne pas en parler. Le chouffin en parle quand même sur les forums depuis 2004, avec un avis très tranché.",
+    "category": "series-films"
+  },
+  {
+    "word": "John Wick",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Un costume noir, un chien adoré et des chorégraphies d'action. Le chouffin retient surtout le chien, franchement.",
+    "category": "series-films"
+  },
+  {
+    "word": "John McClane",
+    "chouffin": false,
+    "score": 48,
+    "reason": "« Yippee-ki-yay. » Die Hard, film de Noël ? Le chouffin a un avis tranché, mais ce n'est pas vraiment son univers.",
+    "category": "series-films",
+    "aliases": [
+      "mcclane"
+    ]
+  },
+  {
+    "word": "Miranda Priestly",
+    "chouffin": false,
+    "score": 4,
+    "reason": "La rédactrice en chef qui glace une pièce d'un regard. Le chouffin ne distingue pas le bleu céruléen du bleu Schtroumpf.",
+    "category": "series-films"
+  },
+  {
+    "word": "Elle Woods",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Tout en rose, sac à main et chihuahua. Le chouffin aussi connaît le droit par cœur : celui des règles de D&D 5e.",
+    "category": "series-films"
+  },
+  {
+    "word": "Regina George",
+    "chouffin": false,
+    "score": 8,
+    "reason": "La reine du lycée qui impose le rose le mercredi. Le chouffin met son t-shirt Iron Maiden le mercredi, comme les autres jours.",
+    "category": "series-films"
+  },
+  {
+    "word": "Sharpay Evans",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Paillettes, rose et comédie musicale au lycée. Le chouffin a passé ses années lycée au club JdR, loin des projecteurs.",
+    "category": "series-films",
+    "aliases": [
+      "sharpay"
+    ]
+  },
+  {
+    "word": "Carrie Bradshaw",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Chaussures de luxe et brunchs à New York. Le chouffin n'a qu'une paire de rangers et un tabouret réservé à la taverne.",
+    "category": "series-films"
+  },
+  {
+    "word": "Barbie",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Une maison rose, une décapotable rose, tout en rose. Le chouffin a vu le film, en parle peu, et retourne peindre ses figurines.",
+    "category": "series-films"
+  },
+  {
+    "word": "Ken",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Pas celui de Hokuto no Ken : l'autre, celui de la plage. Le chouffin a été très déçu en tapant « Ken ».",
+    "category": "series-films"
+  },
+  {
+    "word": "Mr Darcy",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Le gentleman orgueilleux sous la pluie anglaise. Le chouffin préfère les rôdeurs du Nord, plus taiseux et mieux armés.",
+    "category": "series-films",
+    "aliases": [
+      "monsieur darcy",
+      "fitzwilliam darcy"
+    ]
+  },
+  {
+    "word": "Noah Calhoun",
+    "chouffin": false,
+    "score": 6,
+    "reason": "Des lettres d'amour et une barque sous la pluie. Le chouffin écrit aussi : des fiches de personnage pour sa campagne.",
+    "category": "series-films"
+  },
+  {
+    "word": "Danny Zuko",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Banane gominée et blouson de cuir. Le chouffin a le cuir, mais préfère les patchs Motörhead à la gomina.",
+    "category": "series-films"
+  },
+  {
+    "word": "Johnny Castle",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Le prof de danse qui refuse qu'on laisse Bébé dans un coin. Le chouffin, lui, reste dans le coin, près du buffet. C'est son choix.",
+    "category": "series-films"
+  },
+  {
+    "word": "Mia Thermopolis",
+    "chouffin": false,
+    "score": 9,
+    "reason": "Une ado qui devient princesse d'un pays inventé. Le chouffin aurait préféré qu'elle hérite d'un royaume nain.",
+    "category": "series-films",
+    "aliases": [
+      "princesse mia"
+    ]
+  },
+  {
+    "word": "Gatsby",
+    "chouffin": false,
+    "score": 15,
+    "reason": "Des fêtes somptueuses et du champagne à flots. Le chouffin préfère une fête médiévale avec de l'hydromel au gobelet.",
+    "category": "series-films",
+    "aliases": [
+      "jay gatsby",
+      "gatsby le magnifique"
+    ]
+  },
+  {
+    "word": "Derek Zoolander",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Le mannequin et son regard « Magnum ». Le chouffin a aussi un regard signature : celui qu'il lance au MJ après un échec critique.",
+    "category": "series-films",
+    "aliases": [
+      "zoolander"
+    ]
+  },
+  {
+    "word": "Ron Burgundy",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Présentateur vedette à la moustache fière. Le chouffin rit, mais les seules légendes qu'il suit ont des oreilles pointues.",
+    "category": "series-films"
+  },
+  {
+    "word": "Jack Dawson",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Il crie « Je suis le roi du monde ! » à la proue. Le chouffin, lui, préfère être roi sous la Montagne.",
+    "category": "series-films"
+  },
+  {
+    "word": "Cendrillon",
+    "chouffin": false,
+    "score": 9,
+    "reason": "Une pantoufle de verre et un bal qui finit à minuit. Le chouffin, à minuit, commence tout juste sa partie de JdR.",
+    "category": "series-films",
+    "aliases": [
+      "cinderella"
+    ]
+  },
+  {
+    "word": "Ariel",
+    "chouffin": false,
+    "score": 17,
+    "reason": "Une sirène qui se coiffe avec un « zirgouflex ». Le chouffin aussi donne des noms bizarres à ses objets, surtout à ses dés.",
+    "category": "series-films",
+    "aliases": [
+      "petite sirene"
+    ]
+  },
+  {
+    "word": "Bambi",
+    "chouffin": false,
+    "score": 11,
+    "reason": "Un faon tout mignon dans la forêt. Le chouffin préfère les forêts habitées par des Ents et des elfes sylvains.",
+    "category": "series-films"
+  },
+  {
+    "word": "Elsa",
+    "chouffin": false,
+    "score": 12,
+    "reason": "« Libérée, délivrée. » Le chouffin l'a entendue 400 fois. Pour lui, la seule reine des glaces digne de ce nom règne sur Narnia.",
+    "category": "series-films"
+  },
+  {
+    "word": "Olaf",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Pas le roi viking : le bonhomme de neige qui rêve d'été. Le chouffin, déçu, retourne à ses sagas nordiques.",
+    "category": "series-films"
+  },
+  {
+    "word": "Dory",
+    "chouffin": false,
+    "score": 27,
+    "reason": "Un poisson bavard qui parle baleine. Le chouffin trouve ça drôle, mais ses créatures marines préférées sortent de Lovecraft.",
+    "category": "series-films"
+  },
+  {
+    "word": "Flash McQueen",
+    "chouffin": false,
+    "score": 25,
+    "reason": "« Ka-tchow ! » Une voiture de course qui cartonne chez les enfants. Le chouffin préfère les bolides de Mario Kart.",
+    "category": "series-films",
+    "aliases": [
+      "lightning mcqueen"
+    ]
+  },
+  {
+    "word": "Mary Poppins",
+    "chouffin": false,
+    "score": 19,
+    "reason": "Un parapluie volant et un sac sans fond. Le chouffin a le même sac : dés, cartes, figurines et une Chouffe de secours.",
+    "category": "series-films"
+  },
+  {
+    "word": "Mickey",
+    "chouffin": false,
+    "score": 30,
+    "reason": "La souris la plus célèbre du monde. Chez les joueurs, « mickey » veut dire débutant, et le chouffin trouve ça plus parlant.",
+    "category": "series-films",
+    "aliases": [
+      "mickey mouse"
+    ]
+  },
+  {
+    "word": "Cruella d'Enfer",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Obsédée par la fourrure et la haute couture. La seule fourrure du chouffin : sa cape de GN en fausse peau de loup.",
+    "category": "series-films",
+    "aliases": [
+      "cruella",
+      "cruella de vil"
+    ]
+  },
+  {
+    "word": "Simba",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le lionceau qui doit devenir roi. Le chouffin y a reconnu Hamlet et vous l'expliquera longuement, mais ça s'arrête là.",
+    "category": "series-films"
+  },
+  {
+    "word": "Kirikou",
+    "chouffin": false,
+    "score": 38,
+    "reason": "« Kirikou n'est pas grand, mais il est vaillant. » Le chouffin cite la réplique, sans plus. Culte d'enfance, pas de taverne.",
+    "category": "series-films"
+  },
+  {
+    "word": "Peter Pan",
+    "chouffin": false,
+    "score": 35,
+    "reason": "Un garçon qui refuse de grandir. Le chouffin se sent visé, mais il préfère les elfes immortels qui assument leur âge.",
+    "category": "series-films"
+  },
+  {
+    "word": "Maverick",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Lunettes d'aviateur, moto et beach-volley. Le chouffin pilote un X-Wing dans un jeu de simulation, c'est presque pareil.",
+    "category": "series-films",
+    "aliases": [
+      "pete mitchell"
+    ]
+  },
+  {
+    "word": "Dominic Toretto",
+    "chouffin": false,
+    "score": 24,
+    "reason": "« La famille. » Le chouffin aussi a une famille : sa guilde WoW. Mais ses voitures ne sautent pas d'un gratte-ciel à l'autre.",
+    "category": "series-films",
+    "aliases": [
+      "dom toretto",
+      "toretto"
+    ]
+  },
+  {
+    "word": "Vito Corleone",
+    "chouffin": false,
+    "score": 33,
+    "reason": "Une offre qu'on ne peut pas refuser. Le chouffin respecte le film, mais préfère les intrigues de cour de Westeros.",
+    "category": "series-films",
+    "aliases": [
+      "don corleone"
+    ]
+  },
+  {
+    "word": "Hercule Poirot",
+    "chouffin": false,
+    "score": 33,
+    "reason": "Le détective aux petites cellules grises et à la moustache impeccable. Le chouffin préfère résoudre ses énigmes avec un d20.",
+    "category": "series-films",
+    "aliases": [
+      "poirot"
+    ]
+  },
+  {
+    "word": "Rick Blaine",
+    "chouffin": false,
+    "score": 11,
+    "reason": "Le patron de bar de Casablanca. Le chouffin approuve le bar, beaucoup moins le noir et blanc et les adieux sur le tarmac.",
+    "category": "series-films"
+  },
+  {
+    "word": "François Pignon",
+    "chouffin": false,
+    "score": 31,
+    "reason": "Le passionné de maquettes en allumettes du Dîner de cons. Un hobby presque chouffin. Presque.",
+    "category": "series-films"
+  },
+  {
+    "word": "Ludovic Cruchot",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le gendarme de Saint-Tropez. Le chouffin a vu tous les films chez ses grands-parents, et il fait encore les grimaces.",
+    "category": "series-films",
+    "aliases": [
+      "cruchot"
+    ]
+  },
+  {
+    "word": "Jean-Claude Dusse",
+    "chouffin": false,
+    "score": 35,
+    "reason": "« Sur un malentendu, ça peut marcher. » Le chouffin applique la devise à ses jets de dés. Rarement avec succès.",
+    "category": "series-films"
+  },
+  {
+    "word": "Kevin McCallister",
+    "chouffin": false,
+    "score": 43,
+    "reason": "Seul à la maison, il piège des cambrioleurs avec génie. Le chouffin appelle ça « préparer un donjon ».",
+    "category": "series-films"
+  },
+  {
+    "word": "Hannibal Lecter",
+    "chouffin": false,
+    "score": 37,
+    "reason": "Un méchant de cinéphile, raffiné et glaçant. Le chouffin préfère ses méchants avec une cape et une armée d'orques.",
+    "category": "series-films"
+  },
+  {
+    "word": "Ivan Drago",
+    "chouffin": false,
+    "score": 34,
+    "reason": "« S'il meurt, il meurt. » Le chouffin cite la réplique, mais retient surtout le montage d'entraînement en musique.",
+    "category": "series-films"
+  },
+  {
+    "word": "Le Grinch",
+    "chouffin": false,
+    "score": 41,
+    "reason": "Il déteste Noël et vole les cadeaux. Le chouffin le comprend un peu, surtout quand on lui offre un pull au lieu d'un livre de règles.",
+    "category": "series-films"
+  }
+]

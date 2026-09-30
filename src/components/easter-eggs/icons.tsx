@@ -82,6 +82,25 @@ export function FlatD20({ value, ...props }: { value?: number } & SVGProps<SVGSV
   );
 }
 
+/** Famille « Vie normale » : un soleil au-dessus d'une touffe d'herbe. */
+export function GrassSun(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <g stroke="#111" strokeWidth={1.1} strokeLinecap="round">
+        <path d="M15.5 1.8 v1.6 M15.5 13.2 v1.4 M9.2 8.2 h1.5 M20.4 8.2 h1.6 M11 3.7 l1.1 1.1 M19 11.6 l1.1 1.1 M20 3.7 l-1.1 1.1" />
+      </g>
+      <circle cx="15.5" cy="8.2" r="3.8" fill="#ffd84a" stroke="#111" strokeWidth={1.1} />
+      <path
+        d="M2 22 C3 18 3.5 15 3.2 12 C5 14.5 5.8 17 6 19 C6.6 15.5 7.4 13 9.4 10.8 C9.2 14 9.2 17 9.6 19.2 C10.6 16.6 12 15 13.8 14 C13 16.6 12.8 19.4 13 22 Z"
+        fill="#4fae33"
+        stroke="#111"
+        strokeWidth={1.1}
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function TribeIcon({ tribe, className }: { tribe: Tribe; className?: string }) {
   switch (tribe) {
     case "gamer":

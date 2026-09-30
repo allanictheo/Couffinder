@@ -682,6 +682,11 @@ body {
     background: radial-gradient(circle at 34% 28%, #fffaf0 0 7%, #f3e2b8 12%, #c9a55c 58%, #5e4212 100%);
   }
 
+  /* Famille « Vie normale » : ciel pastel et herbe (le flat de la vraie vie). */
+  .achievement-orb[data-theme="vie-normale"] {
+    background: radial-gradient(circle at 34% 28%, #ffffff 0 7%, #e3f5ff 12%, #8fd0ff 52%, #3f9a26 100%);
+  }
+
   .achievement[data-tone="fail"] {
     background: linear-gradient(180deg, #3d2a2e 0%, #231619 52%, #170e10 100%);
   }
