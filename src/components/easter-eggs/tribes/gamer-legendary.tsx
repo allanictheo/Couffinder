@@ -623,7 +623,7 @@ function LegendarySpeedrun({ word, seed, durationMs, onDone }: EggProps) {
       </div>
 
       <m.div
-        className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgb(4_6_13/0.85)_0%,rgb(4_6_13/0.55)_45%,transparent_75%)]"
+        className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgb(4_6_13/0.94)_0%,rgb(4_6_13/0.8)_45%,rgb(4_6_13/0.45)_80%)]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2.18, duration: 0.2 }}
@@ -693,7 +693,12 @@ function LegendaryBoss({ word, seed, durationMs, onDone }: EggProps) {
   const hits = sounds.BOSS_HITS;
   const plan = usePlan(seed, (random) => ({
     damage: hits.map((at, index) => ({ at, index, x: between(random, 30, 70), y: between(random, 18, 50), text: DAMAGE[index] })),
-    levelUps: Array.from({ length: 8 }, (_, index) => ({ index, at: 2.35 + index * 0.1, x: between(random, -30, 30), y: between(random, -26, 4) })),
+    levelUps: Array.from({ length: 8 }, (_, index) => ({
+      index,
+      at: 2.35 + index * 0.1,
+      x: (index % 2 ? 1 : -1) * between(random, 18, 40),
+      y: between(random, -7, -1),
+    })),
   }));
   const hpKeys = [1, ...hits.map((_, index) => Math.max(0, 1 - (index + 1) / hits.length))];
   const hpTimes = [0, ...hits.map((at) => (at - hits[0] + 0.02) / (hits[hits.length - 1] - hits[0] + 0.02))];
@@ -790,7 +795,8 @@ function LegendaryBoss({ word, seed, durationMs, onDone }: EggProps) {
         spin={0}
         render={() => <div className="aspect-square w-full rounded-full bg-[radial-gradient(circle_at_35%_30%,#f4ffd6,#b6ff2e_50%,#3f7a00)] shadow-[0_0_12px_#b6ff2e]" />}
       />
-      <div className="absolute bottom-[7vh] left-1/2 flex w-[min(34rem,92vw)] flex-col items-center" style={{ transform: "translateX(-50%)" }}>
+      {/* Au-dessus du toast de succès (qui occupe le bas de l'écran). */}
+      <div className="absolute bottom-[max(7.5rem,13vh)] left-1/2 flex w-[min(34rem,92vw)] -translate-x-1/2 flex-col items-center">
         {plan.levelUps.map((levelUp) => (
           <m.p
             key={levelUp.index}
@@ -877,7 +883,7 @@ function LegendaryEvolution({ word, score, seed, durationMs, onDone }: EggProps)
       {Array.from({ length: 6 }, (_, index) => (
         <m.div
           key={index}
-          className="absolute left-1/2 top-[42%] size-[62vmin] rounded-full border-2 border-[#d9ccff]"
+          className="absolute left-1/2 top-[40%] size-[62vmin] rounded-full border-2 border-[#d9ccff]"
           style={{ x: "-50%", y: "-50%" }}
           initial={{ scale: 2.4, opacity: 0 }}
           animate={{ scale: [2.4, 0.1], opacity: [0, 0.8, 0] }}
@@ -885,7 +891,7 @@ function LegendaryEvolution({ word, score, seed, durationMs, onDone }: EggProps)
         />
       ))}
 
-      <div className="absolute inset-x-0 top-[42%] grid -translate-y-1/2 place-items-center px-4">
+      <div className="absolute inset-x-0 top-[40%] grid -translate-y-1/2 place-items-center px-4">
         <m.div
           className="col-start-1 row-start-1 size-[46vmin] rounded-full bg-[radial-gradient(closest-side,rgb(255_255_255/0.85),rgb(190_170_255/0.35)_55%,transparent)]"
           initial={{ opacity: 0, scale: 0.5 }}
@@ -919,7 +925,7 @@ function LegendaryEvolution({ word, score, seed, durationMs, onDone }: EggProps)
         seed={seed + 17}
         count={20}
         x={50}
-        y={42}
+        y={40}
         delay={EVOLVE_AT}
         duration={1.2}
         distance={[20, 50]}
@@ -929,7 +935,7 @@ function LegendaryEvolution({ word, score, seed, durationMs, onDone }: EggProps)
       />
 
       {/* Boîte de dialogue de RPG rétro. */}
-      <div className="absolute inset-x-0 bottom-[5vh] flex justify-center px-3">
+      <div className="absolute inset-x-0 bottom-[max(7.5rem,12vh)] flex justify-center px-3">
         <m.div
           className="relative w-[min(42rem,94vw)] rounded-[6px] border-4 border-[#1b1b1b] bg-[#f8f8f0] p-1 shadow-[0_8px_0_rgb(0_0_0/0.45)]"
           initial={{ opacity: 0, y: 30 }}
@@ -941,7 +947,7 @@ function LegendaryEvolution({ word, score, seed, durationMs, onDone }: EggProps)
               <Typed text={`Quoi ? « ${display} » évolue !`} delay={0.2} />
             </m.p>
             <p className="col-start-1 row-start-1">
-              <Typed text={`Félicitations ! « ${display} » a évolué en « ${ultimate} » !`} delay={EVOLVE_AT + 0.3} step={0.02} />
+              <Typed text={`Félicitations ! « ${display} » a évolué en « ${ultimate} » !`} delay={EVOLVE_AT + 0.3} step={0.014} />
             </p>
           </div>
           <m.span
@@ -1068,7 +1074,7 @@ function LegendaryRagequit({ word, seed, durationMs, onDone }: EggProps) {
       </div>
 
       <m.div
-        className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgb(14_10_22/0.85),rgb(14_10_22/0.4)_60%,transparent)]"
+        className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgb(14_10_22/0.94),rgb(14_10_22/0.78)_55%,rgb(14_10_22/0.5))]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2.72, duration: 0.2 }}

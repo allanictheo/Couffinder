@@ -1,0 +1,1044 @@
+[
+  {
+    "word": "Ezio Auditore",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le noble florentin au saut de la foi, star d'Assassin's Creed II. « Requiescat in pace. » Le chouffin a fini la trilogie trois fois.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ezio",
+      "ezio auditore da firenze"
+    ]
+  },
+  {
+    "word": "Altaïr",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le premier assassin de la saga, en 1191. Monotone mais fondateur : le chouffin salue l'ancêtre avec respect.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "altair ibn la'ahad"
+    ]
+  },
+  {
+    "word": "Desmond Miles",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le barman qui revit les souvenirs de ses ancêtres. Tout le monde voulait jouer les ancêtres, personne ne voulait Desmond.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "desmond"
+    ]
+  },
+  {
+    "word": "Edward Kenway",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le pirate d'Assassin's Creed IV, son navire et ses chants de marins. Le chouffin chante « Leave Her Johnny » en voiture.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Kassandra",
+    "chouffin": true,
+    "score": 56,
+    "reason": "La mercenaire spartiate d'Odyssey, qui affronte méduses et minotaures. Le chouffin a préféré les monstres à l'histoire.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Eivor",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le Viking d'Assassin's Creed Valhalla, qui s'invite en Angleterre. Le chouffin a la hache, la barbe et le discours au bar.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Arno Dorian",
+    "chouffin": false,
+    "score": 48,
+    "reason": "L'assassin de la Révolution dans un Paris somptueux. Le chouffin se souvient surtout des visages buggés du lancement.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Vaas Montenegro",
+    "chouffin": true,
+    "score": 62,
+    "reason": "« Je t'ai déjà dit ce qu'était la folie ? » Le méchant de Far Cry 3, plus mémorable que tout le jeu. Le chouffin le cite.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "vaas"
+    ]
+  },
+  {
+    "word": "Arthur Morgan",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le hors-la-loi au grand cœur de Red Dead Redemption 2 et son carnet de croquis. Le chouffin a pleuré, puis a dessiné.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "John Marston",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le cow-boy repenti de Red Dead Redemption. Depuis la fin du jeu, le chouffin regarde les couchers de soleil autrement.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Dutch van der Linde",
+    "chouffin": true,
+    "score": 60,
+    "reason": "« J'ai un plan ! » Le chef de bande aux plans foireux. Le chouffin ressort la réplique à chaque organisation de vacances.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dutch"
+    ]
+  },
+  {
+    "word": "CJ",
+    "chouffin": false,
+    "score": 44,
+    "reason": "« Ah shit, here we go again. » Le héros de San Andreas, mème éternel. Le chouffin cite, mais GTA reste loin de Bordeciel.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "carl johnson"
+    ]
+  },
+  {
+    "word": "Big Smoke",
+    "chouffin": true,
+    "score": 54,
+    "reason": "« Deux numéros 9, un numéro 9 large, un 6 avec supplément... » Le chouffin récite la commande comme du Kaamelott.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "big smoke order"
+    ]
+  },
+  {
+    "word": "Niko Bellic",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Le héros de GTA IV que son cousin appelle sans arrêt pour aller au bowling. Le chouffin a fini par couper son téléphone.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Nathan Drake",
+    "chouffin": false,
+    "score": 40,
+    "reason": "L'aventurier qui escalade des ruines en blaguant. Un Indiana Jones sans chapeau : il manque l'essentiel, dit le chouffin.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "nate drake"
+    ]
+  },
+  {
+    "word": "Aloy",
+    "chouffin": false,
+    "score": 44,
+    "reason": "La chasseuse aux cheveux roux de Horizon, face à des dinosaures robots. Superbe, mais le chouffin préfère les vrais dragons.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Lara Croft",
+    "chouffin": true,
+    "score": 72,
+    "reason": "L'aventurière qui pillait des tombeaux avant que ce soit cool. Le chouffin a enfermé son majordome dans la chambre froide.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Kratos",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le Spartiate qui a mis l'Olympe à genoux, puis Asgard. « BOY ! » Le chouffin appelle son neveu comme ça.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Atreus",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Le fils de Kratos, archer et passionné de runes. Le chouffin l'aime bien, mais il lui crie quand même « BOY ».",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Mimir",
+    "chouffin": true,
+    "score": 72,
+    "reason": "La tête coupée la plus bavarde du jeu vidéo, conteuse de God of War. Le chouffin rêve d'un copilote comme lui en voiture.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Johnny Silverhand",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le rockeur rebelle au bras chromé de Cyberpunk 2077, leader de Samurai. Le seul perso de jeu qui aurait sa place au Hellfest.",
+    "category": "jeux-video",
+    "tribe": "metal"
+  },
+  {
+    "word": "Claptrap",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le petit robot bavard de Borderlands qui ne sait pas monter les escaliers. Le chouffin le trouve drôle, son équipe beaucoup moins.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Agent 47",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Le tueur au code-barres qui se déguise en clown ou en chef cuisinier. Le chouffin adore les costumes, moins la discrétion.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Max Payne",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le flic des monologues noirs, du bullet time et des nuits de neige. Le chouffin se la joue film noir depuis 2001.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Sam Fisher",
+    "chouffin": true,
+    "score": 54,
+    "reason": "L'espion de Splinter Cell, sarcastique et agile à plus de 50 ans. Le chouffin rêve de vieillir avec autant de souplesse.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Bayonetta",
+    "chouffin": false,
+    "score": 46,
+    "reason": "La sorcière aux talons-pistolets et aux combos délirants. Trop stylée pour le chouffin, qui a abandonné au tutoriel.",
+    "category": "jeux-video",
+    "tribe": "weeb"
+  },
+  {
+    "word": "2B",
+    "chouffin": true,
+    "score": 62,
+    "reason": "L'androïde au bandeau de NieR: Automata, icône des conventions. Le chouffin a surtout retenu la fin E et la bande-son.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "yorha 2b"
+    ]
+  },
+  {
+    "word": "Guybrush Threepwood",
+    "chouffin": true,
+    "score": 86,
+    "reason": "« Je suis Guybrush Threepwood, puissant pirate ! » Le chouffin maîtrise le combat d'insultes et s'en vante à table.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "guybrush"
+    ]
+  },
+  {
+    "word": "LeChuck",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Le pirate fantôme de Monkey Island, à la barbe en feu et au grog douteux. Le méchant qui fleure bon la taverne.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "le chuck"
+    ]
+  },
+  {
+    "word": "Manny Calavera",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le squelette agent de voyage de Grim Fandango, au Pays des morts. Le chouffin trouvait ça classe bien avant Coco.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Cloud Strife",
+    "chouffin": true,
+    "score": 92,
+    "reason": "Le mercenaire à l'épée géante et aux cheveux en pointe. Le chouffin a tenté la coupe, et il a eu la même crise d'identité.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "cloud strife ff7"
+    ]
+  },
+  {
+    "word": "Tifa Lockhart",
+    "chouffin": true,
+    "score": 72,
+    "reason": "La bagarreuse de Final Fantasy VII qui tient le bar du Septième Ciel. Le chouffin veut une taverne comme la sienne.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "tifa"
+    ]
+  },
+  {
+    "word": "Aerith",
+    "chouffin": true,
+    "score": 74,
+    "reason": "La fleuriste de Midgar, et LA scène qui a traumatisé 1997. Le chouffin a cru à toutes les rumeurs pour la sauver.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "aeris",
+      "aerith gainsborough"
+    ]
+  },
+  {
+    "word": "Barret Wallace",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le colosse au bras-mitrailleuse de FFVII, grande gueule et cœur tendre. Le chouffin a sa voix dans la tête.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "barret"
+    ]
+  },
+  {
+    "word": "Zack Fair",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Le SOLDAT au sourire éclatant, mentor de Cloud. Crisis Core a fait pleurer le chouffin sur sa PSP, dans le bus.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "zack"
+    ]
+  },
+  {
+    "word": "Squall",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le héros de FFVIII à la cicatrice et au « ...Whatever ». Le chouffin a répondu « Peu importe » toute son adolescence.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "squall leonhart"
+    ]
+  },
+  {
+    "word": "Tidus",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le héros de FFX et la scène de rire la plus gênante du jeu vidéo. Le chouffin l'imite en soirée : effet garanti.",
+    "category": "jeux-video",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Noctis",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Le prince de FFXV en road trip avec ses potes, dont un qui prend des photos. Un boys band avec des épées.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "noctis lucis caelum"
+    ]
+  },
+  {
+    "word": "Chocobo",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le gros oiseau jaune de Final Fantasy et son « Kweh ! ». Le chouffin a élevé un chocobo doré pendant tout un été.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Mog",
+    "chouffin": true,
+    "score": 74,
+    "reason": "« Kupo ! » La petite créature au pompon rouge de Final Fantasy, adorable et commerçante. Le chouffin a la peluche.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "moogle"
+    ]
+  },
+  {
+    "word": "Cid",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Pas celui de Corneille : le Cid de Final Fantasy, présent dans chaque épisode. Pilote ou vieux grincheux, il est toujours là.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Kefka",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le clown de FFVI qui a vraiment détruit le monde. Son rire fait plus peur que n'importe quel boss en armure.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "kefka palazzo"
+    ]
+  },
+  {
+    "word": "Cactuar",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le cactus qui court les bras en l'air et lance 1 000 aiguilles. Le chouffin prend la pose sur toutes ses photos de vacances.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "pampa cactuar"
+    ]
+  },
+  {
+    "word": "Tonberry",
+    "chouffin": true,
+    "score": 64,
+    "reason": "La petite créature verte à la lanterne qui avance lentement, couteau en main. Le monstre le plus flippant de FF, du haut de 50 cm.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Bob Pataté",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Le Sim le plus basique de la ville : pull, canapé et cuisine en feu. Le chouffin l'a déménagé dans un château fort.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "bob newbie"
+    ]
+  },
+  {
+    "word": "Bella Gothique",
+    "chouffin": false,
+    "score": 40,
+    "reason": "La Sim disparue la plus célèbre, avec un vrai mystère autour. Le seul lore des Sims que le chouffin a vraiment creusé.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "bella goth"
+    ]
+  },
+  {
+    "word": "Simlish",
+    "chouffin": false,
+    "score": 34,
+    "reason": "« Sul sul ! » La langue des Sims, faite de bruits joyeux. Le chouffin préfère le klingon ou le quenya, bien plus sérieux.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "sul sul"
+    ]
+  },
+  {
+    "word": "Plumbob",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Le losange vert au-dessus des Sims. Le chouffin aurait préféré une barre de vie et une jauge de mana.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "losange des sims",
+      "losange vert"
+    ]
+  },
+  {
+    "word": "Peely",
+    "chouffin": false,
+    "score": 10,
+    "reason": "La banane géante de Fortnite qui enchaîne les danses. Le chouffin regarde son neveu, regarde la banane, et soupire.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Jonesy",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Le skin par défaut de Fortnite, raillé par tous les ados. Son seul point commun avec le chouffin : il n'achète rien.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Tiffi",
+    "chouffin": false,
+    "score": 4,
+    "reason": "L'héroïne de Candy Crush. Personne ne connaît son nom, même ceux qui sont au niveau 4 000. Le chouffin non plus.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Talking Tom",
+    "chouffin": false,
+    "score": 5,
+    "reason": "Un chat qui répète tout ce que tu dis d'une voix aiguë. Le seul chat que le chouffin refuse d'adopter.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "mon talking tom"
+    ]
+  },
+  {
+    "word": "Pou",
+    "chouffin": false,
+    "score": 3,
+    "reason": "Une patate de téléphone qu'il faut nourrir, laver et coucher. Le chouffin a déjà un Tamagotchi, et c'est un Ronflex.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Om Nom",
+    "chouffin": false,
+    "score": 12,
+    "reason": "Le petit monstre vert de Cut the Rope qui ne pense qu'aux bonbons. Mignon, mais il ne boit même pas de bière.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "cut the rope"
+    ]
+  },
+  {
+    "word": "Chevaucheur de cochon",
+    "chouffin": false,
+    "score": 24,
+    "reason": "« HOG RIDEEER ! » Le barbare à dos de cochon de Clash Royale. Le chouffin aime le cri, pas les achats intégrés.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "hog rider"
+    ]
+  },
+  {
+    "word": "P.E.K.K.A",
+    "chouffin": false,
+    "score": 20,
+    "reason": "Le chevalier en armure de Clash Royale qui aime les papillons. Le seul truc chouffin du jeu, noyé sous les gemmes.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "pekka"
+    ]
+  },
+  {
+    "word": "Paimon",
+    "chouffin": false,
+    "score": 36,
+    "reason": "La mascotte volante de Genshin Impact, qui parle d'elle à la troisième personne. « Ration d'urgence », dit le chouffin.",
+    "category": "jeux-video",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Professeur Saule",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Le prof de Pokémon GO qui t'envoie marcher 10 km pour un œuf. Le chouffin préfère le Professeur Chen et son canapé.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "professor willow"
+    ]
+  },
+  {
+    "word": "Alex Hunter",
+    "chouffin": false,
+    "score": 8,
+    "reason": "Le footballeur du mode histoire de FIFA. Un drame de vestiaire que le chouffin a zappé pour aller chercher des elfes.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Coach de Wii Fit",
+    "chouffin": false,
+    "score": 8,
+    "reason": "La coach en lycra qui compte tes squats avec le sourire. Le chouffin a rangé la Balance Board sous le canapé en 2009.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "wii fit trainer"
+    ]
+  },
+  {
+    "word": "Huggy Wuggy",
+    "chouffin": false,
+    "score": 10,
+    "reason": "La peluche bleue aux dents pointues de Poppy Playtime, star des cours de récré. Le chouffin a pris un coup de vieux.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "poppy playtime"
+    ]
+  },
+  {
+    "word": "Final Fantasy X",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le blitzball, la scène du rire et Sin qui ravage Spira. Le chouffin a rempli le Sphérier au lieu de réviser son bac.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ffx",
+      "final fantasy 10"
+    ]
+  },
+  {
+    "word": "Final Fantasy XIV",
+    "chouffin": true,
+    "score": 84,
+    "reason": "« Le MMORPG salué par la critique, avec une version d'essai gratuite... » Le chouffin connaît le mème et y a 3 000 heures.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ffxiv",
+      "ff14",
+      "final fantasy 14"
+    ]
+  },
+  {
+    "word": "Final Fantasy IX",
+    "chouffin": true,
+    "score": 74,
+    "reason": "L'épisode aux allures de conte, avec Bibi le petit mage noir. Le chouffin le trouve sous-coté et le dit très fort.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ffix",
+      "ff9",
+      "final fantasy 9"
+    ]
+  },
+  {
+    "word": "Clair Obscur : Expedition 33",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le JRPG français qui a mis tout le monde d'accord, entre Peintresse et Belle Époque. Le chouffin a pleuré en français.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "expedition 33",
+      "clair obscur",
+      "e33"
+    ]
+  },
+  {
+    "word": "Planescape: Torment",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« Qu'est-ce qui peut changer la nature d'un homme ? » Le RPG le plus bavard du monde, donc son préféré.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "planescape"
+    ]
+  },
+  {
+    "word": "Pillars of Eternity",
+    "chouffin": true,
+    "score": 68,
+    "reason": "L'héritier spirituel de Baldur's Gate, pause active et pavés de lore. Le chouffin a lu tous les textes, lui.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "pillars of eternity 2"
+    ]
+  },
+  {
+    "word": "Path of Exile",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un arbre de compétences grand comme la Terre du Milieu. Le chouffin a trois guides ouverts en permanence, et un tableur.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "path of exile 2",
+      "poe2"
+    ]
+  },
+  {
+    "word": "Titan Quest",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un hack'n'slash mythologique où l'on affronte centaures et satyres. Le chouffin y trouve enfin ses cours de latin utiles.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Dragon's Dogma",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Des pions qui répètent « Les loups chassent en meute ! » et des griffons à escalader. Le chouffin grimpe sur tout ce qui bouge.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dragons dogma",
+      "dragon's dogma 2"
+    ]
+  },
+  {
+    "word": "Fable",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Un RPG où l'on devient gentil ou méchant, avec des poulets à botter. Des promesses énormes, un jeu sympa : il pardonne.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "fable 2"
+    ]
+  },
+  {
+    "word": "Gothic",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le RPG allemand culte, rugueux et plein de caractère. Le chouffin y a appris à respecter la colonie et à fuir les ours.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "gothic 2"
+    ]
+  },
+  {
+    "word": "Dragon Age: The Veilguard",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Le retour tant attendu de Dragon Age, bien plus lisse que prévu. Le chouffin est retourné à Origins pour se consoler.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dragon age veilguard",
+      "veilguard"
+    ]
+  },
+  {
+    "word": "Avowed",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Le RPG fantasy d'Obsidian dans l'univers de Pillars. Joli mais sage : le chouffin l'a lâché pour relancer Skyrim.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Kingdom Come: Deliverance II",
+    "chouffin": true,
+    "score": 82,
+    "reason": "La Bohême de 1403, des épées lourdes et du schnaps qui sauve. Le chouffin a passé plus de temps à la taverne qu'en quête.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "kcd2",
+      "kingdom come deliverance 2"
+    ]
+  },
+  {
+    "word": "Dark Messiah of Might and Magic",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le RPG où le coup de pied dans les pics était l'arme ultime. Le chouffin a botté des orcs pendant 20 heures.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dark messiah"
+    ]
+  },
+  {
+    "word": "Deus Ex",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le cyberpunk où chaque problème a cinq solutions, dont la bouche d'aération. Le chouffin a toujours choisi la bouche d'aération.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "deus ex human revolution"
+    ]
+  },
+  {
+    "word": "Persona 5",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des lycéens voleurs de cœurs, du jazz et un calendrier scolaire. Le chouffin gère mieux ses liens sociaux dans le jeu qu'en vrai.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "p5",
+      "persona 5 royal"
+    ]
+  },
+  {
+    "word": "NieR: Automata",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Des androïdes, une bande-son sublime et 26 fins, dont une où il faut tout effacer. Le chouffin n'a pas osé.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "nier automata",
+      "nier"
+    ]
+  },
+  {
+    "word": "Okami",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Une louve divine qui peint le monde au pinceau céleste, façon estampe japonaise. Le chouffin trouve ça beau à pleurer.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "ōkami"
+    ]
+  },
+  {
+    "word": "Secret of Mana",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le RPG de la Super Nintendo à trois joueurs avec le multitap. Le chouffin se souvient des disputes pour savoir qui jouait le lutin.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "seiken densetsu 2"
+    ]
+  },
+  {
+    "word": "Xenoblade Chronicles",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des mondes immenses bâtis sur des titans géants. Le chouffin a trouvé 120 heures de quêtes annexes parfaitement raisonnables.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "xenoblade"
+    ]
+  },
+  {
+    "word": "Octopath Traveler",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Huit héros, du pixel art en HD-2D et un parfum de Super Nintendo. La nostalgie du chouffin, en haute définition.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Ni no Kuni",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Un JRPG aux décors dignes d'un film d'animation japonais. Magnifique, mais le chouffin trouve les combats trop mignons.",
+    "category": "jeux-video",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Pokémon Or et Argent",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le jour et la nuit, Kanto en bonus et Lugia. Pour le chouffin, la meilleure génération, et ce n'est pas un débat.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "pokemon or",
+      "pokemon argent",
+      "pokemon gold",
+      "pokemon silver",
+      "pokemon cristal"
+    ]
+  },
+  {
+    "word": "Solasta",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Un jeu de rôle tactique français aux règles de D&D 5, avec de vrais jets de dés. Le chouffin entend les d20 rouler dans sa tête.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "solasta crown of the magister"
+    ]
+  },
+  {
+    "word": "Pathfinder: Wrath of the Righteous",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Une croisade contre les démons, 25 classes et des fiches de perso longues comme le bras. Le chouffin est en extase.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "wotr",
+      "pathfinder wotr"
+    ]
+  },
+  {
+    "word": "Eye of the Beholder",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le dungeon crawler AD&D des années 90, case par case. Le chouffin a encore la carte tracée sur papier millimétré.",
+    "category": "jeux-video",
+    "tribe": "roliste"
+  },
+  {
+    "word": "Icewind Dale",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Du D&D pur dans le Grand Nord, une aventure de combats et de neige. Le chouffin y a créé six persos, et une chope de bière.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "icewind dale 2"
+    ]
+  },
+  {
+    "word": "Vampire: The Masquerade - Bloodlines",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Le JdR du Monde des Ténèbres en jeu vidéo, bugs cultes compris. Le chouffin a fait tout le jeu en Malkavien, évidemment.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "bloodlines",
+      "vtmb",
+      "vampire bloodlines"
+    ]
+  },
+  {
+    "word": "La Bataille pour la Terre du Milieu",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le Gouffre de Helm en STR, avec les Uruk-hai qui chargent. Le chouffin a rejoué toute la trilogie, souris en main.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "battle for middle earth",
+      "bfme",
+      "la bataille pour la terre du milieu 2"
+    ]
+  },
+  {
+    "word": "L'Ombre du Mordor",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Des orcs qui se souviennent de toi et deviennent tes ennemis jurés. Le chouffin a un rival orc qui le hante depuis 2014.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "shadow of mordor",
+      "shadow of war",
+      "l'ombre de la guerre"
+    ]
+  },
+  {
+    "word": "Le Seigneur des Anneaux Online",
+    "chouffin": true,
+    "score": 74,
+    "reason": "La Comté, la Moria et des concerts de luth entre joueurs. Le chouffin a joué de la musique à Bree pendant des heures.",
+    "category": "jeux-video",
+    "tribe": "roliste",
+    "aliases": [
+      "lotro",
+      "lord of the rings online"
+    ]
+  },
+  {
+    "word": "Dark Age of Camelot",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Albion, Hibernia et Midgard en guerre éternelle. Le MMO arthurien : le chouffin y a cherché Perceval, en vain.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "daoc"
+    ]
+  },
+  {
+    "word": "EverQuest",
+    "chouffin": true,
+    "score": 58,
+    "reason": "L'ancêtre des MMO, où mourir faisait perdre de l'expérience. Le chouffin salue ces pionniers de la nuit blanche.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "everquest 2"
+    ]
+  },
+  {
+    "word": "Ultima Online",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le MMO pionnier où l'on pouvait tout voler et tout fabriquer. Le chouffin a été cuisinier, puis voleur, puis ruiné.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "RuneScape",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le MMO du navigateur où l'on coupait des arbres pendant des heures. Le chouffin a monté Bûcheronnage au niveau 99 au lieu de réviser.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "old school runescape",
+      "osrs"
+    ]
+  },
+  {
+    "word": "Guild Wars",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le MMO sans abonnement et ses dragons ancestraux. Le chouffin trouve qu'il méritait bien plus de gloire que ça.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "guild wars 2",
+      "gw2"
+    ]
+  },
+  {
+    "word": "The Elder Scrolls Online",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Tamriel tout entier en MMO. Le chouffin y cherche surtout les livres de lore et les maisons à décorer, pas les autres joueurs.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "teso",
+      "eso"
+    ]
+  },
+  {
+    "word": "Star Wars: The Old Republic",
+    "chouffin": true,
+    "score": 56,
+    "reason": "L'ère des Sith en MMO, avec des histoires de classe réussies. Le chouffin y est venu pour KOTOR, il y est resté.",
+    "category": "jeux-video",
+    "tribe": "geek",
+    "aliases": [
+      "swtor"
+    ]
+  },
+  {
+    "word": "EVE Online",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le MMO spatial qui se joue sur tableur, où les trahisons font la une. Le chouffin a une corporation et un fichier Excel.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Wakfu",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Le MMO tactique d'Ankama, avec Yugo et la confrérie du Tofu. Le petit frère de Dofus, et un animé qui a ému le chouffin.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  }
+]

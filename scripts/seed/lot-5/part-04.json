@@ -1,0 +1,1008 @@
+[
+  {
+    "word": "Metin2",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Le MMO de cour de récré des années 2000, avec des pierres qui tombent du ciel. Nostalgique, mais le chouffin avait déjà WoW.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "MapleStory",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un MMO en 2D très kawaii, avec des champignons à farmer. Le chouffin y a fait ses débuts, puis a filé sur Guild Wars.",
+    "category": "jeux-video",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Lost Ark",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un MMO coréen spectaculaire au grind infini. Le chouffin s'y est cassé les dents sur les raids de fin de jeu.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "New World",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Le MMO d'Amazon : des colons, de la magie et un lancement chaotique. Le chouffin est retourné sur WoW, fidèle au poste.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Second Life",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Une vie virtuelle où l'on achète des vêtements et des lofts. Le chouffin a déjà une vie fantasy, il n'en veut pas une seconde.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Warhammer: Vermintide",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Quatre héros contre des hordes de skavens, les hommes-rats de Warhammer. Depuis, le chouffin voit des rats partout.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "vermintide",
+      "vermintide 2"
+    ]
+  },
+  {
+    "word": "Warhammer 40,000: Dawn of War",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Space Marines, Orks et « Pour l'Empereur ! » en STR. Le chouffin peint ses figurines avec la bande-son de DoW.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dawn of war",
+      "dawn of war 2"
+    ]
+  },
+  {
+    "word": "Lego Star Wars",
+    "chouffin": true,
+    "score": 70,
+    "reason": "La saga en briques, avec des Jedi qui se démontent en morceaux. Le chouffin a débloqué tous les persos, ses neveux aussi.",
+    "category": "jeux-video",
+    "tribe": "geek",
+    "aliases": [
+      "lego star wars la saga complete"
+    ]
+  },
+  {
+    "word": "Star Wars Battlefront",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des batailles géantes sur Hoth et Endor. Le chouffin jure que le seul vrai, c'est le Battlefront II de la PS2.",
+    "category": "jeux-video",
+    "tribe": "geek",
+    "aliases": [
+      "battlefront",
+      "battlefront 2"
+    ]
+  },
+  {
+    "word": "Hogwarts Legacy",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Le château des sorciers en monde ouvert, un siècle avant Harry. Le chouffin a passé 10 heures à décorer sa Salle sur Demande.",
+    "category": "jeux-video",
+    "tribe": "geek",
+    "aliases": [
+      "hogwarts legacy l'heritage de poudlard"
+    ]
+  },
+  {
+    "word": "Alien: Isolation",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Un seul xénomorphe, un casier et beaucoup de sueurs froides. Le chouffin a joué toute la partie en retenant son souffle.",
+    "category": "jeux-video",
+    "tribe": "geek",
+    "aliases": [
+      "alien isolation"
+    ]
+  },
+  {
+    "word": "Marvel Rivals",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Des super-héros Marvel en jeu de tir par équipes. Le chouffin aime Marvel, beaucoup moins les parties de 20 minutes en ligne.",
+    "category": "jeux-video",
+    "tribe": "geek"
+  },
+  {
+    "word": "Quake",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le FPS nerveux des LAN des années 90, rocket jump et railgun. Le chouffin dit encore « frag » en parlant de ses collègues.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "quake 3",
+      "quake iii arena",
+      "quake arena"
+    ]
+  },
+  {
+    "word": "Unreal Tournament",
+    "chouffin": true,
+    "score": 80,
+    "reason": "« M-M-M-MONSTER KILL ! » L'annonceur qui hurle encore dans ses souvenirs de LAN. Le chouffin l'a en sonnerie.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ut2004",
+      "unreal tournament 2004"
+    ]
+  },
+  {
+    "word": "Team Fortress 2",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Neuf classes, des chapeaux à collectionner et un Heavy fou de son sandvich. Le chouffin a dépensé plus en chapeaux virtuels qu'en vrais.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "tf2"
+    ]
+  },
+  {
+    "word": "Left 4 Dead",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Quatre survivants, des hordes de zombies et une Witch qui pleure dans le noir. « Éteins ta lampe ! », sa règle de coop.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "l4d",
+      "left 4 dead 2",
+      "l4d2"
+    ]
+  },
+  {
+    "word": "Halo",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le space opera de la Xbox, ses Grognards qui fuient et ses parties en écran scindé. Le chouffin préfère le lore au multi.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "halo 3",
+      "halo combat evolved"
+    ]
+  },
+  {
+    "word": "BioShock",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Une cité sous-marine Art déco, des Big Daddies et un retournement légendaire. Le chouffin a été marqué à vie.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "bioshock infinite"
+    ]
+  },
+  {
+    "word": "Dishonored",
+    "chouffin": true,
+    "score": 64,
+    "reason": "L'assassin masqué qui se téléporte dans une ville victorienne, conçu à Lyon. Le chouffin le finit sans tuer personne. Presque.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dishonored 2"
+    ]
+  },
+  {
+    "word": "S.T.A.L.K.E.R.",
+    "chouffin": true,
+    "score": 72,
+    "reason": "La Zone, ses anomalies, ses artefacts et ses feux de camp à la guitare. Le chouffin lance un boulon devant lui par réflexe.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "stalker",
+      "stalker 2"
+    ]
+  },
+  {
+    "word": "Metro 2033",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le métro post-apocalyptique où les munitions servent de monnaie. Le chouffin a lu le roman après, preuve de son sérieux.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "metro exodus",
+      "metro last light"
+    ]
+  },
+  {
+    "word": "Helldivers 2",
+    "chouffin": true,
+    "score": 74,
+    "reason": "« Pour la Super-Terre ! » Une démocratie galactique très satirique et des tirs amis en pagaille. Le chouffin salue, main au casque.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "helldivers"
+    ]
+  },
+  {
+    "word": "Crysis",
+    "chouffin": true,
+    "score": 60,
+    "reason": "« Mais est-ce que ça fait tourner Crysis ? » La question que le chouffin pose devant chaque PC, même un grille-pain.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Borderlands",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Des milliards de flingues, du cel-shading et un humour absurde. Le chouffin y joue surtout pour le loot, forcément.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "borderlands 2"
+    ]
+  },
+  {
+    "word": "Warframe",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Des ninjas de l'espace et du farm à l'infini. Le chouffin a 2 000 heures dessus et aucune idée de l'histoire.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Garry's Mod",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Un bac à sable où l'on pose des personnages dans des positions absurdes. Le chouffin a joué au prop hunt jusqu'à l'aube.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "gmod",
+      "garrys mod"
+    ]
+  },
+  {
+    "word": "Destiny",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Un MMO-FPS de l'espace au lore caché dans des cartes à collectionner. Le chouffin lit le lore sur le wiki, ça lui suffit.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "destiny 2"
+    ]
+  },
+  {
+    "word": "Far Cry",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Des méchants charismatiques, des avant-postes à libérer et des animaux sauvages. Du grand spectacle, mais peu de lore.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "far cry 3",
+      "far cry 5"
+    ]
+  },
+  {
+    "word": "Rainbow Six Siege",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des murs qui explosent et des équipes qui crient. Trop compétitif pour le chouffin, qui préfère les raids à dix.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "r6",
+      "rainbow six"
+    ]
+  },
+  {
+    "word": "Escape from Tarkov",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Le FPS où l'on perd tout son équipement en mourant. Le chouffin aime la difficulté, mais pas à ce point-là.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "tarkov"
+    ]
+  },
+  {
+    "word": "Splinter Cell",
+    "chouffin": true,
+    "score": 52,
+    "reason": "L'infiltration dans le noir, lunettes à trois yeux verts vissées sur le front. Le chouffin y jouait lumières éteintes.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Demon's Souls",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le premier souls, l'ancêtre remaké avec respect. Le chouffin était là en 2009, et il ne manquera pas de te le rappeler.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "demons souls"
+    ]
+  },
+  {
+    "word": "Lies of P",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Pinocchio dans un souls-like à la Belle Époque. Le chouffin a menti à chaque dialogue, juste pour voir ce qui se passe.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Elden Ring Nightreign",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Elden Ring en coop à trois, avec une nuit qui se referme sur toi. Le chouffin y a recruté ses vieux potes de LAN.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "nightreign"
+    ]
+  },
+  {
+    "word": "Hollow Knight: Silksong",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Attendu six ans, mèmes compris. Le chouffin a posé un jour de congé pour la sortie et trouvé les boss très durs. Normal.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "silksong"
+    ]
+  },
+  {
+    "word": "Slay the Spire",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le deckbuilder roguelike qui dévore les nuits. « Encore une partie », dit le chouffin à 23 h. Puis à 4 h du matin.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Darkest Dungeon",
+    "chouffin": true,
+    "score": 78,
+    "reason": "« La ruine s'est abattue sur notre famille. » Des héros stressés et un narrateur sublime. Le chouffin l'imite parfaitement.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Dead Cells",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Le rogue-lite bordelais où l'on meurt beaucoup et avec style. Le chouffin a 800 morts au compteur et il en est fier.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Celeste",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Une plateforme exigeante sur une montagne et sur l'anxiété. Le chouffin y est mort 3 000 fois et a trouvé ça beau.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Cuphead",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Un dessin animé des années 30 où chaque boss est une épreuve. Le chouffin a tout fini, les pouces en compote.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Shovel Knight",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un chevalier armé d'une pelle, en 8 bits. Le chouffin a acheté une pelle de jardin, uniquement pour le cosplay.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Undertale",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le RPG où l'on peut épargner tout le monde, avec des squelettes blagueurs. Le chouffin a fait la route pacifiste, trois fois.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Terraria",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Minecraft en 2D avec des boss, du loot et mille armes. Le chouffin a « juste lancé une partie » un vendredi à 20 h.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Factorio",
+    "chouffin": true,
+    "score": 74,
+    "reason": "« L'usine doit s'agrandir. » Des tapis roulants à l'infini. Le chouffin optimise ses usines au lieu de ranger sa cuisine.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "the factory must grow"
+    ]
+  },
+  {
+    "word": "RimWorld",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Une colonie sur une planète perdue et un narrateur IA sans pitié. Le chouffin y a vécu plus de drames que dans Game of Thrones.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Subnautica",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un océan extraterrestre magnifique et des léviathans qui surgissent du noir. Le chouffin a désormais peur de l'eau profonde.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Outer Wilds",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un système solaire en boucle de 22 minutes et un feu de camp à guimauves. Le chouffin voudrait tout oublier pour le refaire.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Disco Elysium",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un RPG sans combat où tes pensées se disputent entre elles. Le chouffin, bavard de nature, a trouvé son jeu idéal.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Inscryption",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Un jeu de cartes dans une cabane, face à un maître du jeu flippant. Le chouffin y a reconnu son MJ, en moins sympa.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Vampire Survivors",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Un jeu à 5 euros qui avale 50 heures. Le chouffin, armé d'un fouet, affronte des chauves-souris par milliers.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "The Binding of Isaac",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un enfant en larmes contre des monstres dans une cave. Le rogue-lite le plus bizarre et le plus addictif de sa bibliothèque.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "binding of isaac",
+      "isaac"
+    ]
+  },
+  {
+    "word": "Cult of the Lamb",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Un agneau mignon qui fonde son propre culte d'animaux. Choupi et sombre à la fois : le chouffin adore le contraste.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Enshrouded",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Survie en coop dans un monde fantasy noyé sous la brume. Le Valheim des elfes : le chouffin y a bâti un donjon.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Project Zomboid",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Survivre aux zombies en lisant des livres de menuiserie. Le chouffin, lui, meurt généralement d'une égratignure.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Don't Starve",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Survivre dans un monde gothique où tout veut te manger. Le chouffin meurt de faim dès la première nuit, régulièrement.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dont starve",
+      "don't starve together"
+    ]
+  },
+  {
+    "word": "Lethal Company",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Des employés qui ramassent de la ferraille sur des lunes hantées. Le chouffin adore surtout le chat vocal de proximité.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Super Meat Boy",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Un cube de viande qui meurt mille fois pour sauver sa copine. Trop hardcore pour le chouffin, qui a posé la manette.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Papers, Please",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Tamponner des passeports dans un pays imaginaire, puis craquer. Un chef-d'œuvre, mais bien trop proche du bureau.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "papers please"
+    ]
+  },
+  {
+    "word": "Ori and the Blind Forest",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Une plateforme magnifique qui fait pleurer dès l'intro. Le chouffin a pleuré, mais il n'a pas acheté le t-shirt.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ori"
+    ]
+  },
+  {
+    "word": "Limbo",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un garçon en noir et blanc dans une forêt hostile. Une belle claque arty, mais le chouffin veut des dragons en couleur.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Journey",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un voyageur silencieux dans le désert, en coopération muette. Beau et contemplatif, mais sans un seul boss à frapper.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "StarCraft",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Terrans, Zergs et Protoss en STR culte. Le chouffin a passé plus de temps sur Battle.net qu'au lycée, et ça se voit.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "starcraft 2",
+      "sc2",
+      "starcraft brood war",
+      "brood war"
+    ]
+  },
+  {
+    "word": "Command & Conquer",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le STR des cinématiques jouées par de vrais acteurs. Le chouffin dit encore « Unité prête » en sortant de la douche.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "command and conquer",
+      "alerte rouge",
+      "red alert"
+    ]
+  },
+  {
+    "word": "Dune II",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le père des STR, avec l'épice et les vers des sables. Le chouffin a relu les romans grâce à lui.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "dune 2"
+    ]
+  },
+  {
+    "word": "Warcraft II",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Les orcs, les péons et les moutons qui explosent quand on clique trop dessus. Le chouffin clique encore, par nostalgie.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "warcraft 2",
+      "warcraft ii tides of darkness"
+    ]
+  },
+  {
+    "word": "Europa Universalis",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Gérer un royaume de 1444 à 1821 en cartes et tableaux. Le chouffin a unifié l'Italie avant d'unifier son planning.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "eu4",
+      "europa universalis iv"
+    ]
+  },
+  {
+    "word": "Stellaris",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un empire galactique, des espèces extraterrestres et du lore généré à l'infini. Le chouffin a joué des champignons pacifistes.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Manor Lords",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Bâtir un village médiéval, ses champs, ses tavernes et sa milice. Le chouffin rêve d'y vivre, brasserie comprise.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Northgard",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Des clans vikings, des hivers rudes et des loups affamés. Le STR français qui a su parler au cœur barbu du chouffin.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Wartales",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Une compagnie de mercenaires dans un monde médiéval rude et boueux. Le chouffin gère ses rations comme un intendant.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Endless Legend",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un 4X fantasy français aux factions très originales. Le chouffin y joue « encore un tour » depuis plus de dix ans.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Humankind",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Le Civilization à la française, avec des cultures qui changent à chaque ère. Le chouffin est vite revenu à Civ.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "XCOM",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Des aliens, des soldats et un tir à 95 % qui rate. Le chouffin a plus crié sur les probabilités que sur sa box.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "xcom 2",
+      "x-com",
+      "xcom enemy unknown"
+    ]
+  },
+  {
+    "word": "Frostpunk",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Une ville autour d'un générateur, dans un hiver éternel. Le chouffin a pris des décisions qu'il ne raconte pas en soirée.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Satisfactory",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Factorio en 3D sur une planète extraterrestre. Le chouffin a construit des usines plus belles que son appartement.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Advance Wars",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des petits chars mignons en stratégie au tour par tour sur Game Boy Advance. Son entraînement avant les jeux de plateau.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Fire Emblem",
+    "chouffin": true,
+    "score": 60,
+    "reason": "La stratégie où la mort d'un perso est définitive. Le chouffin recharge sa partie à chaque perte, sans aucune honte.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Kerbal Space Program",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Des petits bonshommes verts qui construisent des fusées bancales. Le chouffin a appris la mécanique orbitale en explosant.",
+    "category": "jeux-video",
+    "tribe": "geek",
+    "aliases": [
+      "ksp"
+    ]
+  },
+  {
+    "word": "Theme Hospital",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Gérer un hôpital où les patients ont la tête enflée ou le syndrome du King. Le chouffin garde une nostalgie absurde.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "The Settlers",
+    "chouffin": false,
+    "score": 50,
+    "reason": "Des petits bonshommes qui transportent des planches d'un bout à l'autre du royaume. Hypnotique, mais vraiment très lent.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Spore",
+    "chouffin": false,
+    "score": 48,
+    "reason": "De la cellule à l'empire galactique. Le chouffin attendait le jeu ultime, il a eu des créatures avec des pattes en trop.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Pikmin",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Un astronaute minuscule qui commande des plantes colorées. Mignon et malin, mais sans une seule épée.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Majora's Mask",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Trois jours avant que la lune s'écrase, des masques et une ambiance glaçante. Le Zelda préféré des vrais, jure le chouffin.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "zelda majora's mask",
+      "majora"
+    ]
+  },
+  {
+    "word": "Tears of the Kingdom",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Link qui colle des planches pour bâtir des robots et des chars. Le chouffin a inventé des engins que les Korogus ne lui pardonneront pas.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "totk",
+      "zelda tears of the kingdom"
+    ]
+  },
+  {
+    "word": "A Link to the Past",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le Zelda de la Super Nintendo et son monde des ténèbres. Le chouffin connaît chaque cœur caché, et chaque buisson.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "alttp",
+      "zelda a link to the past"
+    ]
+  },
+  {
+    "word": "Super Mario 64",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le premier Mario en 3D, la lettre de Peach et des bugs de speedrun légendaires. Le chouffin a vu toutes les vidéos.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "sm64",
+      "mario 64"
+    ]
+  },
+  {
+    "word": "GoldenEye 007",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le FPS de la N64 à quatre en écran scindé, où regarder l'écran des autres faisait partie des règles.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "goldeneye"
+    ]
+  },
+  {
+    "word": "Metroid",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Une chasseuse de primes, une planète hostile et tout un genre qui porte son nom. Le chouffin dit « metroidvania » avec gourmandise.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "super metroid",
+      "metroid prime"
+    ]
+  },
+  {
+    "word": "F-Zero",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des bolides à 1 000 km/h et Captain Falcon au volant. Le chouffin réclame une vraie suite depuis la GameCube.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "f-zero gx"
+    ]
+  },
+  {
+    "word": "Crash Team Racing",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le Mario Kart de la PlayStation et ses dérapages turbo. Le chouffin le préfère, et il le fait savoir à chaque soirée.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ctr"
+    ]
+  },
+  {
+    "word": "Soulcalibur",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Des armes blanches, des duels épiques et Link en invité sur GameCube. Le chouffin a choisi Nightmare, forcément.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "soul calibur",
+      "soulcalibur 2"
+    ]
+  },
+  {
+    "word": "Mortal Kombat",
+    "chouffin": true,
+    "score": 58,
+    "reason": "« FINISH HIM! » Des ninjas colorés et des fatalités outrancières. Le chouffin connaît les combinaisons secrètes par cœur.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "fatality",
+      "mortal kombat 11"
+    ]
+  },
+  {
+    "word": "King of Fighters",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Le jeu de baston en équipes de trois, roi des salles d'arcade. Le chouffin préférait les kimonos de Street Fighter.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "kof"
+    ]
+  },
+  {
+    "word": "Dragon Ball Z: Budokai Tenkaichi",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Des Kamehameha au milieu des montagnes et plus de 150 persos. Le chouffin a passé l'été 2007 à débloquer Broly.",
+    "category": "jeux-video",
+    "tribe": "weeb",
+    "aliases": [
+      "budokai tenkaichi",
+      "budokai tenkaichi 3"
+    ]
+  },
+  {
+    "word": "Golden Axe",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un barbare, une amazone et un nain à la hache contre des squelettes. Le chouffin tape encore les lutins pour leurs potions.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Streets of Rage",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Le beat'em up de la Mega Drive et sa musique techno culte. Le chouffin préfère le poulet rôti caché dans les poubelles.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "streets of rage 4"
+    ]
+  },
+  {
+    "word": "Ghosts'n Goblins",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Le chevalier Arthur qui perd son armure et finit en caleçon. Le jeu le plus dur de l'arcade : le chouffin s'en vante.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "ghouls'n ghosts",
+      "ghosts n goblins"
+    ]
+  },
+  {
+    "word": "Metal Slug",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Des soldats, des chars et des explosions en pixel art. Le chouffin a englouti ses pièces dans la borne du bar-tabac.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Battletoads",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Des crapauds bagarreurs et le Turbo Tunnel, le niveau le plus dur de la NES. Le chouffin dit l'avoir fini. Il ment.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Lemmings",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Des petites bêtes aux cheveux verts qui marchent vers le vide si tu ne fais rien. Le chouffin a une stratégie : tout faire exploser.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Space Invaders",
+    "chouffin": true,
+    "score": 54,
+    "reason": "Des envahisseurs pixelisés qui descendent lentement. Le chouffin a le t-shirt, et le carrelage de salle de bain assorti.",
+    "category": "jeux-video",
+    "tribe": "gamer"
+  },
+  {
+    "word": "Prince of Persia",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Le prince acrobate qui court sur les murs et remonte le temps. Le chouffin a tout appris des Sables du Temps, sauf la patience.",
+    "category": "jeux-video",
+    "tribe": "gamer",
+    "aliases": [
+      "prince of persia les sables du temps"
+    ]
+  }
+]

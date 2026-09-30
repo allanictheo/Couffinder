@@ -1,0 +1,205 @@
+[
+  {
+    "word": "Manga",
+    "chouffin": true,
+    "score": 88,
+    "reason": "Il lit de droite à gauche sans effort, mais peine encore à lire une notice de meuble. Question de priorités.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Animé",
+    "chouffin": true,
+    "score": 85,
+    "reason": "VOSTFR obligatoire, opening jamais zappé. Il a plus d'heures d'animé au compteur que d'heures de sommeil.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "dessin anime japonais"
+    ]
+  },
+  {
+    "word": "Otaku",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le mot qu'il revendique fièrement à Japan Expo et qu'il évite soigneusement au repas de famille.",
+    "category": "loisirs",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Weeb",
+    "chouffin": true,
+    "score": 90,
+    "reason": "C'est carrément le nom de sa tribu. Il le porte avec fierté, un bandeau de Konoha sur le front.",
+    "category": "loisirs",
+    "tribe": "weeb",
+    "aliases": [
+      "weeaboo",
+      "weaboo"
+    ]
+  },
+  {
+    "word": "Shōnen",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Amitié, dépassement de soi et combats de 40 épisodes : toute sa philosophie de vie tient dans ce genre.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "shounen"
+    ]
+  },
+  {
+    "word": "Shōjo",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Des yeux immenses, des roses et des cœurs qui battent. Il en a lu un en cachette, et il nie encore.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "shoujo"
+    ]
+  },
+  {
+    "word": "Seinen",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le manga « adulte » : Berserk, Vinland Saga. Il le cite pour prouver qu'il a mûri. Presque.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Isekai",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un camion, une réincarnation, un héros surpuissant dans un monde fantasy : il appelle ça un plan de carrière.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Waifu",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Il a un avis tranché sur la meilleure waifu de chaque série, et un argumentaire de douze minutes pour le défendre.",
+    "category": "loisirs",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Senpai",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Il attend toujours qu'on le remarque. Ça fait quinze ans. Il reste optimiste.",
+    "category": "loisirs",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Kawaii",
+    "chouffin": true,
+    "score": 58,
+    "reason": "Il ne l'avouera jamais, mais sa collection de peluches Pikachu est très, très kawaii.",
+    "category": "loisirs",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Nakama",
+    "chouffin": true,
+    "score": 78,
+    "reason": "L'amitié version One Piece : il appelle ses potes de LAN « nakama » et personne n'ose le contredire.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Mangaka",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Il a voulu en devenir un en 4e. Il lui reste un cahier de dessins et une admiration sans limite pour le métier.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Light novel",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Des romans japonais aux titres de 25 mots. Il en lit, mais seulement « pour connaître la suite de l'animé ».",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Scan",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Il lit le chapitre en scan le jeudi soir, puis rachète le tome papier pour soutenir l'auteur. Un chouffin honnête.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Simulcast",
+    "chouffin": true,
+    "score": 55,
+    "reason": "L'épisode sort au Japon et il le regarde dans l'heure. La patience, c'était pour les années 2000.",
+    "category": "youtube-internet",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Crunchyroll",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Son abonnement le plus sacré, loin devant le reste. Sa liste « à voir » dépasse son espérance de vie.",
+    "category": "youtube-internet",
+    "tribe": "weeb"
+  },
+  {
+    "word": "VOSTFR",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Il a lancé des débats de trois heures contre la VF. Pour lui, regarder un animé autrement relève du sacrilège.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "vf ou vostfr"
+    ]
+  },
+  {
+    "word": "Tokyo",
+    "chouffin": true,
+    "score": 58,
+    "reason": "La ville de ses rêves : Akihabara, les salles d'arcade, les konbini. Il y est allé une fois et en parle chaque semaine.",
+    "category": "lieux-events",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Chibi",
+    "chouffin": true,
+    "score": 52,
+    "reason": "Des personnages en version mini, grosse tête et petits bras. Toutes les figurines de son étagère ont cette tête-là.",
+    "category": "loisirs",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Filler",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Les épisodes bouche-trou des longues séries. Il les a tous zappés grâce à une liste en ligne, et il en est fier.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "episode filler"
+    ]
+  },
+  {
+    "word": "Tsundere",
+    "chouffin": true,
+    "score": 56,
+    "reason": "« C'est pas comme si je t'aimais, baka ! » Il connaît tous les archétypes de personnages et les classe dans un tableur.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Nekketsu",
+    "chouffin": true,
+    "score": 68,
+    "reason": "Le « sang chaud » des shōnen : crier plus fort pour gagner. Il applique la méthode en tournoi de Mario Kart.",
+    "category": "series-films",
+    "tribe": "weeb"
+  }
+]

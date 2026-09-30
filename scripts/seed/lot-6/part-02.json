@@ -1,0 +1,1056 @@
+[
+  {
+    "word": "Le Château dans le ciel",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Des pirates de l'air, des robots géants et une cité volante : le Ghibli le plus aventure du lot. Le chouffin en redemande.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "laputa"
+    ]
+  },
+  {
+    "word": "Porco Rosso",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Un aviateur à tête de cochon qui sirote du vin sur une île secrète. Le chouffin approuve ce plan de retraite.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Le Château ambulant",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Un château sur pattes, un démon du feu et un sorcier très coiffé. Le chouffin adore Calcifer, moins les soucis capillaires de Hauru.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "hauru",
+      "howl's moving castle"
+    ]
+  },
+  {
+    "word": "Kiki la petite sorcière",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Une jeune sorcière qui livre des colis à balai. Mignon, mais le chouffin attend toujours qu'elle livre de la bière.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kiki"
+    ]
+  },
+  {
+    "word": "Ponyo sur la falaise",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Une petite fille-poisson qui veut devenir humaine et adore le jambon. Le Ghibli que le chouffin montre à sa nièce, pas à ses potes.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "ponyo"
+    ]
+  },
+  {
+    "word": "Le Garçon et le Héron",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Le dernier Miyazaki, beau et mystérieux. Le chouffin n'a pas tout compris, mais a dit « chef-d'œuvre » en sortant, par sécurité.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Your Name",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Deux ados qui échangent leurs corps, et une comète. Superbe, mais le chouffin a pleuré, et il vous interdit d'en parler.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kimi no na wa"
+    ]
+  },
+  {
+    "word": "Blue Lock",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Du foot égocentrique ultra-hype, star de TikTok. Le chouffin préfère Olive et Tom, dont le terrain a au moins la taille de son ego.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Haikyū!!",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Du volley qui donne envie de sauter partout. Le chouffin reconnaît la qualité, mais le seul sport qu'il suit, c'est Blood Bowl.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Kuroko's Basket",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Des passes invisibles et des super-pouvoirs de basketteurs. Le chouffin a arrêté le basket après le premier tour de terrain.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kuroko no basket"
+    ]
+  },
+  {
+    "word": "Prince du Tennis",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des balles de tennis qui défient la physique. Le chouffin a lâché quand un match a duré plus longtemps que sa campagne de JdR.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "prince of tennis",
+      "tennis no ojisama"
+    ]
+  },
+  {
+    "word": "Yuri on Ice",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Du patinage artistique tout en paillettes. Le chouffin ne met pas de glace dans sa bière, alors sur une patinoire, n'y pensez pas.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Hikaru no Go",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un collégien hanté par un maître de go. Le chouffin, qui a lâché le go au bout de 20 minutes, reste aux échecs version Poudlard.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Tokyo Revengers",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Des voyages dans le temps entre gangs de motards en uniforme. Le chouffin a trouvé les coiffures plus marquantes que l'histoire.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Tokyo Ghoul",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Un étudiant à moitié goule en plein drame permanent. Le chouffin a traversé sa phase edgy avec, puis l'a rangée avec ses mitaines.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Fruits Basket",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Une famille qui se change en animaux du zodiaque dès qu'on la serre. Doux, mais le chouffin a perdu le fil à la troisième larme.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Fushigi Yûgi",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Une collégienne aspirée dans un livre de légendes chinoises, entourée de beaux guerriers célestes. Trop de romance, pas assez de dés.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Kaguya-sama",
+    "chouffin": false,
+    "score": 32,
+    "reason": "Deux élèves trop fiers pour avouer leurs sentiments. Le chouffin rit, mais préfère les guerres avec de vraies épées.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kaguya sama love is war"
+    ]
+  },
+  {
+    "word": "Toradora!",
+    "chouffin": false,
+    "score": 26,
+    "reason": "Une romance de lycée avec une héroïne surnommée le tigre de poche. Le chouffin espérait un vrai tigre, et des combats.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Horimiya",
+    "chouffin": false,
+    "score": 16,
+    "reason": "Deux lycéens mignons qui se découvrent. Doux comme un chamallow, trop doux pour un chouffin qui préfère le fromage fondu.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Kimi ni Todoke",
+    "chouffin": false,
+    "score": 14,
+    "reason": "Une lycéenne timide qui apprend à se faire des amis. Le chouffin approuve la morale, puis zappe vers Berserk.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Ouran High School Host Club",
+    "chouffin": false,
+    "score": 22,
+    "reason": "Un club d'élèves riches qui servent le thé avec élégance. Le chouffin préfère servir l'hydromel à la taverne.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "ouran"
+    ]
+  },
+  {
+    "word": "Madoka Magica",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Des magical girls mignonnes en apparence, bien plus sombres en vrai. Depuis, le chouffin se méfie de tout ce qui est rose.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "puella magi madoka magica"
+    ]
+  },
+  {
+    "word": "Pretty Cure",
+    "chouffin": false,
+    "score": 18,
+    "reason": "Des magical girls qui se transforment chaque semaine depuis 2004. Le chouffin laisse ça à sa nièce, qui connaît toutes les saisons.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "precure"
+    ]
+  },
+  {
+    "word": "K-On!",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Un club de musique qui boit plus de thé qu'il ne répète. Le chouffin approuve la guitare, beaucoup moins le thé.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "keion"
+    ]
+  },
+  {
+    "word": "Lucky Star",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des lycéennes qui débattent de la bonne façon de manger un choco-cornet. Le chouffin a les mêmes débats, mais sur la Chouffe.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Azumanga Daioh",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Des lycéennes, une surdouée de 10 ans et un humour absurde. Le chouffin adore Osaka, sans trop savoir pourquoi.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Haruhi Suzumiya",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Une lycéenne qui peut réécrire le monde sans le savoir, et une danse culte. Le chouffin a appris la chorégraphie en secret.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "la melancolie de haruhi suzumiya",
+      "haruhi"
+    ]
+  },
+  {
+    "word": "Laid-Back Camp",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des filles qui font du camping en hiver et mangent des nouilles. Le chouffin ne campe qu'au Hellfest, et pas pour les nouilles.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "yuru camp"
+    ]
+  },
+  {
+    "word": "Les Carnets de l'apothicaire",
+    "chouffin": false,
+    "score": 28,
+    "reason": "Une apothicaire enquête au palais impérial. Joli, mais le chouffin n'y a trouvé ni dragon ni taverne.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "the apothecary diaries",
+      "kusuriya no hitorigoto"
+    ]
+  },
+  {
+    "word": "Beastars",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Des animaux lycéens et un loup qui se pose beaucoup de questions. Le chouffin préfère les loups géants de Game of Thrones.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Spy x Family",
+    "chouffin": false,
+    "score": 38,
+    "reason": "Un espion, une tueuse et une télépathe jouent à la famille. Mignon et bien fait, mais trop sage pour les soirées du chouffin.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "spy family"
+    ]
+  },
+  {
+    "word": "Assassination Classroom",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Un prof-poulpe jaune invincible que sa classe doit vaincre avant la fin de l'année. Le chouffin a trouvé ça plus fun que son lycée.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "ansatsu kyoshitsu"
+    ]
+  },
+  {
+    "word": "Saiki Kusuo",
+    "chouffin": false,
+    "score": 40,
+    "reason": "Un lycéen aux pouvoirs infinis qui veut juste manger sa gelée de café en paix. Le chouffin veut juste sa Chouffe en paix.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "saiki k",
+      "the disastrous life of saiki k"
+    ]
+  },
+  {
+    "word": "Yo-kai Watch",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Des esprits farceurs à collectionner avec une montre. Le chouffin a dit « c'est Pokémon en moins bien » et a quitté la pièce.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Inazuma Eleven",
+    "chouffin": false,
+    "score": 42,
+    "reason": "Du foot aux tirs surnaturels, tiré des jeux Level-5. Le chouffin y a joué sur DS, mais Olive et Tom reste son maître.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Bakugan",
+    "chouffin": false,
+    "score": 24,
+    "reason": "Des billes qui se changent en monstres sur des cartes magnétiques. Le chouffin y a vu un Yu-Gi-Oh en boules.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Vegeta",
+    "chouffin": true,
+    "score": 96,
+    "reason": "Le prince des Saiyans, éternel numéro 2 trop fier pour l'admettre. Le chouffin a trouvé son modèle de vie, et son cri de guerre.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "prince des saiyans"
+    ]
+  },
+  {
+    "word": "Son Gohan",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Un demi-Saiyan surpuissant qui choisit de devenir chercheur. Le chouffin respecte, tout en hurlant « Entraîne-toi ! » à l'écran.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "sangohan",
+      "gohan",
+      "san gohan"
+    ]
+  },
+  {
+    "word": "Piccolo",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le Namek qui a plus élevé Gohan que Goku. Ancien méchant, nounou de luxe et tonton préféré de tout chouffin.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "petit coeur",
+      "satan petit coeur"
+    ]
+  },
+  {
+    "word": "Krilin",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le meilleur pote de Goku, mort plus souvent qu'un perso de Game of Thrones. Le chouffin le défend comme un frère d'armes.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "krillin",
+      "kuririn"
+    ]
+  },
+  {
+    "word": "Bulma",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Génie de Capsule Corp et inventrice du radar à Dragon Balls. Le chouffin retient surtout ses capsules : une taverne de poche !",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Freezer",
+    "chouffin": true,
+    "score": 90,
+    "reason": "Le tyran galactique aux manières polies et aux transformations successives. Le chouffin les récite dans l'ordre, et imite le rire.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "freeza",
+      "frieza"
+    ]
+  },
+  {
+    "word": "Cell",
+    "chouffin": true,
+    "score": 72,
+    "reason": "L'être parfait qui organise son propre tournoi. Le chouffin salue l'idée : c'est comme un GN, mais avec des Kaméhaméhas.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Boubou",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Une boule rose qui change ses ennemis en bonbons. Le chouffin, lui, préférerait les changer en chopes de bière.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "majin buu",
+      "buu",
+      "majin boo"
+    ]
+  },
+  {
+    "word": "Trunks",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le fils du futur, épée dans le dos et blouson Capsule Corp. Le chouffin porte le même blouson à chaque convention depuis 2003.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Tortue Géniale",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Le vieux maître en chemise hawaïenne qui a inventé le Kaméhaméha. Barbe blanche, lunettes noires : le chouffin à 80 ans.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kame sennin",
+      "muten roshi",
+      "master roshi"
+    ]
+  },
+  {
+    "word": "Yamcha",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Vaincu par un Saibaman, il est devenu une pose mythique. Le chouffin l'imite à chaque défaite au Mario Kart, puis se relève.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Tenshinhan",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Trois yeux, zéro cheveu et une technique pour se diviser en quatre. Le rêve du chouffin pour tenir quatre tables de JdR.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "tien"
+    ]
+  },
+  {
+    "word": "Chichi",
+    "chouffin": false,
+    "score": 30,
+    "reason": "Pas les beignets de la foire : la femme de Goku, qui veut que Gohan révise. Le chouffin préfère largement les beignets.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Mister Satan",
+    "chouffin": false,
+    "score": 44,
+    "reason": "Le champion du monde qui s'attribue les victoires des autres. Le chouffin connaît ce type : il raconte ses raids WoW au bar.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "hercule satan",
+      "mr satan"
+    ]
+  },
+  {
+    "word": "Broly",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le Super Saiyan légendaire qui hurle « Kakarot ! » pendant tout un film. Le chouffin fait pareil quand on finit sa Chouffe.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Beerus",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un dieu de la destruction qui se déplace pour du pudding. Le chouffin comprend : il ferait dix bornes pour une raclette.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "beerus sama"
+    ]
+  },
+  {
+    "word": "Shenron",
+    "chouffin": true,
+    "score": 86,
+    "reason": "Le dragon qui exauce les vœux. Le chouffin demanderait un fût de Chouffe infini, ou la suite de Kaamelott, là, tout de suite.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "shenlong"
+    ]
+  },
+  {
+    "word": "Maître Kaïo",
+    "chouffin": true,
+    "score": 64,
+    "reason": "Un dieu à antennes qui vit sur une planète minuscule avec un singe et fait des blagues nulles. Le chouffin a trouvé son MJ.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kaio",
+      "kaio sama",
+      "king kai"
+    ]
+  },
+  {
+    "word": "C-18",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Cyborg glaciale qui a fini par épouser Krilin. Le chouffin garde espoir : si Krilin y est arrivé, tout est possible.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "cyborg 18",
+      "android 18"
+    ]
+  },
+  {
+    "word": "Commando Ginyu",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Cinq guerriers qui prennent la pose avant chaque combat. Le chouffin fait pareil avant chaque match de Blood Bowl.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "ginyu force",
+      "forces speciales ginyu"
+    ]
+  },
+  {
+    "word": "Zoro",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Trois sabres, un bandana et zéro sens de l'orientation. Le chouffin aussi se perd en allant chercher les bières.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "roronoa zoro"
+    ]
+  },
+  {
+    "word": "Sanji",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Le cuisinier du bord qui se bat avec les pieds. Le chouffin admire surtout ses plats : un banquet de pirates, c'est sacré.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "vinsmoke sanji"
+    ]
+  },
+  {
+    "word": "Nami",
+    "chouffin": false,
+    "score": 42,
+    "reason": "La navigatrice qui aime l'argent et les mandarines. Trop organisée pour un chouffin qui paie encore ses bières en pièces de 2 €.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Usopp",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Appelé Pipo dans la VF, et ce n'est pas un hasard. Le chouffin aussi raconte des exploits imaginaires, une chope à la main.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "pipo"
+    ]
+  },
+  {
+    "word": "Chopper",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Un renne médecin qui adore la barbe à papa. Le chouffin fond à chaque fois, et nie ensuite avoir versé une larme.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "tony tony chopper"
+    ]
+  },
+  {
+    "word": "Nico Robin",
+    "chouffin": false,
+    "score": 48,
+    "reason": "L'archéologue qui déchiffre les Ponéglyphes. Le chouffin, qui prétend lire le sindarin, la respecte de loin.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Franky",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Cyborg en maillot qui carbure au cola et prend la pose « Super ! ». Le chouffin respecte un homme qui assume son look.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "cutty flam"
+    ]
+  },
+  {
+    "word": "Brook",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Squelette à afro, violoniste et rock star surnommée Soul King. Le chouffin a trouvé le seul membre de l'équipage métalleux.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "soul king"
+    ]
+  },
+  {
+    "word": "Jinbe",
+    "chouffin": false,
+    "score": 48,
+    "reason": "L'homme-poisson sage qui rejoint enfin l'équipage. Un vrai tank, mais le chouffin l'a attendu tellement longtemps qu'il a décroché.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "jinbei",
+      "jimbei"
+    ]
+  },
+  {
+    "word": "Shanks",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le mentor qui a donné son chapeau à Luffy. Charismatique, fêtard, toujours une chope à la main : le chouffin idéal.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "shanks le roux"
+    ]
+  },
+  {
+    "word": "Portgas D. Ace",
+    "chouffin": true,
+    "score": 70,
+    "reason": "Le grand frère de feu au chapeau de cowboy. Le chouffin en parle avec émotion, puis change vite de sujet vers la bière.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "ace aux poings ardents"
+    ]
+  },
+  {
+    "word": "Barbe Blanche",
+    "chouffin": true,
+    "score": 82,
+    "reason": "Le vieux pirate qui appelle son équipage « mes fils ». Une moustache de légende que le chouffin essaie de faire pousser.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "edward newgate",
+      "whitebeard"
+    ]
+  },
+  {
+    "word": "Baggy le Clown",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Un pirate clown qui se découpe en morceaux et gagne par pur malentendu. Le chouffin gagne ses parties de Munchkin pareil.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "buggy le clown"
+    ]
+  },
+  {
+    "word": "Trafalgar Law",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Chirurgien au sabre géant, chouchou des fans ténébreux. Le chouffin aime son chapeau, beaucoup moins ses fan-arts sur TikTok.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "trafalgar d water law"
+    ]
+  },
+  {
+    "word": "Mihawk",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Le meilleur sabreur du monde, qui vit seul dans un château gothique. Le chouffin note l'idée pour sa retraite.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "dracule mihawk",
+      "oeil de faucon"
+    ]
+  },
+  {
+    "word": "Doflamingo",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Un grand méchant en manteau de plumes roses. Le chouffin respecte le charisme du boss, mais refuse catégoriquement la tenue.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "donquixote doflamingo"
+    ]
+  },
+  {
+    "word": "Gol D. Roger",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le roi des pirates qui a lancé la grande aventure d'une seule phrase. Le chouffin cherche encore le One Piece, et sa télécommande.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Garp",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Le grand-père vice-amiral qui grignote des biscuits et cogne au « poing d'amour ». Le chouffin a le même tonton au repas de Noël.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "monkey d garp"
+    ]
+  },
+  {
+    "word": "Enel",
+    "chouffin": true,
+    "score": 56,
+    "reason": "Le dieu autoproclamé à la grimace choquée devenue mème. Le chouffin l'a épinglée dans son Discord pour réagir à tout.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "ener",
+      "eneru"
+    ]
+  },
+  {
+    "word": "Sasuke",
+    "chouffin": false,
+    "score": 48,
+    "reason": "Le rival ténébreux qui part se venger pendant 400 épisodes. Le chouffin l'a trouvé cool au lycée, et ne l'avoue plus.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "sasuke uchiwa",
+      "sasuke uchiha"
+    ]
+  },
+  {
+    "word": "Kakashi",
+    "chouffin": true,
+    "score": 84,
+    "reason": "Le sensei masqué, toujours en retard, aux mille techniques copiées. Le chouffin aussi copie ses combos, mais sur YouTube.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kakashi hatake"
+    ]
+  },
+  {
+    "word": "Sakura Haruno",
+    "chouffin": false,
+    "score": 36,
+    "reason": "Débattue sur les forums depuis 2002. Le chouffin reconnaît son crochet du droit, mais préfère l'équipe 7 version Kakashi.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Itachi",
+    "chouffin": true,
+    "score": 78,
+    "reason": "Le grand frère aux corbeaux et au manteau à nuages rouges. Le chouffin a encore la bague de l'Akatsuki achetée à Japan Expo.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "itachi uchiwa",
+      "itachi uchiha"
+    ]
+  },
+  {
+    "word": "Gaara",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le ninja du sable à la gourde géante. Le chouffin aussi se promène avec une gourde, mais la sienne contient de l'hydromel.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Rock Lee",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Pas de ninjutsu, juste de l'entraînement et une coupe au bol. Le chouffin raconte son combat contre Gaara les larmes aux yeux.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Hinata",
+    "chouffin": false,
+    "score": 44,
+    "reason": "L'héritière timide qui rougit dès que Naruto parle. Adorable, mais le chouffin la trouve trop sage pour un apéro.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "hinata hyuga"
+    ]
+  },
+  {
+    "word": "Madara",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Le grand méchant qui débarque dans la guerre comme un boss de raid. Le chouffin récite encore sa tirade sur la réalité.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "madara uchiwa",
+      "madara uchiha"
+    ]
+  },
+  {
+    "word": "Jiraiya",
+    "chouffin": true,
+    "score": 74,
+    "reason": "L'ermite aux crapauds et à la crinière blanche qui a formé Naruto. Le chouffin veut le même style à 50 ans.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "jiraya"
+    ]
+  },
+  {
+    "word": "Orochimaru",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Le ninja serpent obsédé par l'immortalité. Le chouffin salue le lore, mais le trouve trop glauque pour un fond d'écran.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Shikamaru",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Génie paresseux qui trouve tout « galère ». Le chouffin partage sa philosophie, sauf quand il s'agit d'un jeu de stratégie.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "shikamaru nara"
+    ]
+  },
+  {
+    "word": "Gaï Maito",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Combinaison verte, coupe au bol et fougue de la jeunesse ! Le chouffin a porté la tenue en convention, sans regret.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "might guy",
+      "gai sensei"
+    ]
+  },
+  {
+    "word": "Neji",
+    "chouffin": false,
+    "score": 46,
+    "reason": "Le génie qui parlait de destin toutes les trois minutes. Le chouffin a trouvé ça profond à 14 ans, beaucoup moins à 35.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "neji hyuga"
+    ]
+  },
+  {
+    "word": "Akatsuki",
+    "chouffin": true,
+    "score": 78,
+    "reason": "L'organisation aux manteaux à nuages rouges. Le chouffin a le sweat, le bandeau barré, et a proposé le nom pour sa guilde.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Kyûbi",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le renard à neuf queues scellé dans Naruto. Le chouffin a aussi une bête intérieure : elle se réveille à la troisième Kwak.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kurama",
+      "renard a neuf queues"
+    ]
+  },
+  {
+    "word": "Ichigo",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Cheveux orange, sabre géant et un nouveau pouvoir toutes les deux semaines. Le chouffin appelle ça un build bien optimisé.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "ichigo kurosaki"
+    ]
+  },
+  {
+    "word": "Rukia",
+    "chouffin": false,
+    "score": 46,
+    "reason": "La shinigami qui a tout déclenché et dessine des lapins affreux. Le chouffin garde les lapins, oublie le reste.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "rukia kuchiki"
+    ]
+  },
+  {
+    "word": "Aizen",
+    "chouffin": true,
+    "score": 76,
+    "reason": "Le traître aux lunettes qui avait tout prévu depuis cent épisodes. Le chouffin, en MJ, prétend aussi que c'était prévu.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "sosuke aizen"
+    ]
+  },
+  {
+    "word": "Kenpachi",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Un capitaine qui se bat pour le plaisir et bride sa force avec des clochettes. Le berserker que le chouffin rêve de jouer en JdR.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kenpachi zaraki"
+    ]
+  },
+  {
+    "word": "Urahara",
+    "chouffin": true,
+    "score": 66,
+    "reason": "Le vendeur de bonbons au bob et à l'éventail qui cache un génie. Le chouffin veut le même chapeau, et le même magasin.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "kisuke urahara"
+    ]
+  },
+  {
+    "word": "Light Yagami",
+    "chouffin": true,
+    "score": 62,
+    "reason": "Il prend une chips... et la mange ! Le chouffin a rejoué la scène avec des Curly, au ralenti et avec la musique.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "raito yagami"
+    ]
+  },
+  {
+    "word": "L",
+    "chouffin": true,
+    "score": 74,
+    "reason": "Le détective accroupi sur sa chaise qui carbure au sucre. Le chouffin adopte la posture pour ses sessions de dix heures sur PC.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "lawliet",
+      "l lawliet",
+      "ryuzaki"
+    ]
+  },
+  {
+    "word": "Ryuk",
+    "chouffin": true,
+    "score": 72,
+    "reason": "Le dieu de la mort accro aux pommes qui trouve les humains amusants. Le chouffin, lui, est accro à la Chouffe.",
+    "category": "series-films",
+    "tribe": "weeb"
+  },
+  {
+    "word": "Misa Amane",
+    "chouffin": false,
+    "score": 34,
+    "reason": "Idole gothique prête à tout pour Light. Le chouffin aime le look, mais trouve qu'elle a très mal choisi son partenaire de coop.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "misa"
+    ]
+  },
+  {
+    "word": "Eren",
+    "chouffin": true,
+    "score": 60,
+    "reason": "Il crie beaucoup, il tient ses promesses, et sa fin divise. Le chouffin a trois heures d'arguments prêts sur le sujet.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "eren jager",
+      "eren yeager",
+      "eren jaeger"
+    ]
+  },
+  {
+    "word": "Livaï",
+    "chouffin": true,
+    "score": 80,
+    "reason": "Le soldat le plus fort de l'humanité, maniaque du ménage. Le chouffin a gardé le style de combat, pas la passion du balai.",
+    "category": "series-films",
+    "tribe": "weeb",
+    "aliases": [
+      "levi",
+      "livai ackerman",
+      "levi ackerman"
+    ]
+  }
+]
