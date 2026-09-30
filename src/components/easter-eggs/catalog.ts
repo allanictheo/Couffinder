@@ -1,8 +1,9 @@
 /**
- * Catalogue des easter eggs par tribu et par niveau de score.
+ * Catalogue des easter eggs par tribu et par niveau de score, plus la famille
+ * « Vie normale » (mots pas chouffin sans tribu).
  *
  * Données pures (aucun composant) : ce module est dans le bundle principal, les
- * animations elles-mêmes sont chargées à la demande, une tribu à la fois.
+ * animations elles-mêmes sont chargées à la demande, un module à la fois.
  *
  * Fréquences (inchangées par rapport au combo MLG d'origine) :
  * - verdict chouffin : 1 fois sur 3 au hasard, toujours si légendaire ;
@@ -33,6 +34,9 @@ export interface EggToast {
   points: number;
   tone: "win" | "fail";
 }
+
+/** Thème visuel d'un toast hors tribu (orbe et icône propres). */
+export type ToastTheme = "vie-normale";
 
 export interface EggVariant {
   id: string;
@@ -74,6 +78,11 @@ export const TRIBE_EGGS: Record<Tribe, TribeMeta> = {
       legendary: [
         { id: "illuminati", label: "Illuminati confirmé", durationMs: 3400, toast: win("Illuminati confirmé", 100), shake: true },
         { id: "konami", label: "Code triche", durationMs: 3500, toast: win("Code triche activé", 100) },
+        { id: "loot", label: "Butin légendaire", durationMs: 3700, toast: win("Butin légendaire ramassé", 100) },
+        { id: "speedrun", label: "Record du monde", durationMs: 3700, toast: win("Record du monde (any%)", 100) },
+        { id: "boss", label: "Boss final vaincu", durationMs: 3700, toast: win("Boss final vaincu", 100), shake: true },
+        { id: "evolution", label: "Évolution", durationMs: 3700, toast: win("Évolution ultime", 100) },
+        { id: "ragequit", label: "Rage quit inversé", durationMs: 3400, toast: win("Victoire par abandon", 100) },
       ],
     },
   },
@@ -172,6 +181,78 @@ export const TRIBE_EGGS: Record<Tribe, TribeMeta> = {
   },
 };
 
+/* ------------------------------------------------------------------ */
+/* Famille « Vie normale »                                             */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Mots pas chouffin sans tribu (le brunch, le padel, le lundi) : la vraie vie,
+ * que le chouffin fuit, célébrée avec une ironie affectueuse. Déclinée en trois
+ * tranches de score ; elle rejoint l'écran bleu et NOPE dans le même tirage.
+ */
+export const VIE_LEVELS = ["normie", "ordinaire", "presque"] as const;
+export type VieLevel = (typeof VIE_LEVELS)[number];
+
+export const VIE_LEVEL_LABELS: Record<VieLevel, { name: string; range: string }> = {
+  normie: { name: "Normie absolu", range: "0 à 20" },
+  ordinaire: { name: "Vie ordinaire", range: "21 à 40" },
+  presque: { name: "Presque chouffin", range: "41 à 50" },
+};
+
+/** Tranche « Vie normale » d'un score (un verdict renversé par la communauté peut dépasser 50 : c'est « presque »). */
+export function vieLevel(score: number): VieLevel {
+  if (score <= 20) return "normie";
+  if (score <= 40) return "ordinaire";
+  return "presque";
+}
+
+/** Les deux réactions d'origine, tirées avec la famille « Vie normale ». */
+export const SAD_VARIANTS = ["bsod", "nope"] as const;
+export type SadVariantId = (typeof SAD_VARIANTS)[number];
+
+export interface FamilyMeta<Level extends string> {
+  label: string;
+  universe: string;
+  /** Vrais mots de la base (sans tribu), par tranche, pour la page de prévisualisation. */
+  samples: Record<Level, { word: string; score: number }>;
+  variants: Record<Level, readonly EggVariant[]>;
+}
+
+const irl = (title: string, points: number): EggToast => ({ kicker: "Succès IRL déverrouillé", title, points, tone: "win" });
+const almost = (title: string): EggToast => ({ kicker: "Presque chouffin", title, points: 0, tone: "fail" });
+
+export const VIE_NORMALE: FamilyMeta<VieLevel> = {
+  label: "Vie normale",
+  universe: "Herbe, soleil, impôts et lundis : la vraie vie, que le chouffin fuit",
+  samples: {
+    normie: { word: "Padel", score: 3 },
+    ordinaire: { word: "Télétravail", score: 38 },
+    presque: { word: "Camping", score: 44 },
+  },
+  variants: {
+    normie: [
+      { id: "herbe", label: "Touche de l'herbe", durationMs: 3500, toast: irl("Première sortie de l'année", 5) },
+      { id: "soleil", label: "La grande lumière jaune", durationMs: 3500, toast: irl("Exposé à la lumière du jour", 5) },
+      { id: "chargement", label: "Chargement de la vie normale", durationMs: 3700, toast: irl("Adulte fonctionnel", 5) },
+    ],
+    ordinaire: [
+      { id: "reveil", label: "Réveil du lundi", durationMs: 2900, toast: irl("Levé du premier coup", 5) },
+      { id: "reseau", label: "Réseau pro", durationMs: 3000, toast: irl("Profil complété à 100 %", 5) },
+      { id: "avocat", label: "Pluie d'avocado toasts", durationMs: 2900, toast: irl("Brunch validé", 5) },
+      { id: "adulte", label: "Mode adulte activé", durationMs: 3000, toast: irl("Couché avant minuit", 5) },
+    ],
+    presque: [
+      { id: "poteau", label: "Si près du but", durationMs: 1900, toast: almost("Sur le poteau") },
+      { id: "chope", label: "Il manque une Chouffe", durationMs: 1900, toast: almost("Il manque juste une Chouffe") },
+    ],
+  },
+};
+
+export function findVieVariant(level: VieLevel, id: string): EggVariant {
+  const variants = VIE_NORMALE.variants[level];
+  return variants.find((variant) => variant.id === id) ?? variants[0];
+}
+
 /** Score représentatif de chaque niveau (page de prévisualisation). */
 export const LEVEL_SAMPLE_SCORES: Record<EggLevel, number> = { fail: 18, small: 63, combo: 82, legendary: 97 };
 
@@ -190,16 +271,22 @@ export function eggLevel(result: Pick<KnownResult, "chouffin" | "score" | "legen
 
 export type OverlaySpec =
   | { kind: "mlg"; word: string; legendary: boolean }
-  | { kind: "sad"; word: string; variant: "bsod" | "nope" }
-  | { kind: "tribe"; word: string; score: number; tribe: Tribe; level: EggLevel; variant: string };
+  | { kind: "sad"; word: string; variant: SadVariantId }
+  | { kind: "tribe"; word: string; score: number; tribe: Tribe; level: EggLevel; variant: string }
+  | { kind: "vie"; word: string; score: number; level: VieLevel; variant: string };
 
 export interface ToastSpec {
   points: number;
   title: string;
   kicker?: string;
   tribe?: Tribe | null;
+  /** Thème hors tribu (famille « Vie normale »). */
+  theme?: ToastTheme;
   tone?: "win" | "fail";
 }
+
+/** Petite signature sonore thématique (mouvement réduit) : une tribu, ou la famille « Vie normale ». */
+export type StingSpec = { family: Tribe; level: EggLevel } | { family: "vie-normale"; level: VieLevel };
 
 export interface SurprisePlan {
   overlay: OverlaySpec | null;
@@ -207,7 +294,7 @@ export interface SurprisePlan {
   /** Son générique joué par l'hôte (tampon, tuile, succès). */
   sfx: SfxName | null;
   /** Petite signature sonore thématique (mouvement réduit). */
-  sting: { tribe: Tribe; level: EggLevel } | null;
+  sting: StingSpec | null;
   shake: boolean;
 }
 
@@ -225,6 +312,10 @@ export interface PlanOptions {
 
 function toastFor(tribe: Tribe, variant: EggVariant): ToastSpec {
   return { ...variant.toast, tribe };
+}
+
+function vieToast(variant: EggVariant): ToastSpec {
+  return { ...variant.toast, theme: "vie-normale" };
 }
 
 /**
@@ -255,7 +346,7 @@ export function planSurprise(
 
     const variant = forcedVariant ? findVariant(tribe, level, forcedVariant) : pick(TRIBE_EGGS[tribe].variants[level], random);
     const toast = toastFor(tribe, variant);
-    if (reduced) return { ...NOTHING, toast, sting: { tribe, level } };
+    if (reduced) return { ...NOTHING, toast, sting: { family: tribe, level } };
     return {
       ...NOTHING,
       // La petite réaction se suffit à elle-même ; les gros moments ont leur succès.
@@ -266,13 +357,31 @@ export function planSurprise(
   }
 
   if (!tribe) {
-    if (reduced || !(force || random() < FAIL_CHANCE)) return { ...NOTHING, sfx: "flat" };
-    return { ...NOTHING, overlay: { kind: "sad", word: result.word, variant: random() < 0.5 ? "bsod" : "nope" } };
+    if (!(force || random() < FAIL_CHANCE)) return { ...NOTHING, sfx: "flat" };
+    const tier = vieLevel(result.score);
+    const family = VIE_NORMALE.variants[tier];
+
+    // Mouvement réduit : l'écran bleu et NOPE n'ont pas de version statique, la famille « Vie normale » si (son succès IRL).
+    if (reduced) {
+      const variant = forcedVariant ? findVieVariant(tier, forcedVariant) : pick(family, random);
+      return { ...NOTHING, toast: vieToast(variant), sting: { family: "vie-normale", level: tier } };
+    }
+
+    // Tirage à parts égales entre les deux réactions d'origine et les variantes de la tranche.
+    const choice = forcedVariant ?? pick([...SAD_VARIANTS, ...family.map((variant) => variant.id)], random);
+    if (choice === "bsod" || choice === "nope") return { ...NOTHING, overlay: { kind: "sad", word: result.word, variant: choice } };
+    const variant = findVieVariant(tier, choice);
+    return {
+      ...NOTHING,
+      // La petite taquinerie « presque chouffin » se suffit à elle-même ; les autres ont leur succès IRL.
+      toast: tier === "presque" ? null : vieToast(variant),
+      overlay: { kind: "vie", word: result.word, score: result.score, level: tier, variant: variant.id },
+    };
   }
 
   if (!(force || random() < FAIL_CHANCE)) return { ...NOTHING, sfx: "flat" };
   const variant = forcedVariant ? findVariant(tribe, "fail", forcedVariant) : pick(TRIBE_EGGS[tribe].variants.fail, random);
-  if (reduced) return { ...NOTHING, toast: toastFor(tribe, variant), sting: { tribe, level: "fail" } };
+  if (reduced) return { ...NOTHING, toast: toastFor(tribe, variant), sting: { family: tribe, level: "fail" } };
   return {
     ...NOTHING,
     overlay: { kind: "tribe", word: result.word, score: result.score, tribe, level: "fail", variant: variant.id },

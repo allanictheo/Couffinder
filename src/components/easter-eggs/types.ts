@@ -1,4 +1,4 @@
-import type { EggLevel } from "./catalog";
+import type { EggLevel, VieLevel } from "./catalog";
 
 /** Ce que reçoit chaque animation de tribu. */
 export interface EggProps {
@@ -10,4 +10,9 @@ export interface EggProps {
   variant: string;
   durationMs: number;
   onDone: () => void;
+}
+
+/** Ce que reçoit chaque animation de la famille « Vie normale » (tranche de score au lieu du niveau). */
+export interface VieProps extends Omit<EggProps, "level"> {
+  level: VieLevel;
 }

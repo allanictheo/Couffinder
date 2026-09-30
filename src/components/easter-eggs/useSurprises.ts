@@ -5,7 +5,7 @@ import { sfx } from "@/lib/client/preferences";
 import { playSting } from "@/lib/client/tribe-sounds";
 import type { ToastData } from "../AchievementToast";
 import type { SurprisePlan, ToastSpec } from "./catalog";
-import { preloadTribe, type EggOverlay } from "./EggLayer";
+import { preloadOverlay, type EggOverlay } from "./EggLayer";
 
 let sequence = 0;
 /** Identifiant unique pour les toasts et overlays (sans horloge : rendu pur). */
@@ -26,12 +26,12 @@ export function useSurprises(onShake?: () => void) {
 
   const play = useCallback(
     (plan: SurprisePlan) => {
-      if (plan.overlay?.kind === "tribe") preloadTribe(plan.overlay.tribe);
+      if (plan.overlay) preloadOverlay(plan.overlay);
       if (plan.toast) showToast(plan.toast);
       if (plan.overlay) setOverlay({ ...plan.overlay, id: nextId(), seed: Math.floor(Math.random() * 2 ** 31) });
       if (plan.shake) onShake?.();
       if (plan.sfx) sfx(plan.sfx);
-      if (plan.sting) playSting(plan.sting.tribe, plan.sting.level);
+      if (plan.sting) playSting(plan.sting);
     },
     [onShake, showToast],
   );

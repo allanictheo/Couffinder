@@ -4,72 +4,19 @@
  * Tribu gamer : montage MLG, arcade, FPS et jeux de baston.
  * - échec : « Vous êtes mort » (bandeau noir, lettres rouges à empattements) ou « Game over » d'arcade ;
  * - petite réaction : hitmarkers, « +XP » et barre d'expérience qui passe un niveau ;
- * - gros combo : série d'éliminations, combo de baston contre un toast à l'avocat, Nyan-chope ;
- * - légendaire : illuminati confirmé (montage MLG complet), code triche (↑↑↓↓←→←→BA).
+ * - gros combo : série d'éliminations, combo de baston contre un toast à l'avocat, Nyan-chope.
+ *
+ * Les apothéoses légendaires ont leur propre module (`gamer-legendary.tsx`) :
+ * ce module-ci reste léger pour les verdicts courants.
  */
 
 import { m } from "motion/react";
 import * as sounds from "@/lib/client/tribe-sounds/gamer";
-import { Chip, Hitmarker, PixelArt, PixelGlasses, SodaCan, TankardLogo } from "../../art";
-import {
-  Burst,
-  Counter,
-  EASE_OUT,
-  Flash,
-  ImpactStar,
-  LensFlare,
-  Pop,
-  Rays,
-  Rise,
-  Shake,
-  Slam,
-  Stage,
-  between,
-  letters,
-  shortWord,
-  usePlan,
-  wordSize,
-  type Random,
-} from "../kit";
+import { Chip, Hitmarker, PixelArt, TankardLogo } from "../../art";
+import { AvocadoToast } from "../avocado";
+import { Burst, Counter, EASE_OUT, Flash, ImpactStar, Pop, Rise, Shake, Slam, Stage, between, letters, shortWord, usePlan, wordSize } from "../kit";
 import type { EggProps } from "../types";
-
-const VIGNETTE = "bg-[radial-gradient(circle_at_center,rgb(14_10_22/0.8)_10%,rgb(14_10_22/0.96)_100%)]";
-const SERIF = { fontFamily: 'Georgia, "Times New Roman", serif' };
-
-function shuffle<T>(items: readonly T[], random: Random): T[] {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-function HitmarkerAt({ x, y, delay, size }: { x: number; y: number; delay: number; size: number }) {
-  return (
-    <m.div
-      className="absolute"
-      style={{ left: `${x}%`, top: `${y}%`, width: size, x: "-50%", y: "-50%" }}
-      initial={{ opacity: 0, scale: 1.8 }}
-      animate={{ opacity: [0, 1, 1, 0], scale: [1.8, 1, 1, 0.9] }}
-      transition={{ delay, duration: 0.36, times: [0, 0.12, 0.6, 1] }}
-    >
-      <Hitmarker className="w-full" />
-    </m.div>
-  );
-}
-
-function hitPlan(random: Random, times: readonly number[]) {
-  return times.map((delay, id) => ({ id, delay, x: between(random, 12, 88), y: between(random, 16, 84), size: between(random, 44, 74) }));
-}
-
-function Projectile({ index }: { index: number }) {
-  return index % 3 === 2 ? (
-    <SodaCan className="w-[70%] drop-shadow-[0_4px_0_rgb(0_0_0/0.5)]" />
-  ) : (
-    <Chip className="w-full drop-shadow-[0_4px_0_rgb(0_0_0/0.5)]" />
-  );
-}
+import { HitmarkerAt, Projectile, SERIF, VIGNETTE, hitPlan, shuffle } from "./gamer-shared";
 
 /* ------------------------------------------------------------------ */
 /* Échecs                                                              */
@@ -301,42 +248,6 @@ function HealthBar({ name, side, drain }: { name: string; side: "left" | "right"
   );
 }
 
-/** Le boss de fin : un toast à l'avocat (le plus pas chouffin des brunchs). */
-function AvocadoToast({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 100 92" aria-hidden="true" className={className}>
-      <path
-        d="M10 40 C8 14 30 4 50 8 C70 4 92 14 90 40 C90 50 84 52 84 58 L84 86 L16 86 L16 58 C16 52 10 50 10 40 Z"
-        fill="#d99b4a"
-        stroke="#5c3510"
-        strokeWidth={3.5}
-      />
-      <path d="M18 40 C17 20 34 13 50 16 C66 13 83 20 82 40 C82 48 77 50 77 56 L77 80 L23 80 L23 56 C23 50 18 48 18 40 Z" fill="#f4d79b" />
-      {[
-        [34, 48, -25],
-        [50, 44, 0],
-        [66, 48, 25],
-      ].map(([cx, cy, angle]) => (
-        <g key={cx} transform={`rotate(${angle} ${cx} ${cy})`}>
-          <ellipse cx={cx} cy={cy} rx="9" ry="17" fill="#9ccc48" stroke="#3e6414" strokeWidth={2.5} />
-          <ellipse cx={cx} cy={cy + 2} rx="5.5" ry="11" fill="#d3ec8a" />
-        </g>
-      ))}
-      <g fill="#d7263d">
-        <circle cx="42" cy="66" r="1.8" />
-        <circle cx="58" cy="70" r="1.6" />
-        <circle cx="30" cy="68" r="1.4" />
-        <circle cx="70" cy="64" r="1.5" />
-      </g>
-      <g fill="#111">
-        <circle cx="40" cy="30" r="3" />
-        <circle cx="60" cy="30" r="3" />
-      </g>
-      <path d="M43 38 Q50 34 57 38" fill="none" stroke="#111" strokeWidth={2.5} strokeLinecap="round" />
-    </svg>
-  );
-}
-
 const ONOMATOPOEIA = ["PAF", "BIM", "BAM", "POW", "PIF", "BOUM"];
 
 function ComboBaston({ word, seed, durationMs, onDone }: EggProps) {
@@ -519,231 +430,6 @@ function ComboNyan({ word, seed, durationMs, onDone }: EggProps) {
 }
 
 /* ------------------------------------------------------------------ */
-/* Légendaires                                                         */
-/* ------------------------------------------------------------------ */
-
-function IlluminatiTriangle({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 120 108" aria-hidden="true" className={className}>
-      <defs>
-        <linearGradient id="illu-gold" x1="0" x2="0" y1="0" y2="1">
-          <stop offset="0" stopColor="#fff2a8" />
-          <stop offset="0.5" stopColor="#ffc93a" />
-          <stop offset="1" stopColor="#c47f00" />
-        </linearGradient>
-      </defs>
-      <path d="M60 4 L116 102 H4 Z" fill="url(#illu-gold)" stroke="#3d2600" strokeWidth={4} strokeLinejoin="round" />
-      <g stroke="#8a5a00" strokeWidth={1.6} opacity={0.6}>
-        <path d="M33 54 H87 M22 72 H98 M12 90 H108" />
-        <path d="M60 72 V90 M45 54 V72 M75 54 V72 M38 90 V102 M82 90 V102" />
-      </g>
-      <path d="M36 60 Q60 36 84 60 Q60 80 36 60 Z" fill="#fff" stroke="#3d2600" strokeWidth={3} />
-      <circle cx="60" cy="60" r="10" fill="#b6ff2e" stroke="#3d2600" strokeWidth={2.5} />
-      <circle cx="60" cy="60" r="4.5" fill="#111" />
-      <circle cx="63" cy="57" r="2" fill="#fff" />
-    </svg>
-  );
-}
-
-const GAMER_DOGE = ["wow", "such légende", "very {word}", "much MLG", "so noscope", "many hitmarker"];
-const DOGE_COLORS = ["#ff3ea5", "#3ef0ff", "#fff23e", "#b6ff2e", "#ff8a1a", "#c4b0ff"];
-const DOGE_SLOTS = [
-  { x: 5, y: 12 },
-  { x: 62, y: 10 },
-  { x: 4, y: 78 },
-  { x: 60, y: 84 },
-  { x: 70, y: 44 },
-];
-
-function LegendaryIlluminati({ word, seed, durationMs, onDone }: EggProps) {
-  const plan = usePlan(seed, (random) => ({
-    hits: hitPlan(random, [0.06, 0.26, 0.44, 0.72, 0.94, 1.12, 1.3]),
-    doges: DOGE_SLOTS.map((slot, id) => ({
-      id,
-      text: shuffle(GAMER_DOGE, random)[0].replace("{word}", shortWord(word.toLocaleLowerCase("fr-FR"), 16)),
-      color: DOGE_COLORS[id % DOGE_COLORS.length],
-      x: slot.x + between(random, -2, 3),
-      y: slot.y + between(random, -3, 3),
-      rotate: between(random, -14, 14),
-      delay: 0.5 + id * 0.18,
-      size: between(random, 1.1, 1.8),
-    })),
-  }));
-  return (
-    <Stage durationMs={durationMs} onDone={onDone} sound={sounds.illuminati} className={VIGNETTE}>
-      <Rays color="rgb(182 255 46 / 0.14)" delay={1.2} spin={60} duration={2.2} />
-      <LensFlare delay={0.1} x="24%" y="26%" />
-      <Burst seed={seed + 3} count={12} delay={0.12} distance={[36, 72]} gravity={30} size={[44, 84]} spin={620} render={(index) => <Projectile index={index} />} />
-      <Shake at={[0, 1.25]} intensity={9}>
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
-          <m.div
-            className="w-[clamp(110px,20vw,230px)] drop-shadow-[0_0_30px_rgb(255_201_58/0.55)]"
-            initial={{ scale: 0, rotate: -720, opacity: 0 }}
-            animate={{ scale: 1, rotate: 0, opacity: 1 }}
-            transition={{ delay: 1.2, duration: 0.9, ease: EASE_OUT }}
-          >
-            <IlluminatiTriangle className="w-full" />
-          </m.div>
-          <div className="relative mt-2">
-            <Slam from={3} rotate={-12} className="text-[clamp(3rem,15vw,11rem)]" style={{ color: "var(--color-rarity-legendary)" }}>
-              Légendaire !
-            </Slam>
-            <m.div
-              className="absolute left-1/2 top-[4%] w-[44%] min-w-28"
-              style={{ x: "-50%" }}
-              initial={{ y: "-80vh", rotate: -10 }}
-              animate={{ y: ["-80vh", "0vh", "-2.5vh", "0vh"], rotate: [-10, 0, 3, 0] }}
-              transition={{ delay: 0.3, duration: 0.85, times: [0, 0.72, 0.86, 1], ease: "easeIn" }}
-            >
-              <PixelGlasses className="w-full drop-shadow-[0_6px_0_rgb(0_0_0/0.35)]" />
-            </m.div>
-          </div>
-          <Pop delay={1.9} className="hud-text mt-3 text-center text-[clamp(1rem,3.2vw,1.9rem)] text-dew">
-            Illuminati confirmé
-          </Pop>
-          <Rise delay={2.15} className="meme-text mt-2 max-w-[92vw] break-words text-center text-[clamp(1.2rem,4vw,2.4rem)]">
-            « {word} »
-          </Rise>
-        </div>
-      </Shake>
-      <m.p
-        className="meme-text absolute left-[5%] top-[30%] text-[clamp(1.6rem,6vw,4rem)] text-rarity-legendary"
-        initial={{ opacity: 0, scale: 0, rotate: -20 }}
-        animate={{ opacity: 1, scale: 1, rotate: -12 }}
-        transition={{ delay: 0.9, type: "spring", stiffness: 500, damping: 14 }}
-      >
-        Wombo combo
-      </m.p>
-      <m.p
-        className="meme-text absolute bottom-[20%] right-[5%] text-[clamp(1.5rem,5.5vw,3.6rem)]"
-        initial={{ opacity: 0, scale: 0.2, rotate: 0 }}
-        animate={{ opacity: 1, scale: 1, rotate: 360 }}
-        transition={{ delay: 2.3, duration: 0.6, ease: "easeOut" }}
-      >
-        360 no scope
-      </m.p>
-      {plan.doges.map((doge) => (
-        <m.p
-          key={doge.id}
-          className="doge-text absolute whitespace-nowrap"
-          style={{ left: `${doge.x}%`, top: `${doge.y}%`, color: doge.color, fontSize: `${doge.size}rem`, rotate: doge.rotate }}
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: [0, 1.2, 1] }}
-          transition={{ delay: doge.delay, duration: 0.4, ease: "easeOut" }}
-        >
-          {doge.text}
-        </m.p>
-      ))}
-      {plan.hits.map((hit) => (
-        <HitmarkerAt key={hit.id} {...hit} />
-      ))}
-      <Flash at={1.2} color="#fff3c4" peak={0.3} />
-      <LensFlare delay={2.4} x="74%" y="68%" />
-    </Stage>
-  );
-}
-
-const ARROW_ROWS = ["...k...", "..kkk..", ".kkkkk.", "kkkkkkk", "..kkk..", "..kkk..", "..kkk.."] as const;
-const KONAMI = ["up", "up", "down", "down", "left", "right", "left", "right", "B", "A"] as const;
-const ARROW_ROTATION: Record<string, number> = { up: 0, right: 90, down: 180, left: 270 };
-const FIREWORK_COLORS = ["#b6ff2e", "#3ef0ff", "#ff3ea5", "#fff23e", "#ff8a1a", "#ffffff"];
-
-function LegendaryKonami({ word, seed, durationMs, onDone }: EggProps) {
-  const display = shortWord(word, 16).toUpperCase();
-  const fireworks = [
-    { at: 2.05, x: 18, y: 24 },
-    { at: 2.45, x: 82, y: 28 },
-    { at: 2.85, x: 50, y: 14 },
-  ];
-  return (
-    <Stage durationMs={durationMs} onDone={onDone} sound={sounds.konami} className="bg-[radial-gradient(circle_at_center,#12280b_0%,#040806_75%)]">
-      <div className="scanlines" />
-      {fireworks.map((firework, index) => (
-        <Burst
-          key={index}
-          seed={seed + index}
-          count={22}
-          x={firework.x}
-          y={firework.y}
-          delay={firework.at}
-          duration={1}
-          distance={[12, 28]}
-          gravity={10}
-          size={[10, 18]}
-          spin={0}
-          render={(k) => <div className="aspect-square w-full" style={{ background: FIREWORK_COLORS[(k + index) % FIREWORK_COLORS.length] }} />}
-        />
-      ))}
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-[clamp(0.8rem,3vh,1.8rem)] px-3 text-center">
-        <div className="flex max-w-[94vw] flex-wrap justify-center gap-[clamp(4px,1vw,12px)]">
-          {KONAMI.map((key, index) => (
-            <m.div
-              key={index}
-              className="grid size-[clamp(30px,6vw,62px)] place-items-center rounded-[4px] border-[3px] border-black bg-[#e8e8e8] shadow-[0_4px_0_#000]"
-              initial={{ opacity: 0, y: -20, scale: 1.4 }}
-              animate={{ opacity: 1, y: [-20, 0, 3, 0], scale: [1.4, 1, 0.9, 1] }}
-              transition={{ delay: 0.1 + index * 0.12, duration: 0.25 }}
-            >
-              {key === "A" || key === "B" ? (
-                <span className="pixel-text text-[clamp(0.9rem,2.6vw,1.8rem)] font-bold text-[#c1121f]">{key}</span>
-              ) : (
-                <PixelArt rows={ARROW_ROWS} palette={{ k: "#111" }} className="w-[58%]" style={{ rotate: `${ARROW_ROTATION[key]}deg` }} />
-              )}
-            </m.div>
-          ))}
-        </div>
-
-        <m.p
-          className="hud-text text-[clamp(1.4rem,5.4vw,3.6rem)] text-dew"
-          initial={{ opacity: 0, scale: 2.2 }}
-          animate={{ opacity: 1, scale: [2.2, 0.95, 1] }}
-          transition={{ delay: 1.4, duration: 0.35 }}
-        >
-          Code triche activé !
-        </m.p>
-
-        <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-2">
-          <Pop delay={1.75} className="hud-text text-[clamp(1rem,3vw,1.7rem)] text-hydromel">
-            +30 vies
-          </Pop>
-          <Pop delay={1.9} className="hud-text text-[clamp(1rem,3vw,1.7rem)] text-neon-cyan">
-            Chouffinitude infinie
-          </Pop>
-        </div>
-
-        <p className="hud-text flex flex-wrap justify-center text-dew" style={{ fontSize: wordSize(display, { max: 9, cap: 6, min: 1.8, factor: 90 }) }}>
-          {letters(display).map(({ char, index }) => (
-            <m.span
-              key={index}
-              className="inline-block whitespace-pre"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 2 + index * 0.06, duration: 0.01 }}
-            >
-              {char}
-            </m.span>
-          ))}
-          <m.span
-            className="ml-[0.15em] inline-block h-[0.75em] w-[0.5em] self-center bg-dew"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: [0, 1, 0, 1, 0, 1] }}
-            transition={{ delay: 2 + display.length * 0.06, duration: 1.2, ease: (t: number) => Math.round(t * 5) / 5 }}
-          >
-            &nbsp;
-          </m.span>
-        </p>
-
-        <Rise delay={2.3} className="hud-text text-[clamp(0.9rem,2.6vw,1.4rem)] text-white">
-          Nouveau record :{" "}
-          <Counter from={0} to={999999} delay={2.3} duration={0.9} format={(value) => String(Math.round(value)).padStart(6, "0")} />
-        </Rise>
-      </div>
-      <Flash at={1.4} color="#b6ff2e" peak={0.22} />
-    </Stage>
-  );
-}
-
-/* ------------------------------------------------------------------ */
 
 export default function GamerEgg(props: EggProps) {
   switch (props.variant) {
@@ -759,10 +445,6 @@ export default function GamerEgg(props: EggProps) {
       return <ComboNyan {...props} />;
     case "killstreak":
       return <ComboKillstreak {...props} />;
-    case "konami":
-      return <LegendaryKonami {...props} />;
-    case "illuminati":
-      return <LegendaryIlluminati {...props} />;
     default:
       return props.level === "fail" ? <FailSouls {...props} /> : props.level === "small" ? <SmallXp {...props} /> : <ComboKillstreak {...props} />;
   }

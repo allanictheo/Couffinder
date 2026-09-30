@@ -1,6 +1,7 @@
 /**
  * Sons de la tribu gamer : chiptune, hitmarkers, airhorn, coups de baston.
- * Mélodies originales (aucune reprise de thème de jeu).
+ * Mélodies originales (aucune reprise de thème de jeu). Les apothéoses
+ * légendaires ont leur module (`gamer-legendary.ts`), chargé avec leur animation.
  */
 
 import type { EggLevel } from "@/components/easter-eggs/catalog";
@@ -73,46 +74,6 @@ export const nyan: Recipe = (ctx, out, t) => {
     [41, 2], [48, 2], [41, 2], [48, 2], [43, 2], [50, 2], [43, 2], [50, 2],
   ];
   melody(ctx, out, t + 0.05, bass, { bpm: 520, wave: "triangle", peak: 0.12, gate: 0.6 });
-};
-
-/** Illuminati : montage MLG complet, puis thérémine inquiétant. */
-export const illuminati: Recipe = (ctx, out, t) => {
-  airhorn(ctx, out, t);
-  for (const offset of [0.06, 0.26, 0.44, 0.72, 0.94, 1.12, 1.3]) hitmarker(ctx, out, t + offset);
-  const osc = ctx.createOscillator();
-  osc.type = "sine";
-  const start = t + 1.25;
-  const path = [69, 72, 71, 67, 68, 64];
-  path.forEach((midi, index) => {
-    const at = start + index * 0.28;
-    if (index === 0) osc.frequency.setValueAtTime(hz(midi), at);
-    else osc.frequency.exponentialRampToValueAtTime(hz(midi), at);
-  });
-  const vibrato = ctx.createOscillator();
-  vibrato.frequency.value = 6.5;
-  const depth = ctx.createGain();
-  depth.gain.value = 9;
-  vibrato.connect(depth).connect(osc.frequency);
-  const gain = envelope(ctx, start, 0.12, 0.15, 1.5, 0.4);
-  osc.connect(gain).connect(out);
-  osc.start(start);
-  osc.stop(start + 2.2);
-  vibrato.start(start);
-  vibrato.stop(start + 2.2);
-  wobble(ctx, out, t + 1.9, 1.2);
-};
-
-/** Code triche : un bip par touche, montée de puissance, fanfare chiptune et feux d'artifice. */
-export const konami: Recipe = (ctx, out, t) => {
-  const pitches = [84, 84, 72, 72, 76, 79, 76, 79, 88, 91];
-  pitches.forEach((midi, index) => tone(ctx, out, t + 0.1 + index * 0.12, "square", hz(midi), hz(midi), 0, 0.06, 0.002, 0.04, 0.03));
-  tone(ctx, out, t + 1.35, "square", hz(60), hz(96), 0.35, 0.06, 0.005, 0.3, 0.05);
-  melody(ctx, out, t + 1.75, [[72, 1], [76, 1], [79, 1], [84, 2], [79, 1], [84, 4]], { bpm: 600, wave: "square", peak: 0.08 });
-  melody(ctx, out, t + 1.75, [[48, 2], [55, 2], [60, 6]], { bpm: 600, wave: "triangle", peak: 0.12 });
-  for (const offset of [2.05, 2.45, 2.85]) {
-    noiseSweep(ctx, out, t + offset - 0.25, { type: "bandpass", from: 400, to: 2400, q: 2, peak: 0.08, duration: 0.25 });
-    thump(ctx, out, t + offset, { from: 300, to: 60, peak: 0.35, duration: 0.25 });
-  }
 };
 
 export const STINGS: Record<EggLevel, Recipe> = {
