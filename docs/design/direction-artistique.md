@@ -9,7 +9,7 @@ L'analyse culturelle qui justifie chaque référence est dans [`culture-geek-201
 ## 1. Principes
 
 1. **Le calme avant le combo.** L'état de repos est net et lisible : un grand meme (texte du haut, champ au milieu, texte du bas) sur fond de nuit étoilée. Le chaos est réservé aux moments qui le méritent.
-2. **Le « parfois » compte.** Une animation ne sort qu'une fois sur trois pour un mot chouffin (toujours pour un mot légendaire), une réaction d'échec une fois sur quatre pour un mot pas chouffin. La rareté fait la surprise. Quand elle sort, elle parle la langue de la **tribu** du mot (gamer, geek, métalleux, taverne, weeb, rôliste) et sa démesure suit le score (voir 4.9).
+2. **Le « parfois » compte.** Une animation ne sort qu'une fois sur trois pour un mot chouffin (toujours pour un mot légendaire), une réaction d'échec une fois sur quatre pour un mot pas chouffin. La rareté fait la surprise. Quand elle sort, elle parle la langue de la **tribu** du mot (gamer, geek, métalleux, taverne, weeb, rôliste) et sa démesure suit le score (voir 4.9). Un mot pas chouffin sans tribu (le brunch, le padel, le lundi) a droit à la famille **« Vie normale »** : la vraie vie, que le chouffin fuit, célébrée avec ironie (voir 4.9.8).
 3. **Le verdict choisit son époque.** CHOUFFIN est rendu en skeuomorphisme glossy de 2011 (tampon Impact incliné, halo néon, reliefs). PAS CHOUFFIN est rendu en flat design de 2013 (tuile bleue, minuscules légères, angles droits). Même composant, deux époques.
 4. **L'humour est dans le détail, jamais dans le chemin.** Chaque blague est posée à côté de l'information, pas à sa place : le verdict, le score et les boutons de vote sont toujours lisibles en premier.
 5. **Tout est original.** Illustrations en SVG maison, sons synthétisés, textes écrits pour le site. Aucune marque, aucun asset protégé, aucune photo de personne réelle.
@@ -104,7 +104,7 @@ Texte meme : `text-transform: uppercase`, `-webkit-text-stroke: 0.09em #000` ave
 | ressort « tampon » | `stiffness 520, damping 19, mass 0.9` | Tampon CHOUFFIN |
 | ressort « badge » | `stiffness 420, damping 16` | Badges de verdict |
 
-Durées de référence : 80 ms (appui), 180 à 350 ms (apparitions), 450 à 500 ms (tampons, tuiles), 700 ms (barres), 1,5 à 1,9 s (petites réactions de tribu), 2,6 à 3 s (réactions plein écran et gros combos), 3,4 à 3,7 s (apothéoses légendaires), 4,2 s (succès).
+Durées de référence : 80 ms (appui), 180 à 350 ms (apparitions), 450 à 500 ms (tampons, tuiles), 700 ms (barres), 1,5 à 1,9 s (petites réactions de tribu, taquineries « presque chouffin »), 2,6 à 3 s (réactions plein écran, gros combos, « vie ordinaire »), 3,4 à 3,7 s (apothéoses légendaires, « normie absolu »), 4,2 s (succès).
 
 ### 2.6 Profondeur (z-index)
 
@@ -170,14 +170,15 @@ Chaque ligne : ce qui déclenche, ce que ça montre, combien de temps, avec quel
 
 ### 4.4 Réactions surprises
 
-Le tirage est fait par `planSurprise()` (`src/components/easter-eggs/catalog.ts`), une fonction pure partagée par le site et la page de prévisualisation. Les fréquences n'ont pas bougé : 1 fois sur 3 pour un verdict chouffin (toujours si légendaire), 1 fois sur 4 pour un verdict pas chouffin (mesuré sur 10 000 tirages : 32,6 % et 25,1 %).
+Le tirage est fait par `planSurprise()` (`src/components/easter-eggs/catalog.ts`), une fonction pure partagée par le site et la page de prévisualisation. Les fréquences n'ont pas bougé : 1 fois sur 3 pour un verdict chouffin (toujours si légendaire), 1 fois sur 4 pour un verdict pas chouffin. Mesure sur 10 000 tirages après l'ajout des apothéoses gamer et de la famille « Vie normale » : 33,8 % (chouffin gamer), 32,9 % (chouffin sans tribu), 100 % (légendaire gamer), 24,3 % (pas chouffin gamer), 24,7 %, 25,4 % et 25,6 % (pas chouffin sans tribu aux scores 3, 38 et 44).
 
 | Interaction | Déclencheur | Feedback | Durée | Mouvement réduit |
 | --- | --- | --- | --- | --- |
 | **Easter egg de tribu** | Mot avec une `tribe`, aux fréquences ci-dessus | Animation choisie selon la tribu et le niveau de score (échec, petite réaction, gros combo, légendaire), au moins deux variantes tirées au hasard pour les gros combos et les légendaires. Catalogue complet en 4.9 | 1,5 à 3,7 s, zappable au clic ou Échap | Pas d'animation : toast de succès aux couleurs de la tribu (ou d'échec, liseré rouge) et signature sonore courte si le son est activé |
 | **Combo MLG** | Mot sans tribu (neutre ou adopté par la communauté), verdict chouffin, 1 fois sur 3 (toujours si légendaire) | Voir la chronologie ci-dessous, succès déverrouillé en parallèle, léger tremblement de la page (480 ms) | 2,7 s, zappable au clic ou Échap | Pas de combo : seulement le toast de succès (fondu) et un carillon si le son est activé |
-| **Écran bleu** | Mot sans tribu, verdict pas chouffin, 1 fois sur 4, une chance sur deux | Panneau bleu « :( », « a rencontré un problème de chouffinitude », pourcentage qui défile, code d'arrêt, trombone triste | 2,6 s, zappable | Rien : le verdict suffit |
-| **NOPE** | Mot sans tribu, verdict pas chouffin, 1 fois sur 4, une chance sur deux | « NOPE. » en Impact qui secoue la tête, virevoltant qui traverse l'écran, trombone triste | 2,6 s, zappable | Rien |
+| **Écran bleu** | Mot sans tribu, verdict pas chouffin, 1 fois sur 4, à parts égales avec NOPE et les variantes « Vie normale » de la tranche de score | Panneau bleu « :( », « a rencontré un problème de chouffinitude », pourcentage qui défile, code d'arrêt, trombone triste | 2,6 s, zappable | Pas de version statique : le tirage prend alors une variante « Vie normale » |
+| **NOPE** | Idem | « NOPE. » en Impact qui secoue la tête, virevoltant qui traverse l'écran, trombone triste | 2,6 s, zappable | Idem |
+| **Vie normale** | Idem, selon la tranche : normie absolu (0 à 20), vie ordinaire (21 à 40), presque chouffin (41 à 50) | Une des 9 animations de la famille (4.9.8), avec un « Succès IRL déverrouillé » ironique (5 G) en parallèle, sauf pour les taquineries « presque chouffin » | 1,9 à 3,7 s, zappable | Toast « Succès IRL » à l'orbe ciel et herbe (ou toast « Presque chouffin » à liseré rouge), petite signature sonore si le son est activé |
 
 **Chronologie du combo MLG** (t = 0 à l'arrivée du verdict) :
 
@@ -256,12 +257,13 @@ Chaque mot de la base peut appartenir à une **tribu de chouffin** (`KnownResult
 | Pas chouffin (0 à 50), 1 fois sur 4 | **Échec thématique** | Une des variantes d'échec de la tribu, plein écran | Non (l'échec se suffit) |
 | Chouffin, score 51 à 69, 1 fois sur 3 | **Petite réaction** | Réaction légère sans voile, au-dessus du verdict, qui ne bloque pas les clics (le moindre clic la range et passe au travers) | Non |
 | Chouffin, score 70 à 94, 1 fois sur 3 | **Gros combo** | Une variante tirée au hasard (2 ou 3 par tribu), plein écran | Oui, titre propre à la variante |
-| Chouffin légendaire (95 à 100), toujours | **Apothéose légendaire** | Une variante tirée au hasard (2 par tribu), plein écran, la plus folle | Oui, 100 G |
-| Mot sans tribu | | Réactions d'origine (combo MLG, écran bleu, NOPE) | Comme avant |
+| Chouffin légendaire (95 à 100), toujours | **Apothéose légendaire** | Une variante tirée au hasard (2 par tribu, 7 pour les gamers), plein écran, la plus folle | Oui, 100 G |
+| Mot sans tribu, chouffin | | Combo MLG d'origine | Comme avant |
+| Mot sans tribu, pas chouffin, 1 fois sur 4 | Tranche de score | Écran bleu, NOPE ou une variante de la famille « Vie normale » de la tranche, à parts égales (4.9.8) | « Succès IRL » ironique, sauf « presque chouffin » |
 
 Le niveau se lit d'abord sur le drapeau `chouffin` (un vote peut l'avoir renversé), puis sur le score. En **mouvement réduit**, aucune animation n'est montée : le toast de succès prend les couleurs de la tribu (orbe teintée et icône : manette pixel, chapeau pointu, cornes, chope, fleur de cerisier, d20), les échecs ont un liseré rouge et un sur-titre propre (« Échec critique », « Larsen »...), et une signature sonore de moins d'une seconde est jouée si le son est activé. L'échec thématique a donc lui aussi sa version statique (1 fois sur 4, comme en mouvement normal).
 
-Toutes les animations plein écran se zappent au clic et à Échap, coupent leur son en 80 ms, sont `aria-hidden` (le verdict est déjà annoncé par la région `aria-live`) et respectent le budget photosensible de 4.9.8.
+Toutes les animations plein écran se zappent au clic et à Échap, coupent leur son en 80 ms, sont `aria-hidden` (le verdict est déjà annoncé par la région `aria-live`) et respectent le budget photosensible de 4.9.9.
 
 #### 4.9.2 Gamers (`gamer`) : montage MLG, arcade, FPS, baston
 
@@ -275,6 +277,13 @@ Toutes les animations plein écran se zappent au clic et à Échap, coupent leur
 | Gros combo | Nyan-chope | La chope pixel du logo traverse le ciel avec sa traînée arc-en-ciel en escalier, étoiles pixel, le mot en lettres pixel multicolores qui ondulent, « nyan nyan nyan, very mot » | 2,8 s | Mélodie chiptune originale, basse en triangle | Toast « 30 G · Arc-en-ciel pixelisé » |
 | Légendaire | Illuminati confirmé | Montage MLG complet (hitmarkers, chips, lunettes pixel sur « LÉGENDAIRE ! », doge-speak, « Wombo combo »), puis triangle doré à l'œil vert qui tourne sous des rayons, « Illuminati confirmé », « 360 no scope » | 3,4 s | Airhorn, 7 hitmarkers, thérémine inquiétant, basse wub | Toast « 100 G · Illuminati confirmé », double airhorn court |
 | Légendaire | Code triche | Écran cathodique, les dix touches ↑ ↑ ↓ ↓ ← → ← → B A s'enfoncent une à une, « Code triche activé ! », « +30 vies », « Chouffinitude infinie », le mot saisi lettre à lettre comme un nom de high score, record qui défile jusqu'à 999999, feux d'artifice pixel | 3,5 s | Un bip par touche, montée de puissance, fanfare chiptune, pétards | Toast « 100 G · Code triche activé » |
+| Légendaire | Butin légendaire | Sol de donjon, un coffre bardé d'or tombe, rebondit et tremble deux fois, le couvercle saute : faisceau orange qui monte jusqu'en haut de l'écran, rayons, pluie de pièces et d'éclats. La fiche d'objet de MMORPG apparaît : le mot en orange légendaire, un titre tiré au hasard (« Fléau des lundis », « Relique du Chouffin éternel »...), « Lié quand ramassé », « Deux mains · Chope », « 999 - 1 337 dégâts », puis les stats en vert une à une (+50 Chouffinitude, +12 Endurance de LAN, +30 Résistance au brunch, +7 Charisme de taverne, +15 % de coups critiques au d20), le score, un texte d'ambiance doré. « BUTIN LÉGENDAIRE ! » s'écrase | 3,7 s | Coffre qui tombe, deux cliquetis, grincement, gong grave et scintillement montant, nappe, pièces, accord de cuivres | Toast « 100 G · Butin légendaire ramassé » |
+| Légendaire | Record du monde | Logiciel de splits de speedrunner (« Chouffin% · sans glitch », « Tentative n° 1337 ») : cinq segments (« Taper le mot », « Esquiver le brunch », « Skip du lundi »...) validés un à un, deltas verts puis dorés pour les meilleurs segments, surlignage qui saute de ligne en ligne, chrono vert qui file jusqu'à **0:13,37** et passe à l'or. À côté, le chat du stream défile (« PB pace ?? », « mods, vérifiez le chrono ») puis s'emballe au record (« WR !!! », « GG », « POG », « clip it »), spectateurs de 1 337 à 42 000. « WR ! » s'écrase, « Nouveau record du monde », « « mot » en 0:13,37 », confettis pixel | 3,7 s | Tic du chrono, un carillon par split (scintillement pour les dorés), fanfare chiptune, public | Toast « 100 G · Record du monde (any%) » |
+| Légendaire | Boss final vaincu | Arène rouge sombre, barre de boss en haut (« Le Lundi, Seigneur de la Routine ») : le boss est une page de calendrier « LUNDI » aux sourcils froncés qui flotte. Sept coups, la barre rouge fond avec sa traînée jaune, dégâts qui s'envolent (« -9 001 », « CRITIQUE ! -99 999 »), puis le boss se désintègre en pixels. « VICTOIRE ! », « Le Lundi a été vaincu par « mot » », pluie d'orbes d'XP, compteur « Niv. 1 » jusqu'à « Niv. 99 » avec des « Level up ! » en cascade et la barre d'XP qui se remplit quatre fois, « Niveau max ! » | 3,7 s | Grondement, rafale de coups, cri saturé du boss, fanfare de victoire, arpèges de level up qui montent | Toast « 100 G · Boss final vaincu » |
+| Légendaire | Évolution | Ciel étoilé violet, boîte de dialogue de RPG rétro (« Quoi ? « mot » évolue ! » tapé lettre à lettre), le mot devient une silhouette blanche lumineuse qui pulse de plus en plus vite (échelle seulement, jamais plus de 3 pulsations par seconde), anneaux d'énergie qui convergent, éclosion : « MOT ULTIME » en orange légendaire, étoiles, rayons, « Chouffinitude +score · Nouvelle attaque : Tournée générale », « Félicitations ! « mot » a évolué en « MOT ULTIME » ! » | 3,7 s | Texte qui s'écrit, trille carrée qui accélère et monte, souffle, éclosion, fanfare chiptune originale | Toast « 100 G · Évolution ultime » |
+| Légendaire | Rage quit inversé | Tableau des scores d'une partie classée « 1 contre 5 » : l'équipe chouffin (le mot, 25 / 0 / 5) contre cinq normies (« Brunch_Addict », « PadelPro75 », « Lundi_Matin »...). Un à un, ils quittent la partie : nom barré, « Rage quit », manette pixel lancée hors champ, « Alt + F4 ». Le mot tape « gg ez » dans le chat, aussitôt adouci en « Bien joué à tous, vous étiez presque chouffins. » (« message adouci par la taverne : ici, on gagne avec classe »). « VICTOIRE PAR ABANDON », « GG WP » | 3,4 s | Un « bloup » de déconnexion par adversaire, frappe au clavier, correction, petite victoire chiptune | Toast « 100 G · Victoire par abandon » |
+
+Les sept apothéoses sont tirées à parts égales (mesuré : 14,1 à 14,6 % chacune pour 14,3 % attendus). Elles vivent dans leur propre module (`tribes/gamer-legendary.tsx`, sons dans `tribe-sounds/gamer-legendary.ts`), chargé seulement pour un verdict légendaire gamer : le module des verdicts gamer courants reste léger.
 
 #### 4.9.3 Geeks (`geek`) : sorciers, sabres laser, super-héros, science-fiction
 
@@ -337,30 +346,66 @@ Le d20 est un **vrai icosaèdre en 3D CSS** (`src/components/easter-eggs/D20.tsx
 | Légendaire | 20 naturel | Le d20 doré roule plus longtemps et s'arrête sur **20**, halo et rayons dorés, pluie de petits d20, « COUP CRITIQUE ! », « 20 naturel · « mot » », « Le MJ en lâche ses dés. Légendaire. » | 3,6 s | Dé qui roule, impact, grande fanfare en accords, nappe, scintillement | Toast « 100 G · Coup critique ! », fanfare de héraut |
 | Légendaire | Blason | « Oyez, oyez ! », un écu tombe, ses quartiers se colorent un à un (gueules, or, azur, sinople) avec leurs meubles (chope, couronne, d20, cône de houblon), la couronne tombe dessus, la devise « Chouffinus maximus » se déroule, le mot s'écrase, « Suzerain de la taverne · On en a gros ! » | 3,5 s | Fanfare de héraut, quatre coups sourds, clochette de la couronne, froissement, accord final | Toast « 100 G · Suzerain de la taverne » |
 
-#### 4.9.8 Budget photosensible
+#### 4.9.8 Famille « Vie normale » (mots pas chouffin sans tribu)
+
+Un mot pas chouffin sans tribu (le padel, le brunch, le lundi, le télétravail) n'appartient à aucun univers chouffin : il appartient à la **vraie vie**, celle que le chouffin fuit. La famille « Vie normale » la célèbre avec une ironie affectueuse, comme un documentaire animalier sur un pote qui sort enfin de sa grotte. Trois règles :
+
+- **Le miroir du chouffin.** La vie normale parle le **flat design de 2013** (aplats pastel, ciel clair, interrupteurs à glissière, notifications en verre dépoli), l'époque graphique du verdict « pas chouffin » (principe 3). Contre la nuit néon du chouffin, un plein jour un peu trop propre.
+- **La main-curseur.** Le chouffin interagit avec le monde réel comme avec une page web : sa main est le curseur « main » des liens, en pixels et géant. Il touche l'herbe en cliquant dessus, il éteint son réveil en cliquant dessus.
+- **Taquin, jamais méprisant.** On se moque de la situation, jamais des gens : pas de blague sur l'hygiène ou le physique, pas de marque réelle (le réseau professionnel s'appelle « Réseau pro », mallette générique), le tavernier reste bienveillant (« Mais t'as pris l'air, c'est déjà ça »).
+
+**Tirage.** Quand la réaction sort (1 fois sur 4, inchangé), elle est tirée à parts égales entre l'écran bleu, NOPE et les variantes de la tranche du score. Un verdict renversé par la communauté peut garder un score supérieur à 50 : il tombe alors dans « presque chouffin ».
+
+| Tranche | Score | Variantes | Part de la famille dans les réactions | Mesuré (sur tous les verdicts de la tranche) |
+| --- | --- | --- | --- | --- |
+| **Normie absolu** | 0 à 20 | 3 grosses animations plein écran | 3 sur 5 | 14,9 % (attendu 15 %) |
+| **Vie ordinaire** | 21 à 40 | 4 animations plein écran moyennes | 4 sur 6 | 16,4 % (attendu 16,7 %) |
+| **Presque chouffin** | 41 à 50 | 2 réactions légères, sans voile, qui laissent cliquer | 2 sur 4 | 12,5 % (attendu 12,5 %) |
+
+**Succès IRL.** Les tranches « normie » et « ordinaire » affichent en parallèle un succès ironique : sur-titre « Succès IRL déverrouillé », 5 G seulement, orbe ciel et herbe (icône soleil sur une touffe d'herbe). Les taquineries « presque chouffin » se suffisent à elles-mêmes (comme les petites réactions de tribu).
+
+| Tranche | Variante | Animation | Durée | Son (si activé) | Mouvement réduit |
+| --- | --- | --- | --- | --- | --- |
+| Normie | Touche de l'herbe | La nuit de la page s'ouvre sur un ciel pastel (fondu de 0,55 s), nuages qui dérivent, 36 brins d'herbe poussent sur ressort. « TOUCHE DE L'HERBE » s'écrase. Le curseur-main géant descend du ciel et clique sur l'herbe : les brins voisins se couchent, onde de clic, éclats, « +1 vitamine D ». Bannière de jeu en monde ouvert : « Zone découverte · Dehors · Niveau recommandé : 1 ». Pastille : « « mot » : pas chouffin. Mais t'as pris l'air, c'est déjà ça. » | 3,5 s | Porte qui s'ouvre, vent, oiseaux, herbe qui pousse, « boing » du clic, petite pièce, flûte champêtre originale | Toast « 5 G · Première sortie de l'année » |
+| Normie | La grande lumière jaune | Nuit étoilée, colline ; l'aube éclaircit le ciel en 1,3 s, le soleil se lève derrière la colline avec ses rayons. Le chouffin en sweat à capuche (pixel art) plisse les yeux, gouttes de sueur, bulle « AAAH ! ÇA BRÛLE ! », « -1 PV (coup de soleil) ». « LE SOLEIL » / « Cette grande lumière jaune ». Sous-titres de documentaire animalier : « Documentaire animalier, épisode 1 : dehors. », « Le chouffin découvre le soleil, cette grande lumière jaune. », « « mot » : pas chouffin. Pense à la crème solaire. » | 3,5 s | Grillons, nappe d'aube qui monte, oiseau, grésillement, « aïe » glissé, bip de dégât, flûte | Toast « 5 G · Exposé à la lumière du jour » |
+| Normie | Chargement de la vie normale | Écran de chargement (fond rayé ardoise, carte plate) : « CHARGEMENT DE LA VIE NORMALE... », « Lancée par « mot » », barre bleue et pourcentage pilotés par la même valeur animée, six tâches cochées et barrées une à une (« Déclarer ses impôts », « Boire de l'eau (1,5 L) », « Rappeler sa mère », « Prendre rendez-vous chez le dentiste », « Plier le linge », « Répondre aux mails »), blocage à 99 % (« Temps restant estimé : 40 ans. »), puis 100 %, coche verte, « Vie normale chargée. Aucun easter egg détecté. ». Astuces de chargement en dessous | 3,7 s | Musique d'ascenseur originale (accords doux), un double tic par tâche, soupir au blocage, carillon poli | Toast « 5 G · Adulte fonctionnel » |
+| Ordinaire | Réveil du lundi | Chambre bleu nuit, « LUNDI 07:00 » en grand. Le réveil à deux cloches sonne en tremblant (« DRIIING ! »), le curseur-main clique dessus : « Rappel dans 9 min », « 9 minutes plus tard... », les aiguilles sautent, l'heure passe à 07:09 en rouge, il resonne. « « mot » : pas chouffin. L'énergie d'un lundi 7 h. » | 2,9 s | Sonnerie mécanique (marteau sur deux cloches), tape sur le rappel, deuxième sonnerie, soupir | Toast « 5 G · Levé du premier coup » |
+| Ordinaire | Réseau pro | Écran verrouillé d'un téléphone (08:47, lundi 3 mars) qui vibre à chaque notification d'un réseau professionnel générique : « Vous apparaissez dans 3 recherches cette semaine. », « Jean-Michel (chef de projet transverse) a aimé votre post. », « Félicitez Sandrine pour ses 5 ans chez Tableurs & Cie ! », « Nouvelle compétence validée : « mot ». », « Afterwork jeudi 18 h. Dress code : polo. » ; chaque nouvelle pousse les autres vers le bas. Doge-speak en Comic pour finir : « wow », « such réseau », « very synergie », « much afterwork » | 3 s | Vibreur et tintement par notification, petit carillon d'open space | Toast « 5 G · Profil complété à 100 % » |
+| Ordinaire | Pluie d'avocado toasts | Fond menthe et pêche, pluie de tartines d'avocat et de cafés au lait (cœur dans la mousse), « IL PLEUT DES AVOCADO TOASTS », widget météo plat « Météo du dimanche · 11 h 30 · Averses d'avocado toasts · File d'attente : 45 min · Rafales de granola : 40 km/h · Addition moyenne : 34 € », « « mot » : pas chouffin, mais très brunch. » | 2,9 s | Machine à café, ukulélé original, « plocs » | Toast « 5 G · Brunch validé » |
+| Ordinaire | Mode adulte activé | Réglages façon iOS 7 (« ‹ Vie », « Réglages », « Général ») : les interrupteurs basculent en cascade, « Mode adulte », « Coucher à 22 h 30 », « Cinq fruits et légumes par jour », « Lire les conditions générales » passent au vert, « Soirée jeux jusqu'à 4 h » et « Chouffe en semaine » s'éteignent, « Notifications de la banque » s'allume. Note de bas de groupe : « Activé par « mot » ». « MODE ADULTE ACTIVÉ » s'écrase en vert | 3 s | Un clic par interrupteur (plus grave pour « non »), carillon sage | Toast « 5 G · Couché avant minuit » |
+| Presque | Si près du but | Réaction légère sur un halo sombre local : un ballon part, frappe le poteau d'une cage (« Doiiing »), la cage vibre, le ballon ressort. « SI PRÈS DU BUT... », « Il manquait N points. » (ou « Il manquait juste quelques votes. » pour un verdict renversé) | 1,9 s | Frappe, souffle du ballon, poteau qui résonne, « ooooh » du public | Toast « Presque chouffin · Sur le poteau » (liseré rouge) |
+| Presque | Il manque une Chouffe | Réaction légère : une chope se remplit de bière dorée et s'arrête juste sous la ligne pointillée verte « Seuil chouffin : 51 » (niveau proportionnel au score), bulles, goutte de sueur, « PRESQUE ! », « Il manque juste une Chouffe. » | 1,9 s | Bière qui coule, glouglous, deux notes gênées | Toast « Presque chouffin · Il manque juste une Chouffe » (liseré rouge) |
+
+Tout est dans un module chargé à la demande (`familles/vie-normale.tsx`, sons dans `tribe-sounds/vie-normale.ts`), téléchargé seulement quand le tirage le désigne (`preloadOverlay`). Mêmes garanties que les tribus : zappable au clic et à Échap (les réactions légères se rangent au premier appui et laissent passer le clic), `aria-hidden`, son seulement s'il est activé et coupé au zapping.
+
+#### 4.9.9 Budget photosensible
 
 Règle maison : **au plus deux flashs par animation, espacés d'au moins 0,5 s**, opacité plafonnée à 0,6 et jamais de flash rouge saturé. Les flammes, cœurs et auras pulsent en échelle, pas en luminosité. Les petits clignotements (curseur, « Insère une pièce ») restent sous 2 Hz et sur une petite surface.
 
 | Animation | Événements lumineux |
 | --- | --- |
 | Série d'éliminations, Combo de baston, Code triche, Sabre laser, Gantelet, Ampli à 11, Plus de 9000, 20 naturel | 1 flash doux (opacité 0,22 à 0,4) |
+| Butin légendaire, Boss final vaincu, Évolution | 1 flash doux (orangé 0,3 à l'ouverture du coffre, blanc 0,3 à la mort du boss, blanc 0,38 à l'éclosion). Le faisceau du butin monte en échelle, la silhouette de l'évolution pulse en échelle (moins de 3 pulsations par seconde), sans alternance de luminosité |
+| Touche de l'herbe, La grande lumière jaune | Un seul passage de la nuit au jour, progressif (0,55 s et 1,3 s), et le fondu de sortie (0,2 s) plus de 3 s après : deux changements de luminosité en 3,5 s, aucun clignotement. Ciels pastel en demi-teinte, jamais de blanc plein écran |
+| Chargement de la vie normale | Les points de suspension et la coche palpitent à moins de 2 Hz, sur une petite surface |
 | Illuminati confirmé | Lens flare à 0,1 s, flash à 1,2 s, lens flare à 2,4 s (plus d'une seconde entre chaque) |
 | Saut en hyperespace | 1 flash bleuté (0,45) au moment du saut |
 | Solo légendaire | 1 flash (0,28) et deux éclairs fins à 0,3 s d'écart (2 événements par seconde au maximum) |
 | NANI ?! | Une transition vers la case de manga claire (fondu de 140 ms), puis retour au sombre à la sortie |
 | Toutes les autres | Aucun |
 
-#### 4.9.9 Architecture et performance
+#### 4.9.10 Architecture et performance
 
-- `catalog.ts` (bundle principal, données pures) : niveaux, variantes, durées, toasts, mots d'exemple et `planSurprise()`.
-- `EggLayer.tsx` : une seule couche d'overlay, `React.lazy` pour chaque tribu. Le module d'une tribu n'est téléchargé que lorsqu'un verdict la désigne (`preloadTribe` au moment du tirage) : **9 à 13 Ko gzip par tribu**, jamais dans le bundle initial de `/`.
+- `catalog.ts` (bundle principal, données pures) : niveaux, variantes, durées, toasts, mots d'exemple, famille « Vie normale » (`VIE_LEVELS`, `vieLevel()`, `VIE_NORMALE`) et `planSurprise()`. Le plan d'une surprise peut désormais porter un overlay `{ kind: "vie" }` et une signature sonore `StingSpec` (une tribu ou la famille « Vie normale »).
+- `EggLayer.tsx` : une seule couche d'overlay, `React.lazy` par module. Un module = une tribu, sauf les apothéoses gamer (`gamer-legendary`, choisi par `moduleFor(tribu, niveau)`), plus la famille « Vie normale » (`familles/vie-normale.tsx`). Le module n'est téléchargé que lorsqu'un tirage le désigne (`preloadOverlay` au moment du tirage), jamais dans le bundle initial de `/`. Mesuré en production (gzip) : verdict gamer courant 10,6 Ko (12,9 Ko avant le découpage), apothéose gamer 17,7 Ko en deux morceaux, famille « Vie normale » 16,4 Ko, autres tribus 9 à 13 Ko.
+- `tribes/gamer-shared.tsx` (hitmarkers, projectiles, vignette) et `avocado.tsx` (le toast à l'avocat, boss du combo de baston et météo du brunch) sont partagés entre modules.
 - `kit.tsx` : la scène commune (`Stage` : minuteur, Échap et clic, son coupé au zapping, pastille « Clic ou Échap pour passer » lisible sur tous les fonds), textes qui claquent, particules à graine (rendu pur), tremblements, flashs comptés, rayons, flammes.
 - Sons : `src/lib/client/synth.ts` (briques : accords saturés, cuivres, cloches, dés, foule, larsen...) et un module de recettes par tribu dans `src/lib/client/tribe-sounds/`, chargé avec l'animation (ou seul pour la signature du mode réduit, et seulement si le son est activé).
 - Tout est animé en `transform` et `opacity` (plus `clip-path` pour les dévoilements et `pathLength` pour les traits SVG). Les positions aléatoires sont tirées d'une graine (`usePlan`), jamais pendant le rendu.
 
-#### 4.9.10 Page de prévisualisation
+#### 4.9.11 Page de prévisualisation
 
-`/dev/easter-eggs` (404 en production, `noindex`) : une grille tribu × niveau × variante avec de vrais mots de la base par niveau, un bouton « Au hasard » par niveau, les réactions sans tribu, un champ pour afficher n'importe quel mot, une case « Simuler le mouvement réduit », un simulateur de verdict aux vraies fréquences et un bouton qui vérifie les fréquences sur 10 000 tirages. Les captures automatiques passent par `?play=tribu.niveau.variante&word=...&reduced=1`.
+`/dev/easter-eggs` (404 en production, `noindex`) : une grille tribu × niveau × variante avec de vrais mots de la base par niveau, un bouton « Au hasard » par niveau, une carte « Vie normale » tranche par tranche (vrais mots sans tribu : « Padel » 3, « Télétravail » 38, « Camping » 44 ; son « Au hasard » applique le vrai tirage, écran bleu et NOPE compris), les réactions sans tribu, un champ pour afficher n'importe quel mot, une case « Simuler le mouvement réduit », un simulateur de verdict aux vraies fréquences et un mesureur qui tire 10 000 fois chaque cas (chouffin gamer et sans tribu, légendaire gamer, pas chouffin gamer, pas chouffin sans tribu par tranche avec la part de la famille « Vie normale ») et donne la répartition des sept apothéoses gamer. Les captures automatiques passent par `?play=tribu.niveau.variante`, `?play=vie.tranche.variante` ou `?play=none.fail.bsod`, avec `&word=...&reduced=1`.
 
 ---
 
@@ -369,7 +414,7 @@ Règle maison : **au plus deux flashs par animation, espacés d'au moins 0,5 s**
 - **Coupé par défaut.** Le bouton « Son » est dans l'en-tête, sa valeur est mémorisée en `localStorage`. Le contexte audio n'est créé qu'au premier geste (clic sur « Son ») pour respecter les politiques d'autoplay, iOS compris.
 - **100 % synthétisé** (`src/lib/sound.ts`) : oscillateurs, bruit blanc, filtres, saturation, compresseur de sortie. Aucun fichier audio.
 - **Palette** : airhorn (accord fa-la-do en dents de scie désaccordées), hitmarker (bruit filtré + bip carré de 35 ms), basse dubstep (LFO sur filtre passe-bas), coup de tampon (sinus 160 vers 42 Hz), « tic-toc » plat, trombone triste (4 notes, filtre wah, vibrato), carillon de succès, bip de vote, bascule (souffle + ding).
-- **Palettes des tribus** (`src/lib/client/tribe-sounds/*`, briques dans `src/lib/client/synth.ts`, chargées avec l'animation) : chiptune et coups de baston (gamer) ; allumage de sabre, claquement de doigts, « hmm » du chapeau, fanfare spatiale originale (geek) ; accords saturés, palm mute, solo, larsen, corde qui casse (métal) ; verres qui trinquent, bière qui coule, friture, cloche de comptoir, gigue avec bourdon (taverne) ; stinger dramatique, grondement « ゴゴゴ », charge de ki, progression pop à la clochette (weeb) ; d20 qui roule, parchemin, sceau, fanfares de héraut (rôliste). Toutes les mélodies sont originales : on cite le genre (fanfare, chiptune, riff), jamais un thème existant.
+- **Palettes des tribus** (`src/lib/client/tribe-sounds/*`, briques dans `src/lib/client/synth.ts`, chargées avec l'animation) : chiptune et coups de baston, et pour les apothéoses gong de butin, tic de chrono et carillons de splits, cri saturé de boss et arpèges de level up, trille d'évolution, « bloups » de déconnexion (gamer) ; allumage de sabre, claquement de doigts, « hmm » du chapeau, fanfare spatiale originale (geek) ; accords saturés, palm mute, solo, larsen, corde qui casse (métal) ; verres qui trinquent, bière qui coule, friture, cloche de comptoir, gigue avec bourdon (taverne) ; stinger dramatique, grondement « ゴゴゴ », charge de ki, progression pop à la clochette (weeb) ; d20 qui roule, parchemin, sceau, fanfares de héraut (rôliste). La famille « Vie normale » a sa palette douce (`tribe-sounds/vie-normale.ts`) : oiseaux, vent, flûte champêtre, grillons, musique d'ascenseur, réveil mécanique, vibreur et tintements de notification, ukulélé, interrupteurs, poteau qui résonne, bière qui coule. Toutes les mélodies sont originales : on cite le genre (fanfare, chiptune, riff), jamais un thème existant.
 - **Zapper coupe le son** : chaque réaction garde une poignée `stop()` qui ferme son bus en 80 ms (`playRecipe` donne un bus par recette).
 
 ---
@@ -380,9 +425,9 @@ Règle maison : **au plus deux flashs par animation, espacés d'au moins 0,5 s**
 - Une seule région `aria-live="polite"` annonce chaque verdict, adoption, renversement ou erreur en phrase complète. Les toasts et les réactions plein écran sont `aria-hidden` (redondants).
 - Jauge en `role="meter"` avec `aria-valuetext` (« 88 sur 100, rareté épique »), progression de lecture en `role="progressbar"`.
 - Focus visibles partout (contour vert de 3 px), navigation clavier complète, Échap ferme les réactions, le focus suit les nouveaux chapitres.
-- `prefers-reduced-motion` respecté à trois niveaux : `MotionConfig reducedMotion="user"`, règles CSS dédiées (rotations, tremblement, View Transitions, rotor), et logique applicative (pas de combo ni de réaction plein écran ; pour les tribus, un toast statique thématique à la place, voir 4.9.1).
-- Budget photosensible : au plus deux flashs par animation, espacés d'au moins 0,5 s (détail en 4.9.8).
-- Les réactions légères (petites réactions de tribu) ne bloquent jamais un clic : elles sont en `pointer-events: none` et se rangent au premier appui.
+- `prefers-reduced-motion` respecté à trois niveaux : `MotionConfig reducedMotion="user"`, règles CSS dédiées (rotations, tremblement, View Transitions, rotor), et logique applicative (pas de combo ni de réaction plein écran ; pour les tribus et la famille « Vie normale », un toast statique thématique à la place, voir 4.9.1 et 4.9.8).
+- Budget photosensible : au plus deux flashs par animation, espacés d'au moins 0,5 s (détail en 4.9.9).
+- Les réactions légères (petites réactions de tribu, taquineries « presque chouffin ») ne bloquent jamais un clic : elles sont en `pointer-events: none` et se rangent au premier appui.
 - Contraste AA minimum partout (voir 2.1).
 - Cibles tactiles de 44 px minimum, champ à 16 px minimum.
 
@@ -391,7 +436,7 @@ Règle maison : **au plus deux flashs par animation, espacés d'au moins 0,5 s**
 ## 7. Performance
 
 - Les réactions (`MlgCombo`, `SadReaction`) et le « C'est pas faux » sont des modules chargés à la demande (`React.lazy`), préchargés dès le focus du champ.
-- Chaque tribu est un module séparé (9 à 13 Ko gzip, sons compris), téléchargé seulement quand un verdict la désigne. Aucun n'est dans le bundle initial de `/`.
+- Chaque tribu est un module séparé (9 à 13 Ko gzip, sons compris), téléchargé seulement quand un verdict la désigne. Les apothéoses gamer (7 variantes) ont leur propre module (17,7 Ko gzip), la famille « Vie normale » aussi (16,4 Ko gzip). Aucun n'est dans le bundle initial de `/` (vérifié sur le build de production).
 - Motion est chargé en mode `LazyMotion` + `domAnimation` + composants `m` (bundle réduit).
 - Animations sur `transform`, `opacity` et `clip-path` ; les compteurs écrivent via des MotionValues sans re-rendu React.
 - Fond étoilé sur un calque fixe, aucune image bitmap dans l'interface (tout est SVG ou CSS).
@@ -416,14 +461,16 @@ Règle maison : **au plus deux flashs par animation, espacés d'au moins 0,5 s**
 | `src/components/easter-eggs/catalog.ts` | Catalogue tribu × niveau × variante, durées, toasts, tirage `planSurprise()` |
 | `src/components/easter-eggs/EggLayer.tsx`, `useSurprises.ts` | Couche d'overlay (chargement paresseux par tribu) et application d'un plan de surprise |
 | `src/components/easter-eggs/kit.tsx` | Scène commune, textes, particules, tremblements, flashs comptés, flammes |
-| `src/components/easter-eggs/tribes/*.tsx` | Les animations de chaque tribu (un module chacune) |
+| `src/components/easter-eggs/tribes/*.tsx` | Les animations de chaque tribu (un module chacune ; `gamer-legendary.tsx` pour les sept apothéoses gamer, `gamer-shared.tsx` pour leurs briques communes) |
+| `src/components/easter-eggs/familles/vie-normale.tsx` | La famille « Vie normale » (mots pas chouffin sans tribu), un module chargé à la demande |
+| `src/components/easter-eggs/avocado.tsx` | Le toast à l'avocat, partagé entre le combo de baston et la météo du brunch |
 | `src/components/easter-eggs/D20.tsx` | Le d20 en 3D CSS |
-| `src/components/easter-eggs/icons.tsx` | Icônes de tribu (toast, prévisualisation) |
+| `src/components/easter-eggs/icons.tsx` | Icônes de tribu et de la famille « Vie normale » (toast, prévisualisation) |
 | `src/components/dev/EasterEggLab.tsx`, `src/app/dev/easter-eggs/page.tsx` | Page de prévisualisation (404 en production) |
 | `src/components/Notices.tsx`, `LoadingCard.tsx` | Bloqué, invalide, erreurs, chargement |
 | `src/components/art.tsx` | Illustrations SVG (chope, lunettes, hitmarker, chips, canette, trophée, carton rouge, virevoltant, icônes) |
 | `src/hooks/usePreferences.ts` | Son et votes mémorisés (`useSyncExternalStore`) |
 | `src/lib/client/*` | Client API, stockage local, textes d'interface |
 | `src/lib/sound.ts` | Synthèse sonore WebAudio, primitives et `playRecipe` |
-| `src/lib/client/synth.ts`, `src/lib/client/tribe-sounds/*` | Briques de synthèse et recettes sonores par tribu (chargées à la demande) |
+| `src/lib/client/synth.ts`, `src/lib/client/tribe-sounds/*` | Briques de synthèse et recettes sonores par tribu, apothéoses gamer et famille « Vie normale » (chargées à la demande) |
 | `public/og/` | Polices OFL (et leurs licences) pour l'image Open Graph |

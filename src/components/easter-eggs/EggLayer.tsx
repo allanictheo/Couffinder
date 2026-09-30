@@ -46,7 +46,7 @@ export type EggOverlay = OverlaySpec & { id: number; seed: number };
 
 /**
  * Précharge les réactions génériques (au focus du champ). Les tribus et la famille
- * « Vie normale » attendent d'être désignées par un verdict (chacune pèse 9 à 14 Ko gzip).
+ * « Vie normale » attendent d'être désignées par un tirage (9 à 18 Ko gzip chacune, mesuré en production).
  */
 export function warmupEggs() {
   void loadMlgCombo();

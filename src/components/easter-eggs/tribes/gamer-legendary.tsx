@@ -983,7 +983,7 @@ function LegendaryRagequit({ word, seed, durationMs, onDone }: EggProps) {
   }));
   const player = shortWord(word, 18);
   return (
-    <Stage durationMs={durationMs} onDone={onDone} sound={sounds.ragequit} className={VIGNETTE}>
+    <Stage durationMs={durationMs} onDone={onDone} sound={sounds.ragequit} className="bg-[radial-gradient(circle_at_center,rgb(14_10_22/0.93)_10%,rgb(14_10_22/0.98)_100%)]">
       <div className="scanlines opacity-30" />
       <div className="absolute inset-0 flex items-center justify-center px-3 pt-8">
         <m.section

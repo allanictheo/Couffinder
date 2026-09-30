@@ -168,6 +168,12 @@ Le chouffin n'est pas un bloc : il y a le gamer, le geek, le métalleux, le pili
 - *Les codes* : le montage MLG (2.1), le « Game Over » d'arcade et son « Continuer ? » qui décompte, le « Vous êtes mort » des jeux d'action exigeants (lettres rouges à empattements sur bandeau noir, zoom lent : devenu un meme pour tout échec), le killfeed des FPS et les annonces « Double kill... Pentakill » des MOBA, les barres de vie et le « K.O. » des jeux de baston, la traînée arc-en-ciel pixel (Nyan Cat, 2011), le code ↑↑↓↓←→←→BA caché dans des sites entiers vers 2010, le triangle « Illuminati confirmé » des montages.
 - *Pourquoi c'est drôle* : l'emphase épique appliquée à un mot, et pour l'échec, la mise en scène tragique d'un simple « pas chouffin ».
 - *Comment on cite* : aucun personnage ni logo. La traînée arc-en-ciel est portée par notre propre chope pixel (pas de chat-biscuit), le boss du combo de baston est un toast à l'avocat, les annonces sont des phrases génériques, le code triche est une suite de touches. Sons 100 % chiptune synthétisés, mélodies originales.
+- *Les apothéoses ajoutées* (sept en tout, tirées au hasard pour un mot gamer légendaire) puisent dans cinq autres rituels de joueur :
+  - **Le butin légendaire.** Dans les MMORPG et les hack'n'slash du début des années 2010, un objet légendaire s'annonce par sa couleur orange et, dans certains jeux, par un faisceau de lumière qui monte du sol : l'instant où tout le monde arrête de parler sur le serveur vocal. On le cite par un coffre générique dessiné en SVG, un faisceau en dégradé, et une fiche d'objet qui reprend la grammaire (« Lié quand ramassé », « Deux mains », stats en vert, texte d'ambiance doré) avec des stats absurdes (« +12 Endurance de LAN », « +30 Résistance au brunch »).
+  - **Le speedrun.** La culture du record chronométré explose avec le streaming (2011) et les marathons caritatifs : logiciel de splits, segments « dorés » (meilleur temps de l'histoire sur un passage), « WR », « PB », chat qui s'emballe. On cite un logiciel de splits générique, des pseudos inventés (« Perceval_78 », « NoScopeMamie »), un chat en texte seul (aucune émoticône d'une plateforme), et un temps final de 13,37 s, clin d'œil au « leet speak » de l'époque.
+  - **Le boss final.** La barre de vie géante en haut de l'écran, les chiffres de dégâts qui s'envolent, le coup critique, la victoire et le « level up » en cascade des RPG. Le boss est à nous : **le Lundi**, page de calendrier aux sourcils froncés, boss de fin de toute vie normale.
+  - **L'évolution.** La boîte de dialogue blanche à double bordure des RPG portables (« Quoi ? ... évolue ! ») et la silhouette blanche qui pulse avant de changer de forme. Aucun sprite, aucun jingle : le mot lui-même pulse (en échelle, sous 3 Hz) et devient « MOT ULTIME » sur une trille et une fanfare originales.
+  - **Le rage quit.** Le joueur qui quitte la partie en perdant (« a quitté la partie », la blague « appuie sur Alt + F4 pour gagner »), et le « gg ez » arrogant du vainqueur. On l'inverse : ce sont les normies qui rage quit, et le « gg ez » est aussitôt adouci par la taverne (« Bien joué à tous, vous étiez presque chouffins. »), comme certains jeux ont fini par le faire d'office (2016). La vanne, jamais la toxicité.
 
 **Geeks.**
 - *Les codes* : l'école de sorcellerie et son chapeau qui répartit les élèves, le patronus, les sabres laser et le texte d'intro qui défile dans l'espace, la pluie de code vert et le choix des pilules, le claquement de doigts du gantelet et la poussière (« Je ne me sens pas très bien »).
@@ -194,6 +200,22 @@ Le chouffin n'est pas un bloc : il y a le gamer, le geek, le métalleux, le pili
 - *Pourquoi c'est drôle* : le dé tranche, et tout le monde autour de la table sait ce que « 1 » ou « 20 » veut dire.
 - *Comment on le modernise* : le d20 est un vrai icosaèdre en 3D CSS (20 faces en `matrix3d`, faces opposées qui totalisent 21), qui roule et s'arrête sur la bonne face. Blason, bannières, épée, trompettes et couronne sont dessinés en SVG ; la devise est en latin de cuisine (« Chouffinus maximus »). Deux répliques de Kaamelott seulement, courtes et devenues expressions.
 
+### 2.17 La vie normale, le miroir du chouffin
+
+Le chouffin se définit aussi par ce qu'il fuit : le brunch, le padel, le lundi matin, le réseau professionnel. Pour les mots pas chouffin qui n'appartiennent à aucune tribu, la famille « Vie normale » célèbre cette vraie vie avec une ironie affectueuse. Le catalogue complet est en 4.9.8 de la direction artistique.
+
+- *Les codes* :
+  - **« Va jouer dehors » et « touche de l'herbe ».** L'injonction « touche de l'herbe » est plus récente (vers 2020), mais c'est l'héritière directe du « va jouer dehors » des forums des années 2000 et 2010, et de la vieille blague qui décrit la vraie vie comme un MMORPG gratuit « aux graphismes incroyables » : d'où la bannière « Zone découverte · Dehors · Niveau recommandé : 1 », qui reprend la découverte de lieu des jeux en monde ouvert (2011).
+  - **Le soleil, ennemi du geek.** Le joueur qui sort de sa grotte et se brûle les yeux, un classique des forums, et du dessin d'enfant devenu meme au début des années 2010 où le soleil tire un laser mortel. On le raconte en voix off de documentaire animalier.
+  - **L'écran de chargement et le 99 % éternel.** Les astuces de chargement (2.9) et l'estimation absurde des fenêtres de copie de fichiers (« Temps restant : 40 ans »), meme informatique de toute une génération.
+  - **Le lundi et le bouton « rappel ».** Le lundi, ennemi universel des memes, et le rappel de réveil de 9 minutes.
+  - **Le réseau professionnel.** Ses notifications qui se veulent flatteuses (« Vous apparaissez dans 3 recherches »), lues en doge-speak (2013) : « such réseau, very synergie ».
+  - **Le brunch des années 2010** et sa star, la tartine d'avocat ; **le « mode adulte »** en interrupteurs d'iOS 7 (2013), l'époque du flat design, donc du « pas chouffin » (2.13).
+  - **Le presque.** Le tir sur le poteau et le « oooh » du stade ; la chope qui s'arrête sous la ligne.
+- *Pourquoi c'est drôle* : le renversement. D'habitude, le chouffin est la cible des vannes ; ici, c'est la vie normale qui est célébrée avec la même emphase que les exploits de jeu (« Succès IRL déverrouillé : Première sortie de l'année », 5 G seulement). Et le chouffin reste le héros maladroit de la scène : sa main est un curseur de souris, il ne sait toucher l'herbe qu'en cliquant dessus.
+- *Comment on cite* : aucune marque (le réseau professionnel est « Réseau pro » et sa mallette est générique, aucune enseigne de café ni de brunch), aucun personnage, aucune photo. Le curseur « main » des liens est redessiné en pixels. Les réglages reprennent la grammaire d'iOS 7 (aplats, interrupteur vert qui glisse) sans logo ni icône du système.
+- *Le ton* : taquin et affectueux, jamais méprisant. On se moque des situations (le lundi, le 99 %, l'afterwork en polo), pas des personnes : aucune blague sur l'hygiène, le physique ou le travail des gens. La chute est toujours bienveillante (« Mais t'as pris l'air, c'est déjà ça », « Pense à la crème solaire »).
+
 ---
 
 ## 3. Ce qu'on s'interdit
@@ -213,6 +235,11 @@ Le chouffin n'est pas un bloc : il y a le gamer, le geek, le métalleux, le pili
 | Logos de groupes, de festivals, de marques de bière | Marques déposées | Logo « illisible » généré à partir du mot, chopes sans étiquette |
 | Noms de maisons de l'école de sorcellerie | Univers protégé | Maisons inventées (« Chouffondor », « Serpentaverne »...) |
 | Longues citations de Kaamelott | Œuvre protégée | Trois répliques courtes devenues expressions (« C'est pas faux », « Le gras, c'est la vie », « On en a gros ! ») |
+| Créatures, sprites et jingle d'évolution des RPG portables | Personnages et musique protégés | Le mot lui-même évolue, trille et fanfare originales, boîte de dialogue générique |
+| Interface d'un logiciel de splits, émoticônes d'une plateforme de streaming | Logiciels et images de tiers | Tableau de splits générique, chat en texte seul, pseudos inventés |
+| Logo et couleurs d'un réseau social professionnel | Marque déposée | « Réseau pro », mallette générique, notifications écrites pour le site |
+| Blagues sur l'hygiène ou le physique des « normies » (« va te laver ») | Méprisant, hors du ton du site | Vannes de situation : le lundi, le 99 %, l'afterwork en polo |
+| « gg ez » laissé tel quel | Toxique | Écrit puis adouci aussitôt par la taverne |
 
 ---
 
@@ -234,3 +261,9 @@ Le chouffin n'est pas un bloc : il y a le gamer, le geek, le métalleux, le pili
 | Easter eggs de forum et de sites (code triche, pages cachées) | Une animation par tribu et par niveau de score, chargée à la demande, 1 fois sur 3 comme avant |
 | Dé de JdR en plastique | Icosaèdre en 3D CSS calculé, qui s'arrête sur la face voulue |
 | Logo de groupe de métal dessiné au feutre | Épines et gouttes générées à partir d'une graine, lettres chromées en `background-clip: text` |
+| Faisceau du butin légendaire | Colonne en dégradé qui monte en `scaleY`, masque horizontal, un seul flash doux |
+| Chat de stream qui s'emballe | Liste défilée par `transform` à chaque message, aucune mise en page recalculée |
+| Évolution qui clignote | Pulsation d'échelle qui accélère sous 3 Hz, jamais d'alternance de luminosité |
+| Notifications empilées | Chaque carte descend d'un cran par `transform` à l'arrivée de la suivante |
+| Interrupteur d'iOS 7 | Le blanc se rétracte (`scale`) et le rond glisse (`translateX`), sans animer de couleur |
+| « Va jouer dehors » | Un module « Vie normale » chargé à la demande, tiré 1 fois sur 4 comme les autres réactions |

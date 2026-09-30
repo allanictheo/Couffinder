@@ -279,7 +279,7 @@ function VieSoleil({ word, seed, durationMs, onDone }: VieProps) {
       </svg>
 
       {/* Le chouffin plisse les yeux quand le soleil l'atteint. */}
-      <div className="absolute bottom-[17vh] left-[12%] w-[clamp(84px,10vw,136px)]">
+      <div className="absolute bottom-[20vh] left-[12%] w-[clamp(84px,10vw,136px)]">
         <m.div className="grid" animate={{ y: [0, 0, -6, 0] }} transition={{ delay: SQUINT, duration: 0.3, times: [0, 0.1, 0.5, 1] }}>
           <m.div className="col-start-1 row-start-1" initial={{ opacity: 1 }} animate={{ opacity: 0 }} transition={{ delay: SQUINT, duration: 0.01 }}>
             <PixelArt rows={DUDE_OPEN} palette={DUDE_PALETTE} className="block w-full" />
@@ -888,8 +888,8 @@ function VieAdulte({ word, durationMs, onDone }: VieProps) {
 /* ------------------------------------------------------------------ */
 
 /** Halo sombre local derrière une réaction légère : lisible sur la carte de verdict, sans voiler l'écran. */
-function Spot() {
-  return <div className="absolute -inset-x-[18%] -inset-y-[45%] rounded-full bg-[radial-gradient(closest-side,rgb(14_10_22/0.78),rgb(14_10_22/0.45)_60%,transparent)]" />;
+function Spot({ inset }: { inset: string }) {
+  return <div className="absolute rounded-full bg-[radial-gradient(closest-side,rgb(14_10_22/0.9)_0%,rgb(14_10_22/0.78)_55%,transparent)]" style={{ inset }} />;
 }
 
 /** Ce qu'il manquait pour être chouffin (un verdict renversé par les votes peut dépasser 50). */
@@ -932,13 +932,13 @@ function ViePoteau({ score, durationMs, onDone }: VieProps) {
   return (
     <Stage durationMs={durationMs} onDone={onDone} sound={sounds.poteau} mode="light">
       <m.div
-        className="absolute left-1/2 top-[30%] h-[clamp(150px,26vh,230px)] w-[min(30rem,90vw)]"
+        className="absolute left-1/2 top-[38%] h-[clamp(150px,26vh,230px)] w-[min(30rem,90vw)]"
         style={{ x: "-50%" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: [0, 1, 1, 0] }}
         transition={{ duration: 1.85, times: [0, 0.06, 0.86, 1] }}
       >
-        <Spot />
+        <Spot inset="-80% -22% -22%" />
         <m.div
           className="absolute bottom-0 right-0 w-[46%]"
           animate={{ x: [0, 0, 4, -3, 2, 0] }}
@@ -983,14 +983,14 @@ function VieChope({ score, seed, durationMs, onDone }: VieProps) {
   return (
     <Stage durationMs={durationMs} onDone={onDone} sound={sounds.chope} mode="light">
       <m.div
-        className="absolute left-1/2 top-[28%] flex items-end gap-4"
+        className="absolute left-1/2 top-[36%] flex items-end gap-3"
         style={{ x: "-50%" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: [0, 1, 1, 0] }}
         transition={{ duration: 1.85, times: [0, 0.06, 0.86, 1] }}
       >
-        <Spot />
-        <div className="relative w-[clamp(84px,12vw,130px)]">
+        <Spot inset="-45% -24%" />
+        <div className="relative w-[clamp(76px,12vw,130px)] shrink-0">
           {/* Le verre (trapèze) et la bière qui monte... jusqu'à juste sous la ligne. */}
           <div className="relative aspect-[3/4] overflow-hidden bg-white/12 [clip-path:polygon(0_0,100%_0,88%_100%,12%_100%)]">
             <m.div
@@ -1022,12 +1022,12 @@ function VieChope({ score, seed, durationMs, onDone }: VieProps) {
             transition={{ delay: 1.05, duration: 0.7 }}
           />
         </div>
-        <div className="flex max-w-[52vw] flex-col items-start gap-2 pb-[10%]">
+        <div className="flex flex-col items-start gap-2 pb-[10%]">
           <p className="pixel-text text-xs text-dew">Seuil chouffin : 51</p>
           <Pop delay={1.0} className="meme-text text-[clamp(1.8rem,6vw,3.2rem)]">
             Presque !
           </Pop>
-          <Rise delay={1.15} distance={8} className="rounded-full bg-white px-3 py-1 text-sm font-bold text-[#0f2a44] shadow-[0_6px_16px_rgb(0_0_0/0.35)]">
+          <Rise delay={1.15} distance={8} className="whitespace-nowrap rounded-full bg-white px-3 py-1 text-sm font-bold text-[#0f2a44] shadow-[0_6px_16px_rgb(0_0_0/0.35)]">
             Il manque juste une Chouffe.
           </Rise>
         </div>
