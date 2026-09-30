@@ -654,3 +654,171 @@ function LegendarySpeedrun({ word, seed, durationMs, onDone }: EggProps) {
     </Stage>
   );
 }
+
+/* ------------------------------------------------------------------ */
+/* Boss final vaincu                                                    */
+/* ------------------------------------------------------------------ */
+
+/** Le boss de fin de toute vie normale : le Lundi, page de calendrier aux sourcils froncés. */
+function MondayBoss({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 140 160" aria-hidden="true" className={className}>
+      <rect x="10" y="22" width="120" height="132" rx="12" fill="#f4f1ea" stroke="#141414" strokeWidth={5} />
+      <path d="M10 34 Q10 22 22 22 H118 Q130 22 130 34 V60 H10 Z" fill="#d7263d" stroke="#141414" strokeWidth={5} strokeLinejoin="round" />
+      {[34, 58, 82, 106].map((x) => (
+        <rect key={x} x={x - 4} y="9" width="8" height="24" rx="4" fill="#a3a9b3" stroke="#141414" strokeWidth={3} />
+      ))}
+      <text x="70" y="51" textAnchor="middle" fontFamily="Impact, 'Arial Narrow', sans-serif" fontSize="22" letterSpacing="2" fill="#fff">
+        LUNDI
+      </text>
+      <path d="M32 78 L60 90 M108 78 L80 90" stroke="#141414" strokeWidth={7} strokeLinecap="round" />
+      <circle cx="50" cy="100" r="9" fill="#141414" />
+      <circle cx="90" cy="100" r="9" fill="#141414" />
+      <circle cx="53" cy="97" r="3" fill="#ff3b3b" />
+      <circle cx="93" cy="97" r="3" fill="#ff3b3b" />
+      <path d="M38 128 Q70 110 102 128 L102 136 Q70 122 38 136 Z" fill="#141414" />
+      <path d="M46 124 L50 131 L54 121 Z M62 118 L66 126 L70 117 Z M78 119 L82 127 L86 121 Z" fill="#fff" />
+      <text x="70" y="150" textAnchor="middle" fontFamily="ui-monospace, monospace" fontSize="10" fill="#6b6b6b">
+        07:00
+      </text>
+    </svg>
+  );
+}
+
+const DAMAGE = ["-1 337", "-2 048", "-4 096", "-9 001", "-6 666", "-8 192", "CRITIQUE ! -99 999"] as const;
+const BOSS_DEATH = 1.58;
+
+function LegendaryBoss({ word, seed, durationMs, onDone }: EggProps) {
+  const hits = sounds.BOSS_HITS;
+  const plan = usePlan(seed, (random) => ({
+    damage: hits.map((at, index) => ({ at, index, x: between(random, 30, 70), y: between(random, 18, 50), text: DAMAGE[index] })),
+    levelUps: Array.from({ length: 8 }, (_, index) => ({ index, at: 2.35 + index * 0.1, x: between(random, -30, 30), y: between(random, -26, 4) })),
+  }));
+  const hpKeys = [1, ...hits.map((_, index) => Math.max(0, 1 - (index + 1) / hits.length))];
+  const hpTimes = [0, ...hits.map((at) => (at - hits[0] + 0.02) / (hits[hits.length - 1] - hits[0] + 0.02))];
+
+  return (
+    <Stage durationMs={durationMs} onDone={onDone} sound={sounds.boss} className="bg-[radial-gradient(ellipse_at_50%_40%,#3a0d1a_0%,#170611_55%,#060208_100%)]">
+      <div className="absolute inset-x-0 bottom-0 h-[24vh] bg-[linear-gradient(180deg,transparent,#1a0a06_40%,#0b0503)]" />
+
+      {/* Barre de vie du boss, qui fond coup après coup (avec la traînée jaune des dégâts). */}
+      <div className="absolute inset-x-0 top-[9vh] flex flex-col items-center px-4">
+        <p className="text-center text-[clamp(1rem,2.4vw,1.5rem)] tracking-[0.08em] text-[#f1e3c2]" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
+          Le Lundi, Seigneur de la Routine
+        </p>
+        <div className="relative mt-1.5 h-[clamp(0.8rem,2vh,1.1rem)] w-[min(44rem,90vw)] border-2 border-black bg-[#2a0b0f] shadow-[0_0_0_1px_#8a6d3b]">
+          <m.div
+            className="absolute inset-0 origin-left bg-[#ffcf5a]"
+            initial={{ scaleX: 1 }}
+            animate={{ scaleX: hpKeys }}
+            transition={{ delay: hits[0] + 0.18, duration: hits[hits.length - 1] - hits[0] + 0.02, times: hpTimes, ease: "easeOut" }}
+          />
+          <m.div
+            className="absolute inset-0 origin-left bg-[linear-gradient(180deg,#ff5a5a,#b3121f)]"
+            initial={{ scaleX: 1 }}
+            animate={{ scaleX: hpKeys }}
+            transition={{ delay: hits[0], duration: hits[hits.length - 1] - hits[0] + 0.02, times: hpTimes, ease: "linear" }}
+          />
+        </div>
+      </div>
+
+      <div className="absolute inset-0 flex items-center justify-center pb-[6vh]">
+        <Shake at={hits} intensity={6} className="relative">
+          <m.div
+            className="relative w-[clamp(150px,22vw,250px)]"
+            animate={{ scale: [1, 1, 1.08, 0.2], opacity: [1, 1, 1, 0], rotate: [0, 0, -4, 14] }}
+            transition={{ delay: BOSS_DEATH, duration: 0.45, times: [0, 0.05, 0.3, 1], ease: "easeIn" }}
+          >
+            <m.div animate={{ y: [0, -12, 0, -12, 0] }} transition={{ duration: 3.2, ease: "easeInOut" }}>
+              <MondayBoss className="w-full drop-shadow-[0_18px_30px_rgb(0_0_0/0.6)]" />
+            </m.div>
+          </m.div>
+        </Shake>
+        <Burst
+          seed={seed + 11}
+          count={26}
+          x={50}
+          y={46}
+          delay={BOSS_DEATH + 0.1}
+          duration={1.1}
+          distance={[18, 48]}
+          gravity={20}
+          size={[10, 20]}
+          spin={180}
+          render={(index) => <div className="aspect-square w-full" style={{ background: ["#f4f1ea", "#d7263d", "#141414", "#a3a9b3"][index % 4] }} />}
+        />
+      </div>
+
+      {plan.damage.map((hit) => {
+        const crit = hit.index === hits.length - 1;
+        return (
+          <m.p
+            key={hit.index}
+            className={`hud-text absolute whitespace-nowrap ${crit ? "text-[clamp(1.4rem,4.4vw,2.6rem)] text-[#ff9a1f]" : "text-[clamp(1rem,3vw,1.7rem)] text-[#ffe14a]"}`}
+            style={{ left: `${hit.x}%`, top: `${hit.y + 12}%`, x: "-50%" }}
+            initial={{ opacity: 0, y: 0, scale: 0.6 }}
+            animate={{ opacity: [0, 1, 1, 0], y: [0, -18, -36, -50], scale: [0.6, crit ? 1.25 : 1.05, 1, 1] }}
+            transition={{ delay: hit.at, duration: crit ? 0.9 : 0.6, times: [0, 0.2, 0.7, 1] }}
+          >
+            {hit.text}
+          </m.p>
+        );
+      })}
+
+      <div className="absolute inset-0 flex flex-col items-center justify-center px-4 pb-[6vh] text-center">
+        <Slam delay={BOSS_DEATH + 0.22} from={2.8} className="text-[clamp(3.4rem,15vw,10rem)]" style={{ color: "#ffcf3a" }}>
+          Victoire !
+        </Slam>
+        <Rise delay={BOSS_DEATH + 0.5} className="meme-text mt-2 max-w-[92vw] break-words text-[clamp(1.1rem,3.4vw,2.1rem)]">
+          Le Lundi a été vaincu par « {shortWord(word, 26)} »
+        </Rise>
+      </div>
+
+      {/* Pluie d'XP puis level up en cascade jusqu'au niveau 99. */}
+      <Burst
+        seed={seed + 13}
+        count={18}
+        x={50}
+        y={46}
+        delay={BOSS_DEATH + 0.35}
+        duration={1.3}
+        distance={[14, 40]}
+        angle={[60, 170]}
+        gravity={18}
+        size={[12, 20]}
+        spin={0}
+        render={() => <div className="aspect-square w-full rounded-full bg-[radial-gradient(circle_at_35%_30%,#f4ffd6,#b6ff2e_50%,#3f7a00)] shadow-[0_0_12px_#b6ff2e]" />}
+      />
+      <div className="absolute bottom-[7vh] left-1/2 flex w-[min(34rem,92vw)] flex-col items-center" style={{ transform: "translateX(-50%)" }}>
+        {plan.levelUps.map((levelUp) => (
+          <m.p
+            key={levelUp.index}
+            className="hud-text absolute whitespace-nowrap text-[clamp(0.9rem,2.4vw,1.3rem)] text-dew"
+            style={{ left: `${50 + levelUp.x}%`, top: `${levelUp.y}vh`, x: "-50%" }}
+            initial={{ opacity: 0, y: 0 }}
+            animate={{ opacity: [0, 1, 0], y: [8, -10, -28] }}
+            transition={{ delay: levelUp.at, duration: 0.6 }}
+          >
+            Level up !
+          </m.p>
+        ))}
+        <Rise delay={2.2} distance={10} className="hud-text flex items-baseline gap-3 text-[clamp(1.3rem,4vw,2.3rem)] text-white">
+          <span className="max-w-[40vw] truncate text-dew">{shortWord(word, 14)}</span>
+          <Counter from={1} to={99} delay={2.3} duration={0.85} ease="easeIn" format={(value) => `Niv. ${Math.round(value)}`} />
+        </Rise>
+        <div className="mt-2 h-4 w-full border-[3px] border-black bg-black/70 shadow-[0_0_0_2px_#fff]">
+          <m.div
+            className="h-full origin-left bg-[repeating-linear-gradient(90deg,#b6ff2e_0_10px,#8fd600_10px_12px)]"
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: [0, 1, 0, 1, 0, 1, 0, 1] }}
+            transition={{ delay: 2.3, duration: 0.85, times: [0, 0.24, 0.25, 0.49, 0.5, 0.74, 0.75, 1], ease: "linear" }}
+          />
+        </div>
+        <Pop delay={3.18} className="hud-text mt-2 text-[clamp(1rem,3vw,1.6rem)] text-hydromel">
+          Niveau max !
+        </Pop>
+      </div>
+      <Flash at={BOSS_DEATH} peak={0.3} />
+    </Stage>
+  );
+}
