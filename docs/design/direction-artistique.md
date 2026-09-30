@@ -176,7 +176,7 @@ Le tirage est fait par `planSurprise()` (`src/components/easter-eggs/catalog.ts`
 | --- | --- | --- | --- | --- |
 | **Easter egg de tribu** | Mot avec une `tribe`, aux fréquences ci-dessus | Animation choisie selon la tribu et le niveau de score (échec, petite réaction, gros combo, légendaire), au moins deux variantes tirées au hasard pour les gros combos et les légendaires. Catalogue complet en 4.9 | 1,5 à 3,7 s, zappable au clic ou Échap | Pas d'animation : toast de succès aux couleurs de la tribu (ou d'échec, liseré rouge) et signature sonore courte si le son est activé |
 | **Combo MLG** | Mot sans tribu (neutre ou adopté par la communauté), verdict chouffin, 1 fois sur 3 (toujours si légendaire) | Voir la chronologie ci-dessous, succès déverrouillé en parallèle, léger tremblement de la page (480 ms) | 2,7 s, zappable au clic ou Échap | Pas de combo : seulement le toast de succès (fondu) et un carillon si le son est activé |
-| **Écran bleu** | Mot sans tribu, verdict pas chouffin, 1 fois sur 4, à parts égales avec NOPE et les variantes « Vie normale » de la tranche de score | Panneau bleu « :( », « a rencontré un problème de chouffinitude », pourcentage qui défile, code d'arrêt, trombone triste | 2,6 s, zappable | Pas de version statique : le tirage prend alors une variante « Vie normale » |
+| **Écran bleu** | Mot sans tribu, verdict pas chouffin, 1 fois sur 4 : une fois sur deux l'écran bleu ou NOPE, une fois sur deux une variante « Vie normale » de la tranche de score | Panneau bleu « :( », « a rencontré un problème de chouffinitude », pourcentage qui défile, code d'arrêt, trombone triste | 2,6 s, zappable | Pas de version statique : le tirage prend alors une variante « Vie normale » |
 | **NOPE** | Idem | « NOPE. » en Impact qui secoue la tête, virevoltant qui traverse l'écran, trombone triste | 2,6 s, zappable | Idem |
 | **Vie normale** | Idem, selon la tranche : normie absolu (0 à 20), vie ordinaire (21 à 40), presque chouffin (41 à 50) | Une des 9 animations de la famille (4.9.8), avec un « Succès IRL déverrouillé » ironique (5 G) en parallèle, sauf pour les taquineries « presque chouffin » | 1,9 à 3,7 s, zappable | Toast « Succès IRL » à l'orbe ciel et herbe (ou toast « Presque chouffin » à liseré rouge), petite signature sonore si le son est activé |
 
@@ -259,7 +259,7 @@ Chaque mot de la base peut appartenir à une **tribu de chouffin** (`KnownResult
 | Chouffin, score 70 à 94, 1 fois sur 3 | **Gros combo** | Une variante tirée au hasard (2 ou 3 par tribu), plein écran | Oui, titre propre à la variante |
 | Chouffin légendaire (95 à 100), toujours | **Apothéose légendaire** | Une variante tirée au hasard (2 par tribu, 7 pour les gamers), plein écran, la plus folle | Oui, 100 G |
 | Mot sans tribu, chouffin | | Combo MLG d'origine | Comme avant |
-| Mot sans tribu, pas chouffin, 1 fois sur 4 | Tranche de score | Écran bleu, NOPE ou une variante de la famille « Vie normale » de la tranche, à parts égales (4.9.8) | « Succès IRL » ironique, sauf « presque chouffin » |
+| Mot sans tribu, pas chouffin, 1 fois sur 4 | Tranche de score | Une fois sur deux l'écran bleu ou NOPE, une fois sur deux une variante « Vie normale » de la tranche (4.9.8) | « Succès IRL » ironique, sauf « presque chouffin » |
 
 Le niveau se lit d'abord sur le drapeau `chouffin` (un vote peut l'avoir renversé), puis sur le score. En **mouvement réduit**, aucune animation n'est montée : le toast de succès prend les couleurs de la tribu (orbe teintée et icône : manette pixel, chapeau pointu, cornes, chope, fleur de cerisier, d20), les échecs ont un liseré rouge et un sur-titre propre (« Échec critique », « Larsen »...), et une signature sonore de moins d'une seconde est jouée si le son est activé. L'échec thématique a donc lui aussi sa version statique (1 fois sur 4, comme en mouvement normal).
 
@@ -354,7 +354,7 @@ Un mot pas chouffin sans tribu (le padel, le brunch, le lundi, le télétravail)
 - **La main-curseur.** Le chouffin interagit avec le monde réel comme avec une page web : sa main est le curseur « main » des liens, en pixels et géant. Il touche l'herbe en cliquant dessus, il éteint son réveil en cliquant dessus.
 - **Taquin, jamais méprisant.** On se moque de la situation, jamais des gens : pas de blague sur l'hygiène ou le physique, pas de marque réelle (le réseau professionnel s'appelle « Réseau pro », mallette générique), le tavernier reste bienveillant (« Mais t'as pris l'air, c'est déjà ça »).
 
-**Tirage.** Quand la réaction sort (1 fois sur 4, inchangé), elle est tirée à parts égales entre l'écran bleu, NOPE et les variantes de la tranche du score. Un verdict renversé par la communauté peut garder un score supérieur à 50 : il tombe alors dans « presque chouffin ».
+**Tirage.** Quand la réaction sort (1 fois sur 4, inchangé), elle est tirée une fois sur deux parmi les réactions d'origine (écran bleu ou NOPE), une fois sur deux parmi les variantes « Vie normale » de la tranche du score (validé par l'utilisateur). Un verdict renversé par la communauté peut garder un score supérieur à 50 : il tombe alors dans « presque chouffin ».
 
 | Tranche | Score | Variantes | Part de la famille dans les réactions | Mesuré (sur tous les verdicts de la tranche) |
 | --- | --- | --- | --- | --- |

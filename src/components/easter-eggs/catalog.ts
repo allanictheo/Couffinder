@@ -367,8 +367,10 @@ export function planSurprise(
       return { ...NOTHING, toast: vieToast(variant), sting: { family: "vie-normale", level: tier } };
     }
 
-    // Tirage à parts égales entre les deux réactions d'origine et les variantes de la tranche.
-    const choice = forcedVariant ?? pick([...SAD_VARIANTS, ...family.map((variant) => variant.id)], random);
+    // Une fois sur deux une réaction d'origine (écran bleu ou NOPE), une fois sur deux la « Vie normale ».
+    const choice =
+      forcedVariant ??
+      (random() < 0.5 ? pick(SAD_VARIANTS, random) : pick(family.map((variant) => variant.id), random));
     if (choice === "bsod" || choice === "nope") return { ...NOTHING, overlay: { kind: "sad", word: result.word, variant: choice } };
     const variant = findVieVariant(tier, choice);
     return {

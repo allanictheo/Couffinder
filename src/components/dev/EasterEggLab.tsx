@@ -11,7 +11,6 @@ import {
   EGG_LEVELS,
   LEVEL_LABELS,
   LEVEL_SAMPLE_SCORES,
-  SAD_VARIANTS,
   TRIBE_EGGS,
   VIE_LEVELS,
   VIE_LEVEL_LABELS,
@@ -91,12 +90,11 @@ function measureFrequencies(draws: number): Frequencies {
   for (const level of VIE_LEVELS) {
     const score = VIE_NORMALE.samples[level].score;
     const draw: Draw = { word: "x", tribe: null, score, chouffin: false, legendary: false };
-    const count = VIE_NORMALE.variants[level].length;
     rows.push({ label: `Pas chouffin sans tribu (score ${score}) : réaction`, measured: share(draws, draw, any), expected: 1 / 4 });
     rows.push({
       label: `  dont « Vie normale, ${VIE_LEVEL_LABELS[level].name.toLocaleLowerCase("fr-FR")} »`,
       measured: share(draws, draw, vie),
-      expected: (1 / 4) * (count / (count + SAD_VARIANTS.length)),
+      expected: 1 / 8,
     });
   }
   const tally = new Map<string, number>();
@@ -306,7 +304,7 @@ export function EasterEggLab({ autoplay, word: initialWord, reduced: initialRedu
                 </div>
               </div>
               <p className="mt-3 text-sm text-brume">
-                Tirée 1 fois sur 4, à parts égales avec l&apos;écran bleu et NOPE. « Au hasard » applique ce vrai tirage.
+                Réaction 1 fois sur 4 : une fois sur deux l&apos;écran bleu ou NOPE, une fois sur deux la Vie normale. « Au hasard » applique ce vrai tirage.
               </p>
               <div className="mt-2 flex flex-col gap-4">
                 {VIE_LEVELS.map((level) => (

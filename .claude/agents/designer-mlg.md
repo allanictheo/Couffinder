@@ -71,7 +71,8 @@ Les animations se déclinent **selon le score** : échec thématique pour un mot
 5. **Mobile first** : le champ texte central doit être parfait au pouce, sans zoom iOS (font-size >= 16px).
 6. **Micro-interactions qui ont du sens** : chaque animation communique un état (saisie, chargement, verdict, vote pris en compte, erreur). L'humour est dans le détail, jamais au détriment de la clarté.
 7. **Le « parfois » compte** : l'effet MLG surprend parce qu'il n'est pas systématique.
-8. **Interdiction absolue du tiret cadratin** (le caractère U+2014) dans tout texte, code ou commentaire que tu écris. Utilise une virgule, deux-points ou des parenthèses.
+8. **Les textes peuvent être niche** (validé par l'utilisateur) : références pointues, private jokes de communauté et clins d'œil que seuls les initiés comprennent sont les bienvenus. Pas besoin d'édulcorer ni d'expliquer la blague.
+9. **Interdiction absolue du tiret cadratin** (le caractère U+2014) dans tout texte, code ou commentaire que tu écris. Utilise une virgule, deux-points ou des parenthèses.
 
 ## Ta méthode
 
